@@ -1,0 +1,110 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 13,
+  "COLUMN_COUNT": 2,
+  "TEXT_COUNT": 4,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 670,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "name": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "name": 13
+  },
+  "COLUMN_INDICES": [
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "adventure": {
+      "name": "Adventure",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "battle": {
+      "name": "Battle",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "3": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "4": {
+    "playspot": {
+      "name": "Minigames",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "5": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "6": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "7": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "8": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "9": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "10": {
+    "dragon_kart": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "11": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "12": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 11
+    }
+  }
+}

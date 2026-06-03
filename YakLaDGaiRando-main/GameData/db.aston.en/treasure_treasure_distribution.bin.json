@@ -1,0 +1,137 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 16,
+  "COLUMN_COUNT": 6,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 3346,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "*collection_zone_id": "0",
+    "box_distribution_table": "1",
+    "tree_distribution_table": "1",
+    "vending_machine_distribution_table": "1",
+    "grass_distribution_table": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "*collection_zone_id": -1,
+    "box_distribution_table": 9,
+    "tree_distribution_table": 9,
+    "vending_machine_distribution_table": 9,
+    "grass_distribution_table": 9
+  },
+  "COLUMN_INDICES": [
+    2,
+    3,
+    4,
+    5,
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "test_zone": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "y_homeless": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "y_snack": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "y_fuzoku": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "y_yakuza": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "y_korean": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "7": {
+    "y_ekimae": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "y_umigawa": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "y_hamakita": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "10": {
+    "y_china": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "11": {
+    "nomal": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "12": {
+    "k_kamuro": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "13": {
+    "s_soten": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "14": {
+    "y_hotel": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "15": {
+    "dummy": {
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 15
+    }
+  }
+}
