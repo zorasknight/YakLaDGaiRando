@@ -1,0 +1,4865 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 266,
+  "COLUMN_COUNT": 18,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": false,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 1552,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "open_interval": "1",
+    "display_interval": "1",
+    "reopen_interval": "1",
+    "reset_interval": "1",
+    "enable_range_distance": "1",
+    "disable_range_distance": "1",
+    "has_tail": "1",
+    "frame": "1",
+    "category": "1",
+    "is_random_select": "1",
+    "talk1": "1",
+    "talk2": "1",
+    "is_delayable_request": "1",
+    "talk3": "1",
+    "talk4": "1",
+    "trigger_entity": "1",
+    "trigger_entity_distance": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "open_interval": 7,
+    "display_interval": 7,
+    "reopen_interval": 7,
+    "reset_interval": 7,
+    "enable_range_distance": 7,
+    "disable_range_distance": 7,
+    "has_tail": 6,
+    "frame": 2,
+    "category": 2,
+    "is_random_select": 6,
+    "talk1": 13,
+    "talk2": 13,
+    "is_delayable_request": 6,
+    "talk3": 13,
+    "talk4": 13,
+    "trigger_entity": 8,
+    "trigger_entity_distance": 7
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    16,
+    17,
+    7,
+    8,
+    9,
+    10,
+    13,
+    11,
+    12,
+    14,
+    15,
+    0
+  ],
+  "0": {
+    "": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "judge_advfrda06_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "judge_advfrda07_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "judge_advfrda12_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "judge_advfrda22_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "judge_advfrda49_060_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "judge_advfrda52_020_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 6
+    }
+  },
+  "7": {
+    "judge_advfrda52_020_popup_0020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "judge_advfrda52_050_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "judge_advfrda52_050_popup_0020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 9
+    }
+  },
+  "10": {
+    "judge_advfrda52_050_popup_0030": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 10
+    }
+  },
+  "11": {
+    "judge_advsid15_070_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 11
+    }
+  },
+  "12": {
+    "judge_advsid32_070_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 12
+    }
+  },
+  "13": {
+    "judge_advsid32_070_popup_0020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 13
+    }
+  },
+  "14": {
+    "judge_advsid32_070_popup_0030": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 14
+    }
+  },
+  "15": {
+    "judge_advsid32_070_popup_0040": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 15
+    }
+  },
+  "16": {
+    "judge_advsid35_060_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 16
+    }
+  },
+  "17": {
+    "judge_advsid48_015_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 17
+    }
+  },
+  "18": {
+    "judge_advsid48_015_popup_0020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 18
+    }
+  },
+  "19": {
+    "judge_advsid48_020_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 19
+    }
+  },
+  "20": {
+    "judge_advsid38_020_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 20
+    }
+  },
+  "21": {
+    "judge_advsid39_020_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 21
+    }
+  },
+  "22": {
+    "judge_advsid40_020_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 22
+    }
+  },
+  "23": {
+    "judge_advsid42_090_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 23
+    }
+  },
+  "24": {
+    "judge_advsid44_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 24
+    }
+  },
+  "25": {
+    "tamariba_apple_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 25
+    }
+  },
+  "26": {
+    "tamariba_apple_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 26
+    }
+  },
+  "27": {
+    "tamariba_apple_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 27
+    }
+  },
+  "28": {
+    "tamariba_apple_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "tamariba_apple_06": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "tamariba_apple_07": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "tamariba_apple_08": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 31
+    }
+  },
+  "32": {
+    "tamariba_catch_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 32
+    }
+  },
+  "33": {
+    "tamariba_catch_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 33
+    }
+  },
+  "34": {
+    "tamariba_catch_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 34
+    }
+  },
+  "35": {
+    "tamariba_catch_04": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 35
+    }
+  },
+  "36": {
+    "tamariba_catch_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 36
+    }
+  },
+  "37": {
+    "tamariba_catch_06": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 37
+    }
+  },
+  "38": {
+    "tamariba_catch_07": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 38
+    }
+  },
+  "39": {
+    "tamariba_zenigame_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 39
+    }
+  },
+  "40": {
+    "tamariba_zenigame_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 40
+    }
+  },
+  "41": {
+    "tamariba_zenigame_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 41
+    }
+  },
+  "42": {
+    "tamariba_zenigame_04": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 42
+    }
+  },
+  "43": {
+    "tamariba_zenigame_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 43
+    }
+  },
+  "44": {
+    "tamariba_zenigame_06": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 44
+    }
+  },
+  "45": {
+    "tamariba_park_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 45
+    }
+  },
+  "46": {
+    "tamariba_park_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 46
+    }
+  },
+  "47": {
+    "tamariba_park_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 47
+    }
+  },
+  "48": {
+    "tamariba_park_04": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 48
+    }
+  },
+  "49": {
+    "tamariba_park_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 49
+    }
+  },
+  "50": {
+    "tamariba_park_06": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 50
+    }
+  },
+  "51": {
+    "tamariba_park_07": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 51
+    }
+  },
+  "52": {
+    "tamariba_park_08": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 52
+    }
+  },
+  "53": {
+    "tamariba_host_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 53
+    }
+  },
+  "54": {
+    "tamariba_host_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 54
+    }
+  },
+  "55": {
+    "tamariba_host_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 55
+    }
+  },
+  "56": {
+    "tamariba_host_04": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 56
+    }
+  },
+  "57": {
+    "tamariba_host_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 57
+    }
+  },
+  "58": {
+    "tamariba_alps_01": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 58
+    }
+  },
+  "59": {
+    "tamariba_alps_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 59
+    }
+  },
+  "60": {
+    "tamariba_alps_03": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 60
+    }
+  },
+  "61": {
+    "tamariba_alps_04": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 61
+    }
+  },
+  "62": {
+    "tamariba_alps_05": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 62
+    }
+  },
+  "63": {
+    "tamariba_alps_06": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 63
+    }
+  },
+  "64": {
+    "adv05_0075_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 64
+    }
+  },
+  "65": {
+    "adv13_0070_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 65
+    }
+  },
+  "66": {
+    "adv13_0070_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 66
+    }
+  },
+  "67": {
+    "adv13_0070_popup_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 67
+    }
+  },
+  "68": {
+    "adv13_0070_popup_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 68
+    }
+  },
+  "69": {
+    "adv13_0070_popup_005": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 69
+    }
+  },
+  "70": {
+    "adv13_0070_popup_006": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 70
+    }
+  },
+  "71": {
+    "adv13_0070_popup_007": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 71
+    }
+  },
+  "72": {
+    "adv13_0070_popup_008": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 72
+    }
+  },
+  "73": {
+    "adv13_0070_popup_009": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 73
+    }
+  },
+  "74": {
+    "adv13_0070_popup_010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 74
+    }
+  },
+  "75": {
+    "adv13_0070_popup_011": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 75
+    }
+  },
+  "76": {
+    "adv13_0070_popup_012": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 76
+    }
+  },
+  "77": {
+    "adv13_0070_popup_013": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 77
+    }
+  },
+  "78": {
+    "adv13_0070_popup_014": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 78
+    }
+  },
+  "79": {
+    "adv13_0070_popup_015": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 79
+    }
+  },
+  "80": {
+    "yazawa_quest_a301": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 80
+    }
+  },
+  "81": {
+    "yazawa_quest_a302": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 81
+    }
+  },
+  "82": {
+    "yazawa_quest_a303": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 82
+    }
+  },
+  "83": {
+    "yazawa_quest_a304": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 83
+    }
+  },
+  "84": {
+    "yazawa_quest_a305": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 84
+    }
+  },
+  "85": {
+    "yazawa_quest_a306": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 85
+    }
+  },
+  "86": {
+    "yazawa_quest_a307": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 86
+    }
+  },
+  "87": {
+    "yazawa_quest_a308": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 87
+    }
+  },
+  "88": {
+    "yazawa_quest_a309": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 88
+    }
+  },
+  "89": {
+    "yazawa_quest_a310": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 89
+    }
+  },
+  "90": {
+    "yazawa_quest_a311": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 90
+    }
+  },
+  "91": {
+    "yazawa_quest_a312": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 91
+    }
+  },
+  "92": {
+    "yazawa_quest_a313": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 92
+    }
+  },
+  "93": {
+    "yazawa_quest_a314": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 93
+    }
+  },
+  "94": {
+    "yazawa_quest_a315": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 94
+    }
+  },
+  "95": {
+    "yazawa_quest_a316": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 95
+    }
+  },
+  "96": {
+    "yazawa_quest_a801": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 96
+    }
+  },
+  "97": {
+    "yazawa_quest_a802": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 97
+    }
+  },
+  "98": {
+    "yazawa_quest_a803": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 98
+    }
+  },
+  "99": {
+    "yazawa_quest_a811": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 99
+    }
+  },
+  "100": {
+    "yazawa_quest_a812": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 100
+    }
+  },
+  "101": {
+    "yazawa_quest_a813": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 101
+    }
+  },
+  "102": {
+    "yazawa_quest_a821": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 102
+    }
+  },
+  "103": {
+    "yazawa_quest_a822": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 103
+    }
+  },
+  "104": {
+    "yazawa_quest_a823": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 104
+    }
+  },
+  "105": {
+    "yazawa_quest_a831": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 105
+    }
+  },
+  "106": {
+    "yazawa_quest_a832": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 106
+    }
+  },
+  "107": {
+    "yazawa_quest_a833": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 107
+    }
+  },
+  "108": {
+    "yazawa_quest_a841": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 108
+    }
+  },
+  "109": {
+    "yazawa_quest_a842": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 109
+    }
+  },
+  "110": {
+    "yazawa_quest_a843": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 110
+    }
+  },
+  "111": {
+    "yazawa_quest_a851": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 111
+    }
+  },
+  "112": {
+    "yazawa_quest_a852": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 112
+    }
+  },
+  "113": {
+    "yazawa_quest_a853": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 113
+    }
+  },
+  "114": {
+    "yazawa_quest_a861": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 114
+    }
+  },
+  "115": {
+    "yazawa_quest_a862": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 115
+    }
+  },
+  "116": {
+    "yazawa_quest_a863": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 116
+    }
+  },
+  "117": {
+    "yazawa_quest_a871": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 117
+    }
+  },
+  "118": {
+    "yazawa_quest_a872": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 118
+    }
+  },
+  "119": {
+    "yazawa_quest_a873": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 119
+    }
+  },
+  "120": {
+    "yazawa_adv_sub_a02_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 120
+    }
+  },
+  "121": {
+    "yazawa_adv_sub_a02_050_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 121
+    }
+  },
+  "122": {
+    "yazawa_adv_sub_a02_050_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 122
+    }
+  },
+  "123": {
+    "yazawa_adv_sub_a02_070_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 123
+    }
+  },
+  "124": {
+    "yazawa_adv_sub_a02_070_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 124
+    }
+  },
+  "125": {
+    "yazawa_adv_sub_a04_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 125
+    }
+  },
+  "126": {
+    "yazawa_adv_sub_a04_060_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 126
+    }
+  },
+  "127": {
+    "yazawa_adv_sub_a04_060_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 127
+    }
+  },
+  "128": {
+    "yazawa_adv_sub_a05_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 128
+    }
+  },
+  "129": {
+    "yazawa_adv_sub_a05_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 129
+    }
+  },
+  "130": {
+    "yazawa_adv_sub_a06_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 130
+    }
+  },
+  "131": {
+    "yazawa_adv_sub_a06_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 131
+    }
+  },
+  "132": {
+    "yazawa_adv_sub_a06_010_popup_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 132
+    }
+  },
+  "133": {
+    "yazawa_adv_sub_a07_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 133
+    }
+  },
+  "134": {
+    "yazawa_adv_sub_a08_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 134
+    }
+  },
+  "135": {
+    "yazawa_adv_sub_a08_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 135
+    }
+  },
+  "136": {
+    "yazawa_adv_sub_a09_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 136
+    }
+  },
+  "137": {
+    "yazawa_adv_sub_a09_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 137
+    }
+  },
+  "138": {
+    "adv_sub_a10_030_old_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 138
+    }
+  },
+  "139": {
+    "adv_sub_a10_030_water_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 139
+    }
+  },
+  "140": {
+    "adv_sub_a10_030_shower_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 140
+    }
+  },
+  "141": {
+    "adv_sub_a10_030_supply_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 141
+    }
+  },
+  "142": {
+    "adv_sub_a10_030_supply_popup_0020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 142
+    }
+  },
+  "143": {
+    "yazawa_adv_sub_a10_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 143
+    }
+  },
+  "144": {
+    "yazawa_adv_sub_a11_080_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 144
+    }
+  },
+  "145": {
+    "yazawa_adv_sub_a11_080_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 145
+    }
+  },
+  "146": {
+    "yazawa_adv_sub_a11_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 146
+    }
+  },
+  "147": {
+    "yazawa_adv_sub_a11_020_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 147
+    }
+  },
+  "148": {
+    "yazawa_adv_sub_a12_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 148
+    }
+  },
+  "149": {
+    "yazawa_adv_sub_a12_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 149
+    }
+  },
+  "150": {
+    "adv_sub_a13_030_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 150
+    }
+  },
+  "151": {
+    "adv_sub_a13_040_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 151
+    }
+  },
+  "152": {
+    "adv_sub_a13_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 152
+    }
+  },
+  "153": {
+    "yazawa_adv_sub_a17_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 153
+    }
+  },
+  "154": {
+    "yazawa_adv_sub_a17_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 154
+    }
+  },
+  "155": {
+    "adv_sub_a18_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 155
+    }
+  },
+  "156": {
+    "yazawa_adv_sub_a19_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 156
+    }
+  },
+  "157": {
+    "yazawa_adv_sub_a21_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 157
+    }
+  },
+  "158": {
+    "yazawa_adv_sub_a21_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 158
+    }
+  },
+  "159": {
+    "yazawa_adv_sub_a22_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 159
+    }
+  },
+  "160": {
+    "yazawa_adv_sub_a22_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 160
+    }
+  },
+  "161": {
+    "yazawa_adv_sub_a24_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 161
+    }
+  },
+  "162": {
+    "yazawa_adv_sub_a24_020_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 162
+    }
+  },
+  "163": {
+    "yazawa_adv_sub_a26_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 163
+    }
+  },
+  "164": {
+    "yazawa_adv_sub_a32_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 164
+    }
+  },
+  "165": {
+    "yazawa_adv_sub_a32_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 165
+    }
+  },
+  "166": {
+    "yazawa_adv_sub_a33_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 166
+    }
+  },
+  "167": {
+    "yazawa_adv_sub_a33_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 167
+    }
+  },
+  "168": {
+    "yazawa_adv_sub_a34_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 168
+    }
+  },
+  "169": {
+    "yazawa_adv_sub_a34_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 169
+    }
+  },
+  "170": {
+    "yazawa_adv_sub_a35_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 170
+    }
+  },
+  "171": {
+    "yazawa_adv_sub_a35_030_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 171
+    }
+  },
+  "172": {
+    "adv_sub_a36_010_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 172
+    }
+  },
+  "173": {
+    "adv_sub_a36_050_popup_0010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 173
+    }
+  },
+  "174": {
+    "yazawa_adv_sub_a39_020_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 174
+    }
+  },
+  "175": {
+    "yazawa_adv_sub_a70_010_popup_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 175
+    }
+  },
+  "176": {
+    "yazawa_adv_sub_a70_010_popup_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 176
+    }
+  },
+  "177": {
+    "test": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 177
+    }
+  },
+  "178": {
+    "test_poker": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 178
+    }
+  },
+  "179": {
+    "test_bj": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 179
+    }
+  },
+  "180": {
+    "test_koikoi": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 180
+    }
+  },
+  "181": {
+    "test_kabu": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 181
+    }
+  },
+  "182": {
+    "test_quest": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 182
+    }
+  },
+  "183": {
+    "test_quest_02": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 183
+    }
+  },
+  "184": {
+    "popup_side_m01_035_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 184
+    }
+  },
+  "185": {
+    "popup_side_m01_035_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 185
+    }
+  },
+  "186": {
+    "popup_side_m01_035_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 186
+    }
+  },
+  "187": {
+    "popup_side_m01_035_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 187
+    }
+  },
+  "188": {
+    "popup_side_m01_035_005": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 188
+    }
+  },
+  "189": {
+    "popup_side_m01_035_006": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 189
+    }
+  },
+  "190": {
+    "popup_side_m01_035_007": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 190
+    }
+  },
+  "191": {
+    "popup_side_m01_035_008": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 191
+    }
+  },
+  "192": {
+    "popup_side_m050_010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 192
+    }
+  },
+  "193": {
+    "popup_side_m050_010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 193
+    }
+  },
+  "194": {
+    "popup_side_m050_010_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 194
+    }
+  },
+  "195": {
+    "kosuke_caution_50": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 195
+    }
+  },
+  "196": {
+    "kosuke_caution_60": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 196
+    }
+  },
+  "197": {
+    "kosuke_caution_70": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 197
+    }
+  },
+  "198": {
+    "kosuke_caution_80": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 198
+    }
+  },
+  "199": {
+    "kosuke_caution_90": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 199
+    }
+  },
+  "200": {
+    "kosuke_caution_10_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 200
+    }
+  },
+  "201": {
+    "kosuke_caution_20_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 201
+    }
+  },
+  "202": {
+    "kosuke_caution_30_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 202
+    }
+  },
+  "203": {
+    "kosuke_caution_40_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 203
+    }
+  },
+  "204": {
+    "kosuke_caution_50_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 204
+    }
+  },
+  "205": {
+    "kosuke_caution_60_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 205
+    }
+  },
+  "206": {
+    "kosuke_caution_70_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 206
+    }
+  },
+  "207": {
+    "kosuke_caution_80_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 207
+    }
+  },
+  "208": {
+    "kosuke_caution_90_before": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 208
+    }
+  },
+  "209": {
+    "test_stealth_security": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 209
+    }
+  },
+  "210": {
+    "popup_side_m10_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 210
+    }
+  },
+  "211": {
+    "popup_side_m10_0010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 211
+    }
+  },
+  "212": {
+    "popup_side_m10_0010_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 212
+    }
+  },
+  "213": {
+    "popup_side_m10_0010_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 213
+    }
+  },
+  "214": {
+    "popup_side_m73_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 214
+    }
+  },
+  "215": {
+    "popup_side_m73_0010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 215
+    }
+  },
+  "216": {
+    "popup_side_m73_0035_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 216
+    }
+  },
+  "217": {
+    "popup_side_m73_0035_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 217
+    }
+  },
+  "218": {
+    "popup_side_m73_0035_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 218
+    }
+  },
+  "219": {
+    "popup_side_m73_0035_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 219
+    }
+  },
+  "220": {
+    "popup_side_m73_0050_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 220
+    }
+  },
+  "221": {
+    "popup_side_m73_0050_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 221
+    }
+  },
+  "222": {
+    "popup_side_m73_0050_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 222
+    }
+  },
+  "223": {
+    "popup_side_m88_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 223
+    }
+  },
+  "224": {
+    "popup_side_m88_0010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 224
+    }
+  },
+  "225": {
+    "popup_side_m101_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 225
+    }
+  },
+  "226": {
+    "popup_side_m103_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 226
+    }
+  },
+  "227": {
+    "popup_side_m104_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 227
+    }
+  },
+  "228": {
+    "popup_side_m69_0030_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 228
+    }
+  },
+  "229": {
+    "popup_side_m69_0030_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 229
+    }
+  },
+  "230": {
+    "popup_side_m75_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 230
+    }
+  },
+  "231": {
+    "popup_side_m75_0010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 231
+    }
+  },
+  "232": {
+    "popup_side_m75_0010_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 232
+    }
+  },
+  "233": {
+    "popup_drama_m41_010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 233
+    }
+  },
+  "234": {
+    "popup_drama_m41_010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 234
+    }
+  },
+  "235": {
+    "popup_drama_m41_010_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 235
+    }
+  },
+  "236": {
+    "popup_drama_m71_050_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 236
+    }
+  },
+  "237": {
+    "popup_side_g113_0010_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 237
+    }
+  },
+  "238": {
+    "popup_side_g113_0010_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 238
+    }
+  },
+  "239": {
+    "popup_side_g113_0010_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 239
+    }
+  },
+  "240": {
+    "popup_side_g113_0010_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 240
+    }
+  },
+  "241": {
+    "popup_side_g113_0010_005": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 241
+    }
+  },
+  "242": {
+    "popup_side_g113_0010_006": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 242
+    }
+  },
+  "243": {
+    "popup_side_g113_0010_007": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 243
+    }
+  },
+  "244": {
+    "popup_side_g113_0010_008": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 244
+    }
+  },
+  "245": {
+    "popup_side_m10_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 245
+    }
+  },
+  "246": {
+    "popup_side_m10_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 246
+    }
+  },
+  "247": {
+    "popup_side_m10_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 247
+    }
+  },
+  "248": {
+    "popup_side_m89_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 248
+    }
+  },
+  "249": {
+    "popup_side_m89_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 249
+    }
+  },
+  "250": {
+    "popup_side_m89_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 250
+    }
+  },
+  "251": {
+    "popup_dog_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 251
+    }
+  },
+  "252": {
+    "popup_dog_002": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 252
+    }
+  },
+  "253": {
+    "popup_dog_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 253
+    }
+  },
+  "254": {
+    "popup_dog_004": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 254
+    }
+  },
+  "255": {
+    "girlfriend_encount_010": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 255
+    }
+  },
+  "256": {
+    "girlfriend_encount_020": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 256
+    }
+  },
+  "257": {
+    "girlfriend_encount_030": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 257
+    }
+  },
+  "258": {
+    "girlfriend_encount_040": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 258
+    }
+  },
+  "259": {
+    "girlfriend_encount_050": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 259
+    }
+  },
+  "260": {
+    "girlfriend_encount_060": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 260
+    }
+  },
+  "261": {
+    "girlfriend_encount_070": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 261
+    }
+  },
+  "262": {
+    "girlfriend_encount_080": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 262
+    }
+  },
+  "263": {
+    "popup_side_m91_040_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 263
+    }
+  },
+  "264": {
+    "popup_side_m69_0030_003": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 264
+    }
+  },
+  "265": {
+    "popup_side_m18_001": {
+      "open_interval": 0.0,
+      "display_interval": 0.0,
+      "reopen_interval": 0.0,
+      "reset_interval": 0.0,
+      "enable_range_distance": 0.0,
+      "disable_range_distance": 0.0,
+      "has_tail": 0,
+      "frame": 0,
+      "category": 0,
+      "is_random_select": 0,
+      "is_delayable_request": 0,
+      "trigger_entity": 0,
+      "trigger_entity_distance": 0.0,
+      "reARMP_rowIndex": 265
+    }
+  }
+}
