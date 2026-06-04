@@ -11,27 +11,22 @@ OUTPUT_FOLDER = Path("GameData_Output")
 UPDATES_CSV = "updates.csv"
 
 # ============================================================
-# ROOT LOG FILES (NEW)
+# ROOT LOG FILES
 # ============================================================
 
 CHANGE_LOG_PATH = Path("change_log.txt")
 ERROR_LOG_PATH = Path("error_warning_log.txt")
 
-
 def log_change(msg: str):
     with open(CHANGE_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
-
 
 def log_error(msg: str):
     with open(ERROR_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
 
-
-# clear logs each run
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
 ERROR_LOG_PATH.write_text("", encoding="utf-8")
-
 
 # ============================================================
 # LOAD UPDATES
@@ -57,7 +52,7 @@ def load_updates():
 
 
 # ============================================================
-# SHOP.BIN.JSON
+# SHOP
 # ============================================================
 
 def update_shop(data, updates):
@@ -81,7 +76,6 @@ def update_shop(data, updates):
                 continue
 
             found_table = True
-
             shop_wrapper = root_value[table_name]
 
             if "table" not in shop_wrapper:
@@ -101,10 +95,7 @@ def update_shop(data, updates):
             row_container = table[row_id]
 
             if "" not in row_container:
-                msg = (
-                    f"[WARN] shop | missing inner dict | "
-                    f"{table_name} row={row_id}"
-                )
+                msg = f"[WARN] shop | missing inner dict | {table_name} row={row_id}"
                 print(msg)
                 log_error(msg)
                 break
@@ -112,10 +103,7 @@ def update_shop(data, updates):
             row = row_container[""]
 
             if "1" not in row:
-                msg = (
-                    f"[WARN] shop | missing column '1' | "
-                    f"{table_name} row={row_id}"
-                )
+                msg = f"[WARN] shop | missing column '1' | {table_name} row={row_id}"
                 print(msg)
                 log_error(msg)
                 break
@@ -125,12 +113,7 @@ def update_shop(data, updates):
 
             changes += 1
 
-            msg = (
-                f"[SHOP] {table_name} "
-                f"row={row_id} "
-                f"{old_value} -> {new_value}"
-            )
-
+            msg = f"[SHOP] {table_name} row={row_id} {old_value} -> {new_value}"
             print(msg)
             log_change(msg)
 
@@ -145,7 +128,7 @@ def update_shop(data, updates):
 
 
 # ============================================================
-# TALK_COINLOCKER_LOCKER.BIN.JSON
+# COINLOCKER
 # ============================================================
 
 def update_coinlocker(data, updates):
@@ -153,23 +136,13 @@ def update_coinlocker(data, updates):
     changes = 0
 
     root = data.get("1")
-
     if not isinstance(root, dict):
         msg = "[WARN] coinlocker | missing root table '1'"
         print(msg)
         log_error(msg)
         return 0
 
-    if len(root) == 0:
-        msg = "[WARN] coinlocker | no regions found"
-        print(msg)
-        log_error(msg)
-        return 0
-
     region_name = next(iter(root.keys()))
-
-    print(f"Coinlocker region: {region_name}")
-
     region = root[region_name]
 
     if "keys" not in region:
@@ -191,24 +164,14 @@ def update_coinlocker(data, updates):
             log_error(msg)
             continue
 
-        row_container = table[row_id]
-
-        if "" not in row_container:
-            msg = f"[WARN] coinlocker | missing inner dict | row={row_id}"
-            print(msg)
-            log_error(msg)
-            continue
-
-        row = row_container[""]
+        row = table[row_id][""]
 
         old_value = row.get("2")
-
         row["2"] = new_value
 
         changes += 1
 
         msg = f"[LOCKER] row={row_id} {old_value} -> {new_value}"
-
         print(msg)
         log_change(msg)
 
@@ -216,8 +179,77 @@ def update_coinlocker(data, updates):
 
 
 # ============================================================
-# FILE DISPATCH
+# WIRE (item_get_by_wire)
 # ============================================================
+
+def update_wire(data, updates):
+
+    changes = 0
+
+    for u in updates:
+
+        row_id = str(u["row_id"])
+        new_value = u["new_value"]
+
+        # top-level row index is correct here ("0"–"261")
+        if row_id not in data:
+            msg = f"[WARN] wire | row not found | {row_id}"
+            print(msg)
+            log_error(msg)
+            continue
+
+        row_container = data[row_id]
+
+        if not isinstance(row_container, dict):
+            msg = f"[WARN] wire | row invalid type | {row_id}"
+            print(msg)
+            log_error(msg)
+            continue
+
+        # find inner item (treasure001 etc)
+        inner_row = None
+
+        for k, v in row_container.items():
+
+            if isinstance(v, dict) and "get_item_id" in v:
+                inner_row = v
+                break
+
+        if inner_row is None:
+            msg = f"[WARN] wire | no valid item | row={row_id}"
+            print(msg)
+            log_error(msg)
+            continue
+
+        old_value = inner_row["get_item_id"]
+        inner_row["get_item_id"] = new_value
+
+        changes += 1
+
+        msg = f"[WIRE] row={row_id} {old_value} -> {new_value}"
+        print(msg)
+        log_change(msg)
+
+    return changes
+
+
+# ============================================================
+# DISPATCH
+# ============================================================
+
+def detect_type(filename):
+
+    if filename == "shop.bin.json":
+        return "shop"
+
+    if filename == "talk_coinlocker_locker.bin.json":
+        return "coinlocker"
+
+    if "item_get_by_wire" in filename:
+        return "wire"
+
+    return "unknown"
+
 
 def apply_updates(json_path, updates):
 
@@ -227,30 +259,21 @@ def apply_updates(json_path, updates):
     filename = json_path.name
 
     print(f"\nProcessing {filename}")
+    print(f"Detected type: {detect_type(filename)}")
 
-    changes = 0
+    file_type = detect_type(filename)
 
-    if filename == "shop.bin.json":
+    if file_type == "shop":
+        changes = update_shop(data, updates)
 
-        print("Detected type: shop")
+    elif file_type == "coinlocker":
+        changes = update_coinlocker(data, updates)
 
-        changes = update_shop(
-            data,
-            updates
-        )
-
-    elif filename == "talk_coinlocker_locker.bin.json":
-
-        print("Detected type: coinlocker")
-
-        changes = update_coinlocker(
-            data,
-            updates
-        )
+    elif file_type == "wire":
+        changes = update_wire(data, updates)
 
     else:
-
-        print("No handler for this file")
+        print("No handler")
         return
 
     if changes == 0:
@@ -258,23 +281,10 @@ def apply_updates(json_path, updates):
         return
 
     output_path = OUTPUT_FOLDER / json_path.relative_to(INPUT_FOLDER)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    output_path.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    with open(
-        output_path,
-        "w",
-        encoding="utf-8"
-    ) as f:
-        json.dump(
-            data,
-            f,
-            indent=2,
-            ensure_ascii=False
-        )
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"Saved {changes} changes")
 
@@ -296,10 +306,7 @@ def main():
         if json_file.name not in updates_by_file:
             continue
 
-        apply_updates(
-            json_file,
-            updates_by_file[json_file.name]
-        )
+        apply_updates(json_file, updates_by_file[json_file.name])
 
 
 if __name__ == "__main__":
