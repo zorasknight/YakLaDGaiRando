@@ -3,7 +3,7 @@ import random
 from collections import defaultdict
 
 # =========================
-# CONFIG
+# Config
 # =========================
 INPUT_CSV = "source.csv"
 OUTPUT_CSV = "updates.csv"
@@ -17,7 +17,7 @@ point_max = 4000
 random.seed()
 
 # =========================
-# HARD CONSTRAINTS
+# Sphere locks
 # =========================
 FORCED_SPHERES = {
     "6015": 0,
@@ -31,7 +31,7 @@ FORCED_SPHERES = {
 }
 
 # =========================
-# LOAD CSV
+# Load CSV
 # =========================
 def load_rows(path):
     with open(path, newline="", encoding="utf-8") as f:
@@ -39,7 +39,7 @@ def load_rows(path):
 
 
 # =========================
-# POOLS
+# Spheres
 # =========================
 def build_pools(rows):
     pools = defaultdict(list)
@@ -49,7 +49,7 @@ def build_pools(rows):
 
 
 # =========================
-# HELPERS
+# Helpers
 # =========================
 def is_empty(v):
     return v is None or str(v).strip() == ""
@@ -62,7 +62,7 @@ def rand_point():
 
 
 # =========================
-# CORE SHUFFLE
+# Shuffle Item IDs
 # =========================
 def shuffle_all_items(rows):
 
@@ -76,7 +76,7 @@ def shuffle_all_items(rows):
     pools = build_pools(rows)
     used = set()
 
-    # IMPORTANT: same item_id always same economy
+    # avoid assigning an item multiple times for costs
     economy_map = {}
 
     updates = []
@@ -85,9 +85,8 @@ def shuffle_all_items(rows):
 
         forced_sphere = FORCED_SPHERES.get(item_id)
 
-        # -------------------------
-        # SELECT SLOT
-        # -------------------------
+        
+        # handles forced sphere placement
         if forced_sphere is not None:
             candidates = [
                 r for r in pools[str(forced_sphere)]
@@ -112,7 +111,7 @@ def shuffle_all_items(rows):
         column = "get_item_id" if source_file == "item_get_by_wire.bin.json" else "1"
 
         # =========================
-        # ECONOMY (CONSISTENT PER ITEM)
+        # Change Point and Monetary Costs
         # =========================
         if item_id not in economy_map:
 
@@ -133,7 +132,7 @@ def shuffle_all_items(rows):
         econ = economy_map[item_id]
 
         # =========================
-        # OUTPUT ROW
+        # Create Output
         # =========================
         updates.append({
             "file_name": source_file,
@@ -141,8 +140,6 @@ def shuffle_all_items(rows):
             "row_id": row_id,
             "column_id": column,
             "item_id": item_id,
-
-            # NEW FIELDS (restored)
             "new_value": item_id,
             "purchase_price": econ["purchase_price"],
             "purchase_points": econ["purchase_points"],
@@ -152,7 +149,7 @@ def shuffle_all_items(rows):
 
 
 # =========================
-# WRITE OUTPUT
+# Wwrite Output
 # =========================
 def write_updates(updates, path):
 
@@ -177,7 +174,7 @@ def write_updates(updates, path):
 
 
 # =========================
-# MAIN
+# Main
 # =========================
 if __name__ == "__main__":
 

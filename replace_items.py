@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 # ============================================================
-# CONFIG
+# Config
 # ============================================================
 
 INPUT_FOLDER = Path("GameData")
@@ -13,7 +13,7 @@ UPDATES_CSV = "updates.csv"
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
 
 # ============================================================
-# ROOT LOG FILES
+# Create log files
 # ============================================================
 
 CHANGE_LOG_PATH = Path("change_log.txt")
@@ -34,7 +34,7 @@ CHANGE_LOG_PATH.write_text("", encoding="utf-8")
 ERROR_LOG_PATH.write_text("", encoding="utf-8")
 
 # ============================================================
-# LOAD UPDATES
+# Grab required updates
 # ============================================================
 
 def load_updates():
@@ -53,8 +53,6 @@ def load_updates():
                 "item_id": row["item_id"],
                 "new_value": int(row["new_value"]),
                 "purchase_price": row["purchase_price"],
-
-                # NEW: point system (minimal extension)
                 "purchase_points": row.get("purchase_points")
             })
 
@@ -62,7 +60,7 @@ def load_updates():
 
 
 # ============================================================
-# SHOP (UNCHANGED)
+# Shops
 # ============================================================
 
 def update_shop(data, updates):
@@ -133,7 +131,7 @@ def update_shop(data, updates):
 
 
 # ============================================================
-# COINLOCKER (UNCHANGED)
+# Lockers
 # ============================================================
 
 def update_coinlocker(data, updates):
@@ -181,7 +179,7 @@ def update_coinlocker(data, updates):
 
 
 # ============================================================
-# WIRE (UNCHANGED)
+# Wire
 # ============================================================
 
 def update_wire(data, updates):
@@ -224,7 +222,7 @@ def update_wire(data, updates):
 
 
 # ============================================================
-# ITEM BIN PATCH (UPDATED - POINT SYSTEM ADDED)
+# Patch prices in item.bin
 # ============================================================
 
 def patch_item_bin_prices(updates_by_file):
@@ -288,7 +286,7 @@ def patch_item_bin_prices(updates_by_file):
                 changes += 1
 
             # ------------------------
-            # NEW: point system update
+            # point system update
             # ------------------------
             if new_points is not None:
                 try:
@@ -317,7 +315,7 @@ def patch_item_bin_prices(updates_by_file):
 
 
 # ============================================================
-# DISPATCH (UNCHANGED)
+# Detect File
 # ============================================================
 
 def detect_type(filename):
@@ -328,7 +326,7 @@ def detect_type(filename):
     if filename == "talk_coinlocker_locker.bin.json":
         return "coinlocker"
 
-    if "item_get_by_wire" in filename:
+    if filename == "item_get_by_wire.bin.json":
         return "wire"
 
     return "unknown"
