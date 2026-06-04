@@ -1,0 +1,149 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 4,
+  "COLUMN_COUNT": 10,
+  "TEXT_COUNT": 5,
+  "ROW_VALIDATOR": -1,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": false,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": false,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": false,
+  "TABLE_ID": 3515,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "*item_id": "1",
+    "timeline_alias": "1",
+    "title": "1",
+    "source": "1",
+    "is_dlc": "1",
+    "is_dlc_026": "1",
+    "is_dlc_027": "1",
+    "is_dlc_028": "1",
+    "is_dlc_029": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "*item_id": 1,
+    "timeline_alias": 1,
+    "title": 13,
+    "source": 13,
+    "is_dlc": 6,
+    "is_dlc_026": 6,
+    "is_dlc_027": 6,
+    "is_dlc_028": 6,
+    "is_dlc_029": 6
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    0
+  ],
+  "0": {
+    "": {
+      "*item_id": 5323,
+      "timeline_alias": 385,
+      "title": "test1",
+      "source": "test1",
+      "is_dlc": 0,
+      "is_dlc_026": 0,
+      "is_dlc_027": 0,
+      "is_dlc_028": 0,
+      "is_dlc_029": 0
+    }
+  },
+  "1": {
+    "": {
+      "*item_id": 5324,
+      "timeline_alias": 386,
+      "title": "test2",
+      "source": "test2",
+      "is_dlc": 0,
+      "is_dlc_026": 0,
+      "is_dlc_027": 0,
+      "is_dlc_028": 0,
+      "is_dlc_029": 0
+    }
+  },
+  "2": {
+    "": {
+      "*item_id": 5990,
+      "timeline_alias": 387,
+      "title": "test3",
+      "source": "test3",
+      "is_dlc": 0,
+      "is_dlc_026": 0,
+      "is_dlc_027": 0,
+      "is_dlc_028": 0,
+      "is_dlc_029": 0
+    }
+  },
+  "3": {
+    "": {
+      "*item_id": 5991,
+      "timeline_alias": 388,
+      "title": "test4",
+      "source": "test4",
+      "is_dlc": 0,
+      "is_dlc_026": 0,
+      "is_dlc_027": 0,
+      "is_dlc_028": 0,
+      "is_dlc_029": 0
+    }
+  },
+  "subTable": {
+    "ROW_COUNT": 4,
+    "COLUMN_COUNT": 3,
+    "TEXT_COUNT": 0,
+    "ROW_VALIDATOR": -1,
+    "COLUMN_VALIDATOR": -1,
+    "HAS_ROW_NAMES": true,
+    "HAS_COLUMN_NAMES": false,
+    "HAS_ROW_VALIDITY": false,
+    "HAS_COLUMN_VALIDITY": false,
+    "HAS_UNKNOWN_BITMASK": false,
+    "HAS_ROW_INDICES": false,
+    "TABLE_ID": 0,
+    "STORAGE_MODE": 0,
+    "columnTypes": {
+      "0": 0,
+      "1": 9,
+      "2": 0
+    },
+    "0": {
+      "aston_toughness_lite": {
+        "0": 5323,
+        "2": 0
+      }
+    },
+    "1": {
+      "aston_toughnessz": {
+        "0": 5324,
+        "2": 1
+      }
+    },
+    "2": {
+      "aston_toughness_zz": {
+        "0": 5990,
+        "2": 2
+      }
+    },
+    "3": {
+      "aston_toughness_infinity": {
+        "0": 5991,
+        "2": 3
+      }
+    }
+  }
+}

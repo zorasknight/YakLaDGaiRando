@@ -1,0 +1,53 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 3,
+  "COLUMN_COUNT": 3,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 4004,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "item": "0",
+    "type1": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "item": -1,
+    "type1": 2
+  },
+  "COLUMN_INDICES": [
+    2,
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "type1": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "coyote_smedicine_dropup": {
+      "type1": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "coyote_smedicine_enbu_speedup": {
+      "type1": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 2
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 11,
+  "COLUMN_COUNT": 8,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": false,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 707,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "title_id": "1",
+    "group": "0",
+    "item": "0",
+    "folder": "1",
+    "category": "1",
+    "timeline": "1",
+    "clock": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "title_id": 13,
+    "group": -1,
+    "item": -1,
+    "folder": 13,
+    "category": 2,
+    "timeline": 0,
+    "clock": 0
+  },
+  "COLUMN_INDICES": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    3,
+    2,
+    0
+  ],
+  "0": {
+    "": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "devil2": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "cima": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "lexus": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "ogref": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "lexus2": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "mars": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 6
+    }
+  },
+  "7": {
+    "rino3": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "judge": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "devil": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 9
+    }
+  },
+  "10": {
+    "soul": {
+      "category": 0,
+      "timeline": 0,
+      "clock": 0,
+      "reARMP_rowIndex": 10
+    }
+  }
+}
