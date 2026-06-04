@@ -8,31 +8,27 @@ from collections import defaultdict
 INPUT_CSV = "source.csv"
 OUTPUT_CSV = "updates.csv"
 
-random.seed()  # set fixed int for reproducible runs if needed
+monetary_min = 100
+monetary_max = 1000000
 
+point_min = 10
+point_max = 4000
+
+random.seed()
 
 # =========================
 # HARD CONSTRAINTS
 # =========================
 FORCED_SPHERES = {
-    #Soccer Ball
-    #Shoes
-    #Baby Tooth
-    #Hat
     "6015": 0,
     "6049": 0,
     "6050": 0,
     "6051": 0,
-    #Signed Ball
-    #Underwear
-    #Crawfish
-    #Golden Ball
     "6053": 1,
     "6054": 1,
     "6055": 1,
     "6056": 1,
 }
-
 
 # =========================
 # LOAD CSV
@@ -43,39 +39,45 @@ def load_rows(path):
 
 
 # =========================
-# BUILD POOLS
+# POOLS
 # =========================
 def build_pools(rows):
-    """
-    Groups available slots by sphere.
-    Also tracks junk restriction.
-    """
-
     pools = defaultdict(list)
-
     for r in rows:
-        sphere = r["Sphere"]
-        pools[sphere].append(r)
-
+        pools[r["Sphere"]].append(r)
     return pools
 
 
 # =========================
-# SHUFFLE WITH ENFORCEMENT
+# HELPERS
+# =========================
+def is_empty(v):
+    return v is None or str(v).strip() == ""
+
+def rand_money():
+    return random.randint(monetary_min, monetary_max)
+
+def rand_point():
+    return random.randint(point_min, point_max)
+
+
+# =========================
+# CORE SHUFFLE
 # =========================
 def shuffle_all_items(rows):
 
-    # normalize item ids
+    # normalize
     for r in rows:
-        r["Item ID"] = int(r["Item ID"])
+        r["Item ID"] = str(r["Item ID"])
 
     item_ids = [r["Item ID"] for r in rows]
     random.shuffle(item_ids)
 
     pools = build_pools(rows)
-
-    # track used slots so we don't double assign
     used = set()
+
+    # IMPORTANT: same item_id always same economy
+    economy_map = {}
 
     updates = []
 
@@ -84,56 +86,73 @@ def shuffle_all_items(rows):
         forced_sphere = FORCED_SPHERES.get(item_id)
 
         # -------------------------
-        # SELECT VALID POOL
+        # SELECT SLOT
         # -------------------------
         if forced_sphere is not None:
             candidates = [
                 r for r in pools[str(forced_sphere)]
                 if id(r) not in used
             ]
-
-            if not candidates:
-                raise Exception(
-                    f"NO VALID SLOT: item {item_id} "
-                    f"requires sphere {forced_sphere}"
-                )
-
         else:
             candidates = [
                 r for r in rows
                 if id(r) not in used
             ]
 
-            if not candidates:
-                raise Exception("No valid slots left")
+        if not candidates:
+            raise Exception(f"No valid slot for item {item_id}")
 
         slot = random.choice(candidates)
         used.add(id(slot))
 
-        # -------------------------
-        # APPLY RULES
-        # -------------------------
         source_file = slot["Source"]
+        table_name = slot["Location"]
+        row_id = slot["Slot"]
 
-        # column logic
-        if source_file == "item_get_by_wire.bin.json":
-            column = "get_item_id"
-        else:
-            column = "1"
+        column = "get_item_id" if source_file == "item_get_by_wire.bin.json" else "1"
 
+        # =========================
+        # ECONOMY (CONSISTENT PER ITEM)
+        # =========================
+        if item_id not in economy_map:
+
+            price = slot.get("Monetary Cost")
+            points = slot.get("Point Cost")
+
+            if is_empty(price):
+                price = rand_money()
+
+            if is_empty(points):
+                points = rand_point()
+
+            economy_map[item_id] = {
+                "purchase_price": int(price),
+                "purchase_points": int(points)
+            }
+
+        econ = economy_map[item_id]
+
+        # =========================
+        # OUTPUT ROW
+        # =========================
         updates.append({
             "file_name": source_file,
-            "table_name": slot["Location"],
-            "row_id": slot["Slot"],
+            "table_name": table_name,
+            "row_id": row_id,
             "column_id": column,
-            "new_value": item_id
+            "item_id": item_id,
+
+            # NEW FIELDS (restored)
+            "new_value": item_id,
+            "purchase_price": econ["purchase_price"],
+            "purchase_points": econ["purchase_points"],
         })
 
     return updates
 
 
 # =========================
-# WRITE OUTPUT CSV
+# WRITE OUTPUT
 # =========================
 def write_updates(updates, path):
 
@@ -146,7 +165,10 @@ def write_updates(updates, path):
                 "table_name",
                 "row_id",
                 "column_id",
-                "new_value"
+                "item_id",
+                "new_value",
+                "purchase_price",
+                "purchase_points"
             ]
         )
 
@@ -165,4 +187,4 @@ if __name__ == "__main__":
 
     write_updates(updates, OUTPUT_CSV)
 
-    print(f"Shuffled {len(updates)} items with enforcement -> {OUTPUT_CSV}")
+    print(f"Shuffled {len(updates)} item placements -> {OUTPUT_CSV}")

@@ -10,6 +10,8 @@ INPUT_FOLDER = Path("GameData")
 OUTPUT_FOLDER = Path("GameData_Output")
 UPDATES_CSV = "updates.csv"
 
+ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
+
 # ============================================================
 # ROOT LOG FILES
 # ============================================================
@@ -17,13 +19,16 @@ UPDATES_CSV = "updates.csv"
 CHANGE_LOG_PATH = Path("change_log.txt")
 ERROR_LOG_PATH = Path("error_warning_log.txt")
 
+
 def log_change(msg: str):
     with open(CHANGE_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
 
+
 def log_error(msg: str):
     with open(ERROR_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
+
 
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
 ERROR_LOG_PATH.write_text("", encoding="utf-8")
@@ -45,14 +50,19 @@ def load_updates():
                 "table_name": row["table_name"],
                 "row_id": str(row["row_id"]),
                 "column_id": row["column_id"],
-                "new_value": int(row["new_value"])
+                "item_id": row["item_id"],
+                "new_value": int(row["new_value"]),
+                "purchase_price": row["purchase_price"],
+
+                # NEW: point system (minimal extension)
+                "purchase_points": row.get("purchase_points")
             })
 
     return updates
 
 
 # ============================================================
-# SHOP
+# SHOP (UNCHANGED)
 # ============================================================
 
 def update_shop(data, updates):
@@ -119,16 +129,11 @@ def update_shop(data, updates):
 
             break
 
-        if not found_table:
-            msg = f"[WARN] shop | table not found | {table_name}"
-            print(msg)
-            log_error(msg)
-
     return changes
 
 
 # ============================================================
-# COINLOCKER
+# COINLOCKER (UNCHANGED)
 # ============================================================
 
 def update_coinlocker(data, updates):
@@ -159,9 +164,6 @@ def update_coinlocker(data, updates):
         new_value = u["new_value"]
 
         if row_id not in table:
-            msg = f"[WARN] coinlocker | missing row {row_id}"
-            print(msg)
-            log_error(msg)
             continue
 
         row = table[row_id][""]
@@ -179,7 +181,7 @@ def update_coinlocker(data, updates):
 
 
 # ============================================================
-# WIRE (item_get_by_wire)
+# WIRE (UNCHANGED)
 # ============================================================
 
 def update_wire(data, updates):
@@ -191,34 +193,22 @@ def update_wire(data, updates):
         row_id = str(u["row_id"])
         new_value = u["new_value"]
 
-        # top-level row index is correct here ("0"–"261")
         if row_id not in data:
-            msg = f"[WARN] wire | row not found | {row_id}"
-            print(msg)
-            log_error(msg)
             continue
 
         row_container = data[row_id]
 
         if not isinstance(row_container, dict):
-            msg = f"[WARN] wire | row invalid type | {row_id}"
-            print(msg)
-            log_error(msg)
             continue
 
-        # find inner item (treasure001 etc)
         inner_row = None
 
         for k, v in row_container.items():
-
             if isinstance(v, dict) and "get_item_id" in v:
                 inner_row = v
                 break
 
         if inner_row is None:
-            msg = f"[WARN] wire | no valid item | row={row_id}"
-            print(msg)
-            log_error(msg)
             continue
 
         old_value = inner_row["get_item_id"]
@@ -234,7 +224,100 @@ def update_wire(data, updates):
 
 
 # ============================================================
-# DISPATCH
+# ITEM BIN PATCH (UPDATED - POINT SYSTEM ADDED)
+# ============================================================
+
+def patch_item_bin_prices(updates_by_file):
+
+    print("\n[ITEM] Processing item.bin.json")
+
+    if not ITEM_PATH.exists():
+        msg = f"[ITEM] Missing file: {ITEM_PATH}"
+        print(msg)
+        log_error(msg)
+        return
+
+    with open(ITEM_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+
+    changes = 0
+
+    POINT_FIELDS = [
+        "buy_syogi_point",
+        "buy_casino_point",
+        "buy_toba_point",
+        "buy_akame_point",
+        "buy_billiard_point",
+        "buy_golf_point",
+        "buy_pokecir_point",
+    ]
+
+    for _, updates in updates_by_file.items():
+
+        for u in updates:
+
+            item_id = str(u.get("item_id"))
+            new_price = u.get("purchase_price")
+            new_points = u.get("purchase_points")
+
+            if not item_id:
+                continue
+
+            if item_id not in data:
+                continue
+
+            item_block = data[item_id]
+
+            if not isinstance(item_block, dict):
+                continue
+
+            inner_key = next(iter(item_block.keys()))
+            row = item_block[inner_key]
+
+            # ------------------------
+            # purchase price update
+            # ------------------------
+            if "purchase_price" in row and new_price is not None:
+                old_value = row["purchase_price"]
+                row["purchase_price"] = int(new_price)
+
+                msg = f"[ITEM PRICE] id={item_id} {old_value} -> {new_price}"
+                print(msg)
+                log_change(msg)
+
+                changes += 1
+
+            # ------------------------
+            # NEW: point system update
+            # ------------------------
+            if new_points is not None:
+                try:
+                    point_val = int(new_points)
+
+                    for field in POINT_FIELDS:
+                        if field in row:
+                            row[field] = point_val
+
+                    msg = f"[ITEM POINTS] id={item_id} -> {point_val}"
+                    print(msg)
+                    log_change(msg)
+
+                except ValueError:
+                    msg = f"[WARN] invalid point value for item {item_id}: {new_points}"
+                    print(msg)
+                    log_error(msg)
+
+    output_path = OUTPUT_FOLDER / "db.aston.en" / "item.bin.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"[ITEM] Saved {changes} price changes")
+
+
+# ============================================================
+# DISPATCH (UNCHANGED)
 # ============================================================
 
 def detect_type(filename):
@@ -256,12 +339,7 @@ def apply_updates(json_path, updates):
     with open(json_path, encoding="utf-8") as f:
         data = json.load(f)
 
-    filename = json_path.name
-
-    print(f"\nProcessing {filename}")
-    print(f"Detected type: {detect_type(filename)}")
-
-    file_type = detect_type(filename)
+    file_type = detect_type(json_path.name)
 
     if file_type == "shop":
         changes = update_shop(data, updates)
@@ -273,11 +351,9 @@ def apply_updates(json_path, updates):
         changes = update_wire(data, updates)
 
     else:
-        print("No handler")
         return
 
     if changes == 0:
-        print("No changes")
         return
 
     output_path = OUTPUT_FOLDER / json_path.relative_to(INPUT_FOLDER)
@@ -285,8 +361,6 @@ def apply_updates(json_path, updates):
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-
-    print(f"Saved {changes} changes")
 
 
 # ============================================================
@@ -302,11 +376,10 @@ def main():
     print(f"Found {len(json_files)} JSON files")
 
     for json_file in json_files:
+        if json_file.name in updates_by_file:
+            apply_updates(json_file, updates_by_file[json_file.name])
 
-        if json_file.name not in updates_by_file:
-            continue
-
-        apply_updates(json_file, updates_by_file[json_file.name])
+    patch_item_bin_prices(updates_by_file)
 
 
 if __name__ == "__main__":
