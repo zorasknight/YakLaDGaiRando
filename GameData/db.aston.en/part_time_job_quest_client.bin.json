@@ -1,0 +1,336 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 44,
+  "COLUMN_COUNT": 2,
+  "TEXT_COUNT": 44,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 3209,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "name": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "name": 13
+  },
+  "COLUMN_INDICES": [
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "test_client": {
+      "name": "テスト依頼人",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "quest_vegetarian": {
+      "name": "ベジタリアンな男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "quest_ad": {
+      "name": "やる気の無いＡＤ",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "quest_ship": {
+      "name": "船に弱い青年",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "quest_lover_girl": {
+      "name": "恋する少女",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "quest_host_tencho": {
+      "name": "駆け出しウェディングプランナー",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "7": {
+    "quest_bourgeoisie_boy": {
+      "name": "ブルジョワな少年",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "quest_inventor": {
+      "name": "発明家の男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "quest_baseball_player": {
+      "name": "社会人野球選手の男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "10": {
+    "quest_headhunter": {
+      "name": "ヘッドハンター",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "11": {
+    "quest_tokusatsu": {
+      "name": "特撮マニアの男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "12": {
+    "quest_komaki": {
+      "name": "古牧流門下生",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "13": {
+    "quest_taurina": {
+      "name": "タウリナー一筋",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "14": {
+    "quest_director": {
+      "name": "映画監督・枝野",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "15": {
+    "quest_cute_lover": {
+      "name": "可愛い物好きな女",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 15
+    }
+  },
+  "16": {
+    "quest_juice_lover": {
+      "name": "缶ジュース愛好家",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 16
+    }
+  },
+  "17": {
+    "quest_foreman": {
+      "name": "工事現場監督",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 17
+    }
+  },
+  "18": {
+    "quest_kappa_lover": {
+      "name": "カッパ好きの男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 18
+    }
+  },
+  "19": {
+    "quest_kappa_lover_02": {
+      "name": "カッパ好きの女",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 19
+    }
+  },
+  "20": {
+    "quest_plant_manager": {
+      "name": "逆転に賭ける工場長",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 20
+    }
+  },
+  "21": {
+    "quest_paper_man": {
+      "name": "紙の救済を待つ男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 21
+    }
+  },
+  "22": {
+    "quest_lostchild_mother": {
+      "name": "迷子の母親",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 22
+    }
+  },
+  "23": {
+    "quest_bearish_man": {
+      "name": "なよなよした彼氏",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 23
+    }
+  },
+  "24": {
+    "quest_husband_worry": {
+      "name": "夫の身を案ずる女性",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 24
+    }
+  },
+  "25": {
+    "quest_friend_loose": {
+      "name": "友とはぐれた外国人",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 25
+    }
+  },
+  "26": {
+    "quest_drunker_wife": {
+      "name": "飲んだくれ男の妻",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 26
+    }
+  },
+  "27": {
+    "quest_cat_lover": {
+      "name": "ネコ好きな女性",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 27
+    }
+  },
+  "28": {
+    "quest_reception_china": {
+      "name": "ＢＨ．com中華街受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "quest_reception_hamakita": {
+      "name": "ＢＨ．com浜北公園受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "quest_reception_fukutoku": {
+      "name": "ＢＨ．com福徳町受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "quest_reception_snack": {
+      "name": "ＢＨ．comスナック街受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 31
+    }
+  },
+  "32": {
+    "quest_reception_ijincho": {
+      "name": "ＢＨ．com商店街受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 32
+    }
+  },
+  "33": {
+    "quest_reception_homeless": {
+      "name": "ＢＨ．comホームレス受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 33
+    }
+  },
+  "34": {
+    "quest_reception_pink": {
+      "name": "ＢＨ．com風俗街受付",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 34
+    }
+  },
+  "35": {
+    "quest_hiroo": {
+      "name": "広尾",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 35
+    }
+  },
+  "36": {
+    "quest_baitohero": {
+      "name": "バイトヒーロー．ｃｏｍ",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 36
+    }
+  },
+  "37": {
+    "quest_karamare_otoko": {
+      "name": "絡まれてしまった男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 37
+    }
+  },
+  "38": {
+    "quest_mewotuke_otoko": {
+      "name": "目をつけられた男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 38
+    }
+  },
+  "39": {
+    "quest_karamare_onnna": {
+      "name": "絡まれてしまった女",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 39
+    }
+  },
+  "40": {
+    "quest_nigerare_onnna": {
+      "name": "彼に逃げられた女",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 40
+    }
+  },
+  "41": {
+    "quest_rokehan_otoko": {
+      "name": "ロケハン中の男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 41
+    }
+  },
+  "42": {
+    "quest_date_otoko": {
+      "name": "デート中の男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 42
+    }
+  },
+  "43": {
+    "quest_syuzai_otoko": {
+      "name": "取材中の男",
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 43
+    }
+  }
+}

@@ -61,7 +61,7 @@
   },
   "3": {
     "lv03": {
-      "level_exp": 800,
+      "level_exp": 8000,
       "reward_money": 20000,
       "event_text": 9,
       "reARMP_isValid": "1",

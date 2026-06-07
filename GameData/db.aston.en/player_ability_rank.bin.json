@@ -1,0 +1,127 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 7,
+  "COLUMN_COUNT": 5,
+  "TEXT_COUNT": 7,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 560,
+  "STORAGE_MODE": 1,
+  "SPECIAL_FIELD_INDICES": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4
+  ],
+  "columnValidity": {
+    "": "0",
+    "message": "1",
+    "need_skills": "1",
+    "need_skills[yagami]": "1",
+    "need_skills[kaito]": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "message": 13,
+    "need_skills": 16,
+    "need_skills[yagami]": 0,
+    "need_skills[kaito]": 0
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    3,
+    4,
+    0
+  ],
+  "0": {
+    "": {
+      "need_skills": 18,
+      "need_skills[yagami]": 0,
+      "need_skills[kaito]": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "S": {
+      "message": "S",
+      "need_skills": 18,
+      "need_skills[yagami]": 120,
+      "need_skills[kaito]": 120,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "A": {
+      "message": "A",
+      "need_skills": 18,
+      "need_skills[yagami]": 60,
+      "need_skills[kaito]": 60,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "B": {
+      "message": "B",
+      "need_skills": 18,
+      "need_skills[yagami]": 20,
+      "need_skills[kaito]": 20,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "C": {
+      "message": "C",
+      "need_skills": 18,
+      "need_skills[yagami]": 0,
+      "need_skills[kaito]": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "D": {
+      "message": "D",
+      "need_skills": 18,
+      "need_skills[yagami]": 0,
+      "need_skills[kaito]": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "E": {
+      "message": "E",
+      "need_skills": 18,
+      "need_skills[yagami]": 0,
+      "need_skills[kaito]": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 6
+    }
+  }
+}

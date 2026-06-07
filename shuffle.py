@@ -14,6 +14,9 @@ monetary_max = 1000000
 point_min = 10
 point_max = 4000
 
+# Categories that may NEVER be placed into Junk slots
+NO_JUNK_CATEGORIES = {"5"}
+
 random.seed()
 
 # =========================
@@ -70,8 +73,30 @@ def shuffle_all_items(rows):
     for r in rows:
         r["Item ID"] = str(r["Item ID"])
 
+    # Remember each item's category
+    item_category = {
+        r["Item ID"]: str(r["Category"]).strip()
+        for r in rows
+    }
+
+    # Build item list
     item_ids = [r["Item ID"] for r in rows]
-    random.shuffle(item_ids)
+
+    # Process constrained categories first
+    protected = [
+        i for i in item_ids
+        if item_category[i] in NO_JUNK_CATEGORIES
+    ]
+
+    normal = [
+        i for i in item_ids
+        if item_category[i] not in NO_JUNK_CATEGORIES
+    ]
+
+    random.shuffle(protected)
+    random.shuffle(normal)
+
+    item_ids = protected + normal
 
     pools = build_pools(rows)
     used = set()
@@ -84,18 +109,25 @@ def shuffle_all_items(rows):
     for item_id in item_ids:
 
         forced_sphere = FORCED_SPHERES.get(item_id)
+        category = item_category[item_id]
 
-        
+        def valid_slot(r):
+            if category in NO_JUNK_CATEGORIES:
+                return str(r.get("Junk", "")).strip().upper() != "TRUE"
+            return True
+
         # handles forced sphere placement
         if forced_sphere is not None:
             candidates = [
                 r for r in pools[str(forced_sphere)]
                 if id(r) not in used
+                and valid_slot(r)
             ]
         else:
             candidates = [
                 r for r in rows
                 if id(r) not in used
+                and valid_slot(r)
             ]
 
         if not candidates:
@@ -108,7 +140,11 @@ def shuffle_all_items(rows):
         table_name = slot["Location"]
         row_id = slot["Slot"]
 
-        column = "get_item_id" if source_file == "item_get_by_wire.bin.json" else "1"
+        column = (
+            "get_item_id"
+            if source_file == "item_get_by_wire.bin.json"
+            else "1"
+        )
 
         # =========================
         # Change Point and Monetary Costs
@@ -149,7 +185,7 @@ def shuffle_all_items(rows):
 
 
 # =========================
-# Wwrite Output
+# Write Output
 # =========================
 def write_updates(updates, path):
 

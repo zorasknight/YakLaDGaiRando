@@ -1,0 +1,2144 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 234,
+  "COLUMN_COUNT": 5,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 1442,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "kiryu": "1",
+    "yagami": "1",
+    "item_buff": "0",
+    "kaito": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "kiryu": 1,
+    "yagami": 1,
+    "item_buff": -1,
+    "kaito": 1
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    4,
+    3,
+    0
+  ],
+  "0": {
+    "": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "combo_speed_up_1": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 98
+    }
+  },
+  "2": {
+    "combo_speed_up_2": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 99
+    }
+  },
+  "3": {
+    "combo_speed_up_3": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 100
+    }
+  },
+  "4": {
+    "dash_attack": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 101
+    }
+  },
+  "5": {
+    "reguard": {
+      "kiryu": 1051,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 225
+    }
+  },
+  "6": {
+    "sway_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 226
+    }
+  },
+  "7": {
+    "damage_reversal": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 227
+    }
+  },
+  "8": {
+    "escape_seize": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 105
+    }
+  },
+  "9": {
+    "attack_counter": {
+      "kiryu": 1041,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 106
+    }
+  },
+  "10": {
+    "dash_sway": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 107
+    }
+  },
+  "11": {
+    "dash_sway_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 108
+    }
+  },
+  "12": {
+    "finish_hold": {
+      "kiryu": 1035,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 109
+    }
+  },
+  "13": {
+    "charge": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 110
+    }
+  },
+  "14": {
+    "dboost_combo_loop": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 111
+    }
+  },
+  "15": {
+    "sp_guard": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 112
+    }
+  },
+  "16": {
+    "anti_down": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 16
+    }
+  },
+  "17": {
+    "ukenagashi": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 113
+    }
+  },
+  "18": {
+    "cancel_sway": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 228
+    }
+  },
+  "19": {
+    "anti_down_attack": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 229
+    }
+  },
+  "20": {
+    "stun_quick_recover": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 230
+    }
+  },
+  "21": {
+    "sway_num2": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 146
+    }
+  },
+  "22": {
+    "sway_num3": {
+      "kiryu": 1091,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 132
+    }
+  },
+  "23": {
+    "guard_everydir": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 143
+    }
+  },
+  "24": {
+    "attack_counter_dam_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 144
+    }
+  },
+  "25": {
+    "ignore_bomb": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 145
+    }
+  },
+  "26": {
+    "involve_dam_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 147
+    }
+  },
+  "27": {
+    "drunk_heatup": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 148
+    }
+  },
+  "28": {
+    "defence_up_l": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "defence_up_s": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "attack_up_l": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "attack_up_s": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 31
+    }
+  },
+  "32": {
+    "boost_armor": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 149
+    }
+  },
+  "33": {
+    "dragon_boost": {
+      "kiryu": 605,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 150
+    }
+  },
+  "34": {
+    "reaction_power_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 152
+    }
+  },
+  "35": {
+    "reaction_cancel_slash": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 153
+    }
+  },
+  "36": {
+    "reaction_cancel_gun": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 154
+    }
+  },
+  "37": {
+    "defence_slash": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 163
+    }
+  },
+  "38": {
+    "defence_gun": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 204
+    }
+  },
+  "39": {
+    "dboost_time_extend1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 183
+    }
+  },
+  "40": {
+    "dboost_time_extend2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 184
+    }
+  },
+  "41": {
+    "dboost_time_extend3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 185
+    }
+  },
+  "42": {
+    "leapfrog": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 186
+    }
+  },
+  "43": {
+    "leapfrog_light": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 43
+    }
+  },
+  "44": {
+    "leapfrog_heavy": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 44
+    }
+  },
+  "45": {
+    "leapfrog_action": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 45
+    }
+  },
+  "46": {
+    "guard_heatup": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 187
+    }
+  },
+  "47": {
+    "dboost_time_extend_pinch": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 188
+    }
+  },
+  "48": {
+    "walljump_light": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 48
+    }
+  },
+  "49": {
+    "walljump_heavy": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 49
+    }
+  },
+  "50": {
+    "walljump_action": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 50
+    }
+  },
+  "51": {
+    "finish_blow3": {
+      "kiryu": 1034,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 189
+    }
+  },
+  "52": {
+    "dot_fire": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 190
+    }
+  },
+  "53": {
+    "gaikou_attack_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 191
+    }
+  },
+  "54": {
+    "naikou_guard_break_cancel": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 192
+    }
+  },
+  "55": {
+    "pinch_run_armor": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 193
+    }
+  },
+  "56": {
+    "charge_attack_dam_up_s": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 56
+    }
+  },
+  "57": {
+    "charge_attack_dam_up_m": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 57
+    }
+  },
+  "58": {
+    "charge_attack_dam_up_l": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 58
+    }
+  },
+  "59": {
+    "defence_weapon_up_l": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 59
+    }
+  },
+  "60": {
+    "defence_weapon_up_m": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 60
+    }
+  },
+  "61": {
+    "defence_weapon_up_s": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 61
+    }
+  },
+  "62": {
+    "stun_value_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 194
+    }
+  },
+  "63": {
+    "action_golf_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 195
+    }
+  },
+  "64": {
+    "action_bat_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 196
+    }
+  },
+  "65": {
+    "guard_reversal": {
+      "kiryu": 1089,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 198
+    }
+  },
+  "66": {
+    "resist_fire": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 199
+    }
+  },
+  "67": {
+    "action_wpi_style": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 200
+    }
+  },
+  "68": {
+    "resist_blind": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 201
+    }
+  },
+  "69": {
+    "reduce_hact_use": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 202
+    }
+  },
+  "70": {
+    "charge_time_dec": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 203
+    }
+  },
+  "71": {
+    "super_long_guard": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 205
+    }
+  },
+  "72": {
+    "attack_counter_timing_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 206
+    }
+  },
+  "73": {
+    "ukenagashi_timing_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 207
+    }
+  },
+  "74": {
+    "resist_stun": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 208
+    }
+  },
+  "75": {
+    "resist_elec": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 209
+    }
+  },
+  "76": {
+    "not_dec_durability": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 210
+    }
+  },
+  "77": {
+    "provoke": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 211
+    }
+  },
+  "78": {
+    "charge2": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 212
+    }
+  },
+  "79": {
+    "nage_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 79
+    }
+  },
+  "80": {
+    "nage_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 80
+    }
+  },
+  "81": {
+    "nage_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 81
+    }
+  },
+  "82": {
+    "finish_hold_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 82
+    }
+  },
+  "83": {
+    "finish_hold_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 83
+    }
+  },
+  "84": {
+    "finish_hold_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 84
+    }
+  },
+  "85": {
+    "tame": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 213
+    }
+  },
+  "86": {
+    "heavy_attack_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 86
+    }
+  },
+  "87": {
+    "heavy_attack_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 87
+    }
+  },
+  "88": {
+    "heavy_attack_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 88
+    }
+  },
+  "89": {
+    "weapon_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 89
+    }
+  },
+  "90": {
+    "weapon_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 90
+    }
+  },
+  "91": {
+    "weapon_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 91
+    }
+  },
+  "92": {
+    "sway_speed_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 214
+    }
+  },
+  "93": {
+    "sway_speed_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 215
+    }
+  },
+  "94": {
+    "sway_speed_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 223
+    }
+  },
+  "95": {
+    "guarded_combo_speed_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 224
+    }
+  },
+  "96": {
+    "light_attack_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 96
+    }
+  },
+  "97": {
+    "light_attack_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 97
+    }
+  },
+  "98": {
+    "light_attack_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 19
+    }
+  },
+  "99": {
+    "hact_dam_up1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 141
+    }
+  },
+  "100": {
+    "hact_dam_up2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 218
+    }
+  },
+  "101": {
+    "hact_dam_up3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 120
+    }
+  },
+  "102": {
+    "append_effect": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 172
+    }
+  },
+  "103": {
+    "ignore_bad_status": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 166
+    }
+  },
+  "104": {
+    "recover_durability": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 197
+    }
+  },
+  "105": {
+    "append_guardbreak": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "106": {
+    "always_superarmor": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 180
+    }
+  },
+  "107": {
+    "auto_ukenagashi": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 72
+    }
+  },
+  "108": {
+    "inf_sway": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 24
+    }
+  },
+  "109": {
+    "migawariishi": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 18
+    }
+  },
+  "110": {
+    "attack_motion_speed_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 123
+    }
+  },
+  "111": {
+    "auto_hp_recover": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 85
+    }
+  },
+  "112": {
+    "attack_motion_speed_up_issen": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "113": {
+    "attack_motion_speed_up_enbu": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 78
+    }
+  },
+  "114": {
+    "issen_reac_down1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 134
+    }
+  },
+  "115": {
+    "issen_reac_down2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 70
+    }
+  },
+  "116": {
+    "issen_reac_down3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "117": {
+    "boost_enbu_armor": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "118": {
+    "damage_reversal_reac_down": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "119": {
+    "pinch_guard_reversal": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 95
+    }
+  },
+  "120": {
+    "standup_attack": {
+      "kiryu": 1037,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "121": {
+    "just_hakkei_damage_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 118
+    }
+  },
+  "122": {
+    "damage_reversal_guard_break": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 122
+    }
+  },
+  "123": {
+    "issen_ex_always_sway": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 157
+    }
+  },
+  "124": {
+    "ignore_self_bomb": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 158
+    }
+  },
+  "125": {
+    "enable_shakeoff": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "126": {
+    "pinch_sway_b_atk_piyori": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "127": {
+    "sway_attack_speed": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "128": {
+    "sway_attack_normal": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "129": {
+    "sway_light_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "130": {
+    "down_counter_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 219
+    }
+  },
+  "131": {
+    "counter_disarm": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 220
+    }
+  },
+  "132": {
+    "parry_auto_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 125
+    }
+  },
+  "133": {
+    "escape_seize_jump": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 133
+    }
+  },
+  "134": {
+    "zanshin": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 182
+    }
+  },
+  "135": {
+    "stun_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "136": {
+    "boost_nagare_armor": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 23
+    }
+  },
+  "137": {
+    "auto_anti_down": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 25
+    }
+  },
+  "138": {
+    "jump_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 124
+    }
+  },
+  "139": {
+    "rev_flyarm": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 103
+    }
+  },
+  "140": {
+    "rolling": {
+      "kiryu": 1036,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 26
+    }
+  },
+  "141": {
+    "anti_down_attack_enbu": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "142": {
+    "jump": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 65
+    }
+  },
+  "143": {
+    "speed_up_parry": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 15
+    }
+  },
+  "144": {
+    "speed_up_dodge": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 20
+    }
+  },
+  "145": {
+    "leapfrog_issen": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "146": {
+    "leapfrog_enbu": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 127
+    }
+  },
+  "147": {
+    "leapfrog_nagare": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 128
+    }
+  },
+  "148": {
+    "walljump_issen": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 129
+    }
+  },
+  "149": {
+    "walljump_enbu": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 221
+    }
+  },
+  "150": {
+    "walljump_nagare": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 222
+    }
+  },
+  "151": {
+    "skate_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 21
+    }
+  },
+  "152": {
+    "dboost_attack_up_01": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 22
+    }
+  },
+  "153": {
+    "dboost_attack_up_02": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 140
+    }
+  },
+  "154": {
+    "dboost_attack_up_03": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 17
+    }
+  },
+  "155": {
+    "just_guard": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 73
+    }
+  },
+  "156": {
+    "just_guard_heat": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 27
+    }
+  },
+  "157": {
+    "damage_reversal_heat_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 32
+    }
+  },
+  "158": {
+    "damage_reversal_tame": {
+      "kiryu": 1040,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 117
+    }
+  },
+  "159": {
+    "hakkei": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 136
+    }
+  },
+  "160": {
+    "dboost_attack_up_issen": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 33
+    }
+  },
+  "161": {
+    "pinch_throw_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 34
+    }
+  },
+  "162": {
+    "pinch_attack_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 35
+    }
+  },
+  "163": {
+    "pinch_heat_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 36
+    }
+  },
+  "164": {
+    "dboost_no_dead": {
+      "kiryu": 1020,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 37
+    }
+  },
+  "165": {
+    "dboost_plus_attack_up": {
+      "kiryu": 1018,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 38
+    }
+  },
+  "166": {
+    "standup_style_change": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 39
+    }
+  },
+  "167": {
+    "counter_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 40
+    }
+  },
+  "168": {
+    "leapfrog_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 41
+    }
+  },
+  "169": {
+    "walljump_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 47
+    }
+  },
+  "170": {
+    "anti_upsidedown": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 160
+    }
+  },
+  "171": {
+    "hakkei_just_guard": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 164
+    }
+  },
+  "172": {
+    "standup_attack_mai": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 165
+    }
+  },
+  "173": {
+    "rev_flyarm_auto": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 46
+    }
+  },
+  "174": {
+    "reverse_catch_pos": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 51
+    }
+  },
+  "175": {
+    "finish_blow3_mai": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 175
+    }
+  },
+  "176": {
+    "invincible_sync": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 52
+    }
+  },
+  "177": {
+    "just_guard_slash": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 66
+    }
+  },
+  "178": {
+    "provoke_down": {
+      "kiryu": 1021,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 68
+    }
+  },
+  "179": {
+    "provoke_all": {
+      "kiryu": 1022,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 74
+    }
+  },
+  "180": {
+    "attack_counter_enbu": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 75
+    }
+  },
+  "181": {
+    "pick_throw_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 55
+    }
+  },
+  "182": {
+    "escape_seize_kaito": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 62
+    }
+  },
+  "183": {
+    "box_bokorush": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 63
+    }
+  },
+  "184": {
+    "box_lance": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 64
+    }
+  },
+  "185": {
+    "box_triple_jab": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 67
+    }
+  },
+  "186": {
+    "box_uppercut": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 69
+    }
+  },
+  "187": {
+    "box_guard_rev_jab": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 71
+    }
+  },
+  "188": {
+    "box_sway_str": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 76
+    }
+  },
+  "189": {
+    "box_weaving": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 77
+    }
+  },
+  "190": {
+    "box_provoke_1": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 102
+    }
+  },
+  "191": {
+    "box_provoke_2": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 104
+    }
+  },
+  "192": {
+    "box_provoke_3": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 92
+    }
+  },
+  "193": {
+    "box_guard_rev_str": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 93
+    }
+  },
+  "194": {
+    "box_counter_jab": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 94
+    }
+  },
+  "195": {
+    "box_counter_str": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 42
+    }
+  },
+  "196": {
+    "box_counter_hook": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 168
+    }
+  },
+  "197": {
+    "standup_attack_box": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 169
+    }
+  },
+  "198": {
+    "weapon_tackle": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 53
+    }
+  },
+  "199": {
+    "provoke_all_kaito": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 54
+    }
+  },
+  "200": {
+    "pinch_attack_up_kaito": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 114
+    }
+  },
+  "201": {
+    "kaito_drop_kick": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 115
+    }
+  },
+  "202": {
+    "kaito_sway_attack": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 116
+    }
+  },
+  "203": {
+    "kaito_finish": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 119
+    }
+  },
+  "204": {
+    "kaito_finish_hold": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 121
+    }
+  },
+  "205": {
+    "kaito_damage_rev": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 126
+    }
+  },
+  "206": {
+    "kaito_counter": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 130
+    }
+  },
+  "207": {
+    "kaito_tackle": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 131
+    }
+  },
+  "208": {
+    "kaito_sway_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 167
+    }
+  },
+  "209": {
+    "kaito_damage_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 135
+    }
+  },
+  "210": {
+    "kaito_guard_throw": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 137
+    }
+  },
+  "211": {
+    "kaito_just_guard_atk": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 138
+    }
+  },
+  "212": {
+    "kaito_weapon_dam_up": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 139
+    }
+  },
+  "213": {
+    "kaito_default": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 173
+    }
+  },
+  "214": {
+    "kaito_hp_to_ex": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 142
+    }
+  },
+  "215": {
+    "kaito_light_hold": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 151
+    }
+  },
+  "216": {
+    "wire_snatch_throw": {
+      "kiryu": 1098,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 155
+    }
+  },
+  "217": {
+    "wire_snatch_heavy_attack": {
+      "kiryu": 1097,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 177
+    }
+  },
+  "218": {
+    "standup_fast": {
+      "kiryu": 1053,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 156
+    }
+  },
+  "219": {
+    "escape_seize_ouryu": {
+      "kiryu": 1088,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 159
+    }
+  },
+  "220": {
+    "escape_seize_agent": {
+      "kiryu": 1095,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 171
+    }
+  },
+  "221": {
+    "sway_attack_ouryu": {
+      "kiryu": 1038,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 161
+    }
+  },
+  "222": {
+    "sway_attack_agent": {
+      "kiryu": 1054,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 162
+    }
+  },
+  "223": {
+    "ory_addhact01": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 170
+    }
+  },
+  "224": {
+    "ory_addhact02": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 174
+    }
+  },
+  "225": {
+    "ory_addhact03": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 176
+    }
+  },
+  "226": {
+    "ory_addhact04": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 178
+    }
+  },
+  "227": {
+    "agt_addhact01": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 179
+    }
+  },
+  "228": {
+    "agt_addhact02": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 181
+    }
+  },
+  "229": {
+    "agt_addhact03": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 216
+    }
+  },
+  "230": {
+    "agt_addhact04": {
+      "kiryu": 0,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 217
+    }
+  },
+  "231": {
+    "special_attack_sway_light": {
+      "kiryu": 1052,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 231
+    }
+  },
+  "232": {
+    "special_attack_sway_heavy": {
+      "kiryu": 1094,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 232
+    }
+  },
+  "233": {
+    "special_attack_sway_seize": {
+      "kiryu": 1,
+      "yagami": 0,
+      "kaito": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 233
+    }
+  }
+}
