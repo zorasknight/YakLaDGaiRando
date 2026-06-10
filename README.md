@@ -49,3 +49,6 @@ Finish the Finale Act
 Logic is used to avoid hiding items behind themself, for example the A1 key cannot be stored within the A1 locker, likewise the Colliseum unlocks (colored tigers) cannot be hidden behind a later colliseum. This game is light on logic at the moment, but if we can get proper hooks we would like to randomize progression for substory unlocks.
 
 Currently this is built as a local only proof of concept as until we have a way to hook in to the game, linking this to archipelago will be impossible.
+
+# Credits
+Ret for building a ton of infastructure for Yakuza modding, and allowing me to bundle the reARMP tool with my randomizer.
