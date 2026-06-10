@@ -58,7 +58,6 @@ def load_updates():
 
     return updates
 
-
 # ============================================================
 # Shops
 # ============================================================
@@ -69,11 +68,12 @@ def update_shop(data, updates):
 
     for u in updates:
 
+        if u["column_id"] != "replacement_item_id":
+            continue
+
         table_name = u["table_name"]
         row_id = u["row_id"]
         new_value = u["new_value"]
-
-        found_table = False
 
         for root_key, root_value in data.items():
 
@@ -83,7 +83,6 @@ def update_shop(data, updates):
             if table_name not in root_value:
                 continue
 
-            found_table = True
             shop_wrapper = root_value[table_name]
 
             if "table" not in shop_wrapper:
@@ -131,6 +130,77 @@ def update_shop(data, updates):
 
 
 # ============================================================
+# Rewards
+# ============================================================
+
+def update_reward(data, updates):
+
+    changes = 0
+
+    for u in updates:
+
+        if u["column_id"] != "replacement_item_id":
+            continue
+
+        table_name = u["table_name"]
+        row_id = u["row_id"]
+        new_value = u["new_value"]
+
+        for root_key, root_value in data.items():
+
+            if not isinstance(root_value, dict):
+                continue
+
+            if table_name not in root_value:
+                continue
+
+            reward_wrapper = root_value[table_name]
+
+            if "table" not in reward_wrapper:
+                msg = f"[WARN] reward | missing table wrapper | {table_name}"
+                print(msg)
+                log_error(msg)
+                break
+
+            table = reward_wrapper["table"]
+
+            if row_id not in table:
+                msg = f"[WARN] reward | missing row {row_id} | {table_name}"
+                print(msg)
+                log_error(msg)
+                break
+
+            row_container = table[row_id]
+
+            if "" not in row_container:
+                msg = f"[WARN] reward | missing inner dict | {table_name} row={row_id}"
+                print(msg)
+                log_error(msg)
+                break
+
+            row = row_container[""]
+
+            if "3" not in row:
+                msg = f"[WARN] reward | missing column '3' | {table_name} row={row_id}"
+                print(msg)
+                log_error(msg)
+                break
+
+            old_value = row["3"]
+            row["3"] = new_value
+
+            changes += 1
+
+            msg = f"[REWARD] {table_name} row={row_id} {old_value} -> {new_value}"
+            print(msg)
+            log_change(msg)
+
+            break
+
+    return changes
+
+
+# ============================================================
 # Lockers
 # ============================================================
 
@@ -157,6 +227,9 @@ def update_coinlocker(data, updates):
     table = region["keys"]
 
     for u in updates:
+
+        if u["column_id"] != "replacement_item_id":
+            continue
 
         row_id = str(u["row_id"])
         new_value = u["new_value"]
@@ -187,6 +260,9 @@ def update_wire(data, updates):
     changes = 0
 
     for u in updates:
+
+        if u["column_id"] != "replacement_item_id":
+            continue
 
         row_id = str(u["row_id"])
         new_value = u["new_value"]
@@ -219,7 +295,6 @@ def update_wire(data, updates):
         log_change(msg)
 
     return changes
-
 
 # ============================================================
 # Patch prices in item.bin
@@ -328,6 +403,9 @@ def detect_type(filename):
 
     if filename == "item_get_by_wire.bin.json":
         return "wire"
+    
+    if filename == "reward_table.bin.json":
+        return "reward"
 
     return "unknown"
 
@@ -347,6 +425,9 @@ def apply_updates(json_path, updates):
 
     elif file_type == "wire":
         changes = update_wire(data, updates)
+
+    elif file_type == "reward":
+        changes = update_reward(data, updates)
 
     else:
         return

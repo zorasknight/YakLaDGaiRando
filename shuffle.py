@@ -140,11 +140,7 @@ def shuffle_all_items(rows):
         table_name = slot["Location"]
         row_id = slot["Slot"]
 
-        column = (
-            "get_item_id"
-            if source_file == "item_get_by_wire.bin.json"
-            else "1"
-        )
+        column = "replacement_item_id"
 
         # =========================
         # Change Point and Monetary Costs
