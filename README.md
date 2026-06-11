@@ -37,7 +37,7 @@ That's intentional! Prioritize finding your "Key" items, it's the ones needed by
 
 Progression items can be hard to find, but there are 4 guaranteed items in the early game that you can get before rank 3 (the remaining 4 are all in the later parts of the game like pocket circuit or the colliseum) Make sure to check all the minigames like pool, golf, the casino, or shogi!
 
-### I hate shogi, why is it on?
+### I hate Shogi, why is it on?
 
 Settings will come soon! right now everything is on by default...
 
@@ -45,7 +45,7 @@ Settings will come soon! right now everything is on by default...
 
 Don't make me add Mahjong.
 
-## implementation
+## Implementation
 
 Randomization is achieved through adjusting values in the aston.db section, among others, of the games data prior to run time. The python script modifies the loose files contained within the mod folders before running the shinryu modloader to compact them back into pars and package them as a proper mod that can be run through the shinryu modloader. A new file is made on startup with any difficulty the player chooses, the completion goal is set by the player.
 
