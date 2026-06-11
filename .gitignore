@@ -3,3 +3,24 @@ source.csv
 change_log.txt
 .python-version
 error_warning_log.txt
+__pycache__/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Build / output
+build/
+dist/
+*.zip
+Gaiden_Rando_*/
+Bin_Output/
+
+# OS junk files
+.DS_Store
+Thumbs.db

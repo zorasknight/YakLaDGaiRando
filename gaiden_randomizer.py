@@ -1,21 +1,28 @@
-import subprocess
 import time
-import sys
+
+import shuffle
+import replace_items
+import convert
 
 PIPELINE = [
-    ("shuffle.py", 1),
-    ("replace_items.py", 3),
-    ("convert.py", 2),
+    (shuffle.main, 1),
+    (replace_items.main, 3),
+    (convert.main, 2),
 ]
 
-for script, delay in PIPELINE:
-    print(f"\nRunning {script}...")
+def main():
+    for func, delay in PIPELINE:
+        print(f"\nRunning {func.__module__}...")
 
-    subprocess.run([sys.executable, script], check=True)
+        func()  # <-- THIS is the key change
 
-    print(f"Finished {script}")
-    print(f"Waiting {delay} seconds...\n")
+        print(f"Finished {func.__module__}")
+        print(f"Waiting {delay} seconds...\n")
 
-    time.sleep(delay)
+        time.sleep(delay)
 
-print("All scripts completed.")
+    print("All scripts completed.")
+
+
+if __name__ == "__main__":
+    main()

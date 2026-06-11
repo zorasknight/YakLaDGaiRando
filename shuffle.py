@@ -208,8 +208,8 @@ def write_updates(updates, path):
 # =========================
 # Main
 # =========================
-if __name__ == "__main__":
 
+def main():
     rows = load_rows(INPUT_CSV)
 
     updates = shuffle_all_items(rows)
@@ -217,3 +217,7 @@ if __name__ == "__main__":
     write_updates(updates, OUTPUT_CSV)
 
     print(f"Shuffled {len(updates)} item placements -> {OUTPUT_CSV}")
+
+
+if __name__ == "__main__":
+    main()
