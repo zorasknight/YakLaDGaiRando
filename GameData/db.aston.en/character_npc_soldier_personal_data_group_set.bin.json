@@ -1,0 +1,818 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 119,
+  "COLUMN_COUNT": 2,
+  "TEXT_COUNT": 0,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 3281,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "items": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "items": 9
+  },
+  "COLUMN_INDICES": [
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "test_group_set": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "test_grp_set": {
+      "items": {
+        "ROW_COUNT": 1,
+        "COLUMN_COUNT": 9,
+        "TEXT_COUNT": 0,
+        "ROW_VALIDATOR": -1,
+        "COLUMN_VALIDATOR": 0,
+        "HAS_ROW_NAMES": false,
+        "HAS_COLUMN_NAMES": false,
+        "HAS_ROW_VALIDITY": false,
+        "HAS_COLUMN_VALIDITY": true,
+        "HAS_UNKNOWN_BITMASK": true,
+        "HAS_ROW_INDICES": false,
+        "TABLE_ID": 3284,
+        "STORAGE_MODE": 1,
+        "columnValidity": {
+          "0": "0",
+          "1": "1",
+          "2": "1",
+          "3": "1",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "1",
+          "8": "1"
+        },
+        "columnTypes": {
+          "0": -1,
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 0,
+          "8": 0
+        },
+        "0": {
+          "": {
+            "1": 887,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0
+          }
+        },
+        "subTable": {
+          "ROW_COUNT": 1,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "test_grp": {
+              "0": 887,
+              "2": 0
+            }
+          }
+        }
+      },
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "3": {
+    "dungeon_group": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "enc_ten_c02": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "enc_k_c02_gekijo": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "6": {
+    "enc_k_c02_gekijo_pla": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "7": {
+    "enc_k_c02_hotel": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "enc_k_c02_kouen_mae": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "enc_k_c02_mille": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "10": {
+    "enc_k_c02_naka": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "11": {
+    "enc_k_c02_pink": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "12": {
+    "enc_k_c02_senryo": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "13": {
+    "enc_k_c02_shichi": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "14": {
+    "enc_k_c02_taihei": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "15": {
+    "enc_k_c02_ten": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 15
+    }
+  },
+  "16": {
+    "enc_test_4_8": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 16
+    }
+  },
+  "17": {
+    "enc_test_4_yoko": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 17
+    }
+  },
+  "18": {
+    "enc_TYK_ho_sakuragawa-ST_~10": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 18
+    }
+  },
+  "19": {
+    "enc_TYK_ho_asayake-ST_~10": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 19
+    }
+  },
+  "20": {
+    "enc_TYK_ho_tyuuoumisaki-ST_~10": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 20
+    }
+  },
+  "21": {
+    "enc_TYK_ho_tsurukame-ura_~10": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 21
+    }
+  },
+  "22": {
+    "enc_tyk_ho_sakura_s_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 22
+    }
+  },
+  "23": {
+    "enc_tyk_ho_asayake_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 23
+    }
+  },
+  "24": {
+    "enc_tyk_ho_misaki_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 24
+    }
+  },
+  "25": {
+    "enc_tyk_ho_tsuru_ura_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 25
+    }
+  },
+  "26": {
+    "enc_tyk_sn_snac_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 26
+    }
+  },
+  "27": {
+    "enc_tyk_sn_sakura_n_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 27
+    }
+  },
+  "28": {
+    "enc_tyk_sn_fuku_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "enc_tyk_ko_sakura_k_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "enc_tyk_ko_isobe_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "enc_tyk_ko_hyakkei_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 31
+    }
+  },
+  "32": {
+    "enc_tyk_ko_komi_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 32
+    }
+  },
+  "33": {
+    "enc_tyk_fu_roman_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 33
+    }
+  },
+  "34": {
+    "enc_tyk_fu_tyuuou_st_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 34
+    }
+  },
+  "35": {
+    "enc_tyk_fu_isezaki_s_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 35
+    }
+  },
+  "36": {
+    "enc_tyk_fu_oohama_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 36
+    }
+  },
+  "37": {
+    "enc_tyk_sh_isezaki_n_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 37
+    }
+  },
+  "38": {
+    "enc_tyk_sh_tsuru_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 38
+    }
+  },
+  "39": {
+    "enc_tyk_han_ijin_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 39
+    }
+  },
+  "40": {
+    "enc_tyk_han_hann_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 40
+    }
+  },
+  "41": {
+    "enc_tyk_ji_bayside_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 41
+    }
+  },
+  "42": {
+    "enc_tyk_ji_jinnnai_e_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 42
+    }
+  },
+  "43": {
+    "enc_tyk_ji_jinnnai_w_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 43
+    }
+  },
+  "44": {
+    "enc_tyk_ham_hamakita_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 44
+    }
+  },
+  "45": {
+    "enc_tyk_ham_hamapark_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 45
+    }
+  },
+  "46": {
+    "enc_tyk_ch_chinatown_before": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 46
+    }
+  },
+  "47": {
+    "enc_tyk_ho_sakura_s": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 47
+    }
+  },
+  "48": {
+    "enc_tyk_ho_asayake": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 48
+    }
+  },
+  "49": {
+    "enc_tyk_ho_misaki": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 49
+    }
+  },
+  "50": {
+    "enc_tyk_ho_tsuru_ura": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 50
+    }
+  },
+  "51": {
+    "enc_tyk_sn_snac": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 51
+    }
+  },
+  "52": {
+    "enc_tyk_sn_sakura_n": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 52
+    }
+  },
+  "53": {
+    "enc_tyk_sn_fuku": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 53
+    }
+  },
+  "54": {
+    "enc_tyk_ko_sakura_k": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 54
+    }
+  },
+  "55": {
+    "enc_tyk_ko_isobe": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 55
+    }
+  },
+  "56": {
+    "enc_tyk_ko_hyakkei": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 56
+    }
+  },
+  "57": {
+    "enc_tyk_ko_komi": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 57
+    }
+  },
+  "58": {
+    "enc_tyk_fu_roman": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 58
+    }
+  },
+  "59": {
+    "enc_tyk_fu_tyuuou_st": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 59
+    }
+  },
+  "60": {
+    "enc_tyk_fu_isezaki_s": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 60
+    }
+  },
+  "61": {
+    "enc_tyk_fu_oohama": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 61
+    }
+  },
+  "62": {
+    "enc_tyk_sh_isezaki_n": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 62
+    }
+  },
+  "63": {
+    "enc_tyk_sh_tsuru": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 63
+    }
+  },
+  "64": {
+    "enc_tyk_han_ijin": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 64
+    }
+  },
+  "65": {
+    "enc_tyk_han_hann": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 65
+    }
+  },
+  "66": {
+    "enc_tyk_ji_bayside": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 66
+    }
+  },
+  "67": {
+    "enc_tyk_ji_jinnnai_e": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 67
+    }
+  },
+  "68": {
+    "enc_tyk_ji_jinnnai_w": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 68
+    }
+  },
+  "69": {
+    "enc_tyk_ham_hamakita": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 69
+    }
+  },
+  "70": {
+    "enc_tyk_ham_hamapark": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 70
+    }
+  },
+  "71": {
+    "enc_tyk_ch_chinatown": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 71
+    }
+  },
+  "72": {
+    "enc_tyk_underground": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 72
+    }
+  },
+  "73": {
+    "enc_tkm_kamuro": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 73
+    }
+  },
+  "74": {
+    "enc_tos_souten": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 74
+    }
+  },
+  "75": {
+    "enc_dyk0_b2f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 75
+    }
+  },
+  "76": {
+    "enc_dyk0_b3f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 76
+    }
+  },
+  "77": {
+    "enc_dkm0_b1f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 77
+    }
+  },
+  "78": {
+    "enc_oum0": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 78
+    }
+  },
+  "79": {
+    "enc_dkm1_b1f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 79
+    }
+  },
+  "80": {
+    "enc_dyk1_b2f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 80
+    }
+  },
+  "81": {
+    "enc_dyk1_b3f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 81
+    }
+  },
+  "82": {
+    "enc_dyk2_b2f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 82
+    }
+  },
+  "83": {
+    "enc_dyk2_b3f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 83
+    }
+  },
+  "84": {
+    "enc_tyk_ex_fukuroman": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 84
+    }
+  },
+  "85": {
+    "enc_tyk_ex_rosyutu": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 85
+    }
+  },
+  "86": {
+    "enc_tyk_ex_sandwich": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 86
+    }
+  },
+  "87": {
+    "enc_tyk_ex_slugger": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 87
+    }
+  },
+  "88": {
+    "enc_dkm1_b2f": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 88
+    }
+  },
+  "89": {
+    "enc_tyk_gate_hikigatari": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 89
+    }
+  },
+  "90": {
+    "enc_tyk_gate_homeless": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 90
+    }
+  },
+  "91": {
+    "enc_tyk_gate_host": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 91
+    }
+  },
+  "92": {
+    "enc_tyk_gate_mafia": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 92
+    }
+  },
+  "93": {
+    "enc_tyk_gate_tribal": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 93
+    }
+  },
+  "94": {
+    "enc_tyk_gate_yopparai": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 94
+    }
+  },
+  "95": {
+    "enc_tyk_gate_bannin": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 95
+    }
+  },
+  "96": {
+    "enc_tyk_homeless": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 96
+    }
+  },
+  "97": {
+    "enc_tyk_snac": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 97
+    }
+  },
+  "98": {
+    "enc_tyk_sakuragawa": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 98
+    }
+  },
+  "99": {
+    "enc_tyk_komijuru": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 99
+    }
+  },
+  "100": {
+    "enc_tyk_fuzoku": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 100
+    }
+  },
+  "101": {
+    "enc_tyk_isezaki": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 101
+    }
+  },
+  "102": {
+    "enc_tyk_hanten": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 102
+    }
+  },
+  "103": {
+    "enc_tyk_jin_oodori": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 103
+    }
+  },
+  "104": {
+    "enc_tyk_jin_basya": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 104
+    }
+  },
+  "105": {
+    "enc_tyk_jin_daikoku": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 105
+    }
+  },
+  "106": {
+    "enc_tyk_hamakita": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 106
+    }
+  },
+  "107": {
+    "enc_tyk_hamapark": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 107
+    }
+  },
+  "108": {
+    "enc_tyk_chinatown": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 108
+    }
+  },
+  "109": {
+    "enc_tyk_gate_chinpira": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 109
+    }
+  },
+  "110": {
+    "enc_tyk_gate_scout": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 110
+    }
+  },
+  "111": {
+    "enc_tyk_gate_yakuza": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 111
+    }
+  },
+  "112": {
+    "enc_tyk_jinnai": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 112
+    }
+  },
+  "113": {
+    "enc_tyk_jinnai_e": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 113
+    }
+  },
+  "114": {
+    "enc_tyk_jinnai_n": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 114
+    }
+  },
+  "115": {
+    "enc_tyk_jinnai_w": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 115
+    }
+  },
+  "116": {
+    "enc_tyk_ex_diver": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 116
+    }
+  },
+  "117": {
+    "enc_tyk_ex_wara": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 117
+    }
+  },
+  "118": {
+    "enc_tkm_kamuro_ex": {
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 118
+    }
+  }
+}
