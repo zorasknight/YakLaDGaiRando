@@ -57,12 +57,7 @@ def main():
     # =========================
     print("Creating zip archive...")
 
-    zip_path = shutil.make_archive(
-        base_name=str(BIN_OUTPUT),
-        format="zip",
-        root_dir=BIN_OUTPUT,
-        base_dir="."   # <-- THIS fixes the double-folder issue
-    )
+    zip_path = shutil.make_archive( base_name=str(BIN_OUTPUT), format="zip", root_dir=BIN_OUTPUT.parent, base_dir=BIN_OUTPUT.name, )
 
     print(f"Created archive: {zip_path}")
 
