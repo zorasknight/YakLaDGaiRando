@@ -1,5 +1,6 @@
 import csv
 import json
+import random
 from pathlib import Path
 
 # ============================================================
@@ -11,6 +12,35 @@ OUTPUT_FOLDER = Path("GameData_Output")
 UPDATES_CSV = "updates.csv"
 
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
+
+SPECIAL0_EFFECTS = {
+    0: "No Special Effect",
+    2: "Makes enemies more likely to confront you.",
+    6: "Continually replenishes your Heat when low on health in combat.",
+    13: "Your Heat gradually increases while it's equipped.",
+    25: "heat_gauge_up_l",
+    28: "charge_attack_dam_up_l",
+    31: "sway_invincible_up_l",
+    39: "Your Heat gradually decreases while it's equipped.",
+    40: "The less health you have, the greater your attack is boosted.",
+    42: "Suppresses the enemy's will to attack during battle.",
+    44: "throw_attack_dam_up",
+    45: "bullet_auto_guard",
+    82: "Reduces the amount of Heat consumed.",
+    83: "Gradually recovers health when near death.",
+    84: "Nets you more Akame Points.",
+    85: "Spot keys on the ground with these on.",
+}
+
+ATTACK_AND_DEFENSE_MIN = -900
+ATTACK_AND_DEFENSE_MAX = 900
+
+RESIST_MIN = 0
+RESIST_MAX = 500
+
+STATUS_RESIST_MIN = 0
+STATUS_RESIST_MAX = 1
+
 
 # ============================================================
 # Create log files
@@ -52,7 +82,7 @@ def load_updates():
                 "column_id": row["column_id"],
                 "item_id": row["item_id"],
                 "new_value": int(row["new_value"]),
-                "purchase_price": row["purchase_price"],
+                "purchase_price": row.get("purchase_price"),
                 "purchase_points": row.get("purchase_points")
             })
 
@@ -346,6 +376,7 @@ def patch_item_bin_prices(updates_by_file):
 
             inner_key = next(iter(item_block.keys()))
             row = item_block[inner_key]
+            category = row.get("category")
 
             # ------------------------
             # purchase price update
@@ -359,6 +390,36 @@ def patch_item_bin_prices(updates_by_file):
                 log_change(msg)
 
                 changes += 1
+
+            # ------------------------
+            # Equipment value update
+            # ------------------------
+            if int(category) == 6:
+
+                # Stat rules (min, max per field)
+                stat_rules = {
+                    "add_ability_attack": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+                    "add_ability_defense": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+                    "add_ability_resist_gun": (RESIST_MIN, RESIST_MAX),
+                    "add_ability_resist_sword": (RESIST_MIN, RESIST_MAX),
+                    "add_ability_resist_bleed": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+                    "add_ability_resist_stun": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+                    "add_ability_resist_burn": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+                    "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+                }
+
+                # Apply stats
+                for field, (mn, mx) in stat_rules.items():
+                    row[field] = random.randint(mn, mx)
+
+                # Special effect
+                special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
+                row["add_special0"] = special_id
+                row["explanation"] = SPECIAL0_EFFECTS[special_id]
+
+                msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
+                print(msg)
+                log_change(msg)
 
             # ------------------------
             # point system update
