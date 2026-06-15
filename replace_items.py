@@ -32,6 +32,12 @@ SPECIAL0_EFFECTS = {
     85: "Spot keys on the ground with these on.",
 }
 
+SKILL_MONEY_MIN = 1000
+SKILL_MONEY_MAX = 1000000
+
+SKILL_AKAME_MIN = 0
+SKILL_AKAME_MAX = 3000
+
 ATTACK_AND_DEFENSE_MIN = -900
 ATTACK_AND_DEFENSE_MAX = 900
 
@@ -378,9 +384,7 @@ def patch_item_bin_prices(updates_by_file):
             row = item_block[inner_key]
             category = row.get("category")
 
-            # ------------------------
             # purchase price update
-            # ------------------------
             if "purchase_price" in row and new_price is not None:
                 old_value = row["purchase_price"]
                 row["purchase_price"] = int(new_price)
@@ -391,9 +395,7 @@ def patch_item_bin_prices(updates_by_file):
 
                 changes += 1
 
-            # ------------------------
             # Equipment value update
-            # ------------------------
             if int(category) == 6:
 
                 # Stat rules (min, max per field)
@@ -421,9 +423,7 @@ def patch_item_bin_prices(updates_by_file):
                 print(msg)
                 log_change(msg)
 
-            # ------------------------
             # point system update
-            # ------------------------
             if new_points is not None:
                 try:
                     point_val = int(new_points)
@@ -448,6 +448,50 @@ def patch_item_bin_prices(updates_by_file):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"[ITEM] Saved {changes} price changes")
+
+# ============================================================
+# Patch prices for skills in player_skill.bin
+# ============================================================
+
+def patch_player_skill_bin():
+    path = INPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
+
+    print("\n[SKILL] Processing player_skill.bin.json")
+
+    if not path.exists():
+        print(f"[SKILL] Missing file: {path}")
+        return
+
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    for row_id in range(992, 1120):
+        row_key = str(row_id)
+
+        if row_key not in data:
+            continue
+
+        skill_block = data[row_key]
+
+        if not isinstance(skill_block, dict):
+            continue
+
+        inner_key = next(iter(skill_block.keys()))
+        row = skill_block.get(inner_key)
+
+        if not isinstance(row, dict):
+            continue
+
+        row["need_money"] = random.randint(SKILL_MONEY_MIN, SKILL_MONEY_MAX)
+        row["need_akame_point"] = random.randint(SKILL_AKAME_MIN, SKILL_AKAME_MAX)
+
+    output_path = OUTPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print("[SKILL] Done")
 
 
 # ============================================================
@@ -520,7 +564,7 @@ def main():
             apply_updates(json_file, updates_by_file[json_file.name])
 
     patch_item_bin_prices(updates_by_file)
-
+    patch_player_skill_bin()
 
 if __name__ == "__main__":
     main()
