@@ -1,6 +1,7 @@
 import csv
 import random
 from collections import defaultdict
+from settings import settings
 
 # =========================
 # Config
@@ -8,11 +9,11 @@ from collections import defaultdict
 INPUT_CSV = "source.csv"
 OUTPUT_CSV = "updates.csv"
 
-monetary_min = 100
-monetary_max = 1000000
+MONETARY_MIN = settings.get("monetary_min")
+MONETARY_MAX = settings.get("monetary_max")
 
-point_min = 10
-point_max = 4000
+POINT_MIN = settings.get("point_min")
+POINT_MAX = settings.get("point_max")
 
 # Categories that may NEVER be placed into Junk slots
 NO_JUNK_CATEGORIES = {"5"}
@@ -58,10 +59,10 @@ def is_empty(v):
     return v is None or str(v).strip() == ""
 
 def rand_money():
-    return random.randint(monetary_min, monetary_max)
+    return random.randint(MONETARY_MIN, MONETARY_MAX)
 
 def rand_point():
-    return random.randint(point_min, point_max)
+    return random.randint(POINT_MIN, POINT_MAX)
 
 
 # =========================

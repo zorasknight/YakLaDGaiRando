@@ -3,14 +3,17 @@ import json
 import random
 from pathlib import Path
 from collections import Counter
+from settings import settings
 
 # ============================================================
 # Config
 # ============================================================
 
-INPUT_FOLDER = Path("GameData")
-OUTPUT_FOLDER = Path("GameData_Output")
-UPDATES_CSV = "updates.csv"
+BASE_DIR = Path(__file__).resolve().parent
+
+INPUT_FOLDER = BASE_DIR / "GameData"
+OUTPUT_FOLDER = BASE_DIR / "GameData_Output"
+UPDATES_CSV = BASE_DIR / "updates.csv"
 
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
 
@@ -33,17 +36,17 @@ SPECIAL0_EFFECTS = {
     85: "Spot keys on the ground with these on.",
 }
 
-SKILL_MONEY_MIN = 1000
-SKILL_MONEY_MAX = 1000000
+SKILL_MONEY_MIN = settings.get("skill_money_min")
+SKILL_MONEY_MAX = settings.get("skill_money_max")
 
-SKILL_AKAME_MIN = 0
-SKILL_AKAME_MAX = 3000
+SKILL_AKAME_MIN = settings.get("skill_akame_min")
+SKILL_AKAME_MAX = settings.get("skill_akame_max")
 
-ATTACK_AND_DEFENSE_MIN = -900
-ATTACK_AND_DEFENSE_MAX = 900
+ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
+ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
 
-RESIST_MIN = 0
-RESIST_MAX = 500
+RESIST_MIN = settings.get("resist_min")
+RESIST_MAX = settings.get("resist_max")
 
 STATUS_RESIST_MIN = 0
 STATUS_RESIST_MAX = 1
@@ -220,7 +223,7 @@ def update_shop_item_limits(data):
                 item_id = row.get("1")
                 if item_id:
                     row["20"] = item_counts[item_id]
-                    
+
 # ============================================================
 # Rewards
 # ============================================================
