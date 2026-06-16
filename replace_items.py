@@ -2,6 +2,7 @@ import csv
 import json
 import random
 from pathlib import Path
+from collections import Counter
 
 # ============================================================
 # Config
@@ -162,9 +163,64 @@ def update_shop(data, updates):
 
             break
 
+    update_shop_item_limits(data)
     return changes
 
+# ============================================================
+# Shop Counts
+# ============================================================
 
+def update_shop_item_limits(data):
+
+    for root_value in data.values():
+
+        if not isinstance(root_value, dict):
+            continue
+
+        for table_name, shop_wrapper in root_value.items():
+
+            if not isinstance(shop_wrapper, dict):
+                continue
+
+            table = shop_wrapper.get("table")
+
+            if not isinstance(table, dict):
+                continue
+
+            # ----------------------------
+            # PASS 1: count item IDs
+            # ----------------------------
+            item_counts = Counter()
+
+            for row_container in table.values():
+
+                if not isinstance(row_container, dict):
+                    continue
+
+                row = row_container.get("")
+                if not isinstance(row, dict):
+                    continue
+
+                item_id = row.get("1")
+                if item_id:
+                    item_counts[item_id] += 1
+
+            # ----------------------------
+            # PASS 2: assign slot count (20)
+            # ----------------------------
+            for row_container in table.values():
+
+                if not isinstance(row_container, dict):
+                    continue
+
+                row = row_container.get("")
+                if not isinstance(row, dict):
+                    continue
+
+                item_id = row.get("1")
+                if item_id:
+                    row["20"] = item_counts[item_id]
+                    
 # ============================================================
 # Rewards
 # ============================================================

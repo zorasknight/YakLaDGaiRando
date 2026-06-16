@@ -171,7 +171,7 @@ def shuffle_all_items(rows):
             "table_name": table_name,
             "row_id": row_id,
             "column_id": column,
-            "item_id": item_id,
+            "item_id": slot["Item ID"],
             "new_value": item_id,
             "purchase_price": econ["purchase_price"],
             "purchase_points": econ["purchase_points"],
