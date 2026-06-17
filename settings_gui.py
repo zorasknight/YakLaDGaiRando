@@ -338,7 +338,7 @@ def make_range(base, min_key, max_key, rules):
 # ============================================================
 
 def render_field(key):
-    ftype = FIELD_TYPES.get(key)
+    ftype = field_type(key)
 
     if ftype == "bool":
         make_bool(key)
