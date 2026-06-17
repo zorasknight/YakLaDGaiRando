@@ -9,6 +9,16 @@ from settings import settings
 INPUT_CSV = "source.csv"
 OUTPUT_CSV = "updates.csv"
 
+
+DEFAULT_PRICES = settings.get("remove_default_prices")
+SHOP_ITEMS = settings.get("include_shops")
+REWARD_ITEMS = settings.get("include_rewards")
+COIN_LOCKER_ITEMS = settings.get("include_coin_lockers")
+MINIGAME_ITEMS = settings.get("include_minigames")
+POCKET_CIRCUIT_ITEMS = settings.get("include_pocket_circuit")
+
+
+
 MONETARY_MIN = settings.get("monetary_min")
 MONETARY_MAX = settings.get("monetary_max")
 
@@ -63,6 +73,32 @@ def rand_money():
 
 def rand_point():
     return random.randint(POINT_MIN, POINT_MAX)
+
+def apply_file_blacklist(rows):
+    blacklist = set()
+
+    if not SHOP_ITEMS:
+        blacklist.update(["aston_s_ebisuya", "aston_c_boutique_equip", "aston_s_akame", "aston_c_boutique", "aston_y_shichiya", "aston_y_lovemagic", "aston_c_boutique_vip", "aston_s_mizorogi_2", "aston_s_mizorogi"])
+
+    if not REWARD_ITEMS:
+        blacklist.update(["pokecir"])
+
+    if not COIN_LOCKER_ITEMS:
+        blacklist.update(["aston_coinlocker"])
+    
+    if not MINIGAME_ITEMS:
+        blacklist.update(["aston_s_billiards_prize", "aston_c_casino", "aston_y_shogi", "aston_s_shogi", "aston_s_golf", "aston_s_toba", "aston_y_toba", "aston_c_toba",])
+    
+    if not POCKET_CIRCUIT_ITEMS:
+        blacklist.update(["aston_s_pokecir_parts", "pokecir"])
+
+    if not blacklist:
+        return rows
+
+    return [
+        r for r in rows
+        if r.get("Location") not in blacklist
+    ]
 
 
 # =========================
@@ -212,6 +248,8 @@ def write_updates(updates, path):
 
 def main():
     rows = load_rows(INPUT_CSV)
+
+    rows = apply_file_blacklist(rows)
 
     updates = shuffle_all_items(rows)
 

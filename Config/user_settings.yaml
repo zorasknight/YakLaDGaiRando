@@ -13,5 +13,6 @@ resist_max: 500
 remove_default_prices: false
 include_coin_lockers: true
 include_shops: true
-include_wires: true
 include_rewards: true
+include_minigames: true
+include_pocket_circuit: true

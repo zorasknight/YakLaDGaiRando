@@ -58,10 +58,15 @@ FIELD_SCHEMA = {
         "label": "Include Shops",
         "hint": "Includes all shops in item pool"
     },
-    "include_wires": {
+    "include_minigames": {
         "type": "bool",
-        "label": "Include Wires",
-        "hint": "Includes all wire items in item pool"
+        "label": "Include Minigames",
+        "hint": "Includes all Minigame shops into the item pool (NOTE: not pocket circuit)"
+    },
+    "include_pocket_circuit": {
+        "type": "bool",
+        "label": "Include Pocket Circuit",
+        "hint": "Includes both the Pocket Circuit shop, and reward from beating rivals into the item pool (NOTE: rivals can be turned off from rewards below)"
     },
     "include_rewards": {
         "type": "bool",
