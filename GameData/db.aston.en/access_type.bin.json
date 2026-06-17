@@ -1,0 +1,2709 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 258,
+  "COLUMN_COUNT": 6,
+  "TEXT_COUNT": 64,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 68,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "info": "1",
+    "icon_near": "1",
+    "icon_far": "1",
+    "icon_pattern": "1",
+    "is_talk_count": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "info": 13,
+    "icon_near": 2,
+    "icon_far": 2,
+    "icon_pattern": 0,
+    "is_talk_count": 6
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+  ],
+  "0": {
+    "": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "talk": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 1,
+      "icon_pattern": 0,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "check": {
+      "info": "Examine",
+      "icon_near": 2,
+      "icon_far": 6,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 175
+    }
+  },
+  "3": {
+    "look": {
+      "info": "Look",
+      "icon_near": 2,
+      "icon_far": 7,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 176
+    }
+  },
+  "4": {
+    "listen": {
+      "info": "Listen",
+      "icon_near": 2,
+      "icon_far": 6,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 177
+    }
+  },
+  "5": {
+    "in": {
+      "info": "Enter",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 38,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 178
+    }
+  },
+  "6": {
+    "out": {
+      "info": "Exit",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 38,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 179
+    }
+  },
+  "7": {
+    "check_sight": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "8": {
+    "look_around": {
+      "info": "Look Around",
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 180
+    }
+  },
+  "9": {
+    "answer_a_phone": {
+      "info": "Exit",
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 181
+    }
+  },
+  "10": {
+    "hact": {
+      "info": "Kiwami",
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 182
+    }
+  },
+  "11": {
+    "mg_mahjong_easy": {
+      "info": "Play at beginner table",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 101,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 183
+    }
+  },
+  "12": {
+    "mg_mahjong_normal": {
+      "info": "Play at intermediate table",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 102,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 184
+    }
+  },
+  "13": {
+    "mg_mahjong_hard": {
+      "info": "Play at advanced table",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 103,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 185
+    }
+  },
+  "14": {
+    "text_test": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "15": {
+    "cat_food": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 15
+    }
+  },
+  "16": {
+    "mg_darts": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 16
+    }
+  },
+  "17": {
+    "mg_darts_easy": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 17
+    }
+  },
+  "18": {
+    "mg_darts_normal": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 18
+    }
+  },
+  "19": {
+    "mg_darts_hard": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 19
+    }
+  },
+  "20": {
+    "mg_skindiving": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 20
+    }
+  },
+  "21": {
+    "mg_baseball": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 21
+    }
+  },
+  "22": {
+    "mg_batting": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 22
+    }
+  },
+  "23": {
+    "mg_snack": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 23
+    }
+  },
+  "24": {
+    "mg_karaoke": {
+      "info": "Play",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 130,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 186
+    }
+  },
+  "25": {
+    "mg_clubsega": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 25
+    }
+  },
+  "26": {
+    "mg_rizap": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 26
+    }
+  },
+  "27": {
+    "mg_chat": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 27
+    }
+  },
+  "28": {
+    "mg_osonae": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "mg_omikuji": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "mg_saisen": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "mg_clan": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 31
+    }
+  },
+  "32": {
+    "shoot": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 32
+    }
+  },
+  "33": {
+    "special_favor": {
+      "info": "Open Package",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 20,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 187
+    }
+  },
+  "34": {
+    "untie": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 34
+    }
+  },
+  "35": {
+    "sit": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 35
+    }
+  },
+  "36": {
+    "stand": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 36
+    }
+  },
+  "37": {
+    "trouble_mission": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 37
+    }
+  },
+  "38": {
+    "go_top floor": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 38
+    }
+  },
+  "39": {
+    "go_6f": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 39
+    }
+  },
+  "40": {
+    "go_2f": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 40
+    }
+  },
+  "41": {
+    "go_1f": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 41
+    }
+  },
+  "42": {
+    "go_senkouji": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 42
+    }
+  },
+  "43": {
+    "go_ryuunan": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 43
+    }
+  },
+  "44": {
+    "go_kannrai": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 44
+    }
+  },
+  "45": {
+    "go_top_floor": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 45
+    }
+  },
+  "46": {
+    "go_tenboudai": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 46
+    }
+  },
+  "47": {
+    "go_onomichi": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 47
+    }
+  },
+  "48": {
+    "go_B1f": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 48
+    }
+  },
+  "49": {
+    "mg_darts_veryhard": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 49
+    }
+  },
+  "50": {
+    "check_sight2": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 50
+    }
+  },
+  "51": {
+    "trouble_mission_2": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 51
+    }
+  },
+  "52": {
+    "trouble_mission_3": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 52
+    }
+  },
+  "53": {
+    "daynight": {
+      "info": "Pass Time",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 31,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 188
+    }
+  },
+  "54": {
+    "costume": {
+      "info": "Change Clothes",
+      "icon_near": 2,
+      "icon_far": 6,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 189
+    }
+  },
+  "55": {
+    "look_nml": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 55
+    }
+  },
+  "56": {
+    "taxi": {
+      "info": "Get In",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 8,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 190
+    }
+  },
+  "57": {
+    "mg_poker": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 57
+    }
+  },
+  "58": {
+    "mg_koikoi": {
+      "info": "Play",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 111,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 191
+    }
+  },
+  "59": {
+    "mg_oichokabu": {
+      "info": "Play",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 114,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 192
+    }
+  },
+  "60": {
+    "mg_bj": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 60
+    }
+  },
+  "61": {
+    "talk_noticon": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 61
+    }
+  },
+  "62": {
+    "stalking_info": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 62
+    }
+  },
+  "63": {
+    "go_fusion": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 63
+    }
+  },
+  "64": {
+    "pickup": {
+      "info": "Pick Up",
+      "icon_near": 2,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 193
+    }
+  },
+  "65": {
+    "go_atenshi": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 65
+    }
+  },
+  "66": {
+    "go_shellac": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 66
+    }
+  },
+  "67": {
+    "go_sai": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 67
+    }
+  },
+  "68": {
+    "go_grand": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 68
+    }
+  },
+  "69": {
+    "go_keima": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 69
+    }
+  },
+  "70": {
+    "go_forshaine": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 70
+    }
+  },
+  "71": {
+    "go_stardust": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 71
+    }
+  },
+  "72": {
+    "haruka": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 72
+    }
+  },
+  "73": {
+    "eat": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 30,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 194
+    }
+  },
+  "74": {
+    "shop": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 35,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 195
+    }
+  },
+  "75": {
+    "warp": {
+      "info": "Move",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 38,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 196
+    }
+  },
+  "76": {
+    "itembox": {
+      "info": "Item Box",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 45,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 197
+    }
+  },
+  "77": {
+    "mg_virtualon": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 77
+    }
+  },
+  "78": {
+    "mg_vf2": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 78
+    }
+  },
+  "79": {
+    "mg_tougijyo": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 79
+    }
+  },
+  "80": {
+    "mg_chip": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 33,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 198
+    }
+  },
+  "81": {
+    "mg_kifuda": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 34,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 201
+    }
+  },
+  "82": {
+    "mg_uketuke": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 36,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 202
+    }
+  },
+  "83": {
+    "mg_keihin": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 37,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 213
+    }
+  },
+  "84": {
+    "mg_cabaret_island": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 84
+    }
+  },
+  "85": {
+    "mg_cabaret_island_event": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 85
+    }
+  },
+  "86": {
+    "ajito": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 86
+    }
+  },
+  "87": {
+    "locker": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 87
+    }
+  },
+  "88": {
+    "mg_toylets": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 88
+    }
+  },
+  "89": {
+    "mg_batting_hr": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 89
+    }
+  },
+  "90": {
+    "mg_shogi": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 10,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 215
+    }
+  },
+  "91": {
+    "mg_ufo_catcher": {
+      "info": "Play UFO Catcher",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 12,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 217
+    }
+  },
+  "92": {
+    "mg_golf": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 13,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 219
+    }
+  },
+  "93": {
+    "mg_nozoki": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 93
+    }
+  },
+  "94": {
+    "mg_bouncer": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 94
+    }
+  },
+  "95": {
+    "mg_video": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 95
+    }
+  },
+  "96": {
+    "eat_ticket": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 96
+    }
+  },
+  "97": {
+    "mg_virtualon_easy": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 97
+    }
+  },
+  "98": {
+    "mg_vf2_easy": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 98
+    }
+  },
+  "99": {
+    "mg_vf21": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 99
+    }
+  },
+  "100": {
+    "mg_vf21_easy": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 100
+    }
+  },
+  "101": {
+    "go_emoto": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 101
+    }
+  },
+  "102": {
+    "go_50f": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 102
+    }
+  },
+  "103": {
+    "check_notri": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 103
+    }
+  },
+  "104": {
+    "in_check": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 104
+    }
+  },
+  "105": {
+    "go_stijl": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 105
+    }
+  },
+  "106": {
+    "go_aoi": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 106
+    }
+  },
+  "107": {
+    "mg_cabaret_island_shop": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 107
+    }
+  },
+  "108": {
+    "detective_order": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 108
+    }
+  },
+  "109": {
+    "go_sai_yashiki": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 109
+    }
+  },
+  "110": {
+    "go_bagyard": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 110
+    }
+  },
+  "111": {
+    "go_forshaine_in": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 111
+    }
+  },
+  "112": {
+    "atm": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 112
+    }
+  },
+  "113": {
+    "go_geinou": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 113
+    }
+  },
+  "114": {
+    "mg_bj_low": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 114
+    }
+  },
+  "115": {
+    "use": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 115
+    }
+  },
+  "116": {
+    "detective_order_八神": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 116
+    }
+  },
+  "117": {
+    "yagami_jimusho": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 117
+    }
+  },
+  "118": {
+    "drone_race": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 118
+    }
+  },
+  "119": {
+    "drone_labo": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 119
+    }
+  },
+  "120": {
+    "delivery_box": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 120
+    }
+  },
+  "121": {
+    "clubsega_common_access": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 121
+    }
+  },
+  "122": {
+    "sugoroku": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 122
+    }
+  },
+  "123": {
+    "pinball": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 123
+    }
+  },
+  "124": {
+    "kaijo": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 124
+    }
+  },
+  "125": {
+    "tento": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 125
+    }
+  },
+  "126": {
+    "shoto": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 126
+    }
+  },
+  "127": {
+    "satsuei": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 127
+    }
+  },
+  "128": {
+    "in_elevator": {
+      "info": "Enter",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 43,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 221
+    }
+  },
+  "129": {
+    "go_top": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 129
+    }
+  },
+  "130": {
+    "wait": {
+      "info": "Wait",
+      "icon_near": 2,
+      "icon_far": 6,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 131
+    }
+  },
+  "131": {
+    "photo_shooting_mission": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 132
+    }
+  },
+  "132": {
+    "set_item": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 133
+    }
+  },
+  "133": {
+    "climb_up_ladder": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 134
+    }
+  },
+  "134": {
+    "climb_down_ladder": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 135
+    }
+  },
+  "135": {
+    "record_player": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 136
+    }
+  },
+  "136": {
+    "gacha": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 137
+    }
+  },
+  "137": {
+    "mg_mahjong_veryhard": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 138
+    }
+  },
+  "138": {
+    "mg_mahjong_warepon": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 141
+    }
+  },
+  "139": {
+    "smoking": {
+      "info": "Smoke",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 58,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 142
+    }
+  },
+  "140": {
+    "rest": {
+      "info": "Rest",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 31,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 143
+    }
+  },
+  "141": {
+    "treatment": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 144
+    }
+  },
+  "142": {
+    "unlocking_order": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 146
+    }
+  },
+  "143": {
+    "party_chat": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 147
+    }
+  },
+  "144": {
+    "planter": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 148
+    }
+  },
+  "145": {
+    "mg_mahjong_royal": {
+      "info": "Play at royal table",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 104,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 149
+    }
+  },
+  "146": {
+    "mg_school": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 150
+    }
+  },
+  "147": {
+    "mg_dorama": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 151
+    }
+  },
+  "148": {
+    "mg_cinema": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 152
+    }
+  },
+  "149": {
+    "mg_amusement": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 153
+    }
+  },
+  "150": {
+    "mg_homeless": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 154
+    }
+  },
+  "151": {
+    "mg_carts": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 155
+    }
+  },
+  "152": {
+    "mg_hellowork": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 156
+    }
+  },
+  "153": {
+    "mg_keiei": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 157
+    }
+  },
+  "154": {
+    "mg_keiei_etc": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 158
+    }
+  },
+  "155": {
+    "mg_slot": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 159
+    }
+  },
+  "156": {
+    "weapon": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 160
+    }
+  },
+  "157": {
+    "baito": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 161
+    }
+  },
+  "158": {
+    "cd": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 162
+    }
+  },
+  "159": {
+    "break": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 163
+    }
+  },
+  "160": {
+    "mg_vf5": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 164
+    }
+  },
+  "161": {
+    "mg_vf2_normal": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 165
+    }
+  },
+  "162": {
+    "mg_vf22_normal": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 166
+    }
+  },
+  "163": {
+    "mg_otr": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 167
+    }
+  },
+  "164": {
+    "mg_hng": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 168
+    }
+  },
+  "165": {
+    "mg_sph": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 170
+    }
+  },
+  "166": {
+    "mg_fzn": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 171
+    }
+  },
+  "167": {
+    "save": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 172
+    }
+  },
+  "168": {
+    "search": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 173
+    }
+  },
+  "169": {
+    "recovery": {
+      "info": "Recover",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 79,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 174
+    }
+  },
+  "170": {
+    "dungeon_in_dgk": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "171": {
+    "dungeon_in_dgy": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 56
+    }
+  },
+  "172": {
+    "dungeon_in_arena": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "173": {
+    "dungeon_in_fmtower": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "174": {
+    "investigate_check": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "175": {
+    "athletic_in_check": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 128
+    }
+  },
+  "176": {
+    "mg_hotd": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "177": {
+    "mg_mr": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 64
+    }
+  },
+  "178": {
+    "mg_fv": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 130
+    }
+  },
+  "179": {
+    "mg_stf": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 33
+    }
+  },
+  "180": {
+    "mg_skateboard": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 73
+    }
+  },
+  "181": {
+    "mg_dance": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 74
+    }
+  },
+  "182": {
+    "mg_race": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 75
+    }
+  },
+  "183": {
+    "mg_boxing": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 76
+    }
+  },
+  "184": {
+    "mg_robot": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 53
+    }
+  },
+  "185": {
+    "mg_esports": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 169
+    }
+  },
+  "186": {
+    "mg_photography": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 140
+    }
+  },
+  "187": {
+    "mg_twinstick": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "188": {
+    "mg_mk3": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "189": {
+    "townwalk_cat": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "190": {
+    "save_point": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "191": {
+    "mg_casino": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "192": {
+    "mg_girlsbar": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "193": {
+    "search_start": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 145
+    }
+  },
+  "194": {
+    "mg_girlsbar_door": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 91
+    }
+  },
+  "195": {
+    "hohaba_manekineko": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 92
+    }
+  },
+  "196": {
+    "knock_dlc_c": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 222
+    }
+  },
+  "197": {
+    "mg_vf2_ez": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 223
+    }
+  },
+  "198": {
+    "mg_vf2_nml": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 224
+    }
+  },
+  "199": {
+    "mg_fv2_ez": {
+      "info": "Play Fighting Vipers 2 on Easy",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 58
+    }
+  },
+  "200": {
+    "mg_fv2_nml": {
+      "info": "Play Fighting Vipers 2 on Normal",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 228
+    }
+  },
+  "201": {
+    "mg_src2_ez": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 229
+    }
+  },
+  "202": {
+    "mg_src2_nml": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 230
+    }
+  },
+  "203": {
+    "mg_vf2_1_ez": {
+      "info": "Play Virtua Fighter 2.1 on Easy",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 231
+    }
+  },
+  "204": {
+    "mg_vf2_1_nml": {
+      "info": "Play Virtua Fighter 2.1 on Normal",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 59
+    }
+  },
+  "205": {
+    "mg_stf_ez": {
+      "info": "Play Sonic the Fighters on Easy",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 232
+    }
+  },
+  "206": {
+    "mg_stf_nml": {
+      "info": "Play Sonic the Fighters on Normal",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 233
+    }
+  },
+  "207": {
+    "mg_mr_ez": {
+      "info": "Play Motor Raid on Easy",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 234
+    }
+  },
+  "208": {
+    "mg_mr_nml": {
+      "info": "Play Motor Raid on Normal",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 235
+    }
+  },
+  "209": {
+    "mg_src2": {
+      "info": "Play Sega Racing Classic 2",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 131,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 225
+    }
+  },
+  "210": {
+    "mg_kyaba": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 100,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 226
+    }
+  },
+  "211": {
+    "pickup_wire": {
+      "info": "Grab",
+      "icon_near": 2,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 227
+    }
+  },
+  "212": {
+    "photo": {
+      "info": "Take Photos",
+      "icon_near": 2,
+      "icon_far": 6,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 80
+    }
+  },
+  "213": {
+    "scout": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 81
+    }
+  },
+  "214": {
+    "in_fighterlounge": {
+      "info": "Fighters' Lounge",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 133,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 82
+    }
+  },
+  "215": {
+    "out_fighterlounge": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 83
+    }
+  },
+  "216": {
+    "in_viplounge": {
+      "info": "VIP Lounge",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 132,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 90
+    }
+  },
+  "217": {
+    "out_viplounge": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 24
+    }
+  },
+  "218": {
+    "in_boutique": {
+      "info": "Boutique",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 136,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 237
+    }
+  },
+  "219": {
+    "out_boutique": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 203
+    }
+  },
+  "220": {
+    "in_elevator_hikae": {
+      "info": "Central St.",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 43,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 204
+    }
+  },
+  "221": {
+    "out_elevator_hikae": {
+      "icon_near": 0,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 199
+    }
+  },
+  "222": {
+    "mg_poker_easy": {
+      "info": "Play low stakes poker",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 105,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 200
+    }
+  },
+  "223": {
+    "mg_poker_hard": {
+      "info": "Play high stakes poker",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 106,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 205
+    }
+  },
+  "224": {
+    "mg_poker_vip": {
+      "info": "Play VIP stakes poker",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 107,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 206
+    }
+  },
+  "225": {
+    "mg_bj_easy": {
+      "info": "Play low stakes blackjack",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 108,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 207
+    }
+  },
+  "226": {
+    "mg_bj_hard": {
+      "info": "Play high stakes blackjack",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 109,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 208
+    }
+  },
+  "227": {
+    "mg_bj_vip": {
+      "info": "Play VIP stakes blackjack",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 110,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 209
+    }
+  },
+  "228": {
+    "mg_koikoi_easy": {
+      "info": "Play koi-koi at beginner level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 111,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 210
+    }
+  },
+  "229": {
+    "mg_koikoi_normal": {
+      "info": "Play koi-koi at intermediate level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 112,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 211
+    }
+  },
+  "230": {
+    "mg_koikoi_hard": {
+      "info": "Play koi-koi at advanced level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 113,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 54
+    }
+  },
+  "231": {
+    "mg_koikoi_sp": {
+      "info": "Play koi-koi at expert level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 114,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 212
+    }
+  },
+  "232": {
+    "mg_oichokabu_easy": {
+      "info": "Play oicho-kabu at beginner level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 115,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 214
+    }
+  },
+  "233": {
+    "mg_oichokabu_normal": {
+      "info": "Play oicho-kabu at intermediate level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 116,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 216
+    }
+  },
+  "234": {
+    "mg_oichokabu_hard": {
+      "info": "Play oicho-kabu at advanced level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 117,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 218
+    }
+  },
+  "235": {
+    "mg_oichokabu_sp": {
+      "info": "Play oicho-kabu at expert level",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 118,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 220
+    }
+  },
+  "236": {
+    "mg_mastersystem": {
+      "info": "Play with the SEGA Master System",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 87,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 252
+    }
+  },
+  "237": {
+    "mg_billiards": {
+      "info": "Play",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 120,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 253
+    }
+  },
+  "238": {
+    "coinlocker": {
+      "info": "Check the coin locker",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 123,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 254
+    }
+  },
+  "239": {
+    "hashigo_up": {
+      "info": "Climb",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 55,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 256
+    }
+  },
+  "240": {
+    "hashigo_down": {
+      "info": "Climb Down",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 55,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 236
+    }
+  },
+  "241": {
+    "pocket_circuit": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 121,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 238
+    }
+  },
+  "242": {
+    "pocket_circuit_scout": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 0,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 239
+    }
+  },
+  "243": {
+    "zikoku_arena": {
+      "info": "Enter",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 137,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 240
+    }
+  },
+  "244": {
+    "arena_scout": {
+      "info": "Invite",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 125,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 241
+    }
+  },
+  "245": {
+    "arena_gatya": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 129,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 242
+    }
+  },
+  "246": {
+    "arena_training": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 127,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 243
+    }
+  },
+  "247": {
+    "lounge_millionaire": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 126,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 244
+    }
+  },
+  "248": {
+    "wire_hook": {
+      "icon_near": 2,
+      "icon_far": 0,
+      "icon_pattern": 0,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 245
+    }
+  },
+  "249": {
+    "coordinate": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 122,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 246
+    }
+  },
+  "250": {
+    "akame_mission": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 124,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 247
+    }
+  },
+  "251": {
+    "mg_darts_basic": {
+      "info": "Play",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 95,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 248
+    }
+  },
+  "252": {
+    "in_tougi": {
+      "info": "Coliseum Reception",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 137,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 249
+    }
+  },
+  "253": {
+    "tougi_lobby_door": {
+      "info": "Coliseum Lobby",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 38,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 250
+    }
+  },
+  "254": {
+    "tougi_lobby_elevator": {
+      "info": "Coliseum Lobby",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 43,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 255
+    }
+  },
+  "255": {
+    "akame_request": {
+      "info": "Talk",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 138,
+      "is_talk_count": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 139
+    }
+  },
+  "256": {
+    "in_osaka": {
+      "info": "To Sotenbori",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 38,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 251
+    }
+  },
+  "257": {
+    "wire_hook2": {
+      "info": " ",
+      "icon_near": 2,
+      "icon_far": 4,
+      "icon_pattern": 128,
+      "is_talk_count": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 257
+    }
+  }
+}

@@ -1,0 +1,1328 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 135,
+  "COLUMN_COUNT": 8,
+  "TEXT_COUNT": 62,
+  "ROW_VALIDATOR": 0,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": true,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": true,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": true,
+  "TABLE_ID": 351,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "message": "0",
+    "name": "1",
+    "explanation": "1",
+    "explanation2": "1",
+    "category": "1",
+    "direct_exit_condition": "1",
+    "menu_id": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "message": -1,
+    "name": 13,
+    "explanation": 13,
+    "explanation2": 13,
+    "category": 2,
+    "direct_exit_condition": 1,
+    "menu_id": 0
+  },
+  "COLUMN_INDICES": [
+    5,
+    2,
+    3,
+    4,
+    6,
+    7,
+    1,
+    0
+  ],
+  "0": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 0
+    }
+  },
+  "1": {
+    "start": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 1
+    }
+  },
+  "2": {
+    "option": {
+      "name": "Settings",
+      "explanation": "Change settings that affect gameplay.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 5,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 112
+    }
+  },
+  "3": {
+    "caution": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 3
+    }
+  },
+  "4": {
+    "new_game": {
+      "name": "New Game",
+      "explanation": "Start the game from the beginning.",
+      "explanation2": "Start the game from the beginning. You will need to overwrite a save file to proceed. (30 files max.)",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 4
+    }
+  },
+  "5": {
+    "new_game_after_clear": {
+      "name": "New Game",
+      "explanation": "Start the game from the beginning.",
+      "explanation2": "Start the game from the beginning. You can also explore without having to follow the main story.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 111
+    }
+  },
+  "6": {
+    "continue": {
+      "name": "Continue",
+      "explanation": "Continue a saved game.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 49
+    }
+  },
+  "7": {
+    "movie": {
+      "name": "Replay",
+      "explanation": "View previously seen events from the Main Story.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 6,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 51
+    }
+  },
+  "8": {
+    "past_series": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 8
+    }
+  },
+  "9": {
+    "audio_option": {
+      "name": "Audio Settings",
+      "explanation": "Adjust the game audio. <platform_type=ps>Includes settings for wireless\ncontroller speakers, headphones, stereo, and surround sound.</platform_type>",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 66
+    }
+  },
+  "10": {
+    "new_game_after_clear_main_story": {
+      "name": "Start the game normally",
+      "explanation": "Start a new game from the beginning.",
+      "category": 2,
+      "direct_exit_condition": 0,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 52
+    }
+  },
+  "11": {
+    "new_game_after_clear_padv": {
+      "name": "Start the game using clear data",
+      "explanation": "Start a new game using clear data to carry over Money, Skills, Items, and KamuroGo progress. *Excludes Friends, Side Cases, and Drone League records.",
+      "category": 2,
+      "direct_exit_condition": 0,
+      "menu_id": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 53
+    }
+  },
+  "12": {
+    "difficulty_easy": {
+      "name": "Beginner",
+      "explanation": "A lower difficulty that allows you to utilize the \"action assist\" feature. Even players that have trouble with battles can enjoy the game.",
+      "category": 3,
+      "direct_exit_condition": 0,
+      "menu_id": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 55
+    }
+  },
+  "13": {
+    "difficulty_normal": {
+      "name": "Standard",
+      "explanation": "Enjoy battles through this fairly standard difficulty. Recommended for all people.",
+      "category": 3,
+      "direct_exit_condition": 0,
+      "menu_id": 3,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 75
+    }
+  },
+  "14": {
+    "difficulty_hard": {
+      "name": "Professional",
+      "explanation": "Recommended for players who are skilled at action games. Experience the utmost challenge, and the tense vibes of always being near death.",
+      "category": 3,
+      "direct_exit_condition": 0,
+      "menu_id": 4,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 101
+    }
+  },
+  "15": {
+    "difficulty_legend": {
+      "name": "Legend",
+      "explanation": "For those seeking a real challenge. Enemies attacking with weapons will inflict particularly devastating damage.",
+      "category": 3,
+      "direct_exit_condition": 0,
+      "menu_id": 5,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 100
+    }
+  },
+  "16": {
+    "two_player_game": {
+      "name": "2-Player Vs. Minigames",
+      "explanation": "Two players can fight in these classic games.\n<platform_type_not=pc>*Requires two ${platform.term.wireless_controller}s.\n</platform_type_not>*Does not count toward the Activity Log.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 4,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 99
+    }
+  },
+  "17": {
+    "two_player_game_puyo": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 17
+    }
+  },
+  "18": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 98
+    }
+  },
+  "19": {
+    "memories_ryu1": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 19
+    }
+  },
+  "20": {
+    "memories_ryu2": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 20
+    }
+  },
+  "21": {
+    "memories_ryu3": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 21
+    }
+  },
+  "22": {
+    "memories_ryu4": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 22
+    }
+  },
+  "23": {
+    "memories_ryu5": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 23
+    }
+  },
+  "24": {
+    "difficulty_very_easy": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 24
+    }
+  },
+  "25": {
+    "tgs_start_onomichi": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 25
+    }
+  },
+  "26": {
+    "tgs_start_kamuro": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 26
+    }
+  },
+  "27": {
+    "continue_after_clear": {
+      "name": "Continue",
+      "explanation": "Continue a saved game or start a New Game+ from a clear file.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 95
+    }
+  },
+  "28": {
+    "tgs_game_option": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 28
+    }
+  },
+  "29": {
+    "tgs_audio_option": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 29
+    }
+  },
+  "30": {
+    "majima_mode": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 30
+    }
+  },
+  "31": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 94
+    }
+  },
+  "32": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 93
+    }
+  },
+  "33": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 41
+    }
+  },
+  "34": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 121
+    }
+  },
+  "35": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 115
+    }
+  },
+  "36": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 39
+    }
+  },
+  "37": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 40
+    }
+  },
+  "38": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 42
+    }
+  },
+  "39": {
+    "majima_1syo": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 5
+    }
+  },
+  "40": {
+    "majima_2syo": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 6
+    }
+  },
+  "41": {
+    "majima_3syo": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 27
+    }
+  },
+  "42": {
+    "majima_4syo": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 113
+    }
+  },
+  "43": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 109
+    }
+  },
+  "44": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 114
+    }
+  },
+  "45": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 16
+    }
+  },
+  "46": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 2
+    }
+  },
+  "47": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 7
+    }
+  },
+  "48": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 108
+    }
+  },
+  "49": {
+    "tgs_start_osaka": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 122
+    }
+  },
+  "50": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 116
+    }
+  },
+  "51": {
+    "tgs_story": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 117
+    }
+  },
+  "52": {
+    "tgs_majima": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 118
+    }
+  },
+  "53": {
+    "tgs_clan": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 107
+    }
+  },
+  "54": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 106
+    }
+  },
+  "55": {
+    "majima_continue": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 123
+    }
+  },
+  "56": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 10
+    }
+  },
+  "57": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 11
+    }
+  },
+  "58": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 105
+    }
+  },
+  "59": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 12
+    }
+  },
+  "60": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 13
+    }
+  },
+  "61": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 14
+    }
+  },
+  "62": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 15
+    }
+  },
+  "63": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 110
+    }
+  },
+  "64": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 132
+    }
+  },
+  "65": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 133
+    }
+  },
+  "66": {
+    "difficulty_ex_hard_pretrial": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 134
+    }
+  },
+  "67": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 9
+    }
+  },
+  "68": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 119
+    }
+  },
+  "69": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 120
+    }
+  },
+  "70": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 128
+    }
+  },
+  "71": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 124
+    }
+  },
+  "72": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 125
+    }
+  },
+  "73": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 126
+    }
+  },
+  "74": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 127
+    }
+  },
+  "75": {
+    "yazawa_option": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 129
+    }
+  },
+  "76": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 130
+    }
+  },
+  "77": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 131
+    }
+  },
+  "78": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 31
+    }
+  },
+  "79": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 56
+    }
+  },
+  "80": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 32
+    }
+  },
+  "81": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 57
+    }
+  },
+  "82": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 58
+    }
+  },
+  "83": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 44
+    }
+  },
+  "84": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 33
+    }
+  },
+  "85": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 45
+    }
+  },
+  "86": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 59
+    }
+  },
+  "87": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 60
+    }
+  },
+  "88": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 34
+    }
+  },
+  "89": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 35
+    }
+  },
+  "90": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 36
+    }
+  },
+  "91": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 37
+    }
+  },
+  "92": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 38
+    }
+  },
+  "93": {
+    "yazawa_option_game_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 46
+    }
+  },
+  "94": {
+    "yazawa_option_audio_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 47
+    }
+  },
+  "95": {
+    "yazawa_option_color_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 48
+    }
+  },
+  "96": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 50
+    }
+  },
+  "97": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 72
+    }
+  },
+  "98": {
+    "pachislot_hades_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 73
+    }
+  },
+  "99": {
+    "pachislot_milligod_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 74
+    }
+  },
+  "100": {
+    "pachislot_souten_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 91
+    }
+  },
+  "101": {
+    "pachislot_beast_tgs": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 92
+    }
+  },
+  "102": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 77
+    }
+  },
+  "103": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 78
+    }
+  },
+  "104": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 79
+    }
+  },
+  "105": {
+    "difficulty_ex_easy": {
+      "name": "Painless",
+      "explanation": "The easiest difficulty, with added \"action assist\" features. Recommended for players who are new to action games or would like additional help.",
+      "category": 3,
+      "direct_exit_condition": 0,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 76
+    }
+  },
+  "106": {
+    "test_presentation": {
+      "name": "minigame selector stage",
+      "explanation": "the stage for accessing minigames",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 102
+    }
+  },
+  "107": {
+    "quit_game": {
+      "name": "Exit Game",
+      "explanation": "End game and return to the desktop.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 10,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 104
+    }
+  },
+  "108": {
+    "license": {
+      "name": "License Information",
+      "explanation": "Displays license information.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 7,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 103
+    }
+  },
+  "109": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 96
+    }
+  },
+  "110": {
+    "auto_save_attention": {
+      "name": "Turn on autosave?",
+      "explanation": "Select yes to begin a game after saving. Select no to start without creating save data.",
+      "category": 9,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 97
+    }
+  },
+  "111": {
+    "coyote_two_minigame_vf5": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 90
+    }
+  },
+  "112": {
+    "coyote_two_minigame_fv": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 80
+    }
+  },
+  "113": {
+    "continue_playstation_previous_generation": {
+      "name": "Carry Over from PlayStation®4",
+      "explanation": "Carry over save data from the PlayStation®4 version.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 3,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 82
+    }
+  },
+  "114": {
+    "coyote_premium_adventure": {
+      "name": "Premium Adventure",
+      "explanation": "Explore the cities while unencumbered by the main story.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 81
+    }
+  },
+  "115": {
+    "coyote_two_minigame_stf": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 83
+    }
+  },
+  "116": {
+    "profile_change": {
+      "name": "Change Profile",
+      "explanation": "Change the active user.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 84
+    }
+  },
+  "117": {
+    "coyote_photo_gallery": {
+      "name": "Photo Gallery",
+      "explanation": "View pictures you've taken with the in-game smartphone.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 85
+    }
+  },
+  "118": {
+    "staffroll": {
+      "name": "Additional Credits",
+      "explanation": "View the staff credits that were added.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 86
+    }
+  },
+  "119": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 87
+    }
+  },
+  "120": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 88
+    }
+  },
+  "121": {
+    "staffroll_main_stoty": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 89
+    }
+  },
+  "122": {
+    "dlc": {
+      "name": "${platform.term.add_on_content}",
+      "explanation": "Access the ${platform.term.store} to purchase various ${platform.term.add_on_content}.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 9,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 18
+    }
+  },
+  "123": {
+    "ps_store": {
+      "name": "${platform.term.store}",
+      "explanation": "Purchase the full version from the ${platform.term.store}.",
+      "category": 24,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 43
+    }
+  },
+  "124": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 54
+    }
+  },
+  "125": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 61
+    }
+  },
+  "126": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 62
+    }
+  },
+  "127": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 63
+    }
+  },
+  "128": {
+    "": {
+      "category": 0,
+      "direct_exit_condition": 0,
+      "menu_id": 0,
+      "reARMP_isValid": "0",
+      "reARMP_rowIndex": 64
+    }
+  },
+  "129": {
+    "like_a_dragon_infinite_wealth_trial": {
+      "name": "Like a Dragon: Infinite Wealth Special Trial Version",
+      "explanation": "Begin the <i>Like a Dragon: Infinite Wealth</i> special trial version.",
+      "category": 1,
+      "direct_exit_condition": 0,
+      "menu_id": 8,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 65
+    }
+  },
+  "130": {
+    "handson_start": {
+      "name": "Start",
+      "explanation": "Start the special trial version.",
+      "category": 26,
+      "direct_exit_condition": 0,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 67
+    }
+  },
+  "131": {
+    "handson_option": {
+      "name": "Settings",
+      "explanation": "Change settings that affect gameplay.",
+      "category": 26,
+      "direct_exit_condition": 0,
+      "menu_id": 5,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 68
+    }
+  },
+  "132": {
+    "aston_two_minigame_vf2": {
+      "name": "Virtua Fighter 2.1",
+      "explanation": "Start a 2P Virtua Fighter 2.1 match.\nResults will not be reflected in the Activity Log.",
+      "category": 4,
+      "direct_exit_condition": 143,
+      "menu_id": 1,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 69
+    }
+  },
+  "133": {
+    "aston_two_minigame_fv2": {
+      "name": "Fighting Vipers 2",
+      "explanation": "Start a 2P Fighting Vipers 2 match.\nResults will not be reflected in the Activity Log.",
+      "category": 4,
+      "direct_exit_condition": 430,
+      "menu_id": 2,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 71
+    }
+  },
+  "134": {
+    "aston_two_minigame_stf": {
+      "name": "Sonic the Fighters",
+      "explanation": "Start a 2P Sonic the Fighters match.\nResults will not be reflected in the Activity Log.",
+      "category": 4,
+      "direct_exit_condition": 402,
+      "menu_id": 3,
+      "reARMP_isValid": "1",
+      "reARMP_rowIndex": 70
+    }
+  }
+}

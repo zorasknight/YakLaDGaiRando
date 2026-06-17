@@ -219,7 +219,7 @@
         "COLUMN_VALIDATOR": 0,
         "HAS_ROW_NAMES": false,
         "HAS_COLUMN_NAMES": false,
-        "HAS_ROW_VALIDITY": false,
+        "HAS_ROW_VALIDITY": true,
         "HAS_COLUMN_VALIDITY": true,
         "HAS_UNKNOWN_BITMASK": false,
         "HAS_ROW_INDICES": true,
@@ -366,6 +366,7 @@
             "37": 0,
             "38": 0,
             "39": 0,
+            "reARMP_isValid": "0",
             "reARMP_rowIndex": 0
           }
         }
