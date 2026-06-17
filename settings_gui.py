@@ -3,6 +3,8 @@ from settings import settings
 from pathlib import Path
 import yaml
 
+image_path = Path(__file__).parent / "Assets" / "background.jpg"
+
 FIELD_SCHEMA = {
     # =========================
     # RANGES (INT BASES)
@@ -408,11 +410,38 @@ with dpg.font_registry():
 
 dpg.bind_font(default_font)
 
+with dpg.theme() as global_theme:
+    with dpg.theme_component(dpg.mvAll):
+        dpg.add_theme_color(dpg.mvThemeCol_Text, (255, 255, 255, 255))
+        dpg.add_theme_style(dpg.mvStyleVar_WindowPadding, 0, 0)
+        dpg.add_theme_style(dpg.mvStyleVar_FramePadding, 0, 0)
+        dpg.add_theme_color(dpg.mvThemeCol_SliderGrab, (100, 100, 100, 255))
+        dpg.add_theme_color(dpg.mvThemeCol_SliderGrabActive, (160, 160, 160, 255))
+        dpg.add_theme_style(dpg.mvStyleVar_WindowBorderSize, 3)
+        dpg.add_theme_color(dpg.mvThemeCol_Border, (20, 20, 20, 240))
+        dpg.add_theme_color(dpg.mvThemeCol_PopupBg, (20, 20, 20, 240))
+        dpg.add_theme_style(dpg.mvStyleVar_WindowRounding, 6)
+        dpg.add_theme_style(dpg.mvStyleVar_PopupBorderSize, 3)
+        dpg.add_theme_color(dpg.mvThemeCol_BorderShadow, (0, 0, 0, 180))
+        dpg.add_theme_style(dpg.mvStyleVar_WindowPadding, 10, 8, category=dpg.mvThemeCat_Core)
 
-dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1600, height=900)
+dpg.bind_theme(global_theme)
 
+width, height, channels, data = dpg.load_image(str(image_path))
+
+with dpg.texture_registry():
+    dpg.add_static_texture(
+        width=width,
+        height=height,
+        default_value=data,
+        tag="background"
+    )
+
+    
+
+dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1280, height=720)
+dpg.set_viewport_resizable(False)
 with dpg.window(tag="main"):
-
     dpg.add_text("Randomizer Settings Editor (Auto-Saves on Close)")
     dpg.add_separator()
 
@@ -441,6 +470,14 @@ with dpg.window(tag="main"):
         # MAIN PANEL
         with dpg.child_window(tag="content"):
             dpg.add_text("Select category")
+    with dpg.draw_layer():
+        dpg.draw_image("background", pmin=(0, 0), pmax=(1260, 700))
+        dpg.draw_rectangle(
+            pmin=(0, 0),
+            pmax=(1600, 900),
+            color=(0, 0, 0, 0),
+            fill=(0, 0, 0, 160)  # adjust darkness here
+        )
 
 dpg.setup_dearpygui()
 dpg.set_global_font_scale(1.2)
