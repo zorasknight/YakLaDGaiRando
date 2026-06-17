@@ -1,5 +1,5 @@
-monetary_min: 100
-monetary_max: 1000000
+monetary_min: 0
+monetary_max: 2101744
 point_min: 10
 point_max: 4000
 skill_money_min: 1000
@@ -10,3 +10,8 @@ attack_and_defense_min: -900
 attack_and_defense_max: 900
 resist_min: 0
 resist_max: 500
+remove_default_prices: false
+include_coin_lockers: true
+include_shops: true
+include_wires: true
+include_rewards: true

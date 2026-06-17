@@ -3,6 +3,103 @@ from settings import settings
 from pathlib import Path
 import yaml
 
+FIELD_SCHEMA = {
+    # =========================
+    # RANGES (INT BASES)
+    # =========================
+    "monetary": {
+        "type": "range",
+        "label": "Shop Money Range",
+        "hint": "What random range items shops will be priced at"
+    },
+    "point": {
+        "type": "range",
+        "label": "Shop Point Range",
+        "hint": "What random range items point cost can be"
+    },
+    "skill_money": {
+        "type": "range",
+        "label": "Skill Money Cost",
+        "hint": "What random range skills can be priced at"
+    },
+    "skill_akame": {
+        "type": "range",
+        "label": "Skill Point Cost",
+        "hint": "What random range skills point cost can be"
+    },
+    "attack_and_defense": {
+        "type": "range",
+        "label": "Attack and Defense Stats",
+        "hint": "The range an armor's primary stats can be randomized between"
+    },
+    "resist": {
+        "type": "range",
+        "label": "Resistance Stats",
+        "hint": "The range an armor's resistance stats can be randomized between"
+    },
+
+    # =========================
+    # BOOLEANS
+    # =========================
+    "remove_default_prices": {
+        "type": "bool",
+        "label": "Remove Default Prices",
+        "hint": "Ignores vanilla pricing and replaces all costs with randomized values"
+    },
+    "include_coin_lockers": {
+        "type": "bool",
+        "label": "Include Coin Lockers",
+        "hint": "Includes coin lockers in item pool"
+    },
+    "include_shops": {
+        "type": "bool",
+        "label": "Include Shops",
+        "hint": "Includes all shops in item pool"
+    },
+    "include_wires": {
+        "type": "bool",
+        "label": "Include Wires",
+        "hint": "Includes all wire items in item pool"
+    },
+    "include_rewards": {
+        "type": "bool",
+        "label": "Include Rewards",
+        "hint": "includes all rewards in item pool"
+    },
+}
+
+def field_meta(key):
+    return FIELD_SCHEMA.get(key, {})
+
+
+def field_label(key):
+    return field_meta(key).get("label", key.replace("_", " ").title())
+
+
+def field_hint(key):
+    return field_meta(key).get("hint", "")
+
+
+def field_type(key):
+    return field_meta(key).get("type")
+
+def is_bool(key):
+    return field_type(key) == "bool"
+
+def is_range_base(base):
+    return field_type(base) == "range"
+
+def add_tooltip(target, text):
+    if text:
+        with dpg.tooltip(target):
+            dpg.add_text(text)
+
+def make_label(text, hint=None):
+    item = dpg.add_text(text)
+    if hint:
+        add_tooltip(item, hint)
+    return item
+
 settings.reload()
 LIVE = dict(settings.data)
 
@@ -20,6 +117,13 @@ def safe_int(v, fallback=0):
         return int(v) if v is not None else fallback
     except:
         return fallback
+    
+def safe_bool(v):
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, str):
+        return v.strip().lower() in ("true", "1", "yes", "on")
+    return bool(v)
 
 
 # ============================================================
@@ -72,7 +176,6 @@ def autosave():
 
 def set_value(key, value):
     LIVE[key] = value
-    autosave()
 
 
 # ============================================================
@@ -108,32 +211,66 @@ def get_category(base):
 
 
 # ============================================================
-# RANGE UI
+# RANGE + BOOLEAN UI
 # ============================================================
-def make_range(min_key, max_key, rules):
 
+
+#Boolean UI
+
+def make_bool(key):
+    meta = field_meta(key)
+
+    def update(sender, app_data):
+        LIVE[key] = bool(app_data)
+        autosave()
+
+    cb = dpg.add_checkbox(
+    label=field_label(key),
+    default_value=safe_bool(LIVE.get(key, False)),
+    callback=update
+)
+
+    add_tooltip(cb, field_hint(key))
+
+#Range UI
+
+def make_range(base, min_key, max_key, rules):
+    meta = field_meta(base)
+
+    # HEADER (ONLY ONCE)
+    make_label(
+        meta.get("label", base),
+        meta.get("hint", "")
+    )
+
+    # VALUES
     min_val = safe_int(LIVE.get(min_key))
     max_val = safe_int(LIVE.get(max_key))
 
     dpg.add_text("Min")
     min_input = dpg.add_input_int(default_value=min_val, width=160)
-    min_slider = dpg.add_slider_int(default_value=min_val,
-                                    min_value=rules["min"],
-                                    max_value=rules["max"],
-                                    width=360)
+    min_slider = dpg.add_slider_int(
+        default_value=min_val,
+        min_value=rules["min"],
+        max_value=rules["max"],
+        width=360
+    )
 
     dpg.add_text("Max")
     max_input = dpg.add_input_int(default_value=max_val, width=160)
-    max_slider = dpg.add_slider_int(default_value=max_val,
-                                    min_value=rules["min"],
-                                    max_value=rules["max"],
-                                    width=360)
+    max_slider = dpg.add_slider_int(
+        default_value=max_val,
+        min_value=rules["min"],
+        max_value=rules["max"],
+        width=360
+    )
 
     lock = {"busy": False}
 
     def sync():
         if lock["busy"]:
             return
+
         lock["busy"] = True
 
         a = safe_int(dpg.get_value(min_input))
@@ -158,43 +295,101 @@ def make_range(min_key, max_key, rules):
     dpg.set_item_callback(min_input, lambda s, a: sync())
     dpg.set_item_callback(max_input, lambda s, a: sync())
 
-    dpg.set_item_callback(min_slider, lambda s, a: set_value(min_key, a))
-    dpg.set_item_callback(max_slider, lambda s, a: set_value(max_key, a))
+    def min_slider_changed(sender, app_data):
+        value = int(app_data)
+
+        current_max = safe_int(dpg.get_value(max_input))
+
+        # clamp relationship immediately
+        if value > current_max:
+            current_max = value
+            dpg.set_value(max_input, current_max)
+            dpg.set_value(max_slider, current_max)
+            set_value(max_key, current_max)
+
+        dpg.set_value(min_input, value)
+        dpg.set_value(min_slider, value)
+        set_value(min_key, value)
+
+
+    def max_slider_changed(sender, app_data):
+        value = int(app_data)
+
+        current_min = safe_int(dpg.get_value(min_input))
+
+        # clamp relationship immediately
+        if value < current_min:
+            current_min = value
+            dpg.set_value(min_input, current_min)
+            dpg.set_value(min_slider, current_min)
+            set_value(min_key, current_min)
+
+        dpg.set_value(max_input, value)
+        dpg.set_value(max_slider, value)
+        set_value(max_key, value)
+
+    dpg.set_item_callback(min_slider, min_slider_changed)
+    dpg.set_item_callback(max_slider, max_slider_changed)
+
 
 
 # ============================================================
 # RENDER
 # ============================================================
-def render(cat):
 
+def render_field(key):
+    ftype = FIELD_TYPES.get(key)
+
+    if ftype == "bool":
+        make_bool(key)
+    else:
+        return False
+
+def render(cat):
     dpg.delete_item("content", children_only=True)
 
     with dpg.group(parent="content"):
+
+        # =========================
+        # BOOLEAN SETTINGS
+        # =========================
+        dpg.add_text("OPTIONS")
+        dpg.add_separator()
+
+        for key, meta in FIELD_SCHEMA.items():
+            if meta["type"] == "bool":
+                make_bool(key)
+
+        dpg.add_spacer(height=10)
+
+        # =========================
+        # RANGE SETTINGS
+        # =========================
+        dpg.add_text(cat.upper())
+        dpg.add_separator()
 
         for base, (mn, mx) in pairs.items():
 
             if get_category(base) != cat:
                 continue
 
+            meta = field_meta(base)
             rules = get_rules(base)
 
-            dpg.add_text(base.upper())
-            dpg.add_separator()
-
-            with dpg.group(horizontal=True):
-                dpg.add_spacer(width=20)
-                with dpg.group():
-                    make_range(mn, mx, rules)
+            with dpg.group():
+                make_range(base, mn, mx, rules)
 
             dpg.add_spacer(height=10)
-
 
 # ============================================================
 # SWITCH
 # ============================================================
 def switch(sender, app_data, user_data):
+    autosave()
+
     global selected_category
     selected_category = user_data
+
     render(user_data)
 
 
@@ -206,7 +401,7 @@ dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", wid
 
 with dpg.window(tag="main"):
 
-    dpg.add_text("Randomizer Settings Editor (Auto-Saves to YAML!)")
+    dpg.add_text("Randomizer Settings Editor (Auto-Saves on Close)")
     dpg.add_separator()
 
     with dpg.group(horizontal=True):
@@ -214,7 +409,7 @@ with dpg.window(tag="main"):
         # LEFT PANEL
         with dpg.child_window(width=220):
 
-            dpg.add_text("ACTIONS")
+            dpg.add_text("Actions")
             dpg.add_separator()
 
             dpg.add_button(
@@ -243,4 +438,5 @@ dpg.set_primary_window("main", True)
 render("Shops")
 
 dpg.start_dearpygui()
+autosave()
 dpg.destroy_context()
