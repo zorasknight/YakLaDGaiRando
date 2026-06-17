@@ -1,5 +1,5 @@
-monetary_min: 994186
-monetary_max: 1691860
+monetary_min: 100
+monetary_max: 1000000
 point_min: 10
 point_max: 4000
 skill_money_min: 1000

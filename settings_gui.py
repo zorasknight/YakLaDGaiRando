@@ -100,6 +100,7 @@ def make_label(text, hint=None):
         add_tooltip(item, hint)
     return item
 
+
 settings.reload()
 LIVE = dict(settings.data)
 
@@ -397,7 +398,18 @@ def switch(sender, app_data, user_data):
 # UI
 # ============================================================
 dpg.create_context()
-dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1150, height=750)
+
+
+with dpg.font_registry():
+    font_path = str(Path(__file__).parent / "Assets" / "Pliant.ttf")
+
+    with dpg.font(font_path, 18) as default_font:
+        dpg.add_font_range_hint(dpg.mvFontRangeHint_Default)
+
+dpg.bind_font(default_font)
+
+
+dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1600, height=900)
 
 with dpg.window(tag="main"):
 
