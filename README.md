@@ -75,6 +75,7 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 50 items from the Sotenbori Coin Lockers
 26 items from the Akame Network point shop
 11 items from the Billiards point shop
+12 items from the Sotenbori Clothing Store
 8 items from the Yokohama Shichiya Pawn shop
 11 items from the Yokohama Love Magic shop
 11 Items from the Yokohama outdoor Shogi point shop
