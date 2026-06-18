@@ -3,12 +3,33 @@ from settings import settings
 from pathlib import Path
 import yaml
 import time
-
+import sys
 import shuffle
 import replace_items
 import convert
 
-image_path = Path(__file__).parent / "Assets" / "background.jpg"
+
+def resource_path(relative_path):
+    if hasattr(sys, "_MEIPASS"):
+        return Path(sys._MEIPASS) / relative_path
+    return Path(__file__).parent / relative_path
+
+def get_base_dir():
+    # real EXE location (portable mode)
+    return Path(sys.executable).parent
+
+BASE_DIR = get_base_dir()
+CONFIG_DIR = BASE_DIR / "Config"
+CONFIG_DIR.mkdir(exist_ok=True)
+image_path = resource_path("Assets/background.jpg")
+font_path = resource_path("Assets/Pliant.ttf")
+
+DEFAULTS_FILE = CONFIG_DIR / "defaults.yaml"
+
+if not DEFAULTS_FILE.exists():
+    bundled = resource_path("Config/defaults.yaml")
+    CONFIG_DIR.mkdir(exist_ok=True)
+    DEFAULTS_FILE.write_text(bundled.read_text(encoding="utf-8"), encoding="utf-8")
 
 FIELD_SCHEMA = {
 
@@ -79,6 +100,8 @@ FIELD_SCHEMA = {
     },
 }
 
+# Helper Methods
+
 def field_meta(key):
     return FIELD_SCHEMA.get(key, {})
 
@@ -140,7 +163,6 @@ settings.reload()
 LIVE = dict(settings.data)
 
 # Load Defaults
-DEFAULTS_FILE = Path(__file__).parent / "Config" / "defaults.yaml"
 
 with open(DEFAULTS_FILE, "r", encoding="utf-8") as f:
     DEFAULTS = yaml.safe_load(f) or {}
@@ -409,7 +431,6 @@ dpg.create_context()
 
 
 with dpg.font_registry():
-    font_path = str(Path(__file__).parent / "Assets" / "Pliant.ttf")
 
     with dpg.font(font_path, 18) as default_font:
         dpg.add_font_range_hint(dpg.mvFontRangeHint_Default)

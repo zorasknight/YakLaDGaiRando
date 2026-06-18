@@ -4,10 +4,11 @@ import random
 from pathlib import Path
 from collections import Counter
 from settings import settings
+import sys
 
 # Config
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(sys.executable).parent
 
 INPUT_FOLDER = BASE_DIR / "GameData"
 OUTPUT_FOLDER = BASE_DIR / "GameData_Output"

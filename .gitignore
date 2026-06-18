@@ -9,6 +9,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+gaiden_randomizer.spec
 
 # Virtual environments
 venv/
