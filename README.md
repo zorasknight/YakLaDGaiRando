@@ -16,7 +16,7 @@ I use a purchased Steam version of the game, and that's the only officially supp
 Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live (desktop with all your other folders etc....).
 
 Run the Gaiden_Randomizer.exe from within that folder
-    *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE just runs those three scripts back to back. You may also be able to just run the randomizer.py as it should do the same thing.
+    *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE has a function that just runs those three scripts back to back. You may also be able to just run the randomizer.py as it was the earlier intent for how to set it up before the GUI was made.
 
 A GUI should launch that allows you to make any changes to the game settings per your likes! Make sure to leave enough spots open for important checks to be placed! the randomizer will fail if there aren't enough slots available. I recomend leaving stores on.
 

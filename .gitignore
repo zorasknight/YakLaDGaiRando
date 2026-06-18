@@ -9,6 +9,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+gaiden_randomizer.spec
 
 # Virtual environments
 venv/
@@ -21,6 +22,7 @@ development_resources/
 *.zip
 Gaiden_Rando_*/
 Bin_Output/
+icon.ico
 
 # OS junk files
 .DS_Store
