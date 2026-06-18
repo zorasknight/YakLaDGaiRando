@@ -184,14 +184,18 @@ def shuffle_all_items(rows):
         # =========================
         if item_id not in economy_map:
 
-            price = slot.get("Monetary Cost")
-            points = slot.get("Point Cost")
-
-            if is_empty(price):
+            if DEFAULT_PRICES:
                 price = rand_money()
-
-            if is_empty(points):
                 points = rand_point()
+            else:
+                price = slot.get("Monetary Cost")
+                points = slot.get("Point Cost")
+
+                if is_empty(price):
+                    price = rand_money()
+
+                if is_empty(points):
+                    points = rand_point()
 
             economy_map[item_id] = {
                 "purchase_price": int(price),
