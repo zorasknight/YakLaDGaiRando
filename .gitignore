@@ -17,6 +17,7 @@ venv/
 # Build / output
 build/
 dist/
+development_resources/
 *.zip
 Gaiden_Rando_*/
 Bin_Output/
