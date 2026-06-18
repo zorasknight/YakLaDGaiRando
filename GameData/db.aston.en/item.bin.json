@@ -571351,7 +571351,7 @@
     }
   },
   "6259": {
-    "aston_staminan_b": {
+    "aston_fake_staminan_b": {
       "name": "Stamina XX",
       "explanation": "Restores health and charges Heat significantly.",
       "category": 11,
@@ -571444,7 +571444,7 @@
     }
   },
   "6260": {
-    "aston_staminan_c": {
+    "aston_fake_staminan_c": {
       "name": "Staminan Royalle",
       "explanation": "Restores health and charges Heat dramatically.",
       "category": 11,
@@ -571537,7 +571537,7 @@
     }
   },
   "6261": {
-    "aston_tauriner_s": {
+    "aston_fake_tauriner_s": {
       "name": "Taurener Maximum",
       "explanation": "Charges your Heat Gauge to its maximum level.",
       "category": 11,
@@ -571630,7 +571630,7 @@
     }
   },
   "6262": {
-    "aston_toughness_zz": {
+    "aston_fake_toughness_zz": {
       "name": "Tougheness ZZ",
       "explanation": "Restores your health quite a bit.",
       "category": 11,
@@ -571723,7 +571723,7 @@
     }
   },
   "6263": {
-    "aston_medicine_mix": {
+    "aston_fake_medicine_mix": {
       "name": "Nourishment of the Seaking",
       "explanation": "Nourishment bestowed by the Sea King. Restores health and charges Heat.",
       "category": 11,
@@ -571816,7 +571816,7 @@
     }
   },
   "6264": {
-    "aston_medicine_heat": {
+    "aston_fake_medicine_heat": {
       "name": "Refressment of the Sky King",
       "explanation": "Refreshment bestowed by the Sky King. Charges your Heat significantly.",
       "category": 11,
@@ -571909,7 +571909,7 @@
     }
   },
   "6265": {
-    "aston_medicine_power": {
+    "aston_fake_medicine_power": {
       "name": "Nutrement of the Conquering Emperor",
       "explanation": "Nutritional supplement of the Conquering Emperor. Restores a good amount of health.",
       "category": 11,
