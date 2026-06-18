@@ -496938,7 +496938,7 @@
       "add_player_point": 0,
       "add_player_point_value": 0,
       "recover_hp_locked": 0,
-      "max_count_base": 1,
+      "max_count_base": 99,
       "can_expand_max_count": 0,
       "recipe": 0,
       "item_present": 0,
