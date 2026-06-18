@@ -7,16 +7,24 @@ import sys
 import shuffle
 import replace_items
 import convert
+import threading
 
 
 def resource_path(relative_path):
-    if hasattr(sys, "_MEIPASS"):
-        return Path(sys._MEIPASS) / relative_path
-    return Path(__file__).parent / relative_path
+    base = (
+        Path(sys._MEIPASS)
+        if getattr(sys, "frozen", False)
+        else BASE_DIR
+    )
+    return base / relative_path
 
 def get_base_dir():
-    # real EXE location (portable mode)
-    return Path(sys.executable).parent
+    # Running as PyInstaller executable
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).parent
+
+    # Running as normal .py script
+    return Path(__file__).resolve().parent
 
 BASE_DIR = get_base_dir()
 CONFIG_DIR = BASE_DIR / "Config"
@@ -140,24 +148,24 @@ def log(message):
     dpg.set_y_scroll("log_window", dpg.get_y_scroll_max("log_window"))
 
 def run_randomizer():
-    log("Starting randomizer...")
-    dpg.render_dearpygui_frame()
-    pipeline = [
-        (shuffle.main, 1),
-        (replace_items.main, 3),
-        (convert.main, 2),
-    ]
+    def task():
+        log("Starting randomizer...")
 
-    for func, delay in pipeline:
-        log(f"Running {func.__module__}...")
-        dpg.render_dearpygui_frame()
-        func()
-        log(f"Finished {func.__module__}")
-        dpg.render_dearpygui_frame()
-        time.sleep(delay)
+        pipeline = [
+            (shuffle.main, 0),
+            (replace_items.main, 0),
+            (convert.main, 0),
+        ]
 
-    log("All scripts completed. Enjoy the Rando!")
-    log("Enjoy the Rando!")
+        for func, delay in pipeline:
+            log(f"Running {func.__module__}...")
+            func()
+            log(f"Finished {func.__module__}")
+            time.sleep(delay)
+
+        log("All scripts completed. Enjoy the Rando!")
+
+    threading.Thread(target=task, daemon=True).start()
 
 settings.reload()
 LIVE = dict(settings.data)

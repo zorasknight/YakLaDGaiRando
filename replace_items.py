@@ -8,7 +8,12 @@ import sys
 
 # Config
 
-BASE_DIR = Path(sys.executable).parent
+def get_base_dir():
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).parent  # EXE mode
+    return Path(__file__).resolve().parent  # script mode
+
+BASE_DIR = get_base_dir()
 
 INPUT_FOLDER = BASE_DIR / "GameData"
 OUTPUT_FOLDER = BASE_DIR / "GameData_Output"
@@ -160,13 +165,20 @@ def update_shop(data, updates):
 
             break
 
-    update_shop_item_limits(data)
+    update_shop_item_limits(data, updates)
     return changes
 
 
 # Shop Counts
 
-def update_shop_item_limits(data):
+def update_shop_item_limits(data, updates):
+
+    # only shops randomized by updates.csv
+    affected_tables = {
+        u["table_name"]
+        for u in updates
+        if u["column_id"] == "replacement_item_id"
+    }
 
     for root_value in data.values():
 
@@ -174,6 +186,10 @@ def update_shop_item_limits(data):
             continue
 
         for table_name, shop_wrapper in root_value.items():
+
+            # skip untouched shops
+            if table_name not in affected_tables:
+                continue
 
             if not isinstance(shop_wrapper, dict):
                 continue
@@ -183,37 +199,39 @@ def update_shop_item_limits(data):
             if not isinstance(table, dict):
                 continue
 
-            #count item IDs
             item_counts = Counter()
 
+            # count occurrences
             for row_container in table.values():
 
                 if not isinstance(row_container, dict):
                     continue
 
                 row = row_container.get("")
+
                 if not isinstance(row, dict):
                     continue
 
                 item_id = row.get("1")
+
                 if item_id:
                     item_counts[item_id] += 1
 
-
-            #assign slot count
+            # assign counts
             for row_container in table.values():
 
                 if not isinstance(row_container, dict):
                     continue
 
                 row = row_container.get("")
+
                 if not isinstance(row, dict):
                     continue
 
                 item_id = row.get("1")
+
                 if item_id:
                     row["20"] = item_counts[item_id]
-
 # Rewards
 
 def update_reward(data, updates):
@@ -457,6 +475,7 @@ def patch_item_bin_prices(updates_by_file):
                 special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
                 row["add_special0"] = special_id
                 row["explanation"] = SPECIAL0_EFFECTS[special_id]
+                row["max_count_base"] = 99
 
                 msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
                 print(msg)

@@ -4,7 +4,13 @@ import yaml
 from copy import deepcopy
 
 # Get the folder containing settings.py
-BASE_DIR = Path(sys.executable).parent
+def get_base_dir():
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).parent
+
+    return Path(__file__).resolve().parent
+
+BASE_DIR = get_base_dir()
 
 # Config folder next to settings.py
 CONFIG_DIR = BASE_DIR / "Config"
