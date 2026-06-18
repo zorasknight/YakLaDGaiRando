@@ -5,9 +5,7 @@ from pathlib import Path
 from collections import Counter
 from settings import settings
 
-# ============================================================
 # Config
-# ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -52,9 +50,7 @@ STATUS_RESIST_MIN = 0
 STATUS_RESIST_MAX = 1
 
 
-# ============================================================
 # Create log files
-# ============================================================
 
 CHANGE_LOG_PATH = Path("change_log.txt")
 ERROR_LOG_PATH = Path("error_warning_log.txt")
@@ -73,9 +69,7 @@ def log_error(msg: str):
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
 ERROR_LOG_PATH.write_text("", encoding="utf-8")
 
-# ============================================================
 # Grab required updates
-# ============================================================
 
 def load_updates():
     updates = {}
@@ -98,9 +92,8 @@ def load_updates():
 
     return updates
 
-# ============================================================
+
 # Shops
-# ============================================================
 
 def update_shop(data, updates):
 
@@ -169,9 +162,8 @@ def update_shop(data, updates):
     update_shop_item_limits(data)
     return changes
 
-# ============================================================
+
 # Shop Counts
-# ============================================================
 
 def update_shop_item_limits(data):
 
@@ -190,9 +182,7 @@ def update_shop_item_limits(data):
             if not isinstance(table, dict):
                 continue
 
-            # ----------------------------
-            # PASS 1: count item IDs
-            # ----------------------------
+            #count item IDs
             item_counts = Counter()
 
             for row_container in table.values():
@@ -208,9 +198,8 @@ def update_shop_item_limits(data):
                 if item_id:
                     item_counts[item_id] += 1
 
-            # ----------------------------
-            # PASS 2: assign slot count (20)
-            # ----------------------------
+
+            #assign slot count
             for row_container in table.values():
 
                 if not isinstance(row_container, dict):
@@ -224,9 +213,7 @@ def update_shop_item_limits(data):
                 if item_id:
                     row["20"] = item_counts[item_id]
 
-# ============================================================
 # Rewards
-# ============================================================
 
 def update_reward(data, updates):
 
@@ -294,10 +281,7 @@ def update_reward(data, updates):
 
     return changes
 
-
-# ============================================================
 # Lockers
-# ============================================================
 
 def update_coinlocker(data, updates):
 
@@ -345,10 +329,7 @@ def update_coinlocker(data, updates):
 
     return changes
 
-
-# ============================================================
 # Wire
-# ============================================================
 
 def update_wire(data, updates):
 
@@ -391,9 +372,7 @@ def update_wire(data, updates):
 
     return changes
 
-# ============================================================
 # Patch prices in item.bin
-# ============================================================
 
 def patch_item_bin_prices(updates_by_file):
 
@@ -508,9 +487,7 @@ def patch_item_bin_prices(updates_by_file):
 
     print(f"[ITEM] Saved {changes} price changes")
 
-# ============================================================
 # Patch prices for skills in player_skill.bin
-# ============================================================
 
 def patch_player_skill_bin():
     path = INPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
@@ -553,9 +530,7 @@ def patch_player_skill_bin():
     print("[SKILL] Done")
 
 
-# ============================================================
 # Detect File
-# ============================================================
 
 def detect_type(filename):
 
@@ -606,9 +581,7 @@ def apply_updates(json_path, updates):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-# ============================================================
 # MAIN
-# ============================================================
 
 def main():
 

@@ -52,18 +52,16 @@ def main():
 
     print("Done!")
 
-    # =========================
-    # ZIP OUTPUT (FIXED - single layer)
-    # =========================
+    # ZIP Output
+
     print("Creating zip archive...")
 
     zip_path = shutil.make_archive( base_name=str(BIN_OUTPUT), format="zip", root_dir=BIN_OUTPUT.parent, base_dir=BIN_OUTPUT.name, )
 
     print(f"Created archive: {zip_path}")
 
-    # =========================
-    # CLEANUP (delete folder after zip)
-    # =========================
+    # Cleanup (delete folder after completion)
+
     if Path(zip_path).exists():
         print("Deleting output folder...")
         shutil.rmtree(BIN_OUTPUT)

@@ -11,9 +11,9 @@ import convert
 image_path = Path(__file__).parent / "Assets" / "background.jpg"
 
 FIELD_SCHEMA = {
-    # =========================
-    # RANGES (INT BASES)
-    # =========================
+
+    # Ranges (INT)
+
     "monetary": {
         "type": "range",
         "label": "Shop Money Range",
@@ -45,9 +45,8 @@ FIELD_SCHEMA = {
         "hint": "The range an armor's resistance stats can be randomized between"
     },
 
-    # =========================
-    # BOOLEANS
-    # =========================
+    # Booleans
+
     "remove_default_prices": {
         "type": "bool",
         "label": "Remove Default Prices",
@@ -140,7 +139,7 @@ def run_randomizer():
 settings.reload()
 LIVE = dict(settings.data)
 
-# LOAD DEFAULTS
+# Load Defaults
 DEFAULTS_FILE = Path(__file__).parent / "Config" / "defaults.yaml"
 
 with open(DEFAULTS_FILE, "r", encoding="utf-8") as f:
@@ -162,10 +161,8 @@ def safe_bool(v):
         return v.strip().lower() in ("true", "1", "yes", "on")
     return bool(v)
 
+# Rules
 
-# ============================================================
-# RULES
-# ============================================================
 FIELD_RULES = {
     "monetary": {"min": 0, "max": 3_000_000},
     "point": {"min": 0, "max": 8000},
@@ -178,10 +175,8 @@ FIELD_RULES = {
 def get_rules(base):
     return FIELD_RULES.get(base, {"min": 0, "max": 1_000_000})
 
+# Pairs
 
-# ============================================================
-# PAIRS
-# ============================================================
 def build_pairs():
     pairs = {}
     used = set()
@@ -203,10 +198,8 @@ def build_pairs():
 
 pairs = build_pairs()
 
+# Auto Save
 
-# ============================================================
-# AUTO SAVE
-# ============================================================
 def autosave():
     settings.save_user_settings(LIVE)
 
@@ -214,10 +207,8 @@ def autosave():
 def set_value(key, value):
     LIVE[key] = value
 
+# Reset Values
 
-# ============================================================
-# RESET VALUES
-# ============================================================
 def reset_category(cat):
 
     for base, (mn, mx) in pairs.items():
@@ -233,10 +224,8 @@ def reset_category(cat):
     autosave()
     render(cat)
 
+# Category
 
-# ============================================================
-# CATEGORY
-# ============================================================
 def get_category(base):
     if "monetary" in base or "point" in base:
         return "Shops"
@@ -246,14 +235,9 @@ def get_category(base):
         return "Combat"
     return "Other"
 
-
-# ============================================================
-# RANGE + BOOLEAN UI
-# ============================================================
-
+# Range + Boolean UI
 
 #Boolean UI
-
 def make_bool(key):
     meta = field_meta(key)
 
@@ -270,17 +254,16 @@ def make_bool(key):
     add_tooltip(cb, field_hint(key))
 
 #Range UI
-
 def make_range(base, min_key, max_key, rules):
     meta = field_meta(base)
 
-    # HEADER (ONLY ONCE)
+    # Header
     make_label(
         meta.get("label", base),
         meta.get("hint", "")
     )
 
-    # VALUES
+    # Values
     min_val = safe_int(LIVE.get(min_key))
     max_val = safe_int(LIVE.get(max_key))
 
@@ -337,7 +320,7 @@ def make_range(base, min_key, max_key, rules):
 
         current_max = safe_int(dpg.get_value(max_input))
 
-        # clamp relationship immediately
+        # clamp relationship
         if value > current_max:
             current_max = value
             dpg.set_value(max_input, current_max)
@@ -354,7 +337,7 @@ def make_range(base, min_key, max_key, rules):
 
         current_min = safe_int(dpg.get_value(min_input))
 
-        # clamp relationship immediately
+        # clamp relationship
         if value < current_min:
             current_min = value
             dpg.set_value(min_input, current_min)
@@ -368,11 +351,7 @@ def make_range(base, min_key, max_key, rules):
     dpg.set_item_callback(min_slider, min_slider_changed)
     dpg.set_item_callback(max_slider, max_slider_changed)
 
-
-
-# ============================================================
-# RENDER
-# ============================================================
+# Render
 
 def render_field(key):
     ftype = field_type(key)
@@ -387,9 +366,7 @@ def render(cat):
 
     with dpg.group(parent="content"):
 
-        # =========================
-        # BOOLEAN SETTINGS
-        # =========================
+        # Boolean Settings
         dpg.add_text("OPTIONS")
         dpg.add_separator()
 
@@ -399,9 +376,7 @@ def render(cat):
 
         dpg.add_spacer(height=10)
 
-        # =========================
-        # RANGE SETTINGS
-        # =========================
+        # Range Settings
         dpg.add_text(cat.upper())
         dpg.add_separator()
 
@@ -418,9 +393,8 @@ def render(cat):
 
             dpg.add_spacer(height=10)
 
-# ============================================================
-# SWITCH
-# ============================================================
+# Switch
+
 def switch(sender, app_data, user_data):
     autosave()
 
@@ -429,10 +403,8 @@ def switch(sender, app_data, user_data):
 
     render(user_data)
 
-
-# ============================================================
 # UI
-# ============================================================
+
 dpg.create_context()
 
 

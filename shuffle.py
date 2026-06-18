@@ -3,9 +3,8 @@ import random
 from collections import defaultdict
 from settings import settings
 
-# =========================
 # Config
-# =========================
+
 INPUT_CSV = "source.csv"
 OUTPUT_CSV = "updates.csv"
 
@@ -30,9 +29,8 @@ NO_JUNK_CATEGORIES = {"5"}
 
 random.seed()
 
-# =========================
 # Sphere locks
-# =========================
+
 FORCED_SPHERES = {
     "6049": 0,
     "6050": 0,
@@ -44,27 +42,23 @@ FORCED_SPHERES = {
     "6056": 1,
 }
 
-# =========================
 # Load CSV
-# =========================
+
 def load_rows(path):
     with open(path, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
 
-# =========================
 # Spheres
-# =========================
+
 def build_pools(rows):
     pools = defaultdict(list)
     for r in rows:
         pools[r["Sphere"]].append(r)
     return pools
 
-
-# =========================
 # Helpers
-# =========================
+
 def is_empty(v):
     return v is None or str(v).strip() == ""
 
@@ -100,10 +94,8 @@ def apply_file_blacklist(rows):
         if r.get("Location") not in blacklist
     ]
 
-
-# =========================
 # Shuffle Item IDs
-# =========================
+
 def shuffle_all_items(rows):
 
     # normalize
@@ -179,9 +171,7 @@ def shuffle_all_items(rows):
 
         column = "replacement_item_id"
 
-        # =========================
         # Change Point and Monetary Costs
-        # =========================
         if item_id not in economy_map:
 
             if DEFAULT_PRICES:
@@ -204,9 +194,8 @@ def shuffle_all_items(rows):
 
         econ = economy_map[item_id]
 
-        # =========================
+
         # Create Output
-        # =========================
         updates.append({
             "file_name": source_file,
             "table_name": table_name,
@@ -220,10 +209,8 @@ def shuffle_all_items(rows):
 
     return updates
 
-
-# =========================
 # Write Output
-# =========================
+
 def write_updates(updates, path):
 
     with open(path, "w", newline="", encoding="utf-8") as f:
@@ -245,10 +232,7 @@ def write_updates(updates, path):
         writer.writeheader()
         writer.writerows(updates)
 
-
-# =========================
-# Main
-# =========================
+# MAIN
 
 def main():
     rows = load_rows(INPUT_CSV)
