@@ -6,9 +6,12 @@ import shutil
 
 REARMP = Path("reARMP.exe")
 ROOT = Path("GameData_Output")
+ASSETS = Path("Assets")
 
 # Output folder
 BIN_OUTPUT = Path(f"Gaiden_Rando_{datetime.now().strftime('%m%d%y')}")
+
+
 
 
 def main():
@@ -55,6 +58,10 @@ def main():
     # ZIP Output
 
     print("Creating zip archive...")
+
+    # Copy metadata 
+    shutil.copy2(ASSETS / "mod-image.ico", BIN_OUTPUT / "mod-image.ico")
+    shutil.copy2(ASSETS / "mod-meta.yaml", BIN_OUTPUT / "mod-meta.yaml")
 
     zip_path = shutil.make_archive( base_name=str(BIN_OUTPUT), format="zip", root_dir=BIN_OUTPUT.parent, base_dir=BIN_OUTPUT.name, )
 
