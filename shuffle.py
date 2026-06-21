@@ -75,13 +75,13 @@ def apply_file_blacklist(rows):
         blacklist.update(["aston_s_ebisuya", "aston_c_boutique_equip", "aston_s_wannpark", "aston_s_akame", "aston_c_boutique", "aston_y_shichiya", "aston_y_lovemagic", "aston_c_boutique_vip", "aston_s_mizorogi_2", "aston_s_mizorogi"])
 
     if not REWARD_ITEMS:
-        blacklist.update(["pokecir"])
+        blacklist.update(["pokecir", "darts"])
 
     if not COIN_LOCKER_ITEMS:
         blacklist.update(["aston_coinlocker"])
     
     if not MINIGAME_ITEMS:
-        blacklist.update(["aston_s_billiards_prize", "aston_c_casino", "aston_y_shogi", "aston_s_shogi", "aston_s_golf", "aston_s_toba", "aston_y_toba", "aston_c_toba",])
+        blacklist.update(["aston_s_billiards_prize", "darts", "aston_c_casino", "aston_y_shogi", "aston_s_shogi", "aston_s_golf", "aston_s_toba", "aston_y_toba", "aston_c_toba",])
     
     if not POCKET_CIRCUIT_ITEMS:
         blacklist.update(["aston_s_pokecir_parts", "pokecir"])
