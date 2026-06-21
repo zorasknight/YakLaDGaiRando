@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/icon.ico" width="400" />
+  <img src="Assets/icon.ico" width="200" />
 </p>
 
 <div align="center">
@@ -17,20 +17,37 @@ Please follow that link and complete the install first before attempting to run 
 You will need a copy of "Like a Dragon Gaiden: The Man Who Erased His Name".
 I use a purchased Steam version of the game, and that's the only officially supported version, your mileage may vary with any other ways!
 
+## Installing the Shin Ryu Mod Manager
+
+### NOTE: I did not create the Shin Ryu Mod Manager, this is just a quick reference guide.
+
+To install the Shin Ryu Mod Manager tool, download the zip from the provided nexusmods page, extract the contents of the zip to the "media" folder of your "Like a Dragon Gaiden" install. The folder should be the one that contains your "likeadragongaiden" exe. you want the files extracted straight to this folder, do not make a new folder at this location.
+
+Your path should look something like this:
+
+### \steamapps\common\LikeADragonGaiden\runtime\media
+
+From there, you should be able to just run the "ShinRyuModManager" app, which should have you ready for the steps below! 
+
+Remember to always launch the game through the mon manager and not through steam if you want to play the randomizer.
+
+
 ## Instructions:
 
-Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live (desktop with all your other folders etc....).
+Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live (Anywhere is fine, I have it on my desktop).
 
 Run the Gaiden_Randomizer.exe from within that folder
-    *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE has a function that just runs those three scripts back to back. You may also be able to just run the randomizer.py as it was the earlier intent for how to set it up before the GUI was made.
+    *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE has a function that just runs those three scripts back to back. You may also be able to just run the randomizer.py as it was the earlier intent for how to set it up before the GUI was made. This currently only works on windows due to the reARMP exe being required, if you can get that program to run on your OS you should be able to run the rando just fine!
 
 A GUI should launch that allows you to make any changes to the game settings per your likes! Make sure to leave enough spots open for important checks to be placed! the randomizer will fail if there aren't enough slots available. I recomend leaving stores on.
 
-Once you're ready click the "Run Randomizer" buttons. Everything auto saves pretty instantly on category change or closing of the app.
+Once you're ready click the "Run Randomizer" button. Everything auto saves pretty instantly on category change or closing of the app.
 
 You should get an output file, zipped, with a name like: "Gaiden_Rando_061026", this is your mod file, you can drag and drop this into your "Shinryu Mod Manager" window like any other mod.
 
-Start the game, make a new save at your desired difficulty and enjoy!
+Start the game from the mod manager, make a new save at your desired difficulty and enjoy!
+
+### NOTE ALWAYS START THE GAME THROUGH THE MOD MANAGER NOT STEAM TO PLAY THE RANDOMIZER
 
 ## FAQ/Tips
 
