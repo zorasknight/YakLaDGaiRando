@@ -22,7 +22,6 @@ development_resources/
 *.zip
 Gaiden_Rando_*/
 Bin_Output/
-icon.ico
 gaiden_randomizer.exe
 # OS junk files
 .DS_Store
