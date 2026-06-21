@@ -1,4 +1,6 @@
-![Alt text](Assets/mod-image.ico)
+<p align="center">
+  <img src="./Assets/icon.ico" width="600" />
+</p>
 
 # Like a Dragon Gaiden: The Man Who Erased His Name Randomizer
 First implementation for a Like A Dragon Gaiden Item Randomizer, capable of locally generating a randomized game for you to complete. Currently supports shops, lockers, gear stats and abilities, skills, wire items, rewards and more!
