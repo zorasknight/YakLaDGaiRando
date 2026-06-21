@@ -47,7 +47,7 @@ You should get an output file, zipped, with a name like: "Gaiden_Rando_061026", 
 
 Start the game from the mod manager, make a new save at your desired difficulty and enjoy!
 
-### NOTE ALWAYS START THE GAME THROUGH THE MOD MANAGER NOT STEAM TO PLAY THE RANDOMIZER
+### *NOTE: ALWAYS START THE GAME THROUGH THE MOD MANAGER NOT STEAM TO PLAY THE RANDOMIZER
 
 ## FAQ/Tips
 
