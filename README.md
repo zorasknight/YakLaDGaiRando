@@ -123,4 +123,4 @@ Logic is used to avoid hiding items behind themself, for example the A1 key cann
 Currently this is built as a local only proof of concept as until we have a way to hook into the game, linking this to an archipelago will be impossible.
 
 ## Credits
-Ret and Jhrino for building a ton of infrastructure for Yakuza modding, Jhrino for helping with hooks and potential scripting access, and Ret for allowing me to bundle the reARMP tool with my randomizer.
+Nick Kiley for the Randomizer Logo, Ret for allowing me to bundle the reARMP tool with my randomizer, and Jhrino for helping with hooks and potential scripting access. And a big thanks to the Archipelago Yakuza community for the support!

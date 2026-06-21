@@ -1,0 +1,2278 @@
+{
+  "VERSION": 2,
+  "REVISION": 0,
+  "ROW_COUNT": 78,
+  "COLUMN_COUNT": 17,
+  "TEXT_COUNT": 74,
+  "ROW_VALIDATOR": -1,
+  "COLUMN_VALIDATOR": 0,
+  "HAS_ROW_NAMES": false,
+  "HAS_COLUMN_NAMES": true,
+  "HAS_ROW_VALIDITY": false,
+  "HAS_COLUMN_VALIDITY": true,
+  "HAS_UNKNOWN_BITMASK": false,
+  "HAS_ROW_INDICES": false,
+  "TABLE_ID": 4556,
+  "STORAGE_MODE": 1,
+  "columnValidity": {
+    "": "0",
+    "*": "1",
+    "**": "1",
+    "parts_flag": "1",
+    "name": "1",
+    "parts_flag2": "1",
+    "equip_timeline": "1",
+    "price": "1",
+    "open_timeline": "1",
+    "icon": "1",
+    "item": "1",
+    "complete": "1",
+    "get_item": "1",
+    "sound_id": "1",
+    "comment2": "0",
+    "force_open_hands_on": "1",
+    "order": "1"
+  },
+  "columnTypes": {
+    "": -1,
+    "*": 2,
+    "**": 0,
+    "parts_flag": 2,
+    "name": 13,
+    "parts_flag2": 2,
+    "equip_timeline": 1,
+    "price": 0,
+    "open_timeline": 2,
+    "icon": 1,
+    "item": 1,
+    "complete": 1,
+    "get_item": 1,
+    "sound_id": 1,
+    "comment2": -1,
+    "force_open_hands_on": 6,
+    "order": 0
+  },
+  "COLUMN_INDICES": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    16,
+    7,
+    8,
+    10,
+    9,
+    11,
+    12,
+    6,
+    13,
+    14,
+    15,
+    0
+  ],
+  "0": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Agent Suit",
+      "parts_flag2": 0,
+      "equip_timeline": 1116,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11883,
+      "item": 0,
+      "complete": 1,
+      "get_item": 6057,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "1": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Formal Attire",
+      "parts_flag2": 0,
+      "equip_timeline": 1117,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11887,
+      "item": 6058,
+      "complete": 2,
+      "get_item": 6058,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "2": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Rugged Suit",
+      "parts_flag2": 0,
+      "equip_timeline": 1118,
+      "price": 10000,
+      "open_timeline": 0,
+      "icon": 11893,
+      "item": 0,
+      "complete": 3,
+      "get_item": 6059,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "3": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Three-Piece Suit",
+      "parts_flag2": 0,
+      "equip_timeline": 1119,
+      "price": 200000,
+      "open_timeline": 0,
+      "icon": 11899,
+      "item": 0,
+      "complete": 4,
+      "get_item": 6060,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "4": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Sport Coat",
+      "parts_flag2": 0,
+      "equip_timeline": 1120,
+      "price": 300000,
+      "open_timeline": 0,
+      "icon": 11889,
+      "item": 0,
+      "complete": 5,
+      "get_item": 6061,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "5": {
+    "": {
+      "*": 0,
+      "**": 4608,
+      "parts_flag": 18,
+      "name": "Shirtless Blazer",
+      "parts_flag2": 0,
+      "equip_timeline": 1121,
+      "price": 500000,
+      "open_timeline": 3,
+      "icon": 11891,
+      "item": 0,
+      "complete": 6,
+      "get_item": 6062,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 9
+    }
+  },
+  "6": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Long-Sleeved Button-up",
+      "parts_flag2": 0,
+      "equip_timeline": 1122,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11897,
+      "item": 0,
+      "complete": 7,
+      "get_item": 6063,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "7": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "Short-Sleeved Button-up",
+      "parts_flag2": 0,
+      "equip_timeline": 1123,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11895,
+      "item": 0,
+      "complete": 8,
+      "get_item": 6064,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "8": {
+    "": {
+      "*": 0,
+      "**": 2816,
+      "parts_flag": 11,
+      "name": "T-Shirt",
+      "parts_flag2": 0,
+      "equip_timeline": 1124,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11901,
+      "item": 0,
+      "complete": 9,
+      "get_item": 6065,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "9": {
+    "": {
+      "*": 0,
+      "**": 4608,
+      "parts_flag": 18,
+      "name": "Bodysuit",
+      "parts_flag2": 0,
+      "equip_timeline": 1125,
+      "price": 1000000,
+      "open_timeline": 3,
+      "icon": 11885,
+      "item": 0,
+      "complete": 10,
+      "get_item": 6066,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 10
+    }
+  },
+  "10": {
+    "": {
+      "*": 0,
+      "**": 3840,
+      "parts_flag": 15,
+      "name": "Agent Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1148,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11779,
+      "item": 0,
+      "complete": 11,
+      "get_item": 6067,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "11": {
+    "": {
+      "*": 0,
+      "**": 4096,
+      "parts_flag": 16,
+      "name": "Round Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1149,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11785,
+      "item": 0,
+      "complete": 12,
+      "get_item": 6068,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "12": {
+    "": {
+      "*": 0,
+      "**": 12032,
+      "parts_flag": 47,
+      "name": "Intelligent Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1150,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11789,
+      "item": 0,
+      "complete": 13,
+      "get_item": 6069,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "13": {
+    "": {
+      "*": 0,
+      "**": 12288,
+      "parts_flag": 48,
+      "name": "Wellington Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1151,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11795,
+      "item": 0,
+      "complete": 14,
+      "get_item": 6070,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "14": {
+    "": {
+      "*": 0,
+      "**": 12544,
+      "parts_flag": 49,
+      "name": "Rimless Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1152,
+      "price": 70000,
+      "open_timeline": 0,
+      "icon": 11783,
+      "item": 0,
+      "complete": 15,
+      "get_item": 6071,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "15": {
+    "": {
+      "*": 0,
+      "**": 12800,
+      "parts_flag": 50,
+      "name": "Cyber Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1153,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11787,
+      "item": 6072,
+      "complete": 16,
+      "get_item": 6072,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "16": {
+    "": {
+      "*": 0,
+      "**": 14592,
+      "parts_flag": 57,
+      "name": "Aviator Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1154,
+      "price": 150000,
+      "open_timeline": 3,
+      "icon": 11793,
+      "item": 0,
+      "complete": 17,
+      "get_item": 6073,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "17": {
+    "": {
+      "*": 0,
+      "**": 3328,
+      "parts_flag": 13,
+      "name": "Big Frame Sunglasses",
+      "parts_flag2": 0,
+      "equip_timeline": 1155,
+      "price": 200000,
+      "open_timeline": 3,
+      "icon": 11781,
+      "item": 0,
+      "complete": 18,
+      "get_item": 6074,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "18": {
+    "": {
+      "*": 0,
+      "**": 14848,
+      "parts_flag": 58,
+      "name": "Snake Eyepatch",
+      "parts_flag2": 0,
+      "equip_timeline": 1156,
+      "price": 1000000,
+      "open_timeline": 3,
+      "icon": 11791,
+      "item": 0,
+      "complete": 19,
+      "get_item": 6075,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 9
+    }
+  },
+  "19": {
+    "": {
+      "*": 0,
+      "**": 256,
+      "parts_flag": 1,
+      "name": "Bear in Love Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1212,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11855,
+      "item": 0,
+      "complete": 20,
+      "get_item": 6076,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "20": {
+    "": {
+      "*": 0,
+      "**": 512,
+      "parts_flag": 2,
+      "name": "Dragon Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1213,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11845,
+      "item": 6077,
+      "complete": 21,
+      "get_item": 6077,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 9
+    }
+  },
+  "21": {
+    "": {
+      "*": 0,
+      "**": 1024,
+      "parts_flag": 4,
+      "name": "Black Medical Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1214,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11857,
+      "item": 0,
+      "complete": 22,
+      "get_item": 6078,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "22": {
+    "": {
+      "*": 0,
+      "**": 2560,
+      "parts_flag": 10,
+      "name": "Hockey Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1215,
+      "price": 80000,
+      "open_timeline": 0,
+      "icon": 11851,
+      "item": 0,
+      "complete": 23,
+      "get_item": 6079,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "23": {
+    "": {
+      "*": 0,
+      "**": 1536,
+      "parts_flag": 6,
+      "name": "Noh Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1216,
+      "price": 200000,
+      "open_timeline": 3,
+      "icon": 11861,
+      "item": 0,
+      "complete": 24,
+      "get_item": 6080,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "24": {
+    "": {
+      "*": 0,
+      "**": 768,
+      "parts_flag": 3,
+      "name": "Hyottoko Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1217,
+      "price": 150000,
+      "open_timeline": 0,
+      "icon": 11853,
+      "item": 0,
+      "complete": 25,
+      "get_item": 6081,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "25": {
+    "": {
+      "*": 0,
+      "**": 1280,
+      "parts_flag": 5,
+      "name": "Fox Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1218,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11847,
+      "item": 0,
+      "complete": 26,
+      "get_item": 6082,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "26": {
+    "": {
+      "*": 0,
+      "**": 10752,
+      "parts_flag": 42,
+      "name": "Masquerade Mask",
+      "parts_flag2": 0,
+      "equip_timeline": 1219,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11863,
+      "item": 0,
+      "complete": 27,
+      "get_item": 6083,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "27": {
+    "": {
+      "*": 0,
+      "**": 1792,
+      "parts_flag": 7,
+      "name": "Ono Michio Head",
+      "parts_flag2": 0,
+      "equip_timeline": 1220,
+      "price": 1000000,
+      "open_timeline": 3,
+      "icon": 11859,
+      "item": 0,
+      "complete": 28,
+      "get_item": 6084,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 10
+    }
+  },
+  "28": {
+    "": {
+      "*": 0,
+      "**": 11008,
+      "parts_flag": 43,
+      "name": "Fukupi-chan Head",
+      "parts_flag2": 0,
+      "equip_timeline": 1221,
+      "price": 300000,
+      "open_timeline": 3,
+      "icon": 11849,
+      "item": 0,
+      "complete": 29,
+      "get_item": 6085,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "29": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 0,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 11
+    }
+  },
+  "30": {
+    "": {
+      "*": 0,
+      "**": 2560,
+      "parts_flag": 10,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 1180,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "31": {
+    "": {
+      "*": 0,
+      "**": 256,
+      "parts_flag": 1,
+      "name": "Baseball Cap",
+      "parts_flag2": 0,
+      "equip_timeline": 1181,
+      "price": 10000,
+      "open_timeline": 0,
+      "icon": 11807,
+      "item": 0,
+      "complete": 30,
+      "get_item": 6086,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "32": {
+    "": {
+      "*": 0,
+      "**": 512,
+      "parts_flag": 2,
+      "name": "Straw Hat",
+      "parts_flag2": 0,
+      "equip_timeline": 1182,
+      "price": 200000,
+      "open_timeline": 3,
+      "icon": 11817,
+      "item": 0,
+      "complete": 31,
+      "get_item": 6087,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "33": {
+    "": {
+      "*": 0,
+      "**": 768,
+      "parts_flag": 3,
+      "name": "Tam",
+      "parts_flag2": 0,
+      "equip_timeline": 1183,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11811,
+      "item": 0,
+      "complete": 32,
+      "get_item": 6088,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "34": {
+    "": {
+      "*": 0,
+      "**": 1024,
+      "parts_flag": 4,
+      "name": "Beanie",
+      "parts_flag2": 0,
+      "equip_timeline": 1184,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11813,
+      "item": 0,
+      "complete": 33,
+      "get_item": 6089,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "35": {
+    "": {
+      "*": 0,
+      "**": 1280,
+      "parts_flag": 5,
+      "name": "Taxi Driver Cap",
+      "parts_flag2": 0,
+      "equip_timeline": 1185,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11819,
+      "item": 6090,
+      "complete": 34,
+      "get_item": 6090,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "36": {
+    "": {
+      "*": 0,
+      "**": 1536,
+      "parts_flag": 6,
+      "name": "Construction Company Helmet",
+      "parts_flag2": 0,
+      "equip_timeline": 1186,
+      "price": 500000,
+      "open_timeline": 3,
+      "icon": 11809,
+      "item": 0,
+      "complete": 35,
+      "get_item": 6091,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "37": {
+    "": {
+      "*": 0,
+      "**": 1792,
+      "parts_flag": 7,
+      "name": "Fedora",
+      "parts_flag2": 0,
+      "equip_timeline": 1187,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11815,
+      "item": 0,
+      "complete": 36,
+      "get_item": 6092,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "38": {
+    "": {
+      "*": 0,
+      "**": 5376,
+      "parts_flag": 21,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 1164,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "39": {
+    "": {
+      "*": 0,
+      "**": 5632,
+      "parts_flag": 22,
+      "name": "Leather Gloves",
+      "parts_flag2": 0,
+      "equip_timeline": 1165,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11801,
+      "item": 0,
+      "complete": 37,
+      "get_item": 6093,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "40": {
+    "": {
+      "*": 0,
+      "**": 5888,
+      "parts_flag": 23,
+      "name": "Fingerless Gloves",
+      "parts_flag2": 0,
+      "equip_timeline": 1166,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11797,
+      "item": 0,
+      "complete": 38,
+      "get_item": 6094,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "41": {
+    "": {
+      "*": 0,
+      "**": 8448,
+      "parts_flag": 33,
+      "name": "Gel Nails",
+      "parts_flag2": 21,
+      "equip_timeline": 1167,
+      "price": 70000,
+      "open_timeline": 0,
+      "icon": 11803,
+      "item": 0,
+      "complete": 39,
+      "get_item": 6095,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "42": {
+    "": {
+      "*": 0,
+      "**": 8704,
+      "parts_flag": 34,
+      "name": "Jeweled Ring",
+      "parts_flag2": 21,
+      "equip_timeline": 1168,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11799,
+      "item": 0,
+      "complete": 40,
+      "get_item": 6096,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "43": {
+    "": {
+      "*": 0,
+      "**": 8960,
+      "parts_flag": 35,
+      "name": "Silver Ring",
+      "parts_flag2": 21,
+      "equip_timeline": 1169,
+      "price": 150000,
+      "open_timeline": 0,
+      "icon": 11805,
+      "item": 0,
+      "complete": 41,
+      "get_item": 6097,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "44": {
+    "": {
+      "*": 0,
+      "**": 6400,
+      "parts_flag": 25,
+      "name": "Agent Shoes",
+      "parts_flag2": 36,
+      "equip_timeline": 1244,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11865,
+      "item": 0,
+      "complete": 42,
+      "get_item": 6098,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "45": {
+    "": {
+      "*": 0,
+      "**": 6400,
+      "parts_flag": 25,
+      "name": "Business Shoes",
+      "parts_flag2": 37,
+      "equip_timeline": 1245,
+      "price": 80000,
+      "open_timeline": 0,
+      "icon": 11904,
+      "item": 0,
+      "complete": 43,
+      "get_item": 6099,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "46": {
+    "": {
+      "*": 0,
+      "**": 15360,
+      "parts_flag": 60,
+      "name": "Snakeskin Shoes",
+      "parts_flag2": 0,
+      "equip_timeline": 1246,
+      "price": 500000,
+      "open_timeline": 3,
+      "icon": 11877,
+      "item": 0,
+      "complete": 44,
+      "get_item": 6100,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 10
+    }
+  },
+  "47": {
+    "": {
+      "*": 0,
+      "**": 7424,
+      "parts_flag": 29,
+      "name": "Leather Shoes",
+      "parts_flag2": 0,
+      "equip_timeline": 1247,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11871,
+      "item": 0,
+      "complete": 45,
+      "get_item": 6101,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "48": {
+    "": {
+      "*": 0,
+      "**": 7680,
+      "parts_flag": 30,
+      "name": "Casual Leather Shoes",
+      "parts_flag2": 0,
+      "equip_timeline": 1248,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11867,
+      "item": 0,
+      "complete": 46,
+      "get_item": 6102,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "49": {
+    "": {
+      "*": 0,
+      "**": 6400,
+      "parts_flag": 25,
+      "name": "Monk Strap Loafers",
+      "parts_flag2": 38,
+      "equip_timeline": 1249,
+      "price": 120000,
+      "open_timeline": 0,
+      "icon": 11873,
+      "item": 0,
+      "complete": 47,
+      "get_item": 6103,
+      "sound_id": 5,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "50": {
+    "": {
+      "*": 0,
+      "**": 15616,
+      "parts_flag": 61,
+      "name": "Sneakers",
+      "parts_flag2": 0,
+      "equip_timeline": 1250,
+      "price": 150000,
+      "open_timeline": 0,
+      "icon": 11879,
+      "item": 0,
+      "complete": 48,
+      "get_item": 6104,
+      "sound_id": 6,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "51": {
+    "": {
+      "*": 0,
+      "**": 15104,
+      "parts_flag": 59,
+      "name": "Slippers",
+      "parts_flag2": 63,
+      "equip_timeline": 1251,
+      "price": 200000,
+      "open_timeline": 0,
+      "icon": 11875,
+      "item": 0,
+      "complete": 49,
+      "get_item": 6105,
+      "sound_id": 6,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "52": {
+    "": {
+      "*": 0,
+      "**": 15104,
+      "parts_flag": 59,
+      "name": "Straw Sandals",
+      "parts_flag2": 62,
+      "equip_timeline": 1252,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11881,
+      "item": 6106,
+      "complete": 50,
+      "get_item": 6106,
+      "sound_id": 10,
+      "force_open_hands_on": 1,
+      "order": 9
+    }
+  },
+  "53": {
+    "": {
+      "*": 0,
+      "**": 6144,
+      "parts_flag": 24,
+      "name": "Bare Feet",
+      "parts_flag2": 0,
+      "equip_timeline": 1253,
+      "price": 300000,
+      "open_timeline": 3,
+      "icon": 11869,
+      "item": 0,
+      "complete": 51,
+      "get_item": 6107,
+      "sound_id": 13,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "54": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 1132,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "55": {
+    "": {
+      "*": 0,
+      "**": 11264,
+      "parts_flag": 44,
+      "name": "Cuff Earrings",
+      "parts_flag2": 0,
+      "equip_timeline": 1133,
+      "price": 150000,
+      "open_timeline": 0,
+      "icon": 11771,
+      "item": 0,
+      "complete": 52,
+      "get_item": 6108,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "56": {
+    "": {
+      "*": 0,
+      "**": 11520,
+      "parts_flag": 45,
+      "name": "Hoop Earrings",
+      "parts_flag2": 0,
+      "equip_timeline": 1134,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11773,
+      "item": 0,
+      "complete": 53,
+      "get_item": 6109,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "57": {
+    "": {
+      "*": 0,
+      "**": 14080,
+      "parts_flag": 55,
+      "name": "Ball Stud Earrings",
+      "parts_flag2": 0,
+      "equip_timeline": 1135,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11777,
+      "item": 0,
+      "complete": 54,
+      "get_item": 6110,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "58": {
+    "": {
+      "*": 0,
+      "**": 14336,
+      "parts_flag": 56,
+      "name": "Jewel Stud Earrings",
+      "parts_flag2": 0,
+      "equip_timeline": 1136,
+      "price": 70000,
+      "open_timeline": 0,
+      "icon": 11775,
+      "item": 0,
+      "complete": 55,
+      "get_item": 6111,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "59": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 1228,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "60": {
+    "": {
+      "*": 0,
+      "**": 5120,
+      "parts_flag": 20,
+      "name": "Pilot Badge",
+      "parts_flag2": 0,
+      "equip_timeline": 1229,
+      "price": 10000,
+      "open_timeline": 0,
+      "icon": 11761,
+      "item": 0,
+      "complete": 56,
+      "get_item": 6112,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 2
+    }
+  },
+  "61": {
+    "": {
+      "*": 0,
+      "**": 7936,
+      "parts_flag": 31,
+      "name": "Yakuza Dress Up Badge (Round)",
+      "parts_flag2": 0,
+      "equip_timeline": 1230,
+      "price": 150000,
+      "open_timeline": 3,
+      "icon": 11735,
+      "item": 0,
+      "complete": 57,
+      "get_item": 6113,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "62": {
+    "": {
+      "*": 0,
+      "**": 8192,
+      "parts_flag": 32,
+      "name": "Yakuza Dress Up Badge (Hex)",
+      "parts_flag2": 0,
+      "equip_timeline": 1231,
+      "price": 150000,
+      "open_timeline": 3,
+      "icon": 11765,
+      "item": 0,
+      "complete": 58,
+      "get_item": 6114,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "63": {
+    "": {
+      "*": 0,
+      "**": 6656,
+      "parts_flag": 26,
+      "name": "Nametag",
+      "parts_flag2": 0,
+      "equip_timeline": 1232,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11755,
+      "item": 0,
+      "complete": 59,
+      "get_item": 6115,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 3
+    }
+  },
+  "64": {
+    "": {
+      "*": 0,
+      "**": 7168,
+      "parts_flag": 28,
+      "name": "Carnation",
+      "parts_flag2": 0,
+      "equip_timeline": 1233,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11733,
+      "item": 0,
+      "complete": 60,
+      "get_item": 6116,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "65": {
+    "": {
+      "*": 0,
+      "**": 6912,
+      "parts_flag": 27,
+      "name": "Single Rose",
+      "parts_flag2": 0,
+      "equip_timeline": 1234,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11763,
+      "item": 0,
+      "complete": 61,
+      "get_item": 6117,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "66": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "None",
+      "parts_flag2": 0,
+      "equip_timeline": 1196,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11910,
+      "item": 0,
+      "complete": 0,
+      "get_item": 0,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 1
+    }
+  },
+  "67": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Devilish Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1197,
+      "price": 300000,
+      "open_timeline": 3,
+      "icon": 11831,
+      "item": 0,
+      "complete": 62,
+      "get_item": 6118,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 8
+    }
+  },
+  "68": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Kabuki Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1198,
+      "price": 400000,
+      "open_timeline": 3,
+      "icon": 11835,
+      "item": 0,
+      "complete": 63,
+      "get_item": 6119,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 9
+    }
+  },
+  "69": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Visual-kei Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1199,
+      "price": 200000,
+      "open_timeline": 0,
+      "icon": 11843,
+      "item": 0,
+      "complete": 64,
+      "get_item": 6120,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 7
+    }
+  },
+  "70": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Clown Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1200,
+      "price": 500000,
+      "open_timeline": 3,
+      "icon": 11823,
+      "item": 0,
+      "complete": 65,
+      "get_item": 6121,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 12
+    }
+  },
+  "71": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Heavy Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1201,
+      "price": 100000,
+      "open_timeline": 0,
+      "icon": 11833,
+      "item": 0,
+      "complete": 66,
+      "get_item": 6126,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 5
+    }
+  },
+  "72": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Light Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1202,
+      "price": 70000,
+      "open_timeline": 0,
+      "icon": 11837,
+      "item": 0,
+      "complete": 67,
+      "get_item": 6122,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 4
+    }
+  },
+  "73": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Old Scar Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1203,
+      "price": 150000,
+      "open_timeline": 0,
+      "icon": 11841,
+      "item": 0,
+      "complete": 68,
+      "get_item": 6125,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 6
+    }
+  },
+  "74": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Kitty Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1204,
+      "price": 500000,
+      "open_timeline": 3,
+      "icon": 11821,
+      "item": 0,
+      "complete": 69,
+      "get_item": 6123,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 10
+    }
+  },
+  "75": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Weird Stranger Makeup",
+      "parts_flag2": 0,
+      "equip_timeline": 1205,
+      "price": 0,
+      "open_timeline": 0,
+      "icon": 11839,
+      "item": 6124,
+      "complete": 70,
+      "get_item": 6124,
+      "sound_id": 0,
+      "force_open_hands_on": 1,
+      "order": 11
+    }
+  },
+  "76": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Color Contacts (Gold)",
+      "parts_flag2": 0,
+      "equip_timeline": 1206,
+      "price": 50000,
+      "open_timeline": 0,
+      "icon": 11825,
+      "item": 0,
+      "complete": 71,
+      "get_item": 6127,
+      "sound_id": 0,
+      "force_open_hands_on": 0,
+      "order": 3
+    }
+  },
+  "77": {
+    "": {
+      "*": 0,
+      "**": 0,
+      "parts_flag": 0,
+      "name": "Color Contacts (Silver)",
+      "parts_flag2": 0,
+      "equip_timeline": 1207,
+      "price": 30000,
+      "open_timeline": 0,
+      "icon": 11827,
+      "item": 0,
+      "complete": 72,
+      "get_item": 6128,
+      "sound_id": 0,
+      "force_open_hands_on": 0,
+      "order": 2
+    }
+  },
+  "subTable": {
+    "ROW_COUNT": 9,
+    "COLUMN_COUNT": 3,
+    "TEXT_COUNT": 0,
+    "ROW_VALIDATOR": -1,
+    "COLUMN_VALIDATOR": -1,
+    "HAS_ROW_NAMES": true,
+    "HAS_COLUMN_NAMES": false,
+    "HAS_ROW_VALIDITY": false,
+    "HAS_COLUMN_VALIDITY": false,
+    "HAS_UNKNOWN_BITMASK": false,
+    "HAS_ROW_INDICES": false,
+    "TABLE_ID": 0,
+    "STORAGE_MODE": 0,
+    "columnTypes": {
+      "0": 0,
+      "1": 9,
+      "2": 0
+    },
+    "0": {
+      "style": {
+        "0": 1,
+        "1": {
+          "ROW_COUNT": 10,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 0
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 1
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 2
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 3
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 4
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 5
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 6
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 7
+            }
+          },
+          "8": {
+            "8": {
+              "0": 8,
+              "2": 8
+            }
+          },
+          "9": {
+            "9": {
+              "0": 9,
+              "2": 9
+            }
+          }
+        },
+        "2": 0
+      }
+    },
+    "1": {
+      "hat": {
+        "0": 2,
+        "1": {
+          "ROW_COUNT": 8,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 30
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 31
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 32
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 33
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 34
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 35
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 36
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 37
+            }
+          }
+        },
+        "2": 30
+      }
+    },
+    "2": {
+      "glass": {
+        "0": 3,
+        "1": {
+          "ROW_COUNT": 9,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 10
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 11
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 12
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 13
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 14
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 15
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 16
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 17
+            }
+          },
+          "8": {
+            "8": {
+              "0": 8,
+              "2": 18
+            }
+          }
+        },
+        "2": 10
+      }
+    },
+    "3": {
+      "shoes": {
+        "0": 4,
+        "1": {
+          "ROW_COUNT": 10,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 44
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 45
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 46
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 47
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 48
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 49
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 50
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 51
+            }
+          },
+          "8": {
+            "8": {
+              "0": 8,
+              "2": 52
+            }
+          },
+          "9": {
+            "9": {
+              "0": 9,
+              "2": 53
+            }
+          }
+        },
+        "2": 44
+      }
+    },
+    "4": {
+      "mask": {
+        "0": 5,
+        "1": {
+          "ROW_COUNT": 11,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 19
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 20
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 21
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 22
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 23
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 24
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 25
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 26
+            }
+          },
+          "8": {
+            "8": {
+              "0": 8,
+              "2": 27
+            }
+          },
+          "9": {
+            "9": {
+              "0": 9,
+              "2": 28
+            }
+          },
+          "10": {
+            "10": {
+              "0": 10,
+              "2": 29
+            }
+          }
+        },
+        "2": 19
+      }
+    },
+    "5": {
+      "ear": {
+        "0": 6,
+        "1": {
+          "ROW_COUNT": 5,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 54
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 55
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 56
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 57
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 58
+            }
+          }
+        },
+        "2": 54
+      }
+    },
+    "6": {
+      "other": {
+        "0": 7,
+        "1": {
+          "ROW_COUNT": 7,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 59
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 60
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 61
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 62
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 63
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 64
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 65
+            }
+          }
+        },
+        "2": 59
+      }
+    },
+    "7": {
+      "makeup": {
+        "0": 8,
+        "1": {
+          "ROW_COUNT": 12,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 66
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 67
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 68
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 69
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 70
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 71
+            }
+          },
+          "6": {
+            "6": {
+              "0": 6,
+              "2": 72
+            }
+          },
+          "7": {
+            "7": {
+              "0": 7,
+              "2": 73
+            }
+          },
+          "8": {
+            "8": {
+              "0": 8,
+              "2": 74
+            }
+          },
+          "9": {
+            "9": {
+              "0": 9,
+              "2": 75
+            }
+          },
+          "10": {
+            "10": {
+              "0": 10,
+              "2": 76
+            }
+          },
+          "11": {
+            "11": {
+              "0": 11,
+              "2": 77
+            }
+          }
+        },
+        "2": 66
+      }
+    },
+    "8": {
+      "glove": {
+        "0": 9,
+        "1": {
+          "ROW_COUNT": 6,
+          "COLUMN_COUNT": 3,
+          "TEXT_COUNT": 0,
+          "ROW_VALIDATOR": -1,
+          "COLUMN_VALIDATOR": -1,
+          "HAS_ROW_NAMES": true,
+          "HAS_COLUMN_NAMES": false,
+          "HAS_ROW_VALIDITY": false,
+          "HAS_COLUMN_VALIDITY": false,
+          "HAS_UNKNOWN_BITMASK": false,
+          "HAS_ROW_INDICES": false,
+          "TABLE_ID": 0,
+          "STORAGE_MODE": 0,
+          "columnTypes": {
+            "0": 0,
+            "1": 9,
+            "2": 0
+          },
+          "0": {
+            "0": {
+              "0": 0,
+              "2": 38
+            }
+          },
+          "1": {
+            "1": {
+              "0": 1,
+              "2": 39
+            }
+          },
+          "2": {
+            "2": {
+              "0": 2,
+              "2": 40
+            }
+          },
+          "3": {
+            "3": {
+              "0": 3,
+              "2": 41
+            }
+          },
+          "4": {
+            "4": {
+              "0": 4,
+              "2": 42
+            }
+          },
+          "5": {
+            "5": {
+              "0": 5,
+              "2": 43
+            }
+          }
+        },
+        "2": 38
+      }
+    }
+  }
+}
