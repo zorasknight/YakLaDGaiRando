@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Assets/icon.ico" width="600" />
+  <img src=".Assets/icon.ico" width="600" />
 </p>
 
 # Like a Dragon Gaiden: The Man Who Erased His Name Randomizer
