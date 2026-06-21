@@ -10,13 +10,13 @@ skill_money_max: 1000000
 skill_akame_min: 0
 skill_akame_max: 3000
 
-attack_and_defense_min: -900
-attack_and_defense_max: 900
+attack_and_defense_min: -200
+attack_and_defense_max: 500
 
 resist_min: 0
-resist_max: 500
+resist_max: 300
 
-remove_default_prices: FALSE
+remove_default_prices: TRUE
 include_coin_lockers: TRUE
 include_shops: TRUE
 include_rewards: TRUE
