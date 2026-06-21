@@ -148,6 +148,7 @@ def log(message):
     dpg.set_y_scroll("log_window", dpg.get_y_scroll_max("log_window"))
 
 def run_randomizer():
+    autosave()
     def task():
         log("Starting randomizer...")
 
