@@ -39,7 +39,7 @@ Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live
 Run the Gaiden_Randomizer.exe from within that folder
     *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE has a function that just runs those three scripts back to back. You may also be able to just run the randomizer.py as it was the earlier intent for how to set it up before the GUI was made. This currently only works on windows due to the reARMP exe being required, if you can get that program to run on your OS you should be able to run the rando just fine!
 
-A GUI should launch that allows you to make any changes to the game settings per your likes! Make sure to leave enough spots open for important checks to be placed! the randomizer will fail if there aren't enough slots available. I recomend leaving stores on.
+A GUI should launch that allows you to make any changes to the game settings per your likes! Make sure to leave enough spots open for important checks to be placed! the randomizer will fail if there aren't enough slots available. I recomend leaving stores or minigames on, though you can check the value below the console window to know how far off you are!
 
 Once you're ready click the "Run Randomizer" button. Everything auto saves pretty instantly on category change or closing of the app.
 
@@ -50,6 +50,10 @@ Start the game from the mod manager, make a new save at your desired difficulty 
 ### *NOTE: ALWAYS START THE GAME THROUGH THE MOD MANAGER, DO NOT START THE GAME THROUGH STEAM TO PLAY THE RANDOMIZER
 
 ## FAQ/Tips
+
+### Why isn't the Run Randomizer button working?
+
+Make sure that their are enough valid locations in the pool! this mod adds 119 skill books and 60 cosmetics to the pool, so without enough valid slots the randomizer will prevent you from generating a seed. 
 
 ### Why did that healing item just tank my health/heat/make me drunk?
 
@@ -71,13 +75,9 @@ That's intentional! Prioritize finding your "Key" items, it's the ones needed by
 
 Progression items can be hard to find, but there are 4 guaranteed items in the early game that you can get before rank 3 (the remaining 4 are all in the later parts of the game like pocket circuit or the colliseum) Make sure to check all the minigames like pool, golf, the casino, or shogi. If that doesn't work, you can go back to Yokohama at any point in the game, there are unique checks there for Shogi and the casino!
 
-### I hate Shogi, why is it on?
-
-Settings will come soon! But for now, puzzle shogi is consistent and you can lookup the solutions online.
-
 ### Where's Mahjong?
 
-Don't make me add Mahjong. Currently the only way to implement it would be through the completion list, and I don't want to test play mahjong enough to build that out.
+Don't make me add Mahjong. Currently the only way to implement it would be through the completion list, so maybe in the future...
 
 ## Implementation
 
@@ -104,12 +104,13 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 11 Items from the Yokohama outdoor Shogi point shop
 11 Items from the Sotenbori outdoor Shogi point shop
 13 items from the Golf point shop
+8 items from Darts Rivals
 11 items from the Yokohama Gambler Hall point shop
 10 items from the Sotenbori Gambler Hall point shop
 16 items from the Coliseum Gambler Hall point shop
 15 items from the Coliseum Casino point shop
 38 items from the Coliseum Boutique
-10 items from Mizorogi
+5 items from Mizorogi
 40 wire grab items in Yokohama
 50 wire grab items in Sotenbori
 30 wire grab items in the Coliseum
@@ -121,7 +122,6 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 
 ### Planned locations:
 Coin Locker Keys
-Cosmetic Shops
 Completion List
 Substories
 Akane Tasks
