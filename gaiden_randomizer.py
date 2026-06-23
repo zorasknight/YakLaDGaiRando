@@ -230,7 +230,6 @@ def run_randomizer():
 def set_button_enabled(enabled: bool):
     dpg.configure_item("run_randomizer_btn", enabled=enabled)
 
-    # instead of invalid "color", use style overrides
     if not enabled:
         dpg.configure_item("run_randomizer_btn",
                            show=True)
@@ -631,7 +630,7 @@ with dpg.window(tag="main"):
 
     with dpg.group(horizontal=True):
 
-        # LEFT PANEL
+        # Side Panel
         with dpg.child_window(width=220):
 
             dpg.add_text("Actions")
@@ -689,7 +688,7 @@ with dpg.window(tag="main"):
             )
             dpg.add_separator()
 
-        # MAIN PANEL
+        # Main Panel
         with dpg.child_window(tag="content"):
             dpg.add_text("Select category")
     with dpg.draw_layer():
@@ -698,7 +697,7 @@ with dpg.window(tag="main"):
             pmin=(0, 0),
             pmax=(1600, 900),
             color=(0, 0, 0, 0),
-            fill=(0, 0, 0, 160)  # adjust darkness here
+            fill=(0, 0, 0, 160)
         )
 
 dpg.setup_dearpygui()

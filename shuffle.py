@@ -118,11 +118,9 @@ def apply_file_blacklist(rows):
 
 def shuffle_all_items(rows):
 
-    # normalize
     for r in rows:
         r["Item ID"] = str(r["Item ID"])
 
-    # Remember each item's category
     item_category = {
         r["Item ID"]: str(r["Category"]).strip()
         for r in rows
@@ -131,7 +129,6 @@ def shuffle_all_items(rows):
     # Build item list
     item_ids = [r["Item ID"] for r in rows]
 
-    # Process constrained categories first
     protected = [
         i for i in item_ids
         if item_category[i] in NO_JUNK_CATEGORIES
@@ -228,8 +225,6 @@ def shuffle_all_items(rows):
         })
 
     return updates
-
-# Write Output
 
 def write_updates(updates, path):
 

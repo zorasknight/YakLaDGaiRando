@@ -173,7 +173,6 @@ def update_shop(data, updates):
 
 def update_shop_item_limits(data, updates):
 
-    # only shops randomized by updates.csv
     affected_tables = {
         u["table_name"]
         for u in updates
@@ -187,7 +186,6 @@ def update_shop_item_limits(data, updates):
 
         for table_name, shop_wrapper in root_value.items():
 
-            # skip untouched shops
             if table_name not in affected_tables:
                 continue
 
@@ -201,7 +199,6 @@ def update_shop_item_limits(data, updates):
 
             item_counts = Counter()
 
-            # count occurrences
             for row_container in table.values():
 
                 if not isinstance(row_container, dict):
@@ -217,7 +214,6 @@ def update_shop_item_limits(data, updates):
                 if item_id:
                     item_counts[item_id] += 1
 
-            # assign counts
             for row_container in table.values():
 
                 if not isinstance(row_container, dict):
@@ -441,7 +437,6 @@ def patch_item_bin_prices(updates_by_file):
             row = item_block[inner_key]
             category = row.get("category")
 
-            # purchase price update
             if "purchase_price" in row and new_price is not None:
                 old_value = row["purchase_price"]
                 row["purchase_price"] = int(new_price)
@@ -452,7 +447,7 @@ def patch_item_bin_prices(updates_by_file):
 
                 changes += 1
 
-            # Equipment value update
+
             if int(category) == 6:
 
                 # Stat rules (min, max per field)
@@ -467,11 +462,9 @@ def patch_item_bin_prices(updates_by_file):
                     "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
                 }
 
-                # Apply stats
                 for field, (mn, mx) in stat_rules.items():
                     row[field] = random.randint(mn, mx)
 
-                # Special effect
                 special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
                 row["add_special0"] = special_id
                 row["explanation"] = SPECIAL0_EFFECTS[special_id]
