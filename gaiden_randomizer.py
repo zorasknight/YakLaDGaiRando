@@ -40,7 +40,7 @@ if not DEFAULTS_FILE.exists():
     DEFAULTS_FILE.write_text(bundled.read_text(encoding="utf-8"), encoding="utf-8")
 
 
-BASE_TOTAL = 642
+BASE_TOTAL = 631
 BASE_REQUIRED = 349
 MINIGAME_TOTAL = 106
 MINIGAME_REQUIRED = 14
