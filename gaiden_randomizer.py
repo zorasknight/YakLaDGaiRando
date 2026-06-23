@@ -41,7 +41,7 @@ if not DEFAULTS_FILE.exists():
 
 
 BASE_TOTAL = 502
-BASE_REQUIRED = 348
+BASE_REQUIRED = 349
 MINIGAME_TOTAL = 106
 MINIGAME_REQUIRED = 14
 
@@ -587,9 +587,7 @@ dpg.create_context()
 
 
 with dpg.font_registry():
-
-    with dpg.font(font_path, 18) as default_font:
-        dpg.add_font_range_hint(dpg.mvFontRangeHint_Default)
+    default_font = dpg.add_font(font_path, 18)
 
 dpg.bind_font(default_font)
 

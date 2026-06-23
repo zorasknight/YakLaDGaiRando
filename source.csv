@@ -417,7 +417,7 @@ treasure006,10,11,Refreshment of the Sky King,6130,100,,,item_get_by_wire.bin.js
 treasure007,11,5,Metal Frame,4770,580,,,item_get_by_wire.bin.json,0,,
 treasure008,12,4,Gold Plate,5370,150000,1500,,item_get_by_wire.bin.json,0,,
 treasure009,13,11,Staminan XX,5995,10000,,,item_get_by_wire.bin.json,0,,
-treasure010,14,5,Gold Plate,5370,150000,1500,,item_get_by_wire.bin.json,0,,
+treasure010,14,4,Gold Plate,5370,150000,1500,,item_get_by_wire.bin.json,0,,
 treasure011,15,4,Silver Plate,5371,15000,150,,item_get_by_wire.bin.json,0,,
 treasure012,16,11,Nutriment of the Conquering Emperor,6131,100,,,item_get_by_wire.bin.json,0,,
 treasure013,17,4,Gold Plate,5370,150000,1500,,item_get_by_wire.bin.json,0,,
