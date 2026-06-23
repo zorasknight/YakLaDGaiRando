@@ -14,10 +14,20 @@ BASE_DIR = get_base_dir()
 
 #Modify this section for each new item record:
 
+POINT_FIELDS = [
+    "buy_syogi_point",
+    "buy_casino_point",
+    "buy_toba_point",
+    "buy_akame_point",
+    "buy_billiard_point",
+    "buy_golf_point",
+    "buy_pokecir_point",
+]
+
 INPUT_FOLDER = BASE_DIR / "GameData"
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
 SHOP_PATH = INPUT_FOLDER / "db.aston.en" / "shop.bin.json"
-TARGET = "aston_s_poppo_ashi"
+TARGET = "aston_c_fighterlounge_hitori"
 
 # ============================================================
 
@@ -32,7 +42,8 @@ def get_item_info(item_data, item_id):
             "item_key": None,
             "name": None,
             "category": None,
-            "purchase_price": None
+            "purchase_price": None,
+            "cheapest_point_total": ""
         }
 
     for key, value in row.items():
@@ -40,18 +51,30 @@ def get_item_info(item_data, item_id):
         if not isinstance(value, dict):
             continue
 
+        point_values = []
+
+        for field in POINT_FIELDS:
+            point_value = value.get(field)
+
+            if point_value not in (None, "", 0, "0"):
+                point_values.append(int(point_value))
+
+        cheapest_point_total = min(point_values) if point_values else ""
+
         return {
             "item_key": key,
             "name": value.get("name"),
             "category": value.get("category"),
-            "purchase_price": value.get("purchase_price")
+            "purchase_price": value.get("purchase_price"),
+            "cheapest_point_total": cheapest_point_total
         }
 
     return {
         "item_key": None,
         "name": None,
         "category": None,
-        "purchase_price": None
+        "purchase_price": None,
+        "cheapest_point_total": ""
     }
 
 def find_targets(obj, target, path="root"):
@@ -107,13 +130,13 @@ for match_path, target_data in matches:
         item_info = get_item_info(item_data, item_id)
 
         results.append({
-            "path": match_path,
-            "item_key": item_info["item_key"],
+            "path": match_path.split(".")[-1],
             "table_row": subrow_num,
-            "item_id": item_id,
-            "name": item_info["name"],
             "category": item_info["category"],
-            "purchase_price": item_info["purchase_price"]
+            "name": item_info["name"],
+            "item_id": item_id,
+            "purchase_price": item_info["purchase_price"],
+            "cheapest_point_total": item_info["cheapest_point_total"]
         })
 
 with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
@@ -121,12 +144,12 @@ with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
         f,
         fieldnames=[
             "path",
-            "item_key",
             "table_row",
-            "item_id",
-            "name",
             "category",
-            "purchase_price"
+            "name",
+            "item_id",
+            "purchase_price",
+            "cheapest_point_total"
         ]
     )
     writer.writeheader()

@@ -20,6 +20,9 @@ CASINOS_ITEMS = settings.get("include_casinos")
 SHOGI_ITEMS = settings.get("include_shogi")
 DART_ITEMS = settings.get("include_darts")
 POCKET_CIRCUIT_ITEMS = settings.get("include_pocket_circuit")
+WEIRD_SHOP_ITEMS = settings.get("include_weird_shops")
+CONSUMABLE_SHOP_ITEMS = settings.get("include_consumable_shops")
+
 
 
 
@@ -77,7 +80,7 @@ def apply_file_blacklist(rows):
     blacklist = set()
 
     if not SHOP_ITEMS:
-        blacklist.update(["aston_s_ebisuya", "aston_c_boutique_equip", "aston_s_wannpark", "aston_s_akame", "aston_c_boutique", "aston_y_shichiya", "aston_y_lovemagic", "aston_c_boutique_vip", "aston_s_mizorogi_2", "aston_s_mizorogi"])
+        blacklist.update(["aston_s_ebisuya", "aston_c_loungeshop", "aston_c_boutique_equip", "aston_s_wannpark", "aston_s_akame", "aston_c_boutique", "aston_y_shichiya", "aston_y_lovemagic", "aston_c_boutique_vip", "aston_s_mizorogi_2", "aston_s_mizorogi"])
 
     if not REWARD_ITEMS:
         blacklist.update(["pokecir"])
@@ -105,6 +108,12 @@ def apply_file_blacklist(rows):
     
     if not POCKET_CIRCUIT_ITEMS:
         blacklist.update(["aston_s_pokecir_parts"])
+
+    if not WEIRD_SHOP_ITEMS:
+        blacklist.update(["aston_y_ichibann", "aston_y_smilewagon", "aston_s_shigano", "aston_s_hiratai", "aston_s_kukuru"])
+
+    if not CONSUMABLE_SHOP_ITEMS:
+        blacklist.update(["aston_s_poppo_ashi", "aston_s_poppo_sh", "aston_s_poppo_so", "aston_y_poppo02", "aston_s_tsuruha"])
 
     if not blacklist:
         return rows

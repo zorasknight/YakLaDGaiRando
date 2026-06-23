@@ -40,7 +40,7 @@ if not DEFAULTS_FILE.exists():
     DEFAULTS_FILE.write_text(bundled.read_text(encoding="utf-8"), encoding="utf-8")
 
 
-BASE_TOTAL = 502
+BASE_TOTAL = 642
 BASE_REQUIRED = 349
 MINIGAME_TOTAL = 106
 MINIGAME_REQUIRED = 14
@@ -99,7 +99,7 @@ FIELD_SCHEMA = {
         "label": "Include Shops",
         "hint": "Includes all shops in item pool",
         "required_items": 17,
-        "added_items": 106
+        "added_items": 114
     },
     "include_minigames": {
         "type": "bool",
@@ -156,6 +156,20 @@ FIELD_SCHEMA = {
         "hint": "Includes Dart Rival rewards",
         "required_items": 2,
         "added_items": 8
+    },
+    "include_consumable_shops": {
+        "type": "bool",
+        "label": "Include Consumable Shops",
+        "hint": "Includes Poppo Marts and the Pharmacy",
+        "required_items": 0,
+        "added_items": 111
+    },
+    "include_weird_shops": {
+        "type": "bool",
+        "label": "Include Weird Shops",
+        "hint": "Includes one off stores like ichiban confections",
+        "required_items": 0,
+        "added_items": 21
     },
 }
 
