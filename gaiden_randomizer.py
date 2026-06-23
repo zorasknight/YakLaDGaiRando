@@ -1,7 +1,7 @@
-import dearpygui.dearpygui as dpg
+import dearpygui.dearpygui as dpg # type: ignore
 from settings import settings
 from pathlib import Path
-import yaml
+import yaml # type: ignore
 import time
 import sys
 import shuffle

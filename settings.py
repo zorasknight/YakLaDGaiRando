@@ -1,6 +1,6 @@
 from pathlib import Path
 import sys
-import yaml
+import yaml # type: ignore
 from copy import deepcopy
 
 def get_base_dir():
