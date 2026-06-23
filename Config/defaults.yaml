@@ -27,5 +27,5 @@ include_golf: TRUE
 include_casinos: TRUE
 include_shogi: TRUE
 include_darts: TRUE
+include_weird_shops: TRUE
 include_consumable_shops: FALSE
-include_weird_shops: FALSE

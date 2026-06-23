@@ -157,19 +157,19 @@ FIELD_SCHEMA = {
         "required_items": 2,
         "added_items": 8
     },
-    "include_consumable_shops": {
-        "type": "bool",
-        "label": "Include Consumable Shops",
-        "hint": "Includes Poppo Marts and the Pharmacy",
-        "required_items": 0,
-        "added_items": 111
-    },
     "include_weird_shops": {
         "type": "bool",
         "label": "Include Weird Shops",
         "hint": "Includes one off stores like ichiban confections",
         "required_items": 0,
         "added_items": 21
+    },
+    "include_consumable_shops": {
+        "type": "bool",
+        "label": "Include Consumable Shops",
+        "hint": "Includes Poppo Marts and the Pharmacy",
+        "required_items": 0,
+        "added_items": 111
     },
 }
 
