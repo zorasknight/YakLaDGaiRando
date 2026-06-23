@@ -184,12 +184,6 @@ def field_hint(key):
 def field_type(key):
     return field_meta(key).get("type")
 
-def is_bool(key):
-    return field_type(key) == "bool"
-
-def is_range_base(base):
-    return field_type(base) == "range"
-
 def add_tooltip(target, text):
     if text:
         with dpg.tooltip(target):
@@ -505,14 +499,6 @@ def make_range(base, min_key, max_key, rules):
     dpg.set_item_callback(max_slider, max_slider_changed)
 
 # Render
-
-def render_field(key):
-    ftype = field_type(key)
-
-    if ftype == "bool":
-        make_bool(key)
-    else:
-        return False
 
 def render(cat):
     dpg.delete_item("content", children_only=True)
