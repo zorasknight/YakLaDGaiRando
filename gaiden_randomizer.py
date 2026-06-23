@@ -39,6 +39,12 @@ if not DEFAULTS_FILE.exists():
     CONFIG_DIR.mkdir(exist_ok=True)
     DEFAULTS_FILE.write_text(bundled.read_text(encoding="utf-8"), encoding="utf-8")
 
+
+BASE_TOTAL = 502
+BASE_REQUIRED = 348
+MINIGAME_TOTAL = 106
+MINIGAME_REQUIRED = 14
+
 FIELD_SCHEMA = {
 
     # Ranges (INT)
@@ -84,29 +90,82 @@ FIELD_SCHEMA = {
     "include_coin_lockers": {
         "type": "bool",
         "label": "Include Coin Lockers",
-        "hint": "Includes coin lockers in item pool"
+        "hint": "Includes coin lockers in item pool",
+        "required_items": 9,
+        "added_items": 50
     },
     "include_shops": {
         "type": "bool",
         "label": "Include Shops",
-        "hint": "Includes all shops in item pool"
+        "hint": "Includes all shops in item pool",
+        "required_items": 17,
+        "added_items": 106
     },
     "include_minigames": {
         "type": "bool",
         "label": "Include Minigames",
-        "hint": "Includes all Minigame shops into the item pool (NOTE: not pocket circuit)"
+        "hint": "Includes all Minigame shops into the item pool",
+        "required_items": 14,
+        "added_items": 106
     },
     "include_pocket_circuit": {
         "type": "bool",
         "label": "Include Pocket Circuit",
-        "hint": "Includes both the Pocket Circuit shop, and reward from beating rivals into the item pool (NOTE: rivals can be turned off from rewards below)"
+        "hint": "Includes the Pocket Circuit shop into the item pool",
+        "required_items": 95,
+        "added_items": 95
     },
     "include_rewards": {
         "type": "bool",
-        "label": "Include Rewards",
-        "hint": "includes all rewards in item pool"
+        "label": "Include PC Rival Rewards",
+        "hint": "Includes all Rival Rewards for Pocket Circuit",
+        "required_items": 14,
+        "added_items": 14
+    },
+    "include_pool": {
+        "type": "bool",
+        "label": "Include Pool",
+        "hint": "Includes Golf Point Shop",
+        "required_items": 1,
+        "added_items": 11
+    },
+    "include_golf": {
+        "type": "bool",
+        "label": "Include Golf",
+        "hint": "Includes Golf Point Shop",
+        "required_items": 2,
+        "added_items": 13
+    },
+    "include_casinos": {
+        "type": "bool",
+        "label": "Include Casinos",
+        "hint": "Includes both the Casino and Toba Point Shops",
+        "required_items": 8,
+        "added_items": 52
+    },
+    "include_shogi": {
+        "type": "bool",
+        "label": "Include Shogi",
+        "hint": "Includes Shogi Point Shop",
+        "required_items": 1,
+        "added_items": 22
+    },
+    "include_darts": {
+        "type": "bool",
+        "label": "Include Darts",
+        "hint": "Includes Dart Rival rewards",
+        "required_items": 2,
+        "added_items": 8
     },
 }
+
+MINIGAME_KEYS = [
+    "include_pool",
+    "include_golf",
+    "include_casinos",
+    "include_shogi",
+    "include_darts",
+]
 
 # Helper Methods
 
@@ -167,6 +226,68 @@ def run_randomizer():
         log("All scripts completed. Enjoy the Rando!")
 
     threading.Thread(target=task, daemon=True).start()
+
+def set_button_enabled(enabled: bool):
+    dpg.configure_item("run_randomizer_btn", enabled=enabled)
+
+    # instead of invalid "color", use style overrides
+    if not enabled:
+        dpg.configure_item("run_randomizer_btn",
+                           show=True)
+        dpg.set_item_label("run_randomizer_btn", "Too Few Locations")
+    else:
+        dpg.set_item_label("run_randomizer_btn", "Run Randomizer")
+
+def calculate_checks():
+    total_checks = BASE_TOTAL
+    required_checks = BASE_REQUIRED
+
+    minigames_on = safe_bool(LIVE.get("include_minigames", False))
+
+    for key, meta in FIELD_SCHEMA.items():
+        if meta.get("type") != "bool":
+            continue
+
+        value = safe_bool(LIVE.get(key, False))
+
+        if key in MINIGAME_KEYS:
+            if not minigames_on:
+                continue
+
+            if value:
+                continue
+            else:
+                total_checks -= meta.get("added_items", 0)
+                required_checks -= meta.get("required_items", 0)
+
+            continue
+
+        if key == "include_minigames":
+            if not value:
+                total_checks -= MINIGAME_TOTAL
+                required_checks -= MINIGAME_REQUIRED
+            continue
+
+        if not value:
+            total_checks -= meta.get("added_items", 0)
+            required_checks -= meta.get("required_items", 0)
+
+    return total_checks, required_checks
+
+def update_check_display():
+    total, required = calculate_checks()
+
+    dpg.set_value("total_checks_text", f"Total Checks: {total}")
+    dpg.set_value("required_checks_text", f"Required Checks: {required}")
+
+    invalid = required > total
+
+    dpg.configure_item(
+        "total_checks_text",
+        color=(255, 0, 0, 255) if invalid else (0, 255, 0, 255)
+    )
+    
+    set_button_enabled(not invalid)
 
 settings.reload()
 LIVE = dict(settings.data)
@@ -254,6 +375,7 @@ def reset_category(cat):
 
     autosave()
     render(cat)
+    update_check_display()
 
 # Category
 
@@ -275,6 +397,7 @@ def make_bool(key):
     def update(sender, app_data):
         LIVE[key] = bool(app_data)
         autosave()
+        update_check_display()
 
     cb = dpg.add_checkbox(
     label=field_label(key),
@@ -401,9 +524,32 @@ def render(cat):
         dpg.add_text("OPTIONS")
         dpg.add_separator()
 
-        for key, meta in FIELD_SCHEMA.items():
-            if meta["type"] == "bool":
-                make_bool(key)
+        bool_keys = [
+            key for key, meta in FIELD_SCHEMA.items()
+            if meta["type"] == "bool"
+        ]
+
+        with dpg.table(
+            header_row=False,
+            borders_innerH=False,
+            borders_innerV=False,
+            borders_outerH=False,
+            borders_outerV=False
+        ):
+            dpg.add_table_column()
+            dpg.add_table_column()
+            dpg.add_table_column()  # 3 columns
+
+            cols = 3
+
+            for i in range(0, len(bool_keys), cols):
+                with dpg.table_row():
+                    for j in range(cols):
+                        if i + j < len(bool_keys):
+                            with dpg.table_cell():
+                                make_bool(bool_keys[i + j])
+                        else:
+                            dpg.add_text("")
 
         dpg.add_spacer(height=10)
 
@@ -423,6 +569,7 @@ def render(cat):
                 make_range(base, mn, mx, rules)
 
             dpg.add_spacer(height=10)
+    update_check_display()
 
 # Switch
 
@@ -433,6 +580,7 @@ def switch(sender, app_data, user_data):
     selected_category = user_data
 
     render(user_data)
+    update_check_display()
 
 # UI
 
@@ -497,7 +645,8 @@ with dpg.window(tag="main"):
             dpg.add_button(
                 label="Run Randomizer",
                 width=200,
-                callback=run_randomizer
+                callback=run_randomizer,
+                tag="run_randomizer_btn"
             )
 
             dpg.add_separator()
@@ -526,6 +675,19 @@ with dpg.window(tag="main"):
                     height=-1,
                     default_value=""
                 )
+            dpg.add_separator()
+            total, required = calculate_checks()
+
+            dpg.add_text(
+                f"Total Checks: {total}",
+                tag="total_checks_text"
+            )
+
+            dpg.add_text(
+                f"Required Checks: {required}",
+                tag="required_checks_text"
+            )
+            dpg.add_separator()
 
         # MAIN PANEL
         with dpg.child_window(tag="content"):
@@ -545,6 +707,7 @@ dpg.show_viewport()
 dpg.set_primary_window("main", True)
 
 render("Shops")
+update_check_display()
 
 dpg.start_dearpygui()
 autosave()

@@ -20,5 +20,10 @@ remove_default_prices: TRUE
 include_coin_lockers: TRUE
 include_shops: TRUE
 include_rewards: TRUE
-include_minigames: TRUE
 include_pocket_circuit: TRUE
+include_minigames: TRUE
+include_pool: TRUE
+include_golf: TRUE
+include_casinos: TRUE
+include_shogi: TRUE
+include_darts: TRUE

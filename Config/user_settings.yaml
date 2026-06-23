@@ -11,8 +11,13 @@ attack_and_defense_max: 2000
 resist_min: 0
 resist_max: 400
 remove_default_prices: true
-include_coin_lockers: true
-include_shops: true
+include_coin_lockers: false
+include_shops: false
 include_rewards: true
-include_minigames: true
 include_pocket_circuit: true
+include_minigames: true
+include_pool: true
+include_golf: true
+include_casinos: true
+include_shogi: true
+include_darts: true
