@@ -1,7 +1,7 @@
 import csv
 import random
 from collections import defaultdict
-from Scripts.settings import settings
+from .settings import settings
 
 # Config
 
@@ -66,6 +66,48 @@ def build_pools(rows):
     return pools
 
 # Helpers
+
+def load_config():
+    global DEFAULT_PRICES
+    global SHOP_ITEMS
+    global REWARD_ITEMS
+    global COIN_LOCKER_ITEMS
+    global MINIGAME_ITEMS
+    global POOL_ITEMS
+    global GOLF_ITEMS
+    global CASINOS_ITEMS
+    global SHOGI_ITEMS
+    global DART_ITEMS
+    global POCKET_CIRCUIT_ITEMS
+    global WEIRD_SHOP_ITEMS
+    global CONSUMABLE_SHOP_ITEMS
+
+    global MONETARY_MIN
+    global MONETARY_MAX
+    global POINT_MIN
+    global POINT_MAX
+
+    settings.reload()
+
+    DEFAULT_PRICES = settings.get("remove_default_prices")
+    SHOP_ITEMS = settings.get("include_shops")
+    REWARD_ITEMS = settings.get("include_rewards")
+    COIN_LOCKER_ITEMS = settings.get("include_coin_lockers")
+    MINIGAME_ITEMS = settings.get("include_minigames")
+    POOL_ITEMS = settings.get("include_pool")
+    GOLF_ITEMS = settings.get("include_golf")
+    CASINOS_ITEMS = settings.get("include_casinos")
+    SHOGI_ITEMS = settings.get("include_shogi")
+    DART_ITEMS = settings.get("include_darts")
+    POCKET_CIRCUIT_ITEMS = settings.get("include_pocket_circuit")
+    WEIRD_SHOP_ITEMS = settings.get("include_weird_shops")
+    CONSUMABLE_SHOP_ITEMS = settings.get("include_consumable_shops")
+
+    MONETARY_MIN = settings.get("monetary_min")
+    MONETARY_MAX = settings.get("monetary_max")
+
+    POINT_MIN = settings.get("point_min")
+    POINT_MAX = settings.get("point_max")
 
 def is_empty(v):
     return v is None or str(v).strip() == ""
@@ -259,6 +301,7 @@ def write_updates(updates, path):
 # MAIN
 
 def main():
+    load_config()
     rows = load_rows(INPUT_CSV)
 
     rows = apply_file_blacklist(rows)

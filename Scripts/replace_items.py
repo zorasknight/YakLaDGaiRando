@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 from collections import Counter
-from Scripts.settings import settings
+from .settings import settings
 import sys
 
 # Config
@@ -11,7 +11,7 @@ import sys
 def get_base_dir():
     if getattr(sys, "frozen", False):
         return Path(sys.executable).parent  # EXE mode
-    return Path(__file__).resolve().parent  # script mode
+    return Path(__file__).resolve().parent.parent  # script mode
 
 BASE_DIR = get_base_dir()
 
@@ -54,6 +54,30 @@ RESIST_MAX = settings.get("resist_max")
 
 STATUS_RESIST_MIN = 0
 STATUS_RESIST_MAX = 1
+
+def load_config():
+    global SKILL_MONEY_MIN
+    global SKILL_MONEY_MAX
+    global SKILL_AKAME_MIN
+    global SKILL_AKAME_MAX
+    global ATTACK_AND_DEFENSE_MIN
+    global ATTACK_AND_DEFENSE_MAX
+    global RESIST_MIN
+    global RESIST_MAX
+
+    settings.reload()
+
+    SKILL_MONEY_MIN = settings.get("skill_money_min")
+    SKILL_MONEY_MAX = settings.get("skill_money_max")
+
+    SKILL_AKAME_MIN = settings.get("skill_akame_min")
+    SKILL_AKAME_MAX = settings.get("skill_akame_max")
+
+    ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
+    ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
+
+    RESIST_MIN = settings.get("resist_min")
+    RESIST_MAX = settings.get("resist_max")
 
 
 # Create log files
@@ -597,7 +621,9 @@ def apply_updates(json_path, updates):
 # MAIN
 
 def main():
-
+    load_config()
+    CHANGE_LOG_PATH.write_text("", encoding="utf-8")
+    ERROR_LOG_PATH.write_text("", encoding="utf-8")
     updates_by_file = load_updates()
 
     json_files = list(INPUT_FOLDER.rglob("*.json"))

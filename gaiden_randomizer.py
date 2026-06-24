@@ -24,7 +24,7 @@ def get_base_dir():
         return Path(sys.executable).parent
 
     # Running as normal .py script
-    return Path(__file__).resolve().parent.parent
+    return Path(__file__).resolve().parent
 
 BASE_DIR = get_base_dir()
 CONFIG_DIR = BASE_DIR / "Config"

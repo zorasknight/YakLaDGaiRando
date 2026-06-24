@@ -1,8 +1,8 @@
 import time
 
-import Scripts.shuffle as shuffle
-import Scripts.replace_items as replace_items
-import Scripts.convert as convert
+import shuffle as shuffle
+import replace_items as replace_items
+import convert as convert
 
 PIPELINE = [
     (shuffle.main, 1),
