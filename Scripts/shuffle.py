@@ -35,7 +35,14 @@ POINT_MAX = settings.get("point_max")
 # Categories that may NEVER be placed into Junk slots
 NO_JUNK_CATEGORIES = {"5"}
 
-random.seed()
+def init_seed(provided_seed=None):
+    if provided_seed is None or str(provided_seed).strip() == "":
+        seed = random.SystemRandom().randint(0, 2**32 - 1)
+    else:
+        seed = int(provided_seed)
+
+    random.seed(seed)
+    return seed
 
 # Sphere locks
 
@@ -302,6 +309,11 @@ def write_updates(updates, path):
 
 def main():
     load_config()
+    
+    seed = settings.get("seed")
+    used_seed = init_seed(seed)
+    print(f"[SEED] Using seed: {used_seed}")
+
     rows = load_rows(INPUT_CSV)
 
     rows = apply_file_blacklist(rows)

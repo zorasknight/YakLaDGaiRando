@@ -29,3 +29,5 @@ include_shogi: TRUE
 include_darts: TRUE
 include_weird_shops: TRUE
 include_consumable_shops: FALSE
+
+seed: null

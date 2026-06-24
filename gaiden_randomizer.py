@@ -171,6 +171,11 @@ FIELD_SCHEMA = {
         "required_items": 0,
         "added_items": 111
     },
+    "seed": {
+        "type": "int",
+        "label": "Random Seed",
+        "hint": "Leave blank for a fully random generation. Set a value for consistent results."
+    },
 }
 
 MINIGAME_KEYS = [
@@ -212,10 +217,19 @@ def make_label(text, hint=None):
 def log(message):
     current = dpg.get_value("log_text")
     dpg.set_value("log_text", current + message + "\n")
-    dpg.set_y_scroll("log_window", dpg.get_y_scroll_max("log_window"))
+    dpg.set_y_scroll("log_window", 1.0)
 
 def run_randomizer():
     autosave()
+    seed = LIVE.get("seed")
+
+    if seed is not None:
+        import random
+        random.seed(seed)
+        log(f"Using seed: {seed}")
+    else:
+        log("Using random seed (None)")
+
     def task():
         log("Starting randomizer...")
 
@@ -299,6 +313,8 @@ def update_check_display():
 
 settings.reload()
 LIVE = dict(settings.data)
+LIVE.pop("seed", None)
+LIVE["seed"] = None
 
 # Load Defaults
 
@@ -687,6 +703,29 @@ with dpg.window(tag="main"):
             )
             dpg.add_separator()
 
+            dpg.add_text("Random Seed Value")
+
+            seed_input = dpg.add_input_text(
+                width=160,
+                default_value=""
+            )
+
+            def seed_changed(sender, app_data):
+                text = app_data.strip()
+
+                if text == "":
+                    LIVE["seed"] = None
+                else:
+                    try:
+                        LIVE["seed"] = int(text)
+                    except ValueError:
+                        LIVE["seed"] = None
+
+                autosave()
+
+            dpg.set_item_callback(seed_input, seed_changed)
+
+            dpg.add_separator()
         # Main Panel
         with dpg.child_window(tag="content"):
             dpg.add_text("Select category")

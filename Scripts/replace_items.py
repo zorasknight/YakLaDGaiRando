@@ -13,6 +13,15 @@ def get_base_dir():
         return Path(sys.executable).parent  # EXE mode
     return Path(__file__).resolve().parent.parent  # script mode
 
+def init_seed(seed=None):
+    import random
+
+    if seed is None or str(seed).strip() == "":
+        seed = random.SystemRandom().randint(0, 2**32 - 1)
+
+    random.seed(seed)
+    return seed
+
 BASE_DIR = get_base_dir()
 
 INPUT_FOLDER = BASE_DIR / "GameData"
@@ -622,6 +631,12 @@ def apply_updates(json_path, updates):
 
 def main():
     load_config()
+
+    seed = settings.get("seed")
+    used_seed = init_seed(seed)
+
+    print(f"[SEED] {used_seed}")
+
     CHANGE_LOG_PATH.write_text("", encoding="utf-8")
     ERROR_LOG_PATH.write_text("", encoding="utf-8")
     updates_by_file = load_updates()
