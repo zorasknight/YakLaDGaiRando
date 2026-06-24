@@ -22,4 +22,4 @@ include_casinos: true
 include_shogi: true
 include_darts: true
 include_weird_shops: true
-include_consumable_shops: false
+include_consumable_shops: true

@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 from collections import Counter
-from settings import settings
+from Scripts.settings import settings
 import sys
 
 # Config

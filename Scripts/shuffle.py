@@ -1,7 +1,7 @@
 import csv
 import random
 from collections import defaultdict
-from settings import settings
+from Scripts.settings import settings
 
 # Config
 

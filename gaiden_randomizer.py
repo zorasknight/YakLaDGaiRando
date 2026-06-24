@@ -1,12 +1,12 @@
 import dearpygui.dearpygui as dpg # type: ignore
-from settings import settings
+from Scripts.settings import settings
 from pathlib import Path
 import yaml # type: ignore
 import time
 import sys
-import shuffle
-import replace_items
-import convert
+import Scripts.shuffle as shuffle
+import Scripts.replace_items as replace_items
+import Scripts.convert as convert
 import threading
 
 
@@ -24,7 +24,7 @@ def get_base_dir():
         return Path(sys.executable).parent
 
     # Running as normal .py script
-    return Path(__file__).resolve().parent
+    return Path(__file__).resolve().parent.parent
 
 BASE_DIR = get_base_dir()
 CONFIG_DIR = BASE_DIR / "Config"
@@ -231,7 +231,8 @@ def run_randomizer():
             log(f"Finished {func.__module__}")
             time.sleep(delay)
 
-        log("All scripts completed. Enjoy the Rando!")
+        log("All scripts completed.")
+        log("Enjoy the Rando!")
 
     threading.Thread(target=task, daemon=True).start()
 
