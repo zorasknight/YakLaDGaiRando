@@ -96,33 +96,33 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 
 ### Current Items in the pool for randomization:
 
-18 items from the Sotenbori Ebisu Pawn shop
-94 Pocket Circuit Parts from the Pocket Circuit part exchange
-50 items from the Sotenbori Coin Lockers
-26 items from the Akame Network point shop
-11 items from the Billiards point shop
-12 items from the Sotenbori Clothing Store
-8 items from the Yokohama Shichiya Pawn shop
-11 items from the Yokohama Love Magic shop
-11 Items from the Yokohama outdoor Shogi point shop
-11 Items from the Sotenbori outdoor Shogi point shop
-13 items from the Golf point shop
-8 items from Darts Rivals
-11 items from the Yokohama Gambler Hall point shop
-10 items from the Sotenbori Gambler Hall point shop
-16 items from the Coliseum Gambler Hall point shop
-15 items from the Coliseum Casino point shop
-38 items from the Coliseum Boutique
-5 items from Mizorogi
-40 wire grab items in Yokohama
-50 wire grab items in Sotenbori
-30 wire grab items in the Coliseum
-30 wire grab items in the Coliseum Dungeon
-12 quest items
-119 Skill Books
-14 Pocket Circuit Parts from Pocket Circuit Rivals
-32 Trap Items
-and many many more...
+18 items from the Sotenbori Ebisu Pawn shop  
+94 Pocket Circuit Parts from the Pocket Circuit part exchange  
+50 items from the Sotenbori Coin Lockers  
+26 items from the Akame Network point shop  
+11 items from the Billiards point shop  
+12 items from the Sotenbori Clothing Store  
+8 items from the Yokohama Shichiya Pawn shop  
+11 items from the Yokohama Love Magic shop  
+11 Items from the Yokohama outdoor Shogi point shop  
+11 Items from the Sotenbori outdoor Shogi point shop  
+13 items from the Golf point shop  
+8 items from Darts Rivals  
+11 items from the Yokohama Gambler Hall point shop  
+10 items from the Sotenbori Gambler Hall point shop  
+16 items from the Coliseum Gambler Hall point shop  
+15 items from the Coliseum Casino point shop  
+38 items from the Coliseum Boutique  
+5 items from Mizorogi  
+40 wire grab items in Yokohama  
+50 wire grab items in Sotenbori  
+30 wire grab items in the Coliseum  
+30 wire grab items in the Coliseum Dungeon  
+12 quest items  
+119 Skill Books  
+14 Pocket Circuit Parts from Pocket Circuit Rivals  
+32 Trap Items  
+and many many more...  
 
 ### Planned locations:
 Coin Locker Keys
