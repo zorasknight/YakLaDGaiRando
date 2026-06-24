@@ -61,7 +61,7 @@ You really gotta be careful of cheap knockoffs these days, I hear you can tell i
 
 ### How can I tell if the Randomizer worked?
 
-You can tell the rando is working by checking the abilities screen when the game allows you. (the game allows you to upgrade Kiryu's abilities after the first fight on the dock in the intro) You should see each ability dragged out and locked, rather than seeing 4 HP upgrades available. If all your stuff is locked, that's a good sign! Past that any items aquired by wire in Yokohama or the shop items in either love magic or the pawn shop should be different than vanilla. As a note, the Soccer Ball in the intro is NOT randomized.
+You can tell the rando is working by the first enemy tutorial saying "Show them your strength" immediately. Or by checking the abilities screen when the game allows you. (the game allows you to upgrade Kiryu's abilities after the first fight on the dock in the intro) You should see each ability dragged out and locked, rather than seeing 4 HP upgrades available. If all your stuff is locked, that's a good sign! Past that any items aquired by wire in Yokohama or the shop items in either love magic or the pawn shop should be different than vanilla. As a note, the Soccer Ball in the intro is NOT randomized.
 
 ### An item disappeared before I could grab it!
 
