@@ -15,10 +15,14 @@ You will need a copy of "Like a Dragon Gaiden: The Man Who Erased His Name".
 I have tested this on the Steam version of the game, and that's the only supported version, your mileage may vary with other legal sources!
 
 This mod is installed using the Shin Ryu Mod Manager:
+
+Nexus link:
 https://www.nexusmods.com/site/mods/743?tab=description
 
-Please follow that link and complete the install first before attempting to run the randomizer!
+Alternatively Github:
+https://github.com/SRMM-Studio/ShinRyuModManager/releases
 
+Please follow that link and complete the install first before attempting to run the randomizer!
 
 ## Installing the Shin Ryu Mod Manager
 
