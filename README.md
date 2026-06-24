@@ -5,21 +5,26 @@
 <div align="center">
      <h1> Like a Dragon Gaiden: <br> The Man Who Erased His Name Randomizer </h1>
 </div>
-First implementation for a Like A Dragon Gaiden Item Randomizer, capable of locally generating a randomized game for you to complete. Currently supports shops, lockers, gear stats and abilities, skills, wire items, rewards and more!
+First implementation of an Item Randomizer for Like A Dragon Gaiden, capable of locally generating a randomized game for you to complete. Currently supports shops, lockers, gear stats and abilities, skills, wire items, rewards and more!
 
 ## Required Tools
+
+Windows for the exe requirement of the tool, but python scripts are OS agnostic, if you are interested in setting something like that up, there are more details at the bottom of this ReadMe. 
+
+You will need a copy of "Like a Dragon Gaiden: The Man Who Erased His Name".
+I have tested this on the Steam version of the game, and that's the only supported version, your mileage may vary with other legal sources!
 
 This mod is installed using the Shin Ryu Mod Manager:
 https://www.nexusmods.com/site/mods/743?tab=description
 
 Please follow that link and complete the install first before attempting to run the randomizer!
 
-You will need a copy of "Like a Dragon Gaiden: The Man Who Erased His Name".
-I use a purchased Steam version of the game, and that's the only officially supported version, your mileage may vary with any other ways!
 
 ## Installing the Shin Ryu Mod Manager
 
 ### NOTE: I did not create the Shin Ryu Mod Manager, this is just a quick reference guide.
+
+This isn't meant to replace any existing guides for the mod manager, and updates may cause this snippet to be out of date in the future.
 
 To install the Shin Ryu Mod Manager tool, download the zip from the provided nexusmods page, extract the contents of the zip to the "media" folder of your "Like a Dragon Gaiden" install. The folder should be the one that contains your "likeadragongaiden" exe. you want the files extracted straight to this folder, do not make a new folder at this location.
 
@@ -29,17 +34,15 @@ Your path should look something like this:
 
 From there, you should be able to just run the "ShinRyuModManager" app, which should have you ready for the steps below! 
 
-Remember to always launch the game through the mon manager and not through steam if you want to play the randomizer.
-
+Remember to always launch the game through the mod manager and not through Steam if you want to play the randomizer.
 
 ## Instructions:
 
 Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live (Anywhere is fine, I have it on my desktop).
 
-Run the Gaiden_Randomizer.exe from within that folder
-    *NOTE: if you can't run the EXE for whatever reason, the order of operations to create a rando seed is: shuffle.py, replace_items.py, convert.py. The EXE has a function that just runs those three scripts back to back. You may also be able to just run the randomizer.py as it was the earlier intent for how to set it up before the GUI was made. This currently only works on windows due to the reARMP exe being required, if you can get that program to run on your OS you should be able to run the rando just fine!
+Run the "Gaiden Randomizer.exe" from within that folder
 
-A GUI should launch that allows you to make any changes to the game settings per your likes! Make sure to leave enough spots open for important checks to be placed! the randomizer will fail if there aren't enough slots available. I recomend leaving stores or minigames on, though you can check the value below the console window to know how far off you are!
+A GUI should launch that allows you to make any changes to the game settings per your likes! I recomend leaving stores or minigames on, though you can check the value below the console window to know how far off you are!
 
 Once you're ready click the "Run Randomizer" button. Everything auto saves pretty instantly on category change or closing of the app.
 
@@ -119,6 +122,7 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 119 Skill Books
 14 Pocket Circuit Parts from Pocket Circuit Rivals
 32 Trap Items
+and many many more...
 
 ### Planned locations:
 Coin Locker Keys
@@ -144,6 +148,12 @@ Finish the Finale Act
 Logic is used to avoid hiding items behind themself, for example the A1 key cannot be stored within the A1 locker, This game is light on logic at the moment, but if we can get proper hooks we would like to randomize progression for substory unlocks.
 
 Currently this is built as a local only proof of concept as until we have a way to hook into the game, linking this to an archipelago will be impossible.
+
+### Potential options if you are not on Windows
+
+Using the program triggers this order of operations when creating a rando seed: the gaiden_randomizer.py builds the settings for your user.yaml, then you would run shuffle.py to create an update.csv, after that replace_items.py will adjust your GameDataOutput folder with modified files, convert.py is the next step and is the real kicker, you need to run each file in your GameDataOutput with the bundled reARMP.exe and rename them to remove the extra .bin.json that get appended. from there you need to package and zip the file to make a randoseed viable with the shin ryu mod manager.
+
+YOUR RESULTS WILL VARY, but please let me know if it works for you!
 
 ## Credits
 Nick Kiley for the Randomizer Logo, Ret for allowing me to bundle the reARMP tool with my randomizer, and Jhrino for helping with hooks and potential scripting access. And a big thanks to the Archipelago Yakuza community for the support!
