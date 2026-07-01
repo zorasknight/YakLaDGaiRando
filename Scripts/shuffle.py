@@ -23,9 +23,6 @@ POCKET_CIRCUIT_ITEMS = settings.get("include_pocket_circuit")
 WEIRD_SHOP_ITEMS = settings.get("include_weird_shops")
 CONSUMABLE_SHOP_ITEMS = settings.get("include_consumable_shops")
 
-
-
-
 MONETARY_MIN = settings.get("monetary_min")
 MONETARY_MAX = settings.get("monetary_max")
 
@@ -119,11 +116,36 @@ def load_config():
 def is_empty(v):
     return v is None or str(v).strip() == ""
 
+def weighted_rand(min_val, max_val):
+    span = max_val - min_val + 1
+
+    cheap_max = min_val + int(span * 0.08) - 1
+    average_max = min_val + int(span * 0.35) - 1
+    expensive_max = min_val + int(span * 0.65) - 1
+
+    r = random.random()
+
+    if r < 0.50:
+        # 50% chance to pull from the bottom 8% of the value range
+        return random.randint(min_val, cheap_max)
+
+    elif r < 0.85:
+        # 35% chance to pull from the middle 8% to 35% of the value range
+        return random.randint(cheap_max + 1, average_max)
+
+    elif r < 0.95:
+        # 10% chance to pull from the middle 35% to 65% of the value range
+        return random.randint(average_max + 1, expensive_max)
+
+    else:
+        # 5% chance to pull from the middle 65% to 100% of the value range
+        return random.randint(expensive_max + 1, max_val)
+
 def rand_money():
-    return random.randint(MONETARY_MIN, MONETARY_MAX)
+    return weighted_rand(MONETARY_MIN, MONETARY_MAX)
 
 def rand_point():
-    return random.randint(POINT_MIN, POINT_MAX)
+    return weighted_rand(POINT_MIN, POINT_MAX)
 
 def apply_file_blacklist(rows):
     blacklist = set()
