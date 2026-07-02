@@ -88,7 +88,7 @@ Don't make me add Mahjong. Currently the only way to implement it would be throu
 
 ## Implementation
 
-Randomization is achieved through adjusting values in the aston.db section, among others, of the games data prior to run time. The python script modifies the loose files contained within the mod folders, then utilizes a tool by Rett to conver them back to bin files, they then get compacted into a zip file that the Shin Ryu Mod Manager can convert back into pars to be injected into your game at run time. A new file is made on startup with any difficulty the player chooses, the completion goal is set by the player.
+Randomization is achieved through adjusting values in the aston.db section, among others, of the games data prior to run time. The python script modifies the loose files contained within the mod folders, then utilizes a tool by Ret to convert them back to bin files, they then get compacted into a zip file that the Shin Ryu Mod Manager can convert back into pars to be injected into your game at run time. A new file is made on startup with any difficulty the player chooses, the completion goal is set by the player.
 
 Trap healing items have been added to catch players off guard.
 
