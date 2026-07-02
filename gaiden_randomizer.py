@@ -103,7 +103,7 @@ FIELD_SCHEMA = {
     "randomize_enemy_stats": {
         "type": "bool",
         "label": "Randomize Enemy Stats",
-        "hint": "(THIS WILL MAKE THE GAME HARDER) This disables any custom stat changes except for intro skip.",
+        "hint": "(THIS WILL MAKE THE GAME HARDER) Randomize enemy HP and Attack (ignores intro if intro skip is on).",
     },
     "intro_skip": {
         "type": "bool",
