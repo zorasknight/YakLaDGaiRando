@@ -79,6 +79,19 @@ FIELD_SCHEMA = {
         "label": "Resistance Stats",
         "hint": "The range an armor's resistance stats can be randomized between"
     },
+    
+    # Float
+    
+    "enemy_attack_mult": {
+        "type": "float",
+        "label": "Enemy Attack Multiplier",
+        "hint": "Attack multiplier for all enemies"
+    },
+    "enemy_hp_mult": {
+        "type": "float",
+        "label": "Enemy Health Multiplier",
+        "hint": "Health multiplier for all enemies"
+    },
 
     # Booleans
 
@@ -87,12 +100,15 @@ FIELD_SCHEMA = {
         "label": "Remove Default Prices",
         "hint": "Ignores vanilla pricing and replaces all costs with randomized values"
     },
-    "include_coin_lockers": {
+    "randomize_enemy_stats": {
         "type": "bool",
-        "label": "Include Coin Lockers",
-        "hint": "Includes coin lockers in item pool",
-        "required_items": 9,
-        "added_items": 50
+        "label": "Randomize Enemy Stats",
+        "hint": "This disables any custom stat changes except for intro skip.",
+    },
+    "intro_skip": {
+        "type": "bool",
+        "label": "Intro Speedup",
+        "hint": "This sets all tutorial fights pre-sotenbori to 1 HP",
     },
     "include_shops": {
         "type": "bool",
@@ -101,12 +117,26 @@ FIELD_SCHEMA = {
         "required_items": 17,
         "added_items": 114
     },
-    "include_minigames": {
+    "include_consumable_shops": {
         "type": "bool",
-        "label": "Include Minigames",
-        "hint": "Includes all Minigame shops into the item pool",
-        "required_items": 14,
-        "added_items": 106
+        "label": "Include Consumable Shops",
+        "hint": "Includes Poppo Marts and the Pharmacy",
+        "required_items": 0,
+        "added_items": 111
+    },
+    "include_weird_shops": {
+        "type": "bool",
+        "label": "Include Weird Shops",
+        "hint": "Includes one off stores like ichiban confections",
+        "required_items": 0,
+        "added_items": 21
+    },
+    "include_coin_lockers": {
+        "type": "bool",
+        "label": "Include Coin Lockers",
+        "hint": "Includes coin lockers in item pool",
+        "required_items": 9,
+        "added_items": 50
     },
     "include_pocket_circuit": {
         "type": "bool",
@@ -122,10 +152,17 @@ FIELD_SCHEMA = {
         "required_items": 14,
         "added_items": 14
     },
+    "include_minigames": {
+        "type": "bool",
+        "label": "Include Minigames",
+        "hint": "Includes all Minigame shops into the item pool",
+        "required_items": 14,
+        "added_items": 106
+    },
     "include_pool": {
         "type": "bool",
         "label": "Include Pool",
-        "hint": "Includes Golf Point Shop",
+        "hint": "Includes Pool Point Shop",
         "required_items": 1,
         "added_items": 11
     },
@@ -157,20 +194,8 @@ FIELD_SCHEMA = {
         "required_items": 2,
         "added_items": 8
     },
-    "include_weird_shops": {
-        "type": "bool",
-        "label": "Include Weird Shops",
-        "hint": "Includes one off stores like ichiban confections",
-        "required_items": 0,
-        "added_items": 21
-    },
-    "include_consumable_shops": {
-        "type": "bool",
-        "label": "Include Consumable Shops",
-        "hint": "Includes Poppo Marts and the Pharmacy",
-        "required_items": 0,
-        "added_items": 111
-    },
+
+    # Random Seed
     "seed": {
         "type": "int",
         "label": "Random Seed",
@@ -345,7 +370,8 @@ FIELD_RULES = {
     "skill_money": {"min": 0, "max": 3_000_000},
     "skill_akame": {"min": 0, "max": 8000},
     "attack_and_defense": {"min": -2000, "max": 2000},
-    "resist": {"min": 0, "max": 800},
+    "enemy_hp_mult": {"min": 0.5, "max": 3.0},
+    "enemy_attack_mult": {"min": 0.5, "max": 3.0},
 }
 
 def get_rules(base):
@@ -397,6 +423,16 @@ def reset_category(cat):
         if mx in DEFAULTS:
             LIVE[mx] = DEFAULTS[mx]
 
+    for key, meta in FIELD_SCHEMA.items():
+        if meta.get("type") != "float":
+            continue
+
+        if get_category(key) != cat:
+            continue
+
+        if key in DEFAULTS:
+            LIVE[key] = float(DEFAULTS[key])
+
     autosave()
     render(cat)
     update_check_display()
@@ -408,8 +444,10 @@ def get_category(base):
         return "Shops"
     if "skill" in base:
         return "Skills"
-    if "attack" in base or "resist" in base:
-        return "Combat"
+    if "defense" in base or "resist" in base:
+        return "Gear"
+    if "mult" in base:
+        return "Encounters"
     return "Other"
 
 # Range + Boolean UI
@@ -529,6 +567,51 @@ def make_range(base, min_key, max_key, rules):
     dpg.set_item_callback(min_slider, min_slider_changed)
     dpg.set_item_callback(max_slider, max_slider_changed)
 
+# Used for other sliders that do not have min/max
+def make_float(base):
+    meta = field_meta(base)
+    rules = get_rules(base)
+
+    make_label(meta.get("label", base), meta.get("hint", ""))
+
+    key = base
+
+    value = float(LIVE.get(key, rules["min"]))
+    value = max(rules["min"], min(value, rules["max"]))
+
+    slider = dpg.add_slider_float(
+        default_value=value,
+        min_value=rules["min"],
+        max_value=rules["max"],
+        width=360
+    )
+
+    input_box = dpg.add_input_float(
+        default_value=value,
+        width=160
+    )
+
+    def sync_from_slider(sender, app_data):
+        v = float(app_data)
+        LIVE[key] = v
+        dpg.set_value(input_box, v)
+        autosave()
+
+    def sync_from_input(sender, app_data):
+        try:
+            v = float(app_data)
+        except:
+            return
+
+        v = max(rules["min"], min(v, rules["max"]))
+        LIVE[key] = v
+        dpg.set_value(slider, v)
+        autosave()
+
+    dpg.set_item_callback(slider, sync_from_slider)
+    dpg.set_item_callback(input_box, sync_from_input)
+
+
 # Render
 
 def render(cat):
@@ -585,6 +668,20 @@ def render(cat):
                 make_range(base, mn, mx, rules)
 
             dpg.add_spacer(height=10)
+        
+        # Float sliders (single value fields)
+        float_keys = [
+            k for k, meta in FIELD_SCHEMA.items()
+            if meta.get("type") == "float"
+        ]
+
+        for key in float_keys:
+            if get_category(key) != cat:
+                continue
+
+            make_float(key)
+            dpg.add_spacer(height=10)
+
     update_check_display()
 
 # Switch
@@ -668,7 +765,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Categories")
             dpg.add_separator()
 
-            for c in ["Shops", "Skills", "Combat"]:
+            for c in ["Shops", "Skills", "Gear", "Encounters"]:
                 dpg.add_button(label=c, callback=switch, user_data=c, width=200)
             
             dpg.add_separator()

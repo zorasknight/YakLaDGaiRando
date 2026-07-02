@@ -16,6 +16,11 @@ attack_and_defense_max: 500
 resist_min: 0
 resist_max: 300
 
+enemy_hp_mult: 1.0
+enemy_attack_mult: 1.0
+
+randomize_enemy_stats: FALSE
+intro_skip: TRUE
 remove_default_prices: TRUE
 include_coin_lockers: TRUE
 include_shops: TRUE

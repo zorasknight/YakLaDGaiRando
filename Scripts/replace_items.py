@@ -5,6 +5,7 @@ from pathlib import Path
 from collections import Counter
 from .settings import settings
 import sys
+import math
 
 # Config
 
@@ -29,6 +30,21 @@ OUTPUT_FOLDER = BASE_DIR / "GameData_Output"
 UPDATES_CSV = BASE_DIR / "updates.csv"
 
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
+NPC_PATH = INPUT_FOLDER / "db.aston.en" / "character_npc_soldier_personal_data.bin.json"
+
+FIRST_ENCOUNTER_ROW = 6317
+
+INTRO_FIGHTS = [
+    6509, 6510, 6511, 6512, 6513, 6516, 6517, 6518, 6519, 6520,
+    6521, 6522, 6523, 6524, 6525, 6526, 6527, 6528, 6529, 6530,
+    6531, 6532, 6533, 6534, 6535, 6536, 6537, 6538, 6539, 6540,
+    6541, 6542, 6543, 6544, 6545, 6546, 6547, 6548, 6549, 6550,
+    6551, 6552, 6553, 6554, 6555, 6556, 6557, 6558, 6559, 6560,
+    6614, 6615, 6621, 6622, 7049, 7050, 7051, 7052, 7053, 7054,
+    7055, 7056, 7057, 7058, 7059, 7060, 7162, 7163, 7626, 7627,
+    7755, 8166, 8167, 8168, 8169, 8170, 8171, 8321, 8322, 8323,
+    8324, 8325, 8326,
+]
 
 SPECIAL0_EFFECTS = {
     0: "No Special Effect",
@@ -73,8 +89,19 @@ def load_config():
     global ATTACK_AND_DEFENSE_MAX
     global RESIST_MIN
     global RESIST_MAX
+    global INTRO_SKIP
+    global ENEMY_HP_MULT
+    global ENEMY_ATTACK_MULT
+    global RANDOMIZE_ENEMY_STATS
 
     settings.reload()
+
+    ENEMY_HP_MULT = settings.get("enemy_hp_mult")
+    ENEMY_ATTACK_MULT = settings.get("enemy_attack_mult")
+
+    RANDOMIZE_ENEMY_STATS = settings.get("randomize_enemy_stats")
+
+    INTRO_SKIP = settings.get("intro_skip")
 
     SKILL_MONEY_MIN = settings.get("skill_money_min")
     SKILL_MONEY_MAX = settings.get("skill_money_max")
@@ -131,6 +158,93 @@ def load_updates():
 
     return updates
 
+# Encounters
+
+def update_encounters():
+
+    print("\n[NPC] Processing character_npc_soldier_personal_data.bin.json")
+
+    if not NPC_PATH.exists():
+        print(f"[NPC] Missing file: {NPC_PATH}")
+        return
+
+    with open(NPC_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+
+    changes = 0
+
+    for row_id in range(FIRST_ENCOUNTER_ROW, len(data)):
+
+        row_key = str(row_id)
+
+        if row_key not in data:
+            continue
+
+        row_block = data[row_key]
+
+        if not isinstance(row_block, dict):
+            continue
+
+        inner_key = next(iter(row_block.keys()))
+        row = row_block.get(inner_key)
+
+        if not isinstance(row, dict):
+            continue
+
+        hp = row.get("hp", 0)
+        attack = row.get("power_ratio", 0)
+
+        if hp <= 1:
+            continue
+        
+        if attack <= 1:
+            continue
+
+        group = int(row_key)
+
+        # Intro skip
+        if INTRO_SKIP and group in INTRO_FIGHTS:
+            old_hp = row["hp"]
+            row["hp"] = 1
+
+            print(f"Intro fight {group}: hp {old_hp} -> 1")
+            log_change(f"Intro fight {group}: hp {old_hp} -> 1")
+            changes += 1
+
+        # Randomized Stats
+        elif RANDOMIZE_ENEMY_STATS:
+            hp_multiplier = random.uniform(0.5, 2.0)
+            attack_multiplier = random.uniform(0.5, 2.0)
+            
+            old_hp = row["hp"]
+            row["hp"] = max(1, math.ceil(old_hp * hp_multiplier))
+            
+            old_attack = row["power_ratio"]
+            row["power_ratio"] = max(1.0, round(old_attack * attack_multiplier, 2))
+
+            print(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            log_change(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            changes += 1
+
+        # Scaled Stats
+        else:
+            old_hp = row["hp"]
+            row["hp"] = max(1, math.ceil(old_hp * ENEMY_HP_MULT))
+            
+            old_attack = row["power_ratio"]
+            row["power_ratio"] = max(1.0, round(old_attack * ENEMY_ATTACK_MULT, 2))
+
+            print(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            log_change(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            changes += 1
+
+    output_path = OUTPUT_FOLDER / "db.aston.en" / "character_npc_soldier_personal_data.bin.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved {changes} encounter changes")
 
 # Shops
 
@@ -650,6 +764,7 @@ def main():
             apply_updates(json_file, updates_by_file[json_file.name])
 
     patch_item_bin_prices(updates_by_file)
+    update_encounters()
     patch_player_skill_bin()
 
 if __name__ == "__main__":
