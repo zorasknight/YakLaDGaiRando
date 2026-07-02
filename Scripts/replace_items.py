@@ -121,7 +121,6 @@ def load_config():
 CHANGE_LOG_PATH = Path("change_log.txt")
 ERROR_LOG_PATH = Path("error_warning_log.txt")
 
-
 def log_change(msg: str):
     with open(CHANGE_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
@@ -134,6 +133,33 @@ def log_error(msg: str):
 
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
 ERROR_LOG_PATH.write_text("", encoding="utf-8")
+
+# Weighted rand
+
+def weighted_rand(min_val, max_val):
+    span = max_val - min_val + 1
+
+    cheap_max = min_val + int(span * 0.08) - 1
+    average_max = min_val + int(span * 0.35) - 1
+    expensive_max = min_val + int(span * 0.65) - 1
+
+    r = random.random()
+
+    if r < 0.50:
+        # 50% chance to pull from the bottom 8% of the value range
+        return random.randint(min_val, cheap_max)
+
+    elif r < 0.85:
+        # 35% chance to pull from the middle 8% to 35% of the value range
+        return random.randint(cheap_max + 1, average_max)
+
+    elif r < 0.95:
+        # 10% chance to pull from the middle 35% to 65% of the value range
+        return random.randint(average_max + 1, expensive_max)
+
+    else:
+        # 5% chance to pull from the middle 65% to 100% of the value range
+        return random.randint(expensive_max + 1, max_val)
 
 # Grab required updates
 
@@ -213,8 +239,8 @@ def update_encounters():
 
         # Randomized Stats
         elif RANDOMIZE_ENEMY_STATS:
-            hp_multiplier = random.uniform(0.5, 2.0)
-            attack_multiplier = random.uniform(0.5, 2.0)
+            hp_multiplier = random.uniform(0.5, 3.0)
+            attack_multiplier = random.uniform(0.5, 3.0)
             
             old_hp = row["hp"]
             row["hp"] = max(1, math.ceil(old_hp * hp_multiplier))
@@ -678,8 +704,8 @@ def patch_player_skill_bin():
         if not isinstance(row, dict):
             continue
 
-        row["need_money"] = random.randint(SKILL_MONEY_MIN, SKILL_MONEY_MAX)
-        row["need_akame_point"] = random.randint(SKILL_AKAME_MIN, SKILL_AKAME_MAX)
+        row["need_money"] = weighted_rand(SKILL_MONEY_MIN, SKILL_MONEY_MAX)
+        row["need_akame_point"] = weighted_rand(SKILL_AKAME_MIN, SKILL_AKAME_MAX)
 
     output_path = OUTPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)

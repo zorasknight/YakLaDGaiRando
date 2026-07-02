@@ -103,7 +103,7 @@ FIELD_SCHEMA = {
     "randomize_enemy_stats": {
         "type": "bool",
         "label": "Randomize Enemy Stats",
-        "hint": "This disables any custom stat changes except for intro skip.",
+        "hint": "(THIS WILL MAKE THE GAME HARDER) This disables any custom stat changes except for intro skip.",
     },
     "intro_skip": {
         "type": "bool",
@@ -370,6 +370,7 @@ FIELD_RULES = {
     "skill_money": {"min": 0, "max": 3_000_000},
     "skill_akame": {"min": 0, "max": 8000},
     "attack_and_defense": {"min": -2000, "max": 2000},
+    "resist": {"min": 0, "max": 1000},
     "enemy_hp_mult": {"min": 0.5, "max": 3.0},
     "enemy_attack_mult": {"min": 0.5, "max": 3.0},
 }
