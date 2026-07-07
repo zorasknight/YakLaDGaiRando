@@ -576,6 +576,78 @@ def update_wire(data, updates):
 
     return changes
 
+# Shuffle specific item effect values
+
+def shuffle_healing_items(data):
+
+    SWAP_IDS = [
+        "5323", "5324", "5990", "5325", "5992",
+        "5326", "5327", "5995", "5996", "6131",
+        "6129", "6130", "5991", "5994",
+        "6258", "6259", "6260", "6261",
+        "6262", "6263", "6264", "6265"
+    ]
+
+    SWAP_FIELDS = [
+        "name",
+        "explanation",
+        "category",
+        "recover_hp",
+        "recover_heat",
+        "add_drunk_time",
+    ]
+
+    stored_values = []
+
+    # Collect the values from each item
+    for item_id in SWAP_IDS:
+
+        if item_id not in data:
+            print(f"[ITEM SWAP] Missing ID {item_id}")
+            continue
+
+        item_block = data[item_id]
+
+        if not isinstance(item_block, dict):
+            continue
+
+        inner_key = next(iter(item_block.keys()))
+        row = item_block[inner_key]
+
+        stored_values.append({
+            field: row.get(field)
+            for field in SWAP_FIELDS
+        })
+
+
+    # Shuffle the values
+    random.shuffle(stored_values)
+
+
+    # Apply values back to the same fields
+    for item_id, new_values in zip(SWAP_IDS, stored_values):
+
+        if item_id not in data:
+            continue
+
+        item_block = data[item_id]
+
+        inner_key = next(iter(item_block.keys()))
+        row = item_block[inner_key]
+
+        for field in SWAP_FIELDS:
+            old_value = row.get(field)
+            row[field] = new_values[field]
+
+            print(
+                f"[ITEM SWAP] {item_id} {field}: "
+                f"{old_value} -> {new_values[field]}"
+            )
+
+        log_change(
+            f"[ITEM SWAP] Randomized effects for {item_id}"
+        )
+
 # Patch prices in item.bin
 
 def patch_item_bin_prices(updates_by_file):
@@ -593,6 +665,8 @@ def patch_item_bin_prices(updates_by_file):
 
     changes = 0
 
+    shuffle_healing_items(data)
+    
     POINT_FIELDS = [
         "buy_syogi_point",
         "buy_casino_point",
