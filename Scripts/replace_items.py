@@ -665,8 +665,8 @@ def patch_item_bin_prices(updates_by_file):
 
     changes = 0
 
-    shuffle_healing_items(data)
-    
+    #shuffle_healing_items(data)
+
     POINT_FIELDS = [
         "buy_syogi_point",
         "buy_casino_point",
