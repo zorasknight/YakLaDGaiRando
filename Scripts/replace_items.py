@@ -588,22 +588,13 @@ def shuffle_healing_items(data):
         "6262", "6263", "6264", "6265"
     ]
 
-    SWAP_FIELDS = [
-        "name",
-        "explanation",
-        "category",
-        "recover_hp",
-        "recover_heat",
-        "add_drunk_time",
-    ]
+    stored_indexes = []
 
-    stored_values = []
-
-    # Collect the values from each item
+    # Collect current row indexes
     for item_id in SWAP_IDS:
 
         if item_id not in data:
-            print(f"[ITEM SWAP] Missing ID {item_id}")
+            print(f"Missing ID {item_id}")
             continue
 
         item_block = data[item_id]
@@ -614,18 +605,19 @@ def shuffle_healing_items(data):
         inner_key = next(iter(item_block.keys()))
         row = item_block[inner_key]
 
-        stored_values.append({
-            field: row.get(field)
-            for field in SWAP_FIELDS
-        })
+        if "reARMP_rowIndex" not in row:
+            print(f"Missing reARMP_rowIndex for {item_id}")
+            continue
+
+        stored_indexes.append(row["reARMP_rowIndex"])
 
 
-    # Shuffle the values
-    random.shuffle(stored_values)
+    # Shuffle the indexes
+    random.shuffle(stored_indexes)
 
 
-    # Apply values back to the same fields
-    for item_id, new_values in zip(SWAP_IDS, stored_values):
+    # Apply shuffled indexes back
+    for item_id, new_index in zip(SWAP_IDS, stored_indexes):
 
         if item_id not in data:
             continue
@@ -635,17 +627,17 @@ def shuffle_healing_items(data):
         inner_key = next(iter(item_block.keys()))
         row = item_block[inner_key]
 
-        for field in SWAP_FIELDS:
-            old_value = row.get(field)
-            row[field] = new_values[field]
+        old_index = row["reARMP_rowIndex"]
+        row["reARMP_rowIndex"] = new_index
 
-            print(
-                f"[ITEM SWAP] {item_id} {field}: "
-                f"{old_value} -> {new_values[field]}"
-            )
+        print(
+            f"[ITEM SWAP] {item_id} reARMP_rowIndex: "
+            f"{old_index} -> {new_index}"
+        )
 
         log_change(
-            f"[ITEM SWAP] Randomized effects for {item_id}"
+            f"[ITEM SWAP] {item_id} reARMP_rowIndex "
+            f"{old_index} -> {new_index}"
         )
 
 # Patch prices in item.bin
@@ -665,7 +657,7 @@ def patch_item_bin_prices(updates_by_file):
 
     changes = 0
 
-    #shuffle_healing_items(data)
+    shuffle_healing_items(data)
 
     POINT_FIELDS = [
         "buy_syogi_point",
