@@ -8,7 +8,7 @@ OUTPUT_CSV = "extracted_data.csv"
 def get_base_dir():
     if getattr(sys, "frozen", False):
         return Path(sys.executable).parent
-    return Path(__file__).resolve().parent
+    return Path(__file__).resolve().parent.parent
 
 BASE_DIR = get_base_dir()
 
@@ -26,8 +26,9 @@ POINT_FIELDS = [
 
 INPUT_FOLDER = BASE_DIR / "GameData"
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
-SHOP_PATH = INPUT_FOLDER / "db.aston.en" / "shop.bin.json"
-TARGET = "aston_c_fighterlounge_hitori"
+SHOP_PATH = INPUT_FOLDER / "db.aston.en" / "reward_table.bin.json"
+TARGET = "treasure_contents_table"
+item_column = "3"
 
 # ============================================================
 
@@ -123,7 +124,7 @@ for match_path, target_data in matches:
         if not isinstance(values, dict):
             continue
 
-        item_id = values.get("1")
+        item_id = values.get(item_column)
 
         item_info = get_item_info(item_data, item_id)
 
