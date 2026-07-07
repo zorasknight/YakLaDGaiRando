@@ -69,6 +69,16 @@ FIELD_SCHEMA = {
         "label": "Skill Point Cost",
         "hint": "What random range skills point cost can be"
     },
+    "part_time_money": {
+        "type": "range",
+        "label": "Reward Money",
+        "hint": "What random monetary range rewards for Akame quests can give"
+    },
+    "part_time_akame": {
+        "type": "range",
+        "label": "Reward Points",
+        "hint": "What random point range rewards for Akame quests can give"
+    },
     "attack_and_defense": {
         "type": "range",
         "label": "Attack and Defense Stats",
@@ -373,6 +383,8 @@ FIELD_RULES = {
     "resist": {"min": 0, "max": 1000},
     "enemy_hp_mult": {"min": 0.5, "max": 3.0},
     "enemy_attack_mult": {"min": 0.5, "max": 3.0},
+    "part_time_money": {"min": 0, "max": 1000000},
+    "part_time_akame": {"min": 0, "max": 5000},
 }
 
 def get_rules(base):
@@ -449,6 +461,8 @@ def get_category(base):
         return "Gear"
     if "mult" in base:
         return "Encounters"
+    if "part_time" in base:
+        return "Quest Rewards"
     return "Other"
 
 # Range + Boolean UI
@@ -766,7 +780,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Categories")
             dpg.add_separator()
 
-            for c in ["Shops", "Skills", "Gear", "Encounters"]:
+            for c in ["Shops", "Skills", "Gear", "Encounters", "Quest Rewards"]:
                 dpg.add_button(label=c, callback=switch, user_data=c, width=200)
             
             dpg.add_separator()

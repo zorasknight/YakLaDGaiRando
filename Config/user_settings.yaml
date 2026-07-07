@@ -6,6 +6,10 @@ skill_money_min: 1000
 skill_money_max: 1000000
 skill_akame_min: 0
 skill_akame_max: 3000
+part_time_money_min: 10000
+part_time_money_max: 500000
+part_time_akame_min: 0
+part_time_akame_max: 2000
 attack_and_defense_min: -200
 attack_and_defense_max: 500
 resist_min: 0

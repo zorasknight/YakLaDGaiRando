@@ -71,6 +71,12 @@ SKILL_MONEY_MAX = settings.get("skill_money_max")
 SKILL_AKAME_MIN = settings.get("skill_akame_min")
 SKILL_AKAME_MAX = settings.get("skill_akame_max")
 
+PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
+PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
+
+PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
+PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
+
 ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
 ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
 
@@ -93,6 +99,10 @@ def load_config():
     global ENEMY_HP_MULT
     global ENEMY_ATTACK_MULT
     global RANDOMIZE_ENEMY_STATS
+    global PART_TIME_MONEY_MIN
+    global PART_TIME_MONEY_MAX
+    global PART_TIME_AKAME_MIN
+    global PART_TIME_AKAME_MAX
 
     settings.reload()
 
@@ -108,6 +118,12 @@ def load_config():
 
     SKILL_AKAME_MIN = settings.get("skill_akame_min")
     SKILL_AKAME_MAX = settings.get("skill_akame_max")
+
+    PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
+    PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
+
+    PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
+    PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
 
     ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
     ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
@@ -248,8 +264,8 @@ def update_encounters():
             old_attack = row["power_ratio"]
             row["power_ratio"] = max(1.0, round(old_attack * attack_multiplier, 2))
 
-            print(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
-            log_change(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            print(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
+            log_change(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
             changes += 1
 
         # Scaled Stats
@@ -260,8 +276,8 @@ def update_encounters():
             old_attack = row["power_ratio"]
             row["power_ratio"] = max(1.0, round(old_attack * ENEMY_ATTACK_MULT, 2))
 
-            print(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
-            log_change(f"{group}: hp {old_hp} -> {row["hp"]}, attack {old_attack} -> {row["power_ratio"]}")
+            print(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
+            log_change(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
             changes += 1
 
     output_path = OUTPUT_FOLDER / "db.aston.en" / "character_npc_soldier_personal_data.bin.json"
@@ -716,6 +732,79 @@ def patch_player_skill_bin():
     print("[SKILL] Done")
 
 
+def patch_akame_quest_rewards():
+    VALID_RANGE = range(1, 148)
+    SKIP_IDS = {91, 19, 18, 17, 16, 15, 14, 13, 12}
+    path = INPUT_FOLDER / "db.aston.en" / "part_time_job_quest_quest.bin.json"
+
+    print("\nProcessing part_time_job_quest_quest.bin.json")
+
+    if not path.exists():
+        print(f"Missing file: {path}")
+        return
+
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    changes = 0
+
+    for row_key, row_block in data.items():
+        if not row_key.isdigit():
+            continue
+
+        row_id = int(row_key)
+
+        if row_id not in VALID_RANGE:
+            continue
+
+        # Skip excluded quest IDs
+        if row_id in SKIP_IDS:
+            continue
+
+        if not isinstance(row_block, dict):
+            continue
+
+        inner_key = next(iter(row_block.keys()))
+        row = row_block.get(inner_key)
+
+        if not isinstance(row, dict):
+            continue
+
+        old_money = row["reward_money"]
+        old_points = row["reward_akame_point"]
+
+        row["reward_money"] = weighted_rand(
+            PART_TIME_MONEY_MIN,
+            PART_TIME_MONEY_MAX
+        )
+
+        row["reward_akame_point"] = weighted_rand(
+            PART_TIME_AKAME_MIN,
+            PART_TIME_AKAME_MAX
+        )
+
+        print(
+            f"[PART TIME] {inner_key}: "
+            f"money {old_money} -> {row['reward_money']}, "
+            f"points {old_points} -> {row['reward_akame_point']}"
+        )
+
+        log_change(
+            f"Akame Quest {inner_key}: "
+            f"money {old_money} -> {row['reward_money']}, "
+            f"points {old_points} -> {row['reward_akame_point']}"
+        )
+
+        changes += 1
+
+    output_path = OUTPUT_FOLDER / "db.aston.en" / "part_time_job_quest_quest.bin.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved {changes} reward changes")
+
 # Detect File
 
 def detect_type(filename):
@@ -792,6 +881,7 @@ def main():
     patch_item_bin_prices(updates_by_file)
     update_encounters()
     patch_player_skill_bin()
+    patch_akame_quest_rewards()
 
 if __name__ == "__main__":
     main()
