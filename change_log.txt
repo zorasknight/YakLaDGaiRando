@@ -1,0 +1,3064 @@
+[WIRE] row=115 5992 -> 6620
+[WIRE] row=116 5995 -> 6621
+[WIRE] row=117 6013 -> 6622
+[WIRE] row=118 5371 -> 6623
+[WIRE] row=119 5451 -> 6624
+[WIRE] row=120 5370 -> 6625
+[WIRE] row=121 5371 -> 6626
+[WIRE] row=122 6131 -> 6627
+[WIRE] row=123 5557 -> 6628
+[WIRE] row=124 5371 -> 6629
+[WIRE] row=125 5371 -> 6630
+[WIRE] row=126 5372 -> 6631
+[WIRE] row=127 5324 -> 6632
+[WIRE] row=128 5371 -> 6633
+[WIRE] row=129 6131 -> 6634
+[WIRE] row=130 6131 -> 6635
+[WIRE] row=131 6012 -> 6636
+[WIRE] row=132 5371 -> 6637
+[WIRE] row=133 5995 -> 6638
+[WIRE] row=134 5557 -> 6639
+[WIRE] row=135 5371 -> 6640
+[WIRE] row=136 5327 -> 6641
+[WIRE] row=137 5371 -> 6642
+[WIRE] row=138 5371 -> 6643
+[WIRE] row=139 6131 -> 6644
+[WIRE] row=140 6130 -> 6645
+[WIRE] row=141 5371 -> 6646
+[WIRE] row=142 6131 -> 6647
+[WIRE] row=143 5371 -> 6648
+[WIRE] row=144 5992 -> 6649
+[WIRE] row=145 5374 -> 6650
+[WIRE] row=146 5374 -> 6651
+[WIRE] row=147 5374 -> 6652
+[WIRE] row=148 5374 -> 6653
+[WIRE] row=149 5374 -> 6654
+[WIRE] row=150 5374 -> 6655
+[WIRE] row=151 5374 -> 6656
+[WIRE] row=152 5374 -> 6657
+[WIRE] row=153 5374 -> 6658
+[WIRE] row=154 5374 -> 6659
+[WIRE] row=5 6131 -> 6660
+[WIRE] row=6 5371 -> 6661
+[WIRE] row=7 6131 -> 6662
+[WIRE] row=8 5369 -> 6663
+[WIRE] row=9 5370 -> 6664
+[WIRE] row=10 6130 -> 6665
+[WIRE] row=11 4770 -> 6666
+[WIRE] row=12 5370 -> 6667
+[WIRE] row=13 5995 -> 6668
+[WIRE] row=14 5370 -> 6669
+[WIRE] row=15 5371 -> 6670
+[WIRE] row=16 6131 -> 6671
+[WIRE] row=17 5370 -> 6672
+[WIRE] row=18 5371 -> 6673
+[WIRE] row=19 5369 -> 6674
+[WIRE] row=20 6131 -> 6675
+[WIRE] row=21 5371 -> 6676
+[WIRE] row=22 5369 -> 6677
+[WIRE] row=23 5932 -> 6678
+[WIRE] row=24 5708 -> 6679
+[WIRE] row=25 5370 -> 6680
+[WIRE] row=26 6130 -> 6681
+[WIRE] row=27 4792 -> 6682
+[WIRE] row=28 6130 -> 6683
+[WIRE] row=29 6131 -> 6684
+[WIRE] row=30 6035 -> 6685
+[WIRE] row=31 5710 -> 6686
+[WIRE] row=32 5369 -> 6687
+[WIRE] row=33 6131 -> 6688
+[WIRE] row=34 6012 -> 6689
+[WIRE] row=35 6130 -> 6690
+[WIRE] row=36 5370 -> 6691
+[WIRE] row=37 6013 -> 6692
+[WIRE] row=38 6130 -> 6693
+[WIRE] row=39 6130 -> 6694
+[WIRE] row=40 4768 -> 6695
+[WIRE] row=41 5370 -> 6696
+[WIRE] row=42 5514 -> 6697
+[WIRE] row=43 5569 -> 6698
+[WIRE] row=44 5327 -> 6699
+[WIRE] row=45 5327 -> 6700
+[WIRE] row=46 5327 -> 6701
+[WIRE] row=47 5327 -> 6702
+[WIRE] row=48 5327 -> 6703
+[WIRE] row=49 5327 -> 6704
+[WIRE] row=50 5327 -> 6705
+[WIRE] row=51 5327 -> 6706
+[WIRE] row=52 5327 -> 6707
+[WIRE] row=53 5327 -> 6708
+[WIRE] row=54 5327 -> 6709
+[WIRE] row=65 4828 -> 6710
+[WIRE] row=66 6131 -> 6711
+[WIRE] row=67 5369 -> 6712
+[WIRE] row=68 6131 -> 6713
+[WIRE] row=69 5328 -> 6714
+[WIRE] row=70 5536 -> 6715
+[WIRE] row=71 5371 -> 6716
+[WIRE] row=72 6130 -> 6717
+[WIRE] row=73 5448 -> 6718
+[WIRE] row=74 5370 -> 6719
+[WIRE] row=76 5445 -> 6720
+[WIRE] row=77 5369 -> 6721
+[WIRE] row=78 5370 -> 6722
+[WIRE] row=79 6131 -> 6723
+[WIRE] row=80 5374 -> 6724
+[WIRE] row=81 5370 -> 6725
+[WIRE] row=82 4758 -> 6726
+[WIRE] row=83 6013 -> 6727
+[WIRE] row=84 6130 -> 6728
+[WIRE] row=85 5374 -> 6729
+[WIRE] row=86 5374 -> 6730
+[WIRE] row=87 5374 -> 6731
+[WIRE] row=88 5374 -> 6732
+[WIRE] row=89 5374 -> 6733
+[WIRE] row=90 5374 -> 6734
+[WIRE] row=91 5374 -> 6735
+[WIRE] row=92 5374 -> 6736
+[WIRE] row=93 5374 -> 6737
+[WIRE] row=94 5374 -> 6738
+[REWARD] pokecir row=4 4761 -> 6739
+[REWARD] pokecir row=8 4756 -> 6740
+[REWARD] pokecir row=13 4751 -> 6741
+[REWARD] pokecir row=15 4810 -> 6742
+[REWARD] pokecir row=40 4791 -> 6743
+[REWARD] pokecir row=58 4809 -> 6744
+[REWARD] pokecir row=64 4765 -> 6745
+[REWARD] pokecir row=89 4840 -> 6746
+[REWARD] pokecir row=94 4845 -> 6747
+[REWARD] pokecir row=111 4862 -> 6748
+[REWARD] pokecir row=120 6046 -> 6749
+[REWARD] pokecir row=124 6004 -> 6750
+[REWARD] pokecir row=125 6005 -> 6751
+[REWARD] pokecir row=130 6041 -> 6752
+[REWARD] darts row=1 5976 -> 6753
+[REWARD] darts row=2 5450 -> 6754
+[REWARD] darts row=3 4750 -> 6755
+[REWARD] darts row=4 6016 -> 6756
+[REWARD] darts row=5 6019 -> 6757
+[REWARD] darts row=6 5441 -> 6758
+[REWARD] darts row=7 5990 -> 6759
+[REWARD] darts row=8 5993 -> 6760
+[SHOP] aston_s_ebisuya row=0 5943 -> 6271
+[SHOP] aston_s_ebisuya row=1 5950 -> 6272
+[SHOP] aston_s_ebisuya row=2 5951 -> 6273
+[SHOP] aston_s_ebisuya row=3 5957 -> 6274
+[SHOP] aston_s_ebisuya row=4 5958 -> 6275
+[SHOP] aston_s_ebisuya row=5 5963 -> 6276
+[SHOP] aston_s_ebisuya row=6 5967 -> 6277
+[SHOP] aston_s_ebisuya row=7 5969 -> 6278
+[SHOP] aston_s_ebisuya row=8 6056 -> 6279
+[SHOP] aston_s_ebisuya row=9 6040 -> 6280
+[SHOP] aston_s_ebisuya row=10 4771 -> 6281
+[SHOP] aston_s_ebisuya row=11 5979 -> 6282
+[SHOP] aston_s_ebisuya row=12 5931 -> 6283
+[SHOP] aston_s_ebisuya row=13 5451 -> 6284
+[SHOP] aston_s_ebisuya row=14 5431 -> 6285
+[SHOP] aston_s_ebisuya row=15 5434 -> 6286
+[SHOP] aston_s_ebisuya row=16 5437 -> 6287
+[SHOP] aston_s_ebisuya row=17 5442 -> 6288
+[SHOP] aston_s_pokecir_parts row=0 6006 -> 6289
+[SHOP] aston_s_pokecir_parts row=1 6003 -> 6290
+[SHOP] aston_s_pokecir_parts row=2 6007 -> 6291
+[SHOP] aston_s_pokecir_parts row=3 4760 -> 6292
+[SHOP] aston_s_pokecir_parts row=4 4860 -> 6293
+[SHOP] aston_s_pokecir_parts row=5 4861 -> 6294
+[SHOP] aston_s_pokecir_parts row=6 4865 -> 6295
+[SHOP] aston_s_pokecir_parts row=7 4864 -> 6296
+[SHOP] aston_s_pokecir_parts row=8 4863 -> 6297
+[SHOP] aston_s_pokecir_parts row=9 4868 -> 6298
+[SHOP] aston_s_pokecir_parts row=10 4867 -> 6299
+[SHOP] aston_s_pokecir_parts row=11 4866 -> 6300
+[SHOP] aston_s_pokecir_parts row=12 6048 -> 6301
+[SHOP] aston_s_pokecir_parts row=13 6047 -> 6302
+[SHOP] aston_s_pokecir_parts row=14 4755 -> 6303
+[SHOP] aston_s_pokecir_parts row=15 4754 -> 6304
+[SHOP] aston_s_pokecir_parts row=16 4859 -> 6305
+[SHOP] aston_s_pokecir_parts row=17 4854 -> 6306
+[SHOP] aston_s_pokecir_parts row=18 4808 -> 6307
+[SHOP] aston_s_pokecir_parts row=19 4858 -> 6308
+[SHOP] aston_s_pokecir_parts row=20 4857 -> 6309
+[SHOP] aston_s_pokecir_parts row=21 4853 -> 6310
+[SHOP] aston_s_pokecir_parts row=22 4852 -> 6311
+[SHOP] aston_s_pokecir_parts row=23 4795 -> 6312
+[SHOP] aston_s_pokecir_parts row=24 4800 -> 6313
+[SHOP] aston_s_pokecir_parts row=25 4805 -> 6314
+[SHOP] aston_s_pokecir_parts row=26 4839 -> 6315
+[SHOP] aston_s_pokecir_parts row=27 4844 -> 6316
+[SHOP] aston_s_pokecir_parts row=28 4849 -> 6317
+[SHOP] aston_s_pokecir_parts row=29 4814 -> 6318
+[SHOP] aston_s_pokecir_parts row=30 4819 -> 6319
+[SHOP] aston_s_pokecir_parts row=31 4824 -> 6320
+[SHOP] aston_s_pokecir_parts row=32 4829 -> 6321
+[SHOP] aston_s_pokecir_parts row=33 4834 -> 6322
+[SHOP] aston_s_pokecir_parts row=34 4789 -> 6323
+[SHOP] aston_s_pokecir_parts row=35 4769 -> 6324
+[SHOP] aston_s_pokecir_parts row=36 4774 -> 6325
+[SHOP] aston_s_pokecir_parts row=37 4779 -> 6326
+[SHOP] aston_s_pokecir_parts row=38 4784 -> 6327
+[SHOP] aston_s_pokecir_parts row=39 4806 -> 6328
+[SHOP] aston_s_pokecir_parts row=40 4856 -> 6329
+[SHOP] aston_s_pokecir_parts row=41 4851 -> 6330
+[SHOP] aston_s_pokecir_parts row=42 4794 -> 6331
+[SHOP] aston_s_pokecir_parts row=43 4799 -> 6332
+[SHOP] aston_s_pokecir_parts row=44 4804 -> 6333
+[SHOP] aston_s_pokecir_parts row=45 4838 -> 6334
+[SHOP] aston_s_pokecir_parts row=46 4843 -> 6335
+[SHOP] aston_s_pokecir_parts row=47 4848 -> 6336
+[SHOP] aston_s_pokecir_parts row=48 4818 -> 6337
+[SHOP] aston_s_pokecir_parts row=49 4823 -> 6338
+[SHOP] aston_s_pokecir_parts row=50 4833 -> 6339
+[SHOP] aston_s_pokecir_parts row=51 4788 -> 6340
+[SHOP] aston_s_pokecir_parts row=52 4773 -> 6341
+[SHOP] aston_s_pokecir_parts row=53 4778 -> 6342
+[SHOP] aston_s_pokecir_parts row=54 4783 -> 6343
+[SHOP] aston_s_pokecir_parts row=55 4855 -> 6344
+[SHOP] aston_s_pokecir_parts row=56 4850 -> 6345
+[SHOP] aston_s_pokecir_parts row=57 4793 -> 6346
+[SHOP] aston_s_pokecir_parts row=58 4798 -> 6347
+[SHOP] aston_s_pokecir_parts row=59 4803 -> 6348
+[SHOP] aston_s_pokecir_parts row=60 4837 -> 6349
+[SHOP] aston_s_pokecir_parts row=61 4842 -> 6350
+[SHOP] aston_s_pokecir_parts row=62 4847 -> 6351
+[SHOP] aston_s_pokecir_parts row=63 4812 -> 6352
+[SHOP] aston_s_pokecir_parts row=64 4817 -> 6353
+[SHOP] aston_s_pokecir_parts row=65 4822 -> 6354
+[SHOP] aston_s_pokecir_parts row=66 4827 -> 6355
+[SHOP] aston_s_pokecir_parts row=67 4832 -> 6356
+[SHOP] aston_s_pokecir_parts row=68 4772 -> 6357
+[SHOP] aston_s_pokecir_parts row=69 4777 -> 6358
+[SHOP] aston_s_pokecir_parts row=70 4782 -> 6359
+[SHOP] aston_s_pokecir_parts row=71 4797 -> 6360
+[SHOP] aston_s_pokecir_parts row=72 4802 -> 6361
+[SHOP] aston_s_pokecir_parts row=73 4836 -> 6362
+[SHOP] aston_s_pokecir_parts row=74 4841 -> 6363
+[SHOP] aston_s_pokecir_parts row=75 4846 -> 6364
+[SHOP] aston_s_pokecir_parts row=76 4816 -> 6365
+[SHOP] aston_s_pokecir_parts row=77 4821 -> 6366
+[SHOP] aston_s_pokecir_parts row=78 4826 -> 6367
+[SHOP] aston_s_pokecir_parts row=79 4831 -> 6368
+[SHOP] aston_s_pokecir_parts row=80 4786 -> 6369
+[SHOP] aston_s_pokecir_parts row=81 4766 -> 6370
+[SHOP] aston_s_pokecir_parts row=82 4776 -> 6371
+[SHOP] aston_s_pokecir_parts row=83 4781 -> 6372
+[SHOP] aston_s_pokecir_parts row=84 4796 -> 6373
+[SHOP] aston_s_pokecir_parts row=85 4801 -> 6374
+[SHOP] aston_s_pokecir_parts row=86 4835 -> 6375
+[SHOP] aston_s_pokecir_parts row=87 4840 -> 6376
+[SHOP] aston_s_pokecir_parts row=88 4815 -> 6377
+[SHOP] aston_s_pokecir_parts row=89 4820 -> 6378
+[SHOP] aston_s_pokecir_parts row=90 4825 -> 6379
+[SHOP] aston_s_pokecir_parts row=91 4830 -> 6380
+[SHOP] aston_s_pokecir_parts row=92 4785 -> 6381
+[SHOP] aston_s_pokecir_parts row=93 4775 -> 6382
+[SHOP] aston_s_pokecir_parts row=94 4780 -> 6383
+[SHOP] aston_s_akame row=0 5942 -> 6434
+[SHOP] aston_s_akame row=1 5953 -> 6435
+[SHOP] aston_s_akame row=2 5968 -> 6436
+[SHOP] aston_s_akame row=3 5971 -> 6437
+[SHOP] aston_s_akame row=4 5974 -> 6438
+[SHOP] aston_s_akame row=5 5991 -> 6439
+[SHOP] aston_s_akame row=6 5994 -> 6440
+[SHOP] aston_s_akame row=7 5996 -> 6441
+[SHOP] aston_s_akame row=8 5328 -> 6442
+[SHOP] aston_s_akame row=9 6072 -> 6443
+[SHOP] aston_s_akame row=10 6077 -> 6444
+[SHOP] aston_s_akame row=11 6090 -> 6445
+[SHOP] aston_s_akame row=12 6106 -> 6446
+[SHOP] aston_s_akame row=13 6124 -> 6447
+[SHOP] aston_s_akame row=14 6056 -> 6448
+[SHOP] aston_s_akame row=15 4811 -> 6449
+[SHOP] aston_s_akame row=16 4787 -> 6450
+[SHOP] aston_s_akame row=17 6017 -> 6451
+[SHOP] aston_s_akame row=18 5983 -> 6452
+[SHOP] aston_s_akame row=19 5445 -> 6453
+[SHOP] aston_s_akame row=20 5446 -> 6454
+[SHOP] aston_s_akame row=21 5447 -> 6455
+[SHOP] aston_s_akame row=22 5448 -> 6456
+[SHOP] aston_s_akame row=23 5449 -> 6457
+[SHOP] aston_s_akame row=24 5450 -> 6458
+[SHOP] aston_s_akame row=25 5452 -> 6459
+[SHOP] aston_s_billiards_prize row=0 6056 -> 6460
+[SHOP] aston_s_billiards_prize row=1 5962 -> 6461
+[SHOP] aston_s_billiards_prize row=2 5970 -> 6462
+[SHOP] aston_s_billiards_prize row=3 5324 -> 6463
+[SHOP] aston_s_billiards_prize row=4 5325 -> 6464
+[SHOP] aston_s_billiards_prize row=5 5368 -> 6465
+[SHOP] aston_s_billiards_prize row=6 5369 -> 6466
+[SHOP] aston_s_billiards_prize row=7 5370 -> 6467
+[SHOP] aston_s_billiards_prize row=8 5371 -> 6468
+[SHOP] aston_s_billiards_prize row=9 5372 -> 6469
+[SHOP] aston_s_billiards_prize row=10 5373 -> 6470
+[SHOP] aston_s_wannpark row=0 5937 -> 6471
+[SHOP] aston_s_wannpark row=1 5939 -> 6472
+[SHOP] aston_s_wannpark row=2 5940 -> 6473
+[SHOP] aston_s_wannpark row=3 5949 -> 6474
+[SHOP] aston_s_wannpark row=4 5950 -> 6475
+[SHOP] aston_s_wannpark row=5 5951 -> 6476
+[SHOP] aston_s_wannpark row=6 5955 -> 6477
+[SHOP] aston_s_wannpark row=7 5956 -> 6478
+[SHOP] aston_s_wannpark row=8 5430 -> 6479
+[SHOP] aston_s_wannpark row=9 5432 -> 6480
+[SHOP] aston_s_wannpark row=10 5435 -> 6481
+[SHOP] aston_s_wannpark row=11 5439 -> 6482
+[SHOP] aston_y_shichiya row=0 5939 -> 6483
+[SHOP] aston_y_shichiya row=1 5957 -> 6484
+[SHOP] aston_y_shichiya row=2 5958 -> 6485
+[SHOP] aston_y_shichiya row=3 5323 -> 6486
+[SHOP] aston_y_shichiya row=4 5324 -> 6487
+[SHOP] aston_y_shichiya row=5 5325 -> 6488
+[SHOP] aston_y_shichiya row=6 5326 -> 6489
+[SHOP] aston_y_shichiya row=7 5521 -> 6490
+[SHOP] aston_y_lovemagic row=0 5937 -> 6491
+[SHOP] aston_y_lovemagic row=1 5939 -> 6492
+[SHOP] aston_y_lovemagic row=2 5949 -> 6493
+[SHOP] aston_y_lovemagic row=3 6134 -> 6494
+[SHOP] aston_y_lovemagic row=4 6135 -> 6495
+[SHOP] aston_y_lovemagic row=5 5952 -> 6496
+[SHOP] aston_y_lovemagic row=6 5968 -> 6497
+[SHOP] aston_y_lovemagic row=7 5324 -> 6498
+[SHOP] aston_y_lovemagic row=8 5325 -> 6499
+[SHOP] aston_y_lovemagic row=9 5327 -> 6500
+[SHOP] aston_y_lovemagic row=10 5368 -> 6501
+[SHOP] aston_y_shogi row=0 5962 -> 6502
+[SHOP] aston_y_shogi row=1 5970 -> 6503
+[SHOP] aston_y_shogi row=2 5451 -> 6504
+[SHOP] aston_y_shogi row=3 5324 -> 6505
+[SHOP] aston_y_shogi row=4 5325 -> 6506
+[SHOP] aston_y_shogi row=5 5368 -> 6507
+[SHOP] aston_y_shogi row=6 5370 -> 6508
+[SHOP] aston_y_shogi row=7 5371 -> 6509
+[SHOP] aston_y_shogi row=8 5372 -> 6510
+[SHOP] aston_y_shogi row=9 5373 -> 6511
+[SHOP] aston_y_shogi row=10 5374 -> 6512
+[SHOP] aston_s_shogi row=0 5961 -> 6513
+[SHOP] aston_s_shogi row=1 5966 -> 6514
+[SHOP] aston_s_shogi row=2 5324 -> 6515
+[SHOP] aston_s_shogi row=3 5325 -> 6516
+[SHOP] aston_s_shogi row=4 5994 -> 6517
+[SHOP] aston_s_shogi row=5 5368 -> 6518
+[SHOP] aston_s_shogi row=6 5369 -> 6519
+[SHOP] aston_s_shogi row=7 5370 -> 6520
+[SHOP] aston_s_shogi row=8 5371 -> 6521
+[SHOP] aston_s_shogi row=9 5372 -> 6522
+[SHOP] aston_s_shogi row=10 5373 -> 6523
+[SHOP] aston_s_golf row=0 5937 -> 6524
+[SHOP] aston_s_golf row=1 5959 -> 6525
+[SHOP] aston_s_golf row=2 4767 -> 6526
+[SHOP] aston_s_golf row=3 6036 -> 6527
+[SHOP] aston_s_golf row=4 5324 -> 6528
+[SHOP] aston_s_golf row=5 5991 -> 6529
+[SHOP] aston_s_golf row=6 5325 -> 6530
+[SHOP] aston_s_golf row=7 5368 -> 6531
+[SHOP] aston_s_golf row=8 5369 -> 6532
+[SHOP] aston_s_golf row=9 5370 -> 6533
+[SHOP] aston_s_golf row=10 5371 -> 6534
+[SHOP] aston_s_golf row=11 5372 -> 6535
+[SHOP] aston_s_golf row=12 5373 -> 6536
+[SHOP] aston_s_toba row=0 5960 -> 6537
+[SHOP] aston_s_toba row=1 5964 -> 6538
+[SHOP] aston_s_toba row=2 5324 -> 6539
+[SHOP] aston_s_toba row=3 5325 -> 6540
+[SHOP] aston_s_toba row=4 5368 -> 6541
+[SHOP] aston_s_toba row=5 5369 -> 6542
+[SHOP] aston_s_toba row=6 5370 -> 6543
+[SHOP] aston_s_toba row=7 5371 -> 6544
+[SHOP] aston_s_toba row=8 5372 -> 6545
+[SHOP] aston_s_toba row=9 5373 -> 6546
+[SHOP] aston_y_toba row=0 5961 -> 6547
+[SHOP] aston_y_toba row=1 5966 -> 6548
+[SHOP] aston_y_toba row=2 5451 -> 6549
+[SHOP] aston_y_toba row=3 5324 -> 6550
+[SHOP] aston_y_toba row=4 5325 -> 6551
+[SHOP] aston_y_toba row=5 5368 -> 6552
+[SHOP] aston_y_toba row=6 5370 -> 6553
+[SHOP] aston_y_toba row=7 5371 -> 6554
+[SHOP] aston_y_toba row=8 5372 -> 6555
+[SHOP] aston_y_toba row=9 5373 -> 6556
+[SHOP] aston_y_toba row=10 5374 -> 6557
+[SHOP] aston_c_toba row=0 5946 -> 6558
+[SHOP] aston_c_toba row=1 5948 -> 6559
+[SHOP] aston_c_toba row=2 5970 -> 6560
+[SHOP] aston_c_toba row=3 4759 -> 6561
+[SHOP] aston_c_toba row=4 4763 -> 6562
+[SHOP] aston_c_toba row=5 6037 -> 6563
+[SHOP] aston_c_toba row=6 5546 -> 6564
+[SHOP] aston_c_toba row=7 5324 -> 6565
+[SHOP] aston_c_toba row=8 5325 -> 6566
+[SHOP] aston_c_toba row=9 5995 -> 6567
+[SHOP] aston_c_toba row=10 5368 -> 6568
+[SHOP] aston_c_toba row=11 5369 -> 6569
+[SHOP] aston_c_toba row=12 5370 -> 6570
+[SHOP] aston_c_toba row=13 5371 -> 6571
+[SHOP] aston_c_toba row=14 5372 -> 6572
+[SHOP] aston_c_toba row=15 5373 -> 6573
+[SHOP] aston_c_casino row=0 5954 -> 6574
+[SHOP] aston_c_casino row=1 5966 -> 6575
+[SHOP] aston_c_casino row=2 5968 -> 6576
+[SHOP] aston_c_casino row=3 4762 -> 6577
+[SHOP] aston_c_casino row=4 6034 -> 6578
+[SHOP] aston_c_casino row=5 5538 -> 6579
+[SHOP] aston_c_casino row=6 5324 -> 6580
+[SHOP] aston_c_casino row=7 5325 -> 6581
+[SHOP] aston_c_casino row=8 5995 -> 6582
+[SHOP] aston_c_casino row=9 5368 -> 6583
+[SHOP] aston_c_casino row=10 5369 -> 6584
+[SHOP] aston_c_casino row=11 5370 -> 6585
+[SHOP] aston_c_casino row=12 5371 -> 6586
+[SHOP] aston_c_casino row=13 5372 -> 6587
+[SHOP] aston_c_casino row=14 5373 -> 6588
+[SHOP] aston_c_boutique row=0 5324 -> 6589
+[SHOP] aston_c_boutique row=1 5990 -> 6590
+[SHOP] aston_c_boutique row=2 5325 -> 6591
+[SHOP] aston_c_boutique row=3 5992 -> 6592
+[SHOP] aston_c_boutique row=4 5938 -> 6593
+[SHOP] aston_c_boutique row=5 5942 -> 6594
+[SHOP] aston_c_boutique row=6 5944 -> 6595
+[SHOP] aston_c_boutique row=7 5952 -> 6596
+[SHOP] aston_c_boutique row=8 5959 -> 6597
+[SHOP] aston_c_boutique row=9 5960 -> 6598
+[SHOP] aston_c_boutique row=10 5961 -> 6599
+[SHOP] aston_c_boutique row=11 5962 -> 6600
+[SHOP] aston_c_boutique row=12 5436 -> 6601
+[SHOP] aston_c_boutique row=13 5438 -> 6602
+[SHOP] aston_c_boutique row=14 5441 -> 6603
+[SHOP] aston_c_boutique_vip row=0 5941 -> 6604
+[SHOP] aston_c_boutique_vip row=1 5945 -> 6605
+[SHOP] aston_c_boutique_vip row=2 5953 -> 6606
+[SHOP] aston_c_boutique_vip row=3 6134 -> 6607
+[SHOP] aston_c_boutique_vip row=4 6135 -> 6608
+[SHOP] aston_c_boutique_vip row=5 6039 -> 6609
+[SHOP] aston_c_boutique_vip row=6 5991 -> 6610
+[SHOP] aston_c_boutique_vip row=7 5994 -> 6611
+[SHOP] aston_c_boutique_vip row=8 5996 -> 6612
+[SHOP] aston_c_boutique_vip row=9 5328 -> 6613
+[SHOP] aston_c_boutique_vip row=10 5440 -> 6614
+[SHOP] aston_s_mizorogi_2 row=0 5938 -> 6615
+[SHOP] aston_s_mizorogi_2 row=1 5947 -> 6616
+[SHOP] aston_s_mizorogi_2 row=2 5964 -> 6617
+[SHOP] aston_s_mizorogi_2 row=3 5965 -> 6618
+[SHOP] aston_s_mizorogi_2 row=4 5973 -> 6619
+[SHOP] aston_s_poppo_ashi row=0 5324 -> 6761
+[SHOP] aston_s_poppo_ashi row=1 5325 -> 6762
+[SHOP] aston_s_poppo_ashi row=2 5555 -> 6763
+[SHOP] aston_s_poppo_ashi row=3 5725 -> 6764
+[SHOP] aston_s_poppo_ashi row=4 5728 -> 6765
+[SHOP] aston_s_poppo_ashi row=5 5729 -> 6766
+[SHOP] aston_s_poppo_ashi row=6 5730 -> 6767
+[SHOP] aston_s_poppo_ashi row=7 5734 -> 6768
+[SHOP] aston_s_poppo_ashi row=8 5735 -> 6769
+[SHOP] aston_s_poppo_ashi row=9 5509 -> 6770
+[SHOP] aston_s_poppo_ashi row=10 5510 -> 6771
+[SHOP] aston_s_poppo_ashi row=11 5513 -> 6772
+[SHOP] aston_s_poppo_ashi row=12 5914 -> 6773
+[SHOP] aston_s_poppo_ashi row=13 5916 -> 6774
+[SHOP] aston_s_poppo_ashi row=14 5517 -> 6775
+[SHOP] aston_s_poppo_ashi row=15 5518 -> 6776
+[SHOP] aston_s_poppo_ashi row=16 5710 -> 6777
+[SHOP] aston_s_poppo_ashi row=17 5711 -> 6778
+[SHOP] aston_s_poppo_ashi row=18 5499 -> 6779
+[SHOP] aston_s_poppo_ashi row=19 5502 -> 6780
+[SHOP] aston_s_poppo_ashi row=20 5505 -> 6781
+[SHOP] aston_s_poppo_ashi row=21 5508 -> 6782
+[SHOP] aston_s_poppo_ashi row=22 5521 -> 6783
+[SHOP] aston_s_poppo_ashi row=23 6012 -> 6784
+[SHOP] aston_s_poppo_ashi row=24 5368 -> 6785
+[SHOP] aston_s_poppo_ashi row=25 5366 -> 6786
+[SHOP] aston_s_poppo_sh row=0 5324 -> 6787
+[SHOP] aston_s_poppo_sh row=1 5325 -> 6788
+[SHOP] aston_s_poppo_sh row=2 5725 -> 6789
+[SHOP] aston_s_poppo_sh row=3 5727 -> 6790
+[SHOP] aston_s_poppo_sh row=4 5731 -> 6791
+[SHOP] aston_s_poppo_sh row=5 5733 -> 6792
+[SHOP] aston_s_poppo_sh row=6 5735 -> 6793
+[SHOP] aston_s_poppo_sh row=7 5712 -> 6794
+[SHOP] aston_s_poppo_sh row=8 5509 -> 6795
+[SHOP] aston_s_poppo_sh row=9 5510 -> 6796
+[SHOP] aston_s_poppo_sh row=10 5512 -> 6797
+[SHOP] aston_s_poppo_sh row=11 5569 -> 6798
+[SHOP] aston_s_poppo_sh row=12 5915 -> 6799
+[SHOP] aston_s_poppo_sh row=13 5515 -> 6800
+[SHOP] aston_s_poppo_sh row=14 5516 -> 6801
+[SHOP] aston_s_poppo_sh row=15 5709 -> 6802
+[SHOP] aston_s_poppo_sh row=16 5710 -> 6803
+[SHOP] aston_s_poppo_sh row=17 5498 -> 6804
+[SHOP] aston_s_poppo_sh row=18 5501 -> 6805
+[SHOP] aston_s_poppo_sh row=19 5504 -> 6806
+[SHOP] aston_s_poppo_sh row=20 5506 -> 6807
+[SHOP] aston_s_poppo_sh row=21 5521 -> 6808
+[SHOP] aston_s_poppo_sh row=22 6013 -> 6809
+[SHOP] aston_s_poppo_sh row=23 5368 -> 6810
+[SHOP] aston_s_poppo_sh row=24 5366 -> 6811
+[SHOP] aston_s_poppo_so row=0 5324 -> 6812
+[SHOP] aston_s_poppo_so row=1 5325 -> 6813
+[SHOP] aston_s_poppo_so row=2 5726 -> 6814
+[SHOP] aston_s_poppo_so row=3 5728 -> 6815
+[SHOP] aston_s_poppo_so row=4 5730 -> 6816
+[SHOP] aston_s_poppo_so row=5 5732 -> 6817
+[SHOP] aston_s_poppo_so row=6 5734 -> 6818
+[SHOP] aston_s_poppo_so row=7 5737 -> 6819
+[SHOP] aston_s_poppo_so row=8 5509 -> 6820
+[SHOP] aston_s_poppo_so row=9 5510 -> 6821
+[SHOP] aston_s_poppo_so row=10 5511 -> 6822
+[SHOP] aston_s_poppo_so row=11 5568 -> 6823
+[SHOP] aston_s_poppo_so row=12 5916 -> 6824
+[SHOP] aston_s_poppo_so row=13 5514 -> 6825
+[SHOP] aston_s_poppo_so row=14 5516 -> 6826
+[SHOP] aston_s_poppo_so row=15 5708 -> 6827
+[SHOP] aston_s_poppo_so row=16 5709 -> 6828
+[SHOP] aston_s_poppo_so row=17 5497 -> 6829
+[SHOP] aston_s_poppo_so row=18 5500 -> 6830
+[SHOP] aston_s_poppo_so row=19 5503 -> 6831
+[SHOP] aston_s_poppo_so row=20 5507 -> 6832
+[SHOP] aston_s_poppo_so row=21 5521 -> 6833
+[SHOP] aston_s_poppo_so row=22 6012 -> 6834
+[SHOP] aston_s_poppo_so row=23 5368 -> 6835
+[SHOP] aston_s_poppo_so row=24 5366 -> 6836
+[SHOP] aston_y_poppo02 row=0 5324 -> 6837
+[SHOP] aston_y_poppo02 row=1 5325 -> 6838
+[SHOP] aston_y_poppo02 row=2 5726 -> 6839
+[SHOP] aston_y_poppo02 row=3 5729 -> 6840
+[SHOP] aston_y_poppo02 row=4 5731 -> 6841
+[SHOP] aston_y_poppo02 row=5 5732 -> 6842
+[SHOP] aston_y_poppo02 row=6 5733 -> 6843
+[SHOP] aston_y_poppo02 row=7 5735 -> 6844
+[SHOP] aston_y_poppo02 row=8 5509 -> 6845
+[SHOP] aston_y_poppo02 row=9 5510 -> 6846
+[SHOP] aston_y_poppo02 row=10 5514 -> 6847
+[SHOP] aston_y_poppo02 row=11 5708 -> 6848
+[SHOP] aston_y_poppo02 row=12 5709 -> 6849
+[SHOP] aston_y_poppo02 row=13 5710 -> 6850
+[SHOP] aston_y_poppo02 row=14 5711 -> 6851
+[SHOP] aston_y_poppo02 row=15 5498 -> 6852
+[SHOP] aston_y_poppo02 row=16 5501 -> 6853
+[SHOP] aston_y_poppo02 row=17 5505 -> 6854
+[SHOP] aston_y_poppo02 row=18 5521 -> 6855
+[SHOP] aston_y_poppo02 row=19 5368 -> 6856
+[SHOP] aston_y_poppo02 row=20 5366 -> 6857
+[SHOP] aston_s_kukuru row=0 5843 -> 6858
+[SHOP] aston_s_kukuru row=1 5844 -> 6859
+[SHOP] aston_s_kukuru row=2 5845 -> 6860
+[SHOP] aston_s_kukuru row=3 5846 -> 6861
+[SHOP] aston_s_kukuru row=4 5922 -> 6862
+[SHOP] aston_s_tsuruha row=0 5324 -> 6863
+[SHOP] aston_s_tsuruha row=1 5990 -> 6864
+[SHOP] aston_s_tsuruha row=2 5325 -> 6865
+[SHOP] aston_s_tsuruha row=3 5992 -> 6866
+[SHOP] aston_s_tsuruha row=4 5326 -> 6867
+[SHOP] aston_s_tsuruha row=5 5327 -> 6868
+[SHOP] aston_s_tsuruha row=6 5995 -> 6869
+[SHOP] aston_s_tsuruha row=7 5725 -> 6870
+[SHOP] aston_s_tsuruha row=8 5726 -> 6871
+[SHOP] aston_s_tsuruha row=9 5729 -> 6872
+[SHOP] aston_s_tsuruha row=10 5731 -> 6873
+[SHOP] aston_s_tsuruha row=11 5733 -> 6874
+[SHOP] aston_s_tsuruha row=12 5734 -> 6875
+[SHOP] aston_s_tsuruha row=13 5736 -> 6876
+[SHOP] aston_s_hiratai row=0 5923 -> 6877
+[SHOP] aston_s_hiratai row=1 5924 -> 6878
+[SHOP] aston_s_hiratai row=2 5925 -> 6879
+[SHOP] aston_s_shigano row=0 5366 -> 6880
+[SHOP] aston_s_shigano row=1 6018 -> 6881
+[SHOP] aston_y_smilewagon row=0 5574 -> 6882
+[SHOP] aston_y_smilewagon row=1 5575 -> 6883
+[SHOP] aston_y_smilewagon row=2 5576 -> 6884
+[SHOP] aston_y_smilewagon row=3 5577 -> 6885
+[SHOP] aston_y_smilewagon row=4 5578 -> 6886
+[SHOP] aston_y_ichibann row=0 5555 -> 6887
+[SHOP] aston_y_ichibann row=1 5556 -> 6888
+[SHOP] aston_y_ichibann row=2 5557 -> 6889
+[SHOP] aston_y_ichibann row=3 5568 -> 6890
+[SHOP] aston_y_ichibann row=4 5569 -> 6891
+[SHOP] aston_y_ichibann row=5 5728 -> 6892
+[SHOP] aston_c_loungeshop row=0 6021 -> 6893
+[SHOP] aston_c_loungeshop row=1 6020 -> 6894
+[SHOP] aston_c_loungeshop row=2 6019 -> 6895
+[SHOP] aston_c_loungeshop row=3 6022 -> 6896
+[SHOP] aston_c_loungeshop row=4 6042 -> 6897
+[SHOP] aston_c_loungeshop row=5 6043 -> 6898
+[SHOP] aston_c_loungeshop row=6 6044 -> 6899
+[SHOP] aston_c_loungeshop row=7 6045 -> 6900
+[LOCKER] row=1 5328 -> 6384
+[LOCKER] row=2 5996 -> 6385
+[LOCKER] row=3 5370 -> 6386
+[LOCKER] row=4 5970 -> 6387
+[LOCKER] row=5 5939 -> 6388
+[LOCKER] row=6 5545 -> 6389
+[LOCKER] row=7 5954 -> 6390
+[LOCKER] row=8 5996 -> 6391
+[LOCKER] row=9 5996 -> 6392
+[LOCKER] row=10 5947 -> 6393
+[LOCKER] row=11 5940 -> 6394
+[LOCKER] row=12 5949 -> 6395
+[LOCKER] row=13 5994 -> 6396
+[LOCKER] row=14 5965 -> 6397
+[LOCKER] row=15 5369 -> 6398
+[LOCKER] row=16 5369 -> 6399
+[LOCKER] row=17 5940 -> 6400
+[LOCKER] row=18 5370 -> 6401
+[LOCKER] row=19 5959 -> 6402
+[LOCKER] row=20 5991 -> 6403
+[LOCKER] row=21 5994 -> 6404
+[LOCKER] row=22 5957 -> 6405
+[LOCKER] row=23 5947 -> 6406
+[LOCKER] row=24 5370 -> 6407
+[LOCKER] row=25 5370 -> 6408
+[LOCKER] row=26 5370 -> 6409
+[LOCKER] row=27 6038 -> 6410
+[LOCKER] row=28 5369 -> 6411
+[LOCKER] row=29 5370 -> 6412
+[LOCKER] row=30 5369 -> 6413
+[LOCKER] row=31 5431 -> 6414
+[LOCKER] row=32 5994 -> 6415
+[LOCKER] row=33 5963 -> 6416
+[LOCKER] row=34 4757 -> 6417
+[LOCKER] row=35 5712 -> 6418
+[LOCKER] row=36 5544 -> 6419
+[LOCKER] row=37 5369 -> 6420
+[LOCKER] row=38 5991 -> 6421
+[LOCKER] row=39 5539 -> 6422
+[LOCKER] row=40 5450 -> 6423
+[LOCKER] row=41 5328 -> 6424
+[LOCKER] row=42 5952 -> 6425
+[LOCKER] row=43 5944 -> 6426
+[LOCKER] row=44 5961 -> 6427
+[LOCKER] row=45 4813 -> 6428
+[LOCKER] row=46 5982 -> 6429
+[LOCKER] row=47 5440 -> 6430
+[LOCKER] row=48 4807 -> 6431
+[LOCKER] row=49 4764 -> 6432
+[LOCKER] row=50 5328 -> 6433
+[ITEM SWAP] 5323 reARMP_rowIndex 5623 -> 5627
+[ITEM SWAP] 5324 reARMP_rowIndex 5624 -> 5516
+[ITEM SWAP] 5990 reARMP_rowIndex 5514 -> 5843
+[ITEM SWAP] 5325 reARMP_rowIndex 5625 -> 5624
+[ITEM SWAP] 5992 reARMP_rowIndex 5516 -> 6263
+[ITEM SWAP] 5326 reARMP_rowIndex 5626 -> 6262
+[ITEM SWAP] 5327 reARMP_rowIndex 5627 -> 6258
+[ITEM SWAP] 5995 reARMP_rowIndex 5843 -> 6125
+[ITEM SWAP] 5996 reARMP_rowIndex 5844 -> 5515
+[ITEM SWAP] 6131 reARMP_rowIndex 6126 -> 5625
+[ITEM SWAP] 6129 reARMP_rowIndex 6124 -> 6261
+[ITEM SWAP] 6130 reARMP_rowIndex 6125 -> 6257
+[ITEM SWAP] 5991 reARMP_rowIndex 5515 -> 5623
+[ITEM SWAP] 5994 reARMP_rowIndex 5518 -> 6126
+[ITEM SWAP] 6258 reARMP_rowIndex 6256 -> 6259
+[ITEM SWAP] 6259 reARMP_rowIndex 6257 -> 5844
+[ITEM SWAP] 6260 reARMP_rowIndex 6258 -> 5626
+[ITEM SWAP] 6261 reARMP_rowIndex 6259 -> 6260
+[ITEM SWAP] 6262 reARMP_rowIndex 6260 -> 5514
+[ITEM SWAP] 6263 reARMP_rowIndex 6261 -> 6256
+[ITEM SWAP] 6264 reARMP_rowIndex 6262 -> 6124
+[ITEM SWAP] 6265 reARMP_rowIndex 6263 -> 5518
+[ITEM PRICE] id=6271 0 -> 150000
+[ITEM POINTS] id=6271 -> 100
+[ITEM PRICE] id=6272 0 -> 200000
+[ITEM POINTS] id=6272 -> 100
+[ITEM PRICE] id=6273 0 -> 1
+[ITEM POINTS] id=6273 -> 1
+[ITEM PRICE] id=6274 0 -> 1
+[ITEM POINTS] id=6274 -> 1
+[ITEM PRICE] id=6275 0 -> 1
+[ITEM POINTS] id=6275 -> 1
+[ITEM PRICE] id=6276 0 -> 1000
+[ITEM POINTS] id=6276 -> 1000
+[ITEM PRICE] id=6277 0 -> 9800
+[ITEM POINTS] id=6277 -> 0
+[ITEM PRICE] id=6278 0 -> 200000
+[ITEM POINTS] id=6278 -> 100
+[ITEM PRICE] id=6279 0 -> 1
+[ITEM POINTS] id=6279 -> 1
+[ITEM PRICE] id=6280 0 -> 1000
+[ITEM POINTS] id=6280 -> 1000
+[ITEM PRICE] id=6281 0 -> 1
+[ITEM POINTS] id=6281 -> 1
+[ITEM PRICE] id=6282 0 -> 1
+[ITEM POINTS] id=6282 -> 1
+[ITEM PRICE] id=6283 0 -> 150
+[ITEM POINTS] id=6283 -> 10
+[ITEM PRICE] id=6284 0 -> 1
+[ITEM POINTS] id=6284 -> 1
+[ITEM PRICE] id=6285 0 -> 1980
+[ITEM POINTS] id=6285 -> 0
+[ITEM PRICE] id=6286 0 -> 50000
+[ITEM POINTS] id=6286 -> 100
+[ITEM PRICE] id=6287 0 -> 197
+[ITEM POINTS] id=6287 -> 0
+[ITEM PRICE] id=6288 0 -> 880
+[ITEM POINTS] id=6288 -> 380
+[ITEM PRICE] id=6289 0 -> 95000
+[ITEM POINTS] id=6289 -> 1000
+[ITEM PRICE] id=6290 0 -> 550
+[ITEM POINTS] id=6290 -> 0
+[ITEM PRICE] id=6291 0 -> 1
+[ITEM POINTS] id=6291 -> 1
+[ITEM PRICE] id=6292 0 -> 980
+[ITEM POINTS] id=6292 -> 0
+[ITEM PRICE] id=6293 0 -> 0
+[ITEM POINTS] id=6293 -> 0
+[ITEM PRICE] id=6294 0 -> 1
+[ITEM POINTS] id=6294 -> 1
+[ITEM PRICE] id=6295 0 -> 1
+[ITEM POINTS] id=6295 -> 1
+[ITEM PRICE] id=6296 0 -> 1
+[ITEM POINTS] id=6296 -> 1
+[ITEM PRICE] id=6297 0 -> 5000
+[ITEM POINTS] id=6297 -> 150
+[ITEM PRICE] id=6298 0 -> 2980
+[ITEM POINTS] id=6298 -> 2980
+[ITEM PRICE] id=6299 0 -> 1000
+[ITEM POINTS] id=6299 -> 1000
+[ITEM PRICE] id=6300 0 -> 4980
+[ITEM POINTS] id=6300 -> 120000
+[ITEM PRICE] id=6301 0 -> 1
+[ITEM POINTS] id=6301 -> 1
+[ITEM PRICE] id=6302 0 -> 90
+[ITEM POINTS] id=6302 -> 0
+[ITEM PRICE] id=6303 0 -> 1
+[ITEM POINTS] id=6303 -> 1
+[ITEM PRICE] id=6304 0 -> 160
+[ITEM POINTS] id=6304 -> 0
+[ITEM PRICE] id=6305 0 -> 1980
+[ITEM POINTS] id=6305 -> 1980
+[ITEM PRICE] id=6306 0 -> 1000
+[ITEM POINTS] id=6306 -> 0
+[ITEM PRICE] id=6307 0 -> 380
+[ITEM POINTS] id=6307 -> 0
+[ITEM PRICE] id=6308 0 -> 35000
+[ITEM POINTS] id=6308 -> 0
+[ITEM PRICE] id=6309 0 -> 3980
+[ITEM POINTS] id=6309 -> 3980
+[ITEM PRICE] id=6310 0 -> 400000
+[ITEM POINTS] id=6310 -> 100
+[ITEM PRICE] id=6311 0 -> 1
+[ITEM POINTS] id=6311 -> 1
+[ITEM PRICE] id=6312 0 -> 4980
+[ITEM POINTS] id=6312 -> 4980
+[ITEM PRICE] id=6313 0 -> 1000
+[ITEM POINTS] id=6313 -> 1000
+[ITEM PRICE] id=6314 0 -> 1
+[ITEM POINTS] id=6314 -> 1
+[ITEM PRICE] id=6315 0 -> 5500
+[ITEM POINTS] id=6315 -> 0
+[ITEM PRICE] id=6316 0 -> 1
+[ITEM POINTS] id=6316 -> 1
+[ITEM PRICE] id=6317 0 -> 1
+[ITEM POINTS] id=6317 -> 1
+[ITEM PRICE] id=6318 0 -> 160
+[ITEM POINTS] id=6318 -> 0
+[ITEM PRICE] id=6319 0 -> 160
+[ITEM POINTS] id=6319 -> 0
+[ITEM PRICE] id=6320 0 -> 1
+[ITEM POINTS] id=6320 -> 1
+[ITEM PRICE] id=6321 0 -> 1
+[ITEM POINTS] id=6321 -> 1
+[ITEM PRICE] id=6322 0 -> 550
+[ITEM POINTS] id=6322 -> 0
+[ITEM PRICE] id=6323 0 -> 485000
+[ITEM POINTS] id=6323 -> 0
+[ITEM PRICE] id=6324 0 -> 1
+[ITEM POINTS] id=6324 -> 1
+[ITEM PRICE] id=6325 0 -> 1
+[ITEM POINTS] id=6325 -> 1
+[ITEM PRICE] id=6326 0 -> 1
+[ITEM POINTS] id=6326 -> 1
+[ITEM PRICE] id=6327 0 -> 1
+[ITEM POINTS] id=6327 -> 1
+[ITEM PRICE] id=6328 0 -> 81000
+[ITEM POINTS] id=6328 -> 0
+[ITEM PRICE] id=6329 0 -> 150000
+[ITEM POINTS] id=6329 -> 100
+[ITEM PRICE] id=6330 0 -> 1
+[ITEM POINTS] id=6330 -> 1
+[ITEM PRICE] id=6331 0 -> 1
+[ITEM POINTS] id=6331 -> 1
+[ITEM PRICE] id=6332 0 -> 4980
+[ITEM POINTS] id=6332 -> 4980
+[ITEM PRICE] id=6333 0 -> 180
+[ITEM POINTS] id=6333 -> 0
+[ITEM PRICE] id=6334 0 -> 150000
+[ITEM POINTS] id=6334 -> 100
+[ITEM PRICE] id=6335 0 -> 1
+[ITEM POINTS] id=6335 -> 1
+[ITEM PRICE] id=6336 0 -> 1
+[ITEM POINTS] id=6336 -> 1
+[ITEM PRICE] id=6337 0 -> 1
+[ITEM POINTS] id=6337 -> 1
+[ITEM PRICE] id=6338 0 -> 300000
+[ITEM POINTS] id=6338 -> 2000
+[ITEM PRICE] id=6339 0 -> 50000
+[ITEM POINTS] id=6339 -> 1500
+[ITEM PRICE] id=6340 0 -> 1000
+[ITEM POINTS] id=6340 -> 1000
+[ITEM PRICE] id=6341 0 -> 15000
+[ITEM POINTS] id=6341 -> 100
+[ITEM PRICE] id=6342 0 -> 1
+[ITEM POINTS] id=6342 -> 1
+[ITEM PRICE] id=6343 0 -> 800
+[ITEM POINTS] id=6343 -> 0
+[ITEM PRICE] id=6344 0 -> 1
+[ITEM POINTS] id=6344 -> 1
+[ITEM PRICE] id=6345 0 -> 1
+[ITEM POINTS] id=6345 -> 1
+[ITEM PRICE] id=6346 0 -> 160
+[ITEM POINTS] id=6346 -> 0
+[ITEM PRICE] id=6347 0 -> 980
+[ITEM POINTS] id=6347 -> 480
+[ITEM PRICE] id=6348 0 -> 170
+[ITEM POINTS] id=6348 -> 0
+[ITEM PRICE] id=6349 0 -> 150000
+[ITEM POINTS] id=6349 -> 100
+[ITEM PRICE] id=6350 0 -> 1
+[ITEM POINTS] id=6350 -> 1
+[ITEM PRICE] id=6351 0 -> 1
+[ITEM POINTS] id=6351 -> 1
+[ITEM PRICE] id=6352 0 -> 1
+[ITEM POINTS] id=6352 -> 1
+[ITEM PRICE] id=6353 0 -> 197
+[ITEM POINTS] id=6353 -> 0
+[ITEM PRICE] id=6354 0 -> 480
+[ITEM POINTS] id=6354 -> 150
+[ITEM PRICE] id=6355 0 -> 1
+[ITEM POINTS] id=6355 -> 1
+[ITEM PRICE] id=6356 0 -> 1
+[ITEM POINTS] id=6356 -> 1
+[ITEM PRICE] id=6357 0 -> 160
+[ITEM POINTS] id=6357 -> 0
+[ITEM PRICE] id=6358 0 -> 1
+[ITEM POINTS] id=6358 -> 1
+[ITEM PRICE] id=6359 0 -> 1
+[ITEM POINTS] id=6359 -> 1
+[ITEM PRICE] id=6360 0 -> 1
+[ITEM POINTS] id=6360 -> 1
+[ITEM PRICE] id=6361 0 -> 1
+[ITEM POINTS] id=6361 -> 1
+[ITEM PRICE] id=6362 0 -> 1051
+[ITEM POINTS] id=6362 -> 0
+[ITEM PRICE] id=6363 0 -> 1
+[ITEM POINTS] id=6363 -> 1
+[ITEM PRICE] id=6364 0 -> 50
+[ITEM POINTS] id=6364 -> 1
+[ITEM PRICE] id=6365 0 -> 1000
+[ITEM POINTS] id=6365 -> 1000
+[ITEM PRICE] id=6366 0 -> 1000
+[ITEM POINTS] id=6366 -> 1000
+[ITEM PRICE] id=6367 0 -> 293
+[ITEM POINTS] id=6367 -> 0
+[ITEM PRICE] id=6368 0 -> 1000000
+[ITEM POINTS] id=6368 -> 100
+[ITEM PRICE] id=6369 0 -> 183
+[ITEM POINTS] id=6369 -> 0
+[ITEM PRICE] id=6370 0 -> 1320
+[ITEM POINTS] id=6370 -> 0
+[ITEM PRICE] id=6371 0 -> 30000
+[ITEM POINTS] id=6371 -> 2000
+[ITEM PRICE] id=6372 0 -> 550
+[ITEM POINTS] id=6372 -> 0
+[ITEM PRICE] id=6373 0 -> 9800
+[ITEM POINTS] id=6373 -> 9800
+[ITEM PRICE] id=6374 0 -> 1000
+[ITEM POINTS] id=6374 -> 0
+[ITEM PRICE] id=6375 0 -> 100
+[ITEM POINTS] id=6375 -> 0
+[ITEM PRICE] id=6376 0 -> 1000
+[ITEM POINTS] id=6376 -> 1000
+[ITEM PRICE] id=6377 0 -> 1
+[ITEM POINTS] id=6377 -> 1
+[ITEM PRICE] id=6378 0 -> 1
+[ITEM POINTS] id=6378 -> 1
+[ITEM PRICE] id=6379 0 -> 1000
+[ITEM POINTS] id=6379 -> 1000
+[ITEM PRICE] id=6380 0 -> 2980
+[ITEM POINTS] id=6380 -> 2980
+[ITEM PRICE] id=6381 0 -> 280
+[ITEM POINTS] id=6381 -> 0
+[ITEM PRICE] id=6382 0 -> 50000000
+[ITEM POINTS] id=6382 -> 4980
+[ITEM PRICE] id=6383 0 -> 1000
+[ITEM POINTS] id=6383 -> 1000
+[ITEM PRICE] id=6434 0 -> 400
+[ITEM POINTS] id=6434 -> 0
+[ITEM PRICE] id=6435 0 -> 1
+[ITEM POINTS] id=6435 -> 1
+[ITEM PRICE] id=6436 0 -> 1500
+[ITEM POINTS] id=6436 -> 10
+[ITEM PRICE] id=6437 0 -> 1
+[ITEM POINTS] id=6437 -> 1
+[ITEM PRICE] id=6438 0 -> 1500
+[ITEM POINTS] id=6438 -> 10
+[ITEM PRICE] id=6439 0 -> 1480
+[ITEM POINTS] id=6439 -> 1480
+[ITEM PRICE] id=6440 0 -> 1
+[ITEM POINTS] id=6440 -> 1
+[ITEM PRICE] id=6441 0 -> 1
+[ITEM POINTS] id=6441 -> 1
+[ITEM PRICE] id=6442 0 -> 550
+[ITEM POINTS] id=6442 -> 0
+[ITEM PRICE] id=6443 0 -> 200
+[ITEM POINTS] id=6443 -> 0
+[ITEM PRICE] id=6444 0 -> 2480
+[ITEM POINTS] id=6444 -> 2480
+[ITEM PRICE] id=6445 0 -> 431000
+[ITEM POINTS] id=6445 -> 0
+[ITEM PRICE] id=6446 0 -> 50000
+[ITEM POINTS] id=6446 -> 100
+[ITEM PRICE] id=6447 0 -> 1
+[ITEM POINTS] id=6447 -> 1
+[ITEM PRICE] id=6448 0 -> 1
+[ITEM POINTS] id=6448 -> 1
+[ITEM PRICE] id=6449 0 -> 50000000
+[ITEM POINTS] id=6449 -> 2980
+[ITEM PRICE] id=6450 0 -> 81000
+[ITEM POINTS] id=6450 -> 8000
+[ITEM PRICE] id=6451 0 -> 1
+[ITEM POINTS] id=6451 -> 1
+[ITEM PRICE] id=6452 0 -> 1
+[ITEM POINTS] id=6452 -> 1
+[ITEM PRICE] id=6453 0 -> 1000
+[ITEM POINTS] id=6453 -> 1000
+[ITEM PRICE] id=6454 0 -> 400
+[ITEM POINTS] id=6454 -> 0
+[ITEM PRICE] id=6455 0 -> 1000
+[ITEM POINTS] id=6455 -> 1000
+[ITEM PRICE] id=6456 0 -> 1000
+[ITEM POINTS] id=6456 -> 1000
+[ITEM PRICE] id=6457 0 -> 183
+[ITEM POINTS] id=6457 -> 0
+[ITEM PRICE] id=6458 0 -> 1
+[ITEM POINTS] id=6458 -> 1
+[ITEM PRICE] id=6459 0 -> 1000
+[ITEM POINTS] id=6459 -> 1000
+[ITEM PRICE] id=6460 0 -> 70000
+[ITEM POINTS] id=6460 -> 100
+[ITEM PRICE] id=6461 0 -> 1000
+[ITEM POINTS] id=6461 -> 0
+[ITEM PRICE] id=6462 0 -> 160
+[ITEM POINTS] id=6462 -> 0
+[ITEM PRICE] id=6463 0 -> 600
+[ITEM POINTS] id=6463 -> 0
+[ITEM PRICE] id=6464 0 -> 500
+[ITEM POINTS] id=6464 -> 0
+[ITEM PRICE] id=6465 0 -> 1000
+[ITEM POINTS] id=6465 -> 1000
+[ITEM PRICE] id=6466 0 -> 3000
+[ITEM POINTS] id=6466 -> 60
+[ITEM PRICE] id=6467 0 -> 1000
+[ITEM POINTS] id=6467 -> 1000
+[ITEM PRICE] id=6468 0 -> 130
+[ITEM POINTS] id=6468 -> 0
+[ITEM PRICE] id=6469 0 -> 100000
+[ITEM POINTS] id=6469 -> 100
+[ITEM PRICE] id=6470 0 -> 1000
+[ITEM POINTS] id=6470 -> 1000
+[ITEM PRICE] id=6471 0 -> 1000
+[ITEM POINTS] id=6471 -> 1000
+[ITEM PRICE] id=6472 0 -> 10000
+[ITEM POINTS] id=6472 -> 0
+[ITEM PRICE] id=6473 0 -> 1000
+[ITEM POINTS] id=6473 -> 1000
+[ITEM PRICE] id=6474 0 -> 1
+[ITEM POINTS] id=6474 -> 1
+[ITEM PRICE] id=6475 0 -> 9800
+[ITEM POINTS] id=6475 -> 3980
+[ITEM PRICE] id=6476 0 -> 1
+[ITEM POINTS] id=6476 -> 1
+[ITEM PRICE] id=6477 0 -> 1
+[ITEM POINTS] id=6477 -> 1
+[ITEM PRICE] id=6478 0 -> 1
+[ITEM POINTS] id=6478 -> 1
+[ITEM PRICE] id=6479 0 -> 800
+[ITEM POINTS] id=6479 -> 0
+[ITEM PRICE] id=6480 0 -> 1
+[ITEM POINTS] id=6480 -> 1
+[ITEM PRICE] id=6481 0 -> 235
+[ITEM POINTS] id=6481 -> 0
+[ITEM PRICE] id=6482 0 -> 1
+[ITEM POINTS] id=6482 -> 1
+[ITEM PRICE] id=6483 0 -> 1000
+[ITEM POINTS] id=6483 -> 1000
+[ITEM PRICE] id=6484 0 -> 1
+[ITEM POINTS] id=6484 -> 1
+[ITEM PRICE] id=6485 0 -> 1
+[ITEM POINTS] id=6485 -> 1
+[ITEM PRICE] id=6486 0 -> 3000
+[ITEM POINTS] id=6486 -> 60
+[ITEM PRICE] id=6487 0 -> 1
+[ITEM POINTS] id=6487 -> 1
+[ITEM PRICE] id=6488 0 -> 1
+[ITEM POINTS] id=6488 -> 1
+[ITEM PRICE] id=6489 0 -> 90
+[ITEM POINTS] id=6489 -> 0
+[ITEM PRICE] id=6490 0 -> 1000
+[ITEM POINTS] id=6490 -> 1000
+[ITEM PRICE] id=6491 0 -> 255
+[ITEM POINTS] id=6491 -> 0
+[ITEM PRICE] id=6492 0 -> 120000
+[ITEM POINTS] id=6492 -> 120000
+[ITEM PRICE] id=6493 0 -> 1200
+[ITEM POINTS] id=6493 -> 0
+[ITEM PRICE] id=6494 0 -> 1000
+[ITEM POINTS] id=6494 -> 1000
+[ITEM PRICE] id=6495 0 -> 1000
+[ITEM POINTS] id=6495 -> 1000
+[ITEM PRICE] id=6496 0 -> 1
+[ITEM POINTS] id=6496 -> 1
+[ITEM PRICE] id=6497 0 -> 464
+[ITEM POINTS] id=6497 -> 0
+[ITEM PRICE] id=6498 0 -> 1000
+[ITEM POINTS] id=6498 -> 1000
+[ITEM PRICE] id=6499 0 -> 250
+[ITEM POINTS] id=6499 -> 0
+[ITEM PRICE] id=6500 0 -> 600
+[ITEM POINTS] id=6500 -> 0
+[ITEM PRICE] id=6501 0 -> 15
+[ITEM POINTS] id=6501 -> 1
+[ITEM PRICE] id=6502 0 -> 1500
+[ITEM POINTS] id=6502 -> 0
+[ITEM PRICE] id=6503 0 -> 1
+[ITEM POINTS] id=6503 -> 1
+[ITEM PRICE] id=6504 0 -> 250
+[ITEM POINTS] id=6504 -> 0
+[ITEM PRICE] id=6505 0 -> 1
+[ITEM POINTS] id=6505 -> 1
+[ITEM PRICE] id=6506 0 -> 550
+[ITEM POINTS] id=6506 -> 0
+[ITEM PRICE] id=6507 0 -> 130
+[ITEM POINTS] id=6507 -> 0
+[ITEM PRICE] id=6508 0 -> 4980
+[ITEM POINTS] id=6508 -> 4980
+[ITEM PRICE] id=6509 0 -> 880
+[ITEM POINTS] id=6509 -> 380
+[ITEM PRICE] id=6510 0 -> 100
+[ITEM POINTS] id=6510 -> 0
+[ITEM PRICE] id=6511 0 -> 160
+[ITEM POINTS] id=6511 -> 0
+[ITEM PRICE] id=6512 0 -> 1000
+[ITEM POINTS] id=6512 -> 1000
+[ITEM PRICE] id=6513 0 -> 255
+[ITEM POINTS] id=6513 -> 0
+[ITEM PRICE] id=6514 0 -> 1
+[ITEM POINTS] id=6514 -> 1
+[ITEM PRICE] id=6515 0 -> 50000
+[ITEM POINTS] id=6515 -> 1500
+[ITEM PRICE] id=6516 0 -> 1
+[ITEM POINTS] id=6516 -> 1
+[ITEM PRICE] id=6517 0 -> 200000
+[ITEM POINTS] id=6517 -> 0
+[ITEM PRICE] id=6518 0 -> 14800
+[ITEM POINTS] id=6518 -> 14800
+[ITEM PRICE] id=6519 0 -> 2980
+[ITEM POINTS] id=6519 -> 2980
+[ITEM PRICE] id=6520 0 -> 1
+[ITEM POINTS] id=6520 -> 1
+[ITEM PRICE] id=6521 0 -> 1
+[ITEM POINTS] id=6521 -> 1
+[ITEM PRICE] id=6522 0 -> 170
+[ITEM POINTS] id=6522 -> 0
+[ITEM PRICE] id=6523 0 -> 11000
+[ITEM POINTS] id=6523 -> 0
+[ITEM PRICE] id=6524 0 -> 1
+[ITEM POINTS] id=6524 -> 1
+[ITEM PRICE] id=6525 0 -> 25000
+[ITEM POINTS] id=6525 -> 0
+[ITEM PRICE] id=6526 0 -> 0
+[ITEM POINTS] id=6526 -> 0
+[ITEM PRICE] id=6527 0 -> 580
+[ITEM POINTS] id=6527 -> 0
+[ITEM PRICE] id=6528 0 -> 130
+[ITEM POINTS] id=6528 -> 0
+[ITEM PRICE] id=6529 0 -> 130
+[ITEM POINTS] id=6529 -> 0
+[ITEM PRICE] id=6530 0 -> 1
+[ITEM POINTS] id=6530 -> 1
+[ITEM PRICE] id=6531 0 -> 1500
+[ITEM POINTS] id=6531 -> 10
+[ITEM PRICE] id=6532 0 -> 1000
+[ITEM POINTS] id=6532 -> 1000
+[ITEM PRICE] id=6533 0 -> 1
+[ITEM POINTS] id=6533 -> 1
+[ITEM PRICE] id=6534 0 -> 1
+[ITEM POINTS] id=6534 -> 1
+[ITEM PRICE] id=6535 0 -> 464
+[ITEM POINTS] id=6535 -> 0
+[ITEM PRICE] id=6536 0 -> 1
+[ITEM POINTS] id=6536 -> 1
+[ITEM PRICE] id=6537 0 -> 600000
+[ITEM POINTS] id=6537 -> 0
+[ITEM PRICE] id=6538 0 -> 3980
+[ITEM POINTS] id=6538 -> 3980
+[ITEM PRICE] id=6539 0 -> 500000
+[ITEM POINTS] id=6539 -> 100
+[ITEM PRICE] id=6540 0 -> 1
+[ITEM POINTS] id=6540 -> 1
+[ITEM PRICE] id=6541 0 -> 1
+[ITEM POINTS] id=6541 -> 1
+[ITEM PRICE] id=6542 0 -> 235
+[ITEM POINTS] id=6542 -> 0
+[ITEM PRICE] id=6543 0 -> 1
+[ITEM POINTS] id=6543 -> 1
+[ITEM PRICE] id=6544 0 -> 50000
+[ITEM POINTS] id=6544 -> 100
+[ITEM PRICE] id=6545 0 -> 1
+[ITEM POINTS] id=6545 -> 1
+[ITEM PRICE] id=6546 0 -> 1
+[ITEM POINTS] id=6546 -> 1
+[ITEM PRICE] id=6547 0 -> 81000
+[ITEM POINTS] id=6547 -> 800
+[ITEM PRICE] id=6548 0 -> 170
+[ITEM POINTS] id=6548 -> 0
+[ITEM PRICE] id=6549 0 -> 1
+[ITEM POINTS] id=6549 -> 1
+[ITEM PRICE] id=6550 0 -> 1
+[ITEM POINTS] id=6550 -> 1
+[ITEM PRICE] id=6551 0 -> 1
+[ITEM POINTS] id=6551 -> 1
+[ITEM PRICE] id=6552 0 -> 1000
+[ITEM POINTS] id=6552 -> 1000
+[ITEM PRICE] id=6553 0 -> 550
+[ITEM POINTS] id=6553 -> 0
+[ITEM PRICE] id=6554 0 -> 1
+[ITEM POINTS] id=6554 -> 1
+[ITEM PRICE] id=6555 0 -> 170
+[ITEM POINTS] id=6555 -> 0
+[ITEM PRICE] id=6556 0 -> 9800
+[ITEM POINTS] id=6556 -> 0
+[ITEM PRICE] id=6557 0 -> 1
+[ITEM POINTS] id=6557 -> 1
+[ITEM PRICE] id=6558 0 -> 100
+[ITEM POINTS] id=6558 -> 0
+[ITEM PRICE] id=6559 0 -> 0
+[ITEM POINTS] id=6559 -> 2500
+[ITEM PRICE] id=6560 0 -> 1
+[ITEM POINTS] id=6560 -> 1
+[ITEM PRICE] id=6561 0 -> 1
+[ITEM POINTS] id=6561 -> 1
+[ITEM PRICE] id=6562 0 -> 1
+[ITEM POINTS] id=6562 -> 1
+[ITEM PRICE] id=6563 0 -> 1
+[ITEM POINTS] id=6563 -> 1
+[ITEM PRICE] id=6564 0 -> 1
+[ITEM POINTS] id=6564 -> 1
+[ITEM PRICE] id=6565 0 -> 14626000
+[ITEM POINTS] id=6565 -> 60000
+[ITEM PRICE] id=6566 0 -> 197
+[ITEM POINTS] id=6566 -> 0
+[ITEM PRICE] id=6567 0 -> 1
+[ITEM POINTS] id=6567 -> 1
+[ITEM PRICE] id=6568 0 -> 1
+[ITEM POINTS] id=6568 -> 1
+[ITEM PRICE] id=6569 0 -> 1984000
+[ITEM POINTS] id=6569 -> 16000
+[ITEM PRICE] id=6570 0 -> 0
+[ITEM POINTS] id=6570 -> 5000
+[ITEM PRICE] id=6571 0 -> 25000
+[ITEM POINTS] id=6571 -> 0
+[ITEM PRICE] id=6572 0 -> 1000
+[ITEM POINTS] id=6572 -> 1000
+[ITEM PRICE] id=6573 0 -> 1000
+[ITEM POINTS] id=6573 -> 1000
+[ITEM PRICE] id=6574 0 -> 100
+[ITEM POINTS] id=6574 -> 0
+[ITEM PRICE] id=6575 0 -> 70000
+[ITEM POINTS] id=6575 -> 100
+[ITEM PRICE] id=6576 0 -> 1
+[ITEM POINTS] id=6576 -> 1
+[ITEM PRICE] id=6577 0 -> 235
+[ITEM POINTS] id=6577 -> 0
+[ITEM PRICE] id=6578 0 -> 1
+[ITEM POINTS] id=6578 -> 1
+[ITEM PRICE] id=6579 0 -> 240000
+[ITEM POINTS] id=6579 -> 0
+[ITEM PRICE] id=6580 0 -> 130
+[ITEM POINTS] id=6580 -> 0
+[ITEM PRICE] id=6581 0 -> 380
+[ITEM POINTS] id=6581 -> 0
+[ITEM PRICE] id=6582 0 -> 1
+[ITEM POINTS] id=6582 -> 1
+[ITEM PRICE] id=6583 0 -> 1000
+[ITEM POINTS] id=6583 -> 1000
+[ITEM PRICE] id=6584 0 -> 1000
+[ITEM POINTS] id=6584 -> 1000
+[ITEM PRICE] id=6585 0 -> 680
+[ITEM POINTS] id=6585 -> 150
+[ITEM PRICE] id=6586 0 -> 1
+[ITEM POINTS] id=6586 -> 1
+[ITEM PRICE] id=6587 0 -> 1
+[ITEM POINTS] id=6587 -> 1
+[ITEM PRICE] id=6588 0 -> 1
+[ITEM POINTS] id=6588 -> 1
+[ITEM PRICE] id=6589 0 -> 500
+[ITEM POINTS] id=6589 -> 0
+[ITEM PRICE] id=6590 0 -> 1000
+[ITEM POINTS] id=6590 -> 1000
+[ITEM PRICE] id=6591 0 -> 1
+[ITEM POINTS] id=6591 -> 1
+[ITEM PRICE] id=6592 0 -> 1980
+[ITEM POINTS] id=6592 -> 1980
+[ITEM PRICE] id=6593 0 -> 1
+[ITEM POINTS] id=6593 -> 1
+[ITEM PRICE] id=6594 0 -> 1
+[ITEM POINTS] id=6594 -> 1
+[ITEM PRICE] id=6595 0 -> 255
+[ITEM POINTS] id=6595 -> 0
+[ITEM PRICE] id=6596 0 -> 320
+[ITEM POINTS] id=6596 -> 0
+[ITEM PRICE] id=6597 0 -> 81000
+[ITEM POINTS] id=6597 -> 1000
+[ITEM PRICE] id=6598 0 -> 255
+[ITEM POINTS] id=6598 -> 0
+[ITEM PRICE] id=6599 0 -> 160
+[ITEM POINTS] id=6599 -> 0
+[ITEM PRICE] id=6600 0 -> 380
+[ITEM POINTS] id=6600 -> 30
+[ITEM PRICE] id=6601 0 -> 5000
+[ITEM POINTS] id=6601 -> 150
+[ITEM PRICE] id=6602 0 -> 2000
+[ITEM POINTS] id=6602 -> 0
+[ITEM PRICE] id=6603 0 -> 1
+[ITEM POINTS] id=6603 -> 1
+[ITEM PRICE] id=6604 0 -> 1980
+[ITEM POINTS] id=6604 -> 1980
+[ITEM PRICE] id=6605 0 -> 170
+[ITEM POINTS] id=6605 -> 0
+[ITEM PRICE] id=6606 0 -> 100
+[ITEM POINTS] id=6606 -> 0
+[ITEM PRICE] id=6607 0 -> 1
+[ITEM POINTS] id=6607 -> 1
+[ITEM PRICE] id=6608 0 -> 1
+[ITEM POINTS] id=6608 -> 1
+[ITEM PRICE] id=6609 0 -> 10000
+[ITEM POINTS] id=6609 -> 0
+[ITEM PRICE] id=6610 0 -> 1
+[ITEM POINTS] id=6610 -> 1
+[ITEM PRICE] id=6611 0 -> 1000
+[ITEM POINTS] id=6611 -> 1000
+[ITEM PRICE] id=6612 0 -> 0
+[ITEM POINTS] id=6612 -> 2000
+[ITEM PRICE] id=6613 0 -> 250
+[ITEM POINTS] id=6613 -> 0
+[ITEM PRICE] id=6614 0 -> 1000
+[ITEM POINTS] id=6614 -> 1000
+[ITEM PRICE] id=6615 0 -> 255
+[ITEM POINTS] id=6615 -> 0
+[ITEM PRICE] id=6616 0 -> 500000
+[ITEM POINTS] id=6616 -> 100
+[ITEM PRICE] id=6617 0 -> 1
+[ITEM POINTS] id=6617 -> 1
+[ITEM PRICE] id=6618 0 -> 150
+[ITEM POINTS] id=6618 -> 0
+[ITEM PRICE] id=6619 0 -> 1180
+[ITEM POINTS] id=6619 -> 680
+[ITEM PRICE] id=6761 0 -> 1
+[ITEM POINTS] id=6761 -> 1
+[ITEM PRICE] id=6762 0 -> 5000
+[ITEM POINTS] id=6762 -> 0
+[ITEM PRICE] id=6763 0 -> 150000
+[ITEM POINTS] id=6763 -> 100
+[ITEM PRICE] id=6764 0 -> 0
+[ITEM POINTS] id=6764 -> 3000
+[ITEM PRICE] id=6765 0 -> 480
+[ITEM POINTS] id=6765 -> 0
+[ITEM PRICE] id=6766 0 -> 183
+[ITEM POINTS] id=6766 -> 0
+[ITEM PRICE] id=6767 0 -> 980
+[ITEM POINTS] id=6767 -> 0
+[ITEM PRICE] id=6768 0 -> 130
+[ITEM POINTS] id=6768 -> 0
+[ITEM PRICE] id=6769 0 -> 1000
+[ITEM POINTS] id=6769 -> 1000
+[ITEM PRICE] id=6770 0 -> 4980
+[ITEM POINTS] id=6770 -> 4980
+[ITEM PRICE] id=6771 0 -> 1031000
+[ITEM POINTS] id=6771 -> 8000
+[ITEM PRICE] id=6772 0 -> 10000
+[ITEM POINTS] id=6772 -> 0
+[ITEM PRICE] id=6773 0 -> 2480
+[ITEM POINTS] id=6773 -> 2480
+[ITEM PRICE] id=6774 0 -> 100
+[ITEM POINTS] id=6774 -> 0
+[ITEM PRICE] id=6775 0 -> 90
+[ITEM POINTS] id=6775 -> 0
+[ITEM PRICE] id=6776 0 -> 150
+[ITEM POINTS] id=6776 -> 0
+[ITEM PRICE] id=6777 0 -> 623000
+[ITEM POINTS] id=6777 -> 0
+[ITEM PRICE] id=6778 0 -> 197
+[ITEM POINTS] id=6778 -> 0
+[ITEM PRICE] id=6779 0 -> 4980
+[ITEM POINTS] id=6779 -> 5600
+[ITEM PRICE] id=6780 0 -> 1
+[ITEM POINTS] id=6780 -> 1
+[ITEM PRICE] id=6781 0 -> 3980
+[ITEM POINTS] id=6781 -> 3980
+[ITEM PRICE] id=6782 0 -> 1000
+[ITEM POINTS] id=6782 -> 1000
+[ITEM PRICE] id=6783 0 -> 1
+[ITEM POINTS] id=6783 -> 1
+[ITEM PRICE] id=6784 0 -> 1
+[ITEM POINTS] id=6784 -> 1
+[ITEM PRICE] id=6785 0 -> 140
+[ITEM POINTS] id=6785 -> 0
+[ITEM PRICE] id=6786 0 -> 60000
+[ITEM POINTS] id=6786 -> 0
+[ITEM PRICE] id=6787 0 -> 1
+[ITEM POINTS] id=6787 -> 1
+[ITEM PRICE] id=6788 0 -> 1
+[ITEM POINTS] id=6788 -> 1
+[ITEM PRICE] id=6789 0 -> 1
+[ITEM POINTS] id=6789 -> 1
+[ITEM PRICE] id=6790 0 -> 1000
+[ITEM POINTS] id=6790 -> 1000
+[ITEM PRICE] id=6791 0 -> 1
+[ITEM POINTS] id=6791 -> 1
+[ITEM PRICE] id=6792 0 -> 1000
+[ITEM POINTS] id=6792 -> 1000
+[ITEM PRICE] id=6793 0 -> 580
+[ITEM POINTS] id=6793 -> 150
+[ITEM PRICE] id=6794 0 -> 1
+[ITEM POINTS] id=6794 -> 1
+[ITEM PRICE] id=6795 0 -> 1
+[ITEM POINTS] id=6795 -> 1
+[ITEM PRICE] id=6796 0 -> 1480
+[ITEM POINTS] id=6796 -> 1480
+[ITEM PRICE] id=6797 0 -> 1
+[ITEM POINTS] id=6797 -> 1
+[ITEM PRICE] id=6798 0 -> 1
+[ITEM POINTS] id=6798 -> 1
+[ITEM PRICE] id=6799 0 -> 464
+[ITEM POINTS] id=6799 -> 0
+[ITEM PRICE] id=6800 0 -> 1
+[ITEM POINTS] id=6800 -> 1
+[ITEM PRICE] id=6801 0 -> 1000
+[ITEM POINTS] id=6801 -> 1000
+[ITEM PRICE] id=6802 0 -> 1
+[ITEM POINTS] id=6802 -> 1
+[ITEM PRICE] id=6803 0 -> 1
+[ITEM POINTS] id=6803 -> 1
+[ITEM PRICE] id=6804 0 -> 480
+[ITEM POINTS] id=6804 -> 480
+[ITEM PRICE] id=6805 0 -> 50
+[ITEM POINTS] id=6805 -> 1
+[ITEM PRICE] id=6806 0 -> 1000
+[ITEM POINTS] id=6806 -> 0
+[ITEM PRICE] id=6807 0 -> 1
+[ITEM POINTS] id=6807 -> 1
+[ITEM PRICE] id=6808 0 -> 15000
+[ITEM POINTS] id=6808 -> 100
+[ITEM PRICE] id=6809 0 -> 200000
+[ITEM POINTS] id=6809 -> 100
+[ITEM PRICE] id=6810 0 -> 0
+[ITEM POINTS] id=6810 -> 0
+[ITEM PRICE] id=6811 0 -> 4980
+[ITEM POINTS] id=6811 -> 4980
+[ITEM PRICE] id=6812 0 -> 1000
+[ITEM POINTS] id=6812 -> 0
+[ITEM PRICE] id=6813 0 -> 19800
+[ITEM POINTS] id=6813 -> 19800
+[ITEM PRICE] id=6814 0 -> 5000
+[ITEM POINTS] id=6814 -> 2500
+[ITEM PRICE] id=6815 0 -> 1000
+[ITEM POINTS] id=6815 -> 1000
+[ITEM PRICE] id=6816 0 -> 1980
+[ITEM POINTS] id=6816 -> 2560
+[ITEM PRICE] id=6817 0 -> 100
+[ITEM POINTS] id=6817 -> 0
+[ITEM PRICE] id=6818 0 -> 35000
+[ITEM POINTS] id=6818 -> 0
+[ITEM PRICE] id=6819 0 -> 180000
+[ITEM POINTS] id=6819 -> 0
+[ITEM PRICE] id=6820 0 -> 1
+[ITEM POINTS] id=6820 -> 1
+[ITEM PRICE] id=6821 0 -> 600
+[ITEM POINTS] id=6821 -> 0
+[ITEM PRICE] id=6822 0 -> 4000
+[ITEM POINTS] id=6822 -> 0
+[ITEM PRICE] id=6823 0 -> 1500
+[ITEM POINTS] id=6823 -> 10
+[ITEM PRICE] id=6824 0 -> 1
+[ITEM POINTS] id=6824 -> 1
+[ITEM PRICE] id=6825 0 -> 33000
+[ITEM POINTS] id=6825 -> 420
+[ITEM PRICE] id=6826 0 -> 0
+[ITEM POINTS] id=6826 -> 0
+[ITEM PRICE] id=6827 0 -> 1000
+[ITEM POINTS] id=6827 -> 1000
+[ITEM PRICE] id=6828 0 -> 10000
+[ITEM POINTS] id=6828 -> 5000
+[ITEM PRICE] id=6829 0 -> 1800000
+[ITEM POINTS] id=6829 -> 0
+[ITEM PRICE] id=6830 0 -> 380
+[ITEM POINTS] id=6830 -> 0
+[ITEM PRICE] id=6831 0 -> 50000
+[ITEM POINTS] id=6831 -> 100
+[ITEM PRICE] id=6832 0 -> 980
+[ITEM POINTS] id=6832 -> 0
+[ITEM PRICE] id=6833 0 -> 1
+[ITEM POINTS] id=6833 -> 1
+[ITEM PRICE] id=6834 0 -> 900
+[ITEM POINTS] id=6834 -> 0
+[ITEM PRICE] id=6835 0 -> 1
+[ITEM POINTS] id=6835 -> 1
+[ITEM PRICE] id=6836 0 -> 1
+[ITEM POINTS] id=6836 -> 1
+[ITEM PRICE] id=6837 0 -> 1
+[ITEM POINTS] id=6837 -> 1
+[ITEM PRICE] id=6838 0 -> 81000
+[ITEM POINTS] id=6838 -> 1800
+[ITEM PRICE] id=6839 0 -> 170
+[ITEM POINTS] id=6839 -> 0
+[ITEM PRICE] id=6840 0 -> 1500
+[ITEM POINTS] id=6840 -> 10
+[ITEM PRICE] id=6841 0 -> 1000
+[ITEM POINTS] id=6841 -> 1000
+[ITEM PRICE] id=6842 0 -> 1000
+[ITEM POINTS] id=6842 -> 1000
+[ITEM PRICE] id=6843 0 -> 961
+[ITEM POINTS] id=6843 -> 0
+[ITEM PRICE] id=6844 0 -> 1
+[ITEM POINTS] id=6844 -> 1
+[ITEM PRICE] id=6845 0 -> 1
+[ITEM POINTS] id=6845 -> 1
+[ITEM PRICE] id=6846 0 -> 35000
+[ITEM POINTS] id=6846 -> 0
+[ITEM PRICE] id=6847 0 -> 1000
+[ITEM POINTS] id=6847 -> 0
+[ITEM PRICE] id=6848 0 -> 1
+[ITEM POINTS] id=6848 -> 1
+[ITEM PRICE] id=6849 0 -> 1
+[ITEM POINTS] id=6849 -> 1
+[ITEM PRICE] id=6850 0 -> 1000
+[ITEM POINTS] id=6850 -> 1000
+[ITEM PRICE] id=6851 0 -> 1
+[ITEM POINTS] id=6851 -> 1
+[ITEM PRICE] id=6852 0 -> 10000
+[ITEM POINTS] id=6852 -> 5000
+[ITEM PRICE] id=6853 0 -> 480
+[ITEM POINTS] id=6853 -> 0
+[ITEM PRICE] id=6854 0 -> 255
+[ITEM POINTS] id=6854 -> 0
+[ITEM PRICE] id=6855 0 -> 1
+[ITEM POINTS] id=6855 -> 1
+[ITEM PRICE] id=6856 0 -> 130
+[ITEM POINTS] id=6856 -> 0
+[ITEM PRICE] id=6857 0 -> 3825000
+[ITEM POINTS] id=6857 -> 0
+[ITEM PRICE] id=6858 0 -> 70000
+[ITEM POINTS] id=6858 -> 50000
+[ITEM PRICE] id=6859 0 -> 1
+[ITEM POINTS] id=6859 -> 1
+[ITEM PRICE] id=6860 0 -> 0
+[ITEM POINTS] id=6860 -> 0
+[ITEM PRICE] id=6861 0 -> 50
+[ITEM POINTS] id=6861 -> 1
+[ITEM PRICE] id=6862 0 -> 1
+[ITEM POINTS] id=6862 -> 1
+[ITEM PRICE] id=6863 0 -> 1000
+[ITEM POINTS] id=6863 -> 1000
+[ITEM PRICE] id=6864 0 -> 10000
+[ITEM POINTS] id=6864 -> 5000
+[ITEM PRICE] id=6865 0 -> 1
+[ITEM POINTS] id=6865 -> 1
+[ITEM PRICE] id=6866 0 -> 1
+[ITEM POINTS] id=6866 -> 1
+[ITEM PRICE] id=6867 0 -> 180000
+[ITEM POINTS] id=6867 -> 300
+[ITEM PRICE] id=6868 0 -> 1500
+[ITEM POINTS] id=6868 -> 0
+[ITEM PRICE] id=6869 0 -> 1
+[ITEM POINTS] id=6869 -> 1
+[ITEM PRICE] id=6870 0 -> 1
+[ITEM POINTS] id=6870 -> 1
+[ITEM PRICE] id=6871 0 -> 9800
+[ITEM POINTS] id=6871 -> 0
+[ITEM PRICE] id=6872 0 -> 150
+[ITEM POINTS] id=6872 -> 10
+[ITEM PRICE] id=6873 0 -> 1
+[ITEM POINTS] id=6873 -> 1
+[ITEM PRICE] id=6874 0 -> 12000
+[ITEM POINTS] id=6874 -> 0
+[ITEM PRICE] id=6875 0 -> 1
+[ITEM POINTS] id=6875 -> 1
+[ITEM PRICE] id=6876 0 -> 1
+[ITEM POINTS] id=6876 -> 1
+[ITEM PRICE] id=6877 0 -> 1122
+[ITEM POINTS] id=6877 -> 0
+[ITEM PRICE] id=6878 0 -> 100000
+[ITEM POINTS] id=6878 -> 4000
+[ITEM PRICE] id=6879 0 -> 5000
+[ITEM POINTS] id=6879 -> 150
+[ITEM PRICE] id=6880 0 -> 9800
+[ITEM POINTS] id=6880 -> 0
+[ITEM PRICE] id=6881 0 -> 1
+[ITEM POINTS] id=6881 -> 1
+[ITEM PRICE] id=6882 0 -> 160
+[ITEM POINTS] id=6882 -> 0
+[ITEM PRICE] id=6883 0 -> 1122
+[ITEM POINTS] id=6883 -> 0
+[ITEM PRICE] id=6884 0 -> 50000
+[ITEM POINTS] id=6884 -> 100
+[ITEM PRICE] id=6885 0 -> 180000
+[ITEM POINTS] id=6885 -> 0
+[ITEM PRICE] id=6886 0 -> 210
+[ITEM POINTS] id=6886 -> 0
+[ITEM PRICE] id=6887 0 -> 200
+[ITEM POINTS] id=6887 -> 0
+[ITEM PRICE] id=6888 0 -> 255
+[ITEM POINTS] id=6888 -> 0
+[ITEM PRICE] id=6889 0 -> 1
+[ITEM POINTS] id=6889 -> 1
+[ITEM PRICE] id=6890 0 -> 1
+[ITEM POINTS] id=6890 -> 1
+[ITEM PRICE] id=6891 0 -> 3980
+[ITEM POINTS] id=6891 -> 3980
+[ITEM PRICE] id=6892 0 -> 30000
+[ITEM POINTS] id=6892 -> 2000
+[ITEM PRICE] id=6893 0 -> 1000
+[ITEM POINTS] id=6893 -> 0
+[ITEM PRICE] id=6894 0 -> 1
+[ITEM POINTS] id=6894 -> 1
+[ITEM PRICE] id=6895 0 -> 255
+[ITEM POINTS] id=6895 -> 0
+[ITEM PRICE] id=6896 0 -> 1
+[ITEM POINTS] id=6896 -> 1
+[ITEM PRICE] id=6897 0 -> 1
+[ITEM POINTS] id=6897 -> 1
+[ITEM PRICE] id=6898 0 -> 250000
+[ITEM POINTS] id=6898 -> 0
+[ITEM PRICE] id=6899 0 -> 1122
+[ITEM POINTS] id=6899 -> 0
+[ITEM PRICE] id=6900 0 -> 1500
+[ITEM POINTS] id=6900 -> 0
+[ITEM PRICE] id=6384 0 -> 680
+[ITEM POINTS] id=6384 -> 150
+[ITEM PRICE] id=6385 0 -> 130
+[ITEM POINTS] id=6385 -> 0
+[ITEM PRICE] id=6386 0 -> 1
+[ITEM POINTS] id=6386 -> 1
+[ITEM PRICE] id=6387 0 -> 1000
+[ITEM POINTS] id=6387 -> 1000
+[ITEM PRICE] id=6388 0 -> 1
+[ITEM POINTS] id=6388 -> 1
+[ITEM PRICE] id=6389 0 -> 9800
+[ITEM POINTS] id=6389 -> 6980
+[ITEM PRICE] id=6390 0 -> 1
+[ITEM POINTS] id=6390 -> 1
+[ITEM PRICE] id=6391 0 -> 10000
+[ITEM POINTS] id=6391 -> 0
+[ITEM PRICE] id=6392 0 -> 1
+[ITEM POINTS] id=6392 -> 1
+[ITEM PRICE] id=6393 0 -> 10000
+[ITEM POINTS] id=6393 -> 5000
+[ITEM PRICE] id=6394 0 -> 1000
+[ITEM POINTS] id=6394 -> 1000
+[ITEM PRICE] id=6395 0 -> 4980
+[ITEM POINTS] id=6395 -> 4980
+[ITEM PRICE] id=6396 0 -> 100000
+[ITEM POINTS] id=6396 -> 100
+[ITEM PRICE] id=6397 0 -> 1
+[ITEM POINTS] id=6397 -> 1
+[ITEM PRICE] id=6398 0 -> 1
+[ITEM POINTS] id=6398 -> 1
+[ITEM PRICE] id=6399 0 -> 1
+[ITEM POINTS] id=6399 -> 1
+[ITEM PRICE] id=6400 0 -> 400
+[ITEM POINTS] id=6400 -> 0
+[ITEM PRICE] id=6401 0 -> 150000
+[ITEM POINTS] id=6401 -> 100
+[ITEM PRICE] id=6402 0 -> 10000
+[ITEM POINTS] id=6402 -> 5000
+[ITEM PRICE] id=6403 0 -> 180000
+[ITEM POINTS] id=6403 -> 0
+[ITEM PRICE] id=6404 0 -> 10000
+[ITEM POINTS] id=6404 -> 0
+[ITEM PRICE] id=6405 0 -> 1
+[ITEM POINTS] id=6405 -> 1
+[ITEM PRICE] id=6406 0 -> 130
+[ITEM POINTS] id=6406 -> 0
+[ITEM PRICE] id=6407 0 -> 50000000
+[ITEM POINTS] id=6407 -> 4980
+[ITEM PRICE] id=6408 0 -> 1
+[ITEM POINTS] id=6408 -> 1
+[ITEM PRICE] id=6409 0 -> 800
+[ITEM POINTS] id=6409 -> 0
+[ITEM PRICE] id=6410 0 -> 1
+[ITEM POINTS] id=6410 -> 1
+[ITEM PRICE] id=6411 0 -> 1980
+[ITEM POINTS] id=6411 -> 1980
+[ITEM PRICE] id=6412 0 -> 100000
+[ITEM POINTS] id=6412 -> 100
+[ITEM PRICE] id=6413 0 -> 1
+[ITEM POINTS] id=6413 -> 1
+[ITEM PRICE] id=6414 0 -> 600
+[ITEM POINTS] id=6414 -> 0
+[ITEM PRICE] id=6415 0 -> 170
+[ITEM POINTS] id=6415 -> 0
+[ITEM PRICE] id=6416 0 -> 1
+[ITEM POINTS] id=6416 -> 1
+[ITEM PRICE] id=6417 0 -> 1000
+[ITEM POINTS] id=6417 -> 1000
+[ITEM PRICE] id=6418 0 -> 1
+[ITEM POINTS] id=6418 -> 1
+[ITEM PRICE] id=6419 0 -> 150
+[ITEM POINTS] id=6419 -> 10
+[ITEM PRICE] id=6420 0 -> 1
+[ITEM POINTS] id=6420 -> 1
+[ITEM PRICE] id=6421 0 -> 2480
+[ITEM POINTS] id=6421 -> 2480
+[ITEM PRICE] id=6422 0 -> 150
+[ITEM POINTS] id=6422 -> 0
+[ITEM PRICE] id=6423 0 -> 30000
+[ITEM POINTS] id=6423 -> 2000
+[ITEM PRICE] id=6424 0 -> 30000
+[ITEM POINTS] id=6424 -> 100
+[ITEM PRICE] id=6425 0 -> 1
+[ITEM POINTS] id=6425 -> 1
+[ITEM PRICE] id=6426 0 -> 1
+[ITEM POINTS] id=6426 -> 1
+[ITEM PRICE] id=6427 0 -> 210
+[ITEM POINTS] id=6427 -> 0
+[ITEM PRICE] id=6428 0 -> 14000
+[ITEM POINTS] id=6428 -> 0
+[ITEM PRICE] id=6429 0 -> 1000
+[ITEM POINTS] id=6429 -> 1000
+[ITEM PRICE] id=6430 0 -> 1
+[ITEM POINTS] id=6430 -> 1
+[ITEM PRICE] id=6431 0 -> 600
+[ITEM POINTS] id=6431 -> 0
+[ITEM PRICE] id=6432 0 -> 3980
+[ITEM POINTS] id=6432 -> 3980
+[ITEM PRICE] id=6433 0 -> 180000
+[ITEM POINTS] id=6433 -> 300
+[ITEM PRICE] id=6620 0 -> 1
+[ITEM POINTS] id=6620 -> 1
+[ITEM PRICE] id=6621 0 -> 1000000
+[ITEM POINTS] id=6621 -> 100
+[ITEM PRICE] id=6622 0 -> 1
+[ITEM POINTS] id=6622 -> 1
+[ITEM PRICE] id=6623 0 -> 1000
+[ITEM POINTS] id=6623 -> 1000
+[ITEM PRICE] id=6624 0 -> 1
+[ITEM POINTS] id=6624 -> 1
+[ITEM PRICE] id=6625 0 -> 1
+[ITEM POINTS] id=6625 -> 1
+[ITEM PRICE] id=6626 0 -> 9800
+[ITEM POINTS] id=6626 -> 4980
+[ITEM PRICE] id=6627 0 -> 1
+[ITEM POINTS] id=6627 -> 1
+[ITEM PRICE] id=6628 0 -> 10000
+[ITEM POINTS] id=6628 -> 5000
+[ITEM PRICE] id=6629 0 -> 12000
+[ITEM POINTS] id=6629 -> 0
+[ITEM PRICE] id=6630 0 -> 120000
+[ITEM POINTS] id=6630 -> 100
+[ITEM PRICE] id=6631 0 -> 580
+[ITEM POINTS] id=6631 -> 0
+[ITEM PRICE] id=6632 0 -> 40000
+[ITEM POINTS] id=6632 -> 0
+[ITEM PRICE] id=6633 0 -> 2000
+[ITEM POINTS] id=6633 -> 50
+[ITEM PRICE] id=6634 0 -> 1
+[ITEM POINTS] id=6634 -> 1
+[ITEM PRICE] id=6635 0 -> 580
+[ITEM POINTS] id=6635 -> 0
+[ITEM PRICE] id=6636 0 -> 3980
+[ITEM POINTS] id=6636 -> 3980
+[ITEM PRICE] id=6637 0 -> 1
+[ITEM POINTS] id=6637 -> 1
+[ITEM PRICE] id=6638 0 -> 1
+[ITEM POINTS] id=6638 -> 1
+[ITEM PRICE] id=6639 0 -> 1000
+[ITEM POINTS] id=6639 -> 1000
+[ITEM PRICE] id=6640 0 -> 1000
+[ITEM POINTS] id=6640 -> 1000
+[ITEM PRICE] id=6641 0 -> 50000000
+[ITEM POINTS] id=6641 -> 40000
+[ITEM PRICE] id=6642 0 -> 1
+[ITEM POINTS] id=6642 -> 1
+[ITEM PRICE] id=6643 0 -> 1
+[ITEM POINTS] id=6643 -> 1
+[ITEM PRICE] id=6644 0 -> 1
+[ITEM POINTS] id=6644 -> 1
+[ITEM PRICE] id=6645 0 -> 480
+[ITEM POINTS] id=6645 -> 0
+[ITEM PRICE] id=6646 0 -> 1
+[ITEM POINTS] id=6646 -> 1
+[ITEM PRICE] id=6647 0 -> 5000
+[ITEM POINTS] id=6647 -> 2500
+[ITEM PRICE] id=6648 0 -> 1000
+[ITEM POINTS] id=6648 -> 1000
+[ITEM PRICE] id=6649 0 -> 3980
+[ITEM POINTS] id=6649 -> 3980
+[ITEM PRICE] id=6650 0 -> 1
+[ITEM POINTS] id=6650 -> 1
+[ITEM PRICE] id=6651 0 -> 1000
+[ITEM POINTS] id=6651 -> 0
+[ITEM PRICE] id=6652 0 -> 480
+[ITEM POINTS] id=6652 -> 0
+[ITEM PRICE] id=6653 0 -> 200000
+[ITEM POINTS] id=6653 -> 100
+[ITEM PRICE] id=6654 0 -> 170
+[ITEM POINTS] id=6654 -> 0
+[ITEM PRICE] id=6655 0 -> 140
+[ITEM POINTS] id=6655 -> 0
+[ITEM PRICE] id=6656 0 -> 1
+[ITEM POINTS] id=6656 -> 1
+[ITEM PRICE] id=6657 0 -> 600
+[ITEM POINTS] id=6657 -> 0
+[ITEM PRICE] id=6658 0 -> 90
+[ITEM POINTS] id=6658 -> 0
+[ITEM PRICE] id=6659 0 -> 250000
+[ITEM POINTS] id=6659 -> 0
+[ITEM PRICE] id=6660 0 -> 30000
+[ITEM POINTS] id=6660 -> 2000
+[ITEM PRICE] id=6661 0 -> 100
+[ITEM POINTS] id=6661 -> 0
+[ITEM PRICE] id=6662 0 -> 1
+[ITEM POINTS] id=6662 -> 1
+[ITEM PRICE] id=6663 0 -> 255
+[ITEM POINTS] id=6663 -> 0
+[ITEM PRICE] id=6664 0 -> 1000
+[ITEM POINTS] id=6664 -> 1000
+[ITEM PRICE] id=6665 0 -> 90
+[ITEM POINTS] id=6665 -> 0
+[ITEM PRICE] id=6666 0 -> 130
+[ITEM POINTS] id=6666 -> 0
+[ITEM PRICE] id=6667 0 -> 1
+[ITEM POINTS] id=6667 -> 1
+[ITEM PRICE] id=6668 0 -> 1
+[ITEM POINTS] id=6668 -> 1
+[ITEM PRICE] id=6669 0 -> 130
+[ITEM POINTS] id=6669 -> 0
+[ITEM PRICE] id=6670 0 -> 160
+[ITEM POINTS] id=6670 -> 0
+[ITEM PRICE] id=6671 0 -> 140
+[ITEM POINTS] id=6671 -> 0
+[ITEM PRICE] id=6672 0 -> 1
+[ITEM POINTS] id=6672 -> 1
+[ITEM PRICE] id=6673 0 -> 1
+[ITEM POINTS] id=6673 -> 1
+[ITEM PRICE] id=6674 0 -> 1
+[ITEM POINTS] id=6674 -> 1
+[ITEM PRICE] id=6675 0 -> 1
+[ITEM POINTS] id=6675 -> 1
+[ITEM PRICE] id=6676 0 -> 900
+[ITEM POINTS] id=6676 -> 0
+[ITEM PRICE] id=6677 0 -> 1
+[ITEM POINTS] id=6677 -> 1
+[ITEM PRICE] id=6678 0 -> 1
+[ITEM POINTS] id=6678 -> 1
+[ITEM PRICE] id=6679 0 -> 1
+[ITEM POINTS] id=6679 -> 1
+[ITEM PRICE] id=6680 0 -> 1
+[ITEM POINTS] id=6680 -> 1
+[ITEM PRICE] id=6681 0 -> 1000
+[ITEM POINTS] id=6681 -> 1000
+[ITEM PRICE] id=6682 0 -> 60000
+[ITEM POINTS] id=6682 -> 0
+[ITEM PRICE] id=6683 0 -> 1
+[ITEM POINTS] id=6683 -> 1
+[ITEM PRICE] id=6684 0 -> 1
+[ITEM POINTS] id=6684 -> 1
+[ITEM PRICE] id=6685 0 -> 1180
+[ITEM POINTS] id=6685 -> 680
+[ITEM PRICE] id=6686 0 -> 170
+[ITEM POINTS] id=6686 -> 0
+[ITEM PRICE] id=6687 0 -> 180
+[ITEM POINTS] id=6687 -> 0
+[ITEM PRICE] id=6688 0 -> 320
+[ITEM POINTS] id=6688 -> 0
+[ITEM PRICE] id=6689 0 -> 160
+[ITEM POINTS] id=6689 -> 0
+[ITEM PRICE] id=6690 0 -> 1
+[ITEM POINTS] id=6690 -> 1
+[ITEM PRICE] id=6691 0 -> 480
+[ITEM POINTS] id=6691 -> 150
+[ITEM PRICE] id=6692 0 -> 1
+[ITEM POINTS] id=6692 -> 1
+[ITEM PRICE] id=6693 0 -> 130
+[ITEM POINTS] id=6693 -> 0
+[ITEM PRICE] id=6694 0 -> 1
+[ITEM POINTS] id=6694 -> 1
+[ITEM PRICE] id=6695 0 -> 623000
+[ITEM POINTS] id=6695 -> 0
+[ITEM PRICE] id=6696 0 -> 160
+[ITEM POINTS] id=6696 -> 0
+[ITEM PRICE] id=6697 0 -> 1
+[ITEM POINTS] id=6697 -> 1
+[ITEM PRICE] id=6698 0 -> 1
+[ITEM POINTS] id=6698 -> 1
+[ITEM PRICE] id=6699 0 -> 293
+[ITEM POINTS] id=6699 -> 0
+[ITEM PRICE] id=6700 0 -> 160
+[ITEM POINTS] id=6700 -> 0
+[ITEM PRICE] id=6701 0 -> 150
+[ITEM POINTS] id=6701 -> 10
+[ITEM PRICE] id=6702 0 -> 170
+[ITEM POINTS] id=6702 -> 0
+[ITEM PRICE] id=6703 0 -> 1
+[ITEM POINTS] id=6703 -> 1
+[ITEM PRICE] id=6704 0 -> 170
+[ITEM POINTS] id=6704 -> 0
+[ITEM PRICE] id=6705 0 -> 130
+[ITEM POINTS] id=6705 -> 0
+[ITEM PRICE] id=6706 0 -> 1000
+[ITEM POINTS] id=6706 -> 150
+[ITEM PRICE] id=6707 0 -> 1
+[ITEM POINTS] id=6707 -> 1
+[ITEM PRICE] id=6708 0 -> 130
+[ITEM POINTS] id=6708 -> 0
+[ITEM PRICE] id=6709 0 -> 50000
+[ITEM POINTS] id=6709 -> 100
+[ITEM PRICE] id=6710 0 -> 1
+[ITEM POINTS] id=6710 -> 1
+[ITEM PRICE] id=6711 0 -> 3980
+[ITEM POINTS] id=6711 -> 3980
+[ITEM PRICE] id=6712 0 -> 980
+[ITEM POINTS] id=6712 -> 480
+[ITEM PRICE] id=6713 0 -> 1000
+[ITEM POINTS] id=6713 -> 0
+[ITEM PRICE] id=6714 0 -> 150
+[ITEM POINTS] id=6714 -> 10
+[ITEM PRICE] id=6715 0 -> 540000
+[ITEM POINTS] id=6715 -> 0
+[ITEM PRICE] id=6716 0 -> 0
+[ITEM POINTS] id=6716 -> 8000
+[ITEM PRICE] id=6717 0 -> 3000
+[ITEM POINTS] id=6717 -> 0
+[ITEM PRICE] id=6718 0 -> 10000
+[ITEM POINTS] id=6718 -> 5000
+[ITEM PRICE] id=6719 0 -> 900
+[ITEM POINTS] id=6719 -> 0
+[ITEM PRICE] id=6720 0 -> 980
+[ITEM POINTS] id=6720 -> 480
+[ITEM PRICE] id=6721 0 -> 200
+[ITEM POINTS] id=6721 -> 0
+[ITEM PRICE] id=6722 0 -> 464
+[ITEM POINTS] id=6722 -> 0
+[ITEM PRICE] id=6723 0 -> 1
+[ITEM POINTS] id=6723 -> 1
+[ITEM PRICE] id=6724 0 -> 1000
+[ITEM POINTS] id=6724 -> 1000
+[ITEM PRICE] id=6725 0 -> 1
+[ITEM POINTS] id=6725 -> 1
+[ITEM PRICE] id=6726 0 -> 900
+[ITEM POINTS] id=6726 -> 0
+[ITEM PRICE] id=6727 0 -> 10000
+[ITEM POINTS] id=6727 -> 5000
+[ITEM PRICE] id=6728 0 -> 1000
+[ITEM POINTS] id=6728 -> 1000
+[ITEM PRICE] id=6729 0 -> 1000
+[ITEM POINTS] id=6729 -> 1000
+[ITEM PRICE] id=6730 0 -> 1
+[ITEM POINTS] id=6730 -> 1
+[ITEM PRICE] id=6731 0 -> 30000
+[ITEM POINTS] id=6731 -> 100
+[ITEM PRICE] id=6732 0 -> 0
+[ITEM POINTS] id=6732 -> 0
+[ITEM PRICE] id=6733 0 -> 50
+[ITEM POINTS] id=6733 -> 1
+[ITEM PRICE] id=6734 0 -> 1
+[ITEM POINTS] id=6734 -> 1
+[ITEM PRICE] id=6735 0 -> 2000
+[ITEM POINTS] id=6735 -> 50
+[ITEM PRICE] id=6736 0 -> 0
+[ITEM POINTS] id=6736 -> 0
+[ITEM PRICE] id=6737 0 -> 1000
+[ITEM POINTS] id=6737 -> 1000
+[ITEM PRICE] id=6738 0 -> 1
+[ITEM POINTS] id=6738 -> 1
+[ITEM PRICE] id=6739 0 -> 150000
+[ITEM POINTS] id=6739 -> 1000
+[ITEM PRICE] id=6740 0 -> 1000
+[ITEM POINTS] id=6740 -> 0
+[ITEM PRICE] id=6741 0 -> 1000
+[ITEM POINTS] id=6741 -> 1000
+[ITEM PRICE] id=6742 0 -> 1
+[ITEM POINTS] id=6742 -> 1
+[ITEM PRICE] id=6743 0 -> 180000
+[ITEM POINTS] id=6743 -> 300
+[ITEM PRICE] id=6744 0 -> 1
+[ITEM POINTS] id=6744 -> 1
+[ITEM PRICE] id=6745 0 -> 14800
+[ITEM POINTS] id=6745 -> 50000
+[ITEM PRICE] id=6746 0 -> 1
+[ITEM POINTS] id=6746 -> 1
+[ITEM PRICE] id=6747 0 -> 1000
+[ITEM POINTS] id=6747 -> 1000
+[ITEM PRICE] id=6748 0 -> 1
+[ITEM POINTS] id=6748 -> 1
+[ITEM PRICE] id=6749 0 -> 240000
+[ITEM POINTS] id=6749 -> 0
+[ITEM PRICE] id=6750 0 -> 300
+[ITEM POINTS] id=6750 -> 30
+[ITEM PRICE] id=6751 0 -> 100000
+[ITEM POINTS] id=6751 -> 100
+[ITEM PRICE] id=6752 0 -> 130
+[ITEM POINTS] id=6752 -> 0
+[ITEM PRICE] id=6753 0 -> 68000
+[ITEM POINTS] id=6753 -> 0
+[ITEM PRICE] id=6754 0 -> 130
+[ITEM POINTS] id=6754 -> 0
+[ITEM PRICE] id=6755 0 -> 1
+[ITEM POINTS] id=6755 -> 1
+[ITEM PRICE] id=6756 0 -> 1
+[ITEM POINTS] id=6756 -> 1
+[ITEM PRICE] id=6757 0 -> 300000
+[ITEM POINTS] id=6757 -> 100
+[ITEM PRICE] id=6758 0 -> 580
+[ITEM POINTS] id=6758 -> 150
+[ITEM PRICE] id=6759 0 -> 1
+[ITEM POINTS] id=6759 -> 1
+[ITEM PRICE] id=6760 0 -> 170
+[ITEM POINTS] id=6760 -> 0
+Intro fight 6522: hp 2400 -> 1
+Intro fight 6523: hp 1280 -> 1
+Intro fight 6524: hp 1280 -> 1
+Intro fight 6525: hp 1600 -> 1
+Intro fight 6526: hp 2720 -> 1
+Intro fight 6527: hp 1280 -> 1
+Intro fight 6528: hp 960 -> 1
+Intro fight 6529: hp 2400 -> 1
+Intro fight 6530: hp 1600 -> 1
+Intro fight 6531: hp 1600 -> 1
+Intro fight 6532: hp 960 -> 1
+Intro fight 6533: hp 2475 -> 1
+Intro fight 6534: hp 2475 -> 1
+Intro fight 6535: hp 1650 -> 1
+Intro fight 6536: hp 1650 -> 1
+Intro fight 6537: hp 1650 -> 1
+Intro fight 6538: hp 2475 -> 1
+Intro fight 6539: hp 2475 -> 1
+Intro fight 6540: hp 2475 -> 1
+Intro fight 6541: hp 1320 -> 1
+Intro fight 6542: hp 1650 -> 1
+Intro fight 6543: hp 1320 -> 1
+Intro fight 6544: hp 1650 -> 1
+Intro fight 6545: hp 1320 -> 1
+Intro fight 6546: hp 6000 -> 1
+Intro fight 6547: hp 5500 -> 1
+Intro fight 6548: hp 12000 -> 1
+Intro fight 6549: hp 2890 -> 1
+Intro fight 6550: hp 2890 -> 1
+Intro fight 6551: hp 2890 -> 1
+Intro fight 6552: hp 5100 -> 1
+Intro fight 6553: hp 6000 -> 1
+Intro fight 6554: hp 1700 -> 1
+Intro fight 6555: hp 1700 -> 1
+Intro fight 6556: hp 1700 -> 1
+Intro fight 6557: hp 1700 -> 1
+Intro fight 6558: hp 1020 -> 1
+Intro fight 6559: hp 1020 -> 1
+Intro fight 6560: hp 1020 -> 1
+6561: hp 2550 -> 2550, attack 1.2000000476837158 -> 1.2
+6562: hp 1700 -> 1700, attack 1.2000000476837158 -> 1.2
+6563: hp 1700 -> 1700, attack 1.2000000476837158 -> 1.2
+6564: hp 2550 -> 2550, attack 1.2000000476837158 -> 1.2
+6565: hp 1020 -> 1020, attack 1.2000000476837158 -> 1.2
+6566: hp 2775 -> 2775, attack 1.2000000476837158 -> 1.2
+6567: hp 2775 -> 2775, attack 1.2000000476837158 -> 1.2
+6568: hp 1850 -> 1850, attack 1.2000000476837158 -> 1.2
+6569: hp 6000 -> 6000, attack 2.0 -> 2.0
+6570: hp 1850 -> 1850, attack 1.2000000476837158 -> 1.2
+6571: hp 1480 -> 1480, attack 1.2000000476837158 -> 1.2
+6572: hp 2775 -> 2775, attack 1.2000000476837158 -> 1.2
+6573: hp 2775 -> 2775, attack 1.2000000476837158 -> 1.2
+6574: hp 1110 -> 1110, attack 1.2000000476837158 -> 1.2
+6575: hp 1110 -> 1110, attack 1.2000000476837158 -> 1.2
+6576: hp 1110 -> 1110, attack 1.2000000476837158 -> 1.2
+6577: hp 12000 -> 12000, attack 2.0 -> 2.0
+6578: hp 18000 -> 18000, attack 2.0 -> 2.0
+6579: hp 6000 -> 6000, attack 2.0 -> 2.0
+6580: hp 6000 -> 6000, attack 2.0 -> 2.0
+6581: hp 6000 -> 6000, attack 2.0 -> 2.0
+6582: hp 800 -> 800, attack 1.2000000476837158 -> 1.2
+6583: hp 1840 -> 1840, attack 1.2000000476837158 -> 1.2
+6584: hp 2300 -> 2300, attack 1.2000000476837158 -> 1.2
+6585: hp 3450 -> 3450, attack 1.2000000476837158 -> 1.2
+6586: hp 1380 -> 1380, attack 1.2000000476837158 -> 1.2
+6587: hp 1380 -> 1380, attack 1.2000000476837158 -> 1.2
+6588: hp 1380 -> 1380, attack 1.2000000476837158 -> 1.2
+6589: hp 18000 -> 18000, attack 4.5 -> 4.5
+6590: hp 2150 -> 2150, attack 1.2000000476837158 -> 1.2
+6591: hp 2150 -> 2150, attack 1.2000000476837158 -> 1.2
+6592: hp 2150 -> 2150, attack 1.2000000476837158 -> 1.2
+6597: hp 12000 -> 12000, attack 3.0 -> 3.0
+6598: hp 12000 -> 12000, attack 4.0 -> 4.0
+6599: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+6600: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+6601: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+6602: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+6603: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+6604: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+Intro fight 6614: hp 1600 -> 1
+Intro fight 6615: hp 1600 -> 1
+Intro fight 6621: hp 2400 -> 1
+Intro fight 6622: hp 960 -> 1
+6844: hp 12000 -> 12000, attack 4.5 -> 4.5
+6845: hp 3450 -> 3450, attack 2.5 -> 2.5
+6846: hp 3450 -> 3450, attack 2.5 -> 2.5
+6847: hp 1840 -> 1840, attack 2.5 -> 2.5
+6848: hp 3450 -> 3450, attack 2.5 -> 2.5
+6849: hp 2300 -> 2300, attack 2.5 -> 2.5
+6850: hp 1380 -> 1380, attack 3.5 -> 3.5
+6851: hp 1840 -> 1840, attack 3.5 -> 3.5
+6852: hp 24000 -> 24000, attack 5.0 -> 5.0
+6853: hp 4575 -> 4575, attack 2.5 -> 2.5
+6854: hp 3050 -> 3050, attack 2.5 -> 2.5
+6855: hp 1830 -> 1830, attack 2.5 -> 2.5
+6856: hp 3050 -> 3050, attack 2.5 -> 2.5
+6857: hp 1830 -> 1830, attack 2.5 -> 2.5
+6858: hp 1830 -> 1830, attack 2.5 -> 2.5
+6859: hp 3050 -> 3050, attack 2.5 -> 2.5
+6860: hp 1830 -> 1830, attack 2.5 -> 2.5
+6861: hp 3450 -> 3450, attack 2.5 -> 2.5
+6862: hp 1840 -> 1840, attack 2.5 -> 2.5
+6863: hp 18000 -> 18000, attack 5.0 -> 5.0
+6864: hp 3050 -> 3050, attack 3.0 -> 3.0
+6865: hp 3050 -> 3050, attack 4.0 -> 4.0
+6866: hp 1830 -> 1830, attack 2.5 -> 2.5
+6867: hp 4575 -> 4575, attack 2.5 -> 2.5
+6868: hp 4575 -> 4575, attack 2.5 -> 2.5
+6869: hp 3050 -> 3050, attack 2.5 -> 2.5
+6870: hp 12000 -> 12000, attack 5.0 -> 5.0
+6871: hp 18000 -> 18000, attack 5.0 -> 5.0
+6872: hp 1830 -> 1830, attack 3.0 -> 3.0
+6873: hp 3050 -> 3050, attack 2.5 -> 2.5
+6874: hp 3050 -> 3050, attack 2.5 -> 2.5
+6875: hp 4575 -> 4575, attack 2.5 -> 2.5
+6876: hp 4575 -> 4575, attack 2.5 -> 2.5
+6877: hp 4575 -> 4575, attack 2.5 -> 2.5
+6878: hp 4575 -> 4575, attack 2.5 -> 2.5
+6879: hp 18000 -> 18000, attack 5.5 -> 5.5
+6880: hp 6000 -> 6000, attack 5.0 -> 5.0
+6881: hp 3050 -> 3050, attack 3.0 -> 3.0
+6882: hp 3050 -> 3050, attack 3.0 -> 3.0
+6883: hp 6000 -> 6000, attack 5.0 -> 5.0
+6884: hp 1830 -> 1830, attack 4.0 -> 4.0
+6885: hp 3050 -> 3050, attack 3.0 -> 3.0
+6886: hp 1830 -> 1830, attack 3.0 -> 3.0
+6887: hp 5700 -> 5700, attack 3.0 -> 3.0
+6888: hp 5700 -> 5700, attack 3.0 -> 3.0
+6889: hp 5700 -> 5700, attack 3.0 -> 3.0
+6890: hp 3040 -> 3040, attack 3.0 -> 3.0
+6891: hp 3040 -> 3040, attack 3.0 -> 3.0
+6892: hp 3040 -> 3040, attack 3.0 -> 3.0
+6893: hp 3800 -> 3800, attack 3.0 -> 3.0
+6894: hp 3800 -> 3800, attack 3.0 -> 3.0
+6895: hp 30000 -> 30000, attack 6.0 -> 6.0
+6896: hp 2550 -> 2550, attack 3.5 -> 3.5
+6897: hp 6375 -> 6375, attack 3.5 -> 3.5
+6898: hp 6375 -> 6375, attack 3.5 -> 3.5
+6899: hp 2550 -> 2550, attack 3.5 -> 3.5
+6900: hp 2550 -> 2550, attack 3.5 -> 3.5
+6901: hp 2550 -> 2550, attack 3.5 -> 3.5
+6902: hp 6375 -> 6375, attack 3.5 -> 3.5
+6903: hp 2550 -> 2550, attack 3.5 -> 3.5
+6904: hp 2550 -> 2550, attack 1.5 -> 1.5
+6905: hp 2550 -> 2550, attack 1.5 -> 1.5
+6906: hp 2550 -> 2550, attack 1.5 -> 1.5
+6907: hp 1700 -> 1700, attack 3.5 -> 3.5
+6908: hp 2550 -> 2550, attack 1.5 -> 1.5
+6909: hp 2550 -> 2550, attack 4.0 -> 4.0
+6910: hp 1700 -> 1700, attack 3.5 -> 3.5
+6911: hp 3400 -> 3400, attack 3.5 -> 3.5
+6912: hp 18000 -> 18000, attack 6.0 -> 6.0
+6913: hp 6375 -> 6375, attack 3.5 -> 3.5
+6914: hp 6375 -> 6375, attack 3.5 -> 3.5
+6915: hp 4250 -> 4250, attack 3.5 -> 3.5
+6916: hp 4250 -> 4250, attack 3.5 -> 3.5
+6917: hp 2550 -> 2550, attack 4.0 -> 4.0
+6918: hp 2550 -> 2550, attack 4.0 -> 4.0
+6919: hp 6375 -> 6375, attack 3.5 -> 3.5
+6920: hp 4700 -> 4700, attack 3.5 -> 3.5
+6921: hp 6000 -> 6000, attack 3.5 -> 3.5
+6922: hp 7050 -> 7050, attack 3.5 -> 3.5
+6923: hp 7050 -> 7050, attack 3.5 -> 3.5
+6924: hp 4700 -> 4700, attack 3.5 -> 3.5
+6925: hp 7050 -> 7050, attack 3.5 -> 3.5
+6926: hp 2820 -> 2820, attack 4.0 -> 4.0
+6927: hp 2820 -> 2820, attack 4.0 -> 4.0
+6928: hp 72000 -> 72000, attack 7.0 -> 7.0
+6932: hp 1830 -> 1830, attack 2.5 -> 2.5
+6933: hp 1830 -> 1830, attack 2.5 -> 2.5
+6934: hp 3050 -> 3050, attack 3.0 -> 3.0
+6935: hp 4575 -> 4575, attack 2.5 -> 2.5
+6936: hp 2440 -> 2440, attack 3.0 -> 3.0
+6937: hp 2440 -> 2440, attack 3.0 -> 3.0
+6938: hp 1830 -> 1830, attack 4.0 -> 4.0
+6939: hp 12000 -> 12000, attack 5.0 -> 5.0
+6940: hp 1830 -> 1830, attack 4.0 -> 4.0
+6941: hp 1830 -> 1830, attack 2.5 -> 2.5
+6942: hp 1830 -> 1830, attack 2.5 -> 2.5
+6943: hp 2440 -> 2440, attack 3.0 -> 3.0
+6944: hp 2440 -> 2440, attack 3.0 -> 3.0
+6945: hp 1830 -> 1830, attack 4.0 -> 4.0
+6946: hp 2440 -> 2440, attack 4.0 -> 4.0
+6947: hp 2440 -> 2440, attack 4.0 -> 4.0
+6948: hp 2440 -> 2440, attack 2.5 -> 2.5
+6949: hp 5185 -> 5185, attack 2.5 -> 2.5
+6950: hp 12000 -> 12000, attack 5.0 -> 5.0
+6951: hp 4575 -> 4575, attack 2.5 -> 2.5
+6952: hp 12000 -> 12000, attack 5.0 -> 5.0
+6953: hp 4575 -> 4575, attack 2.5 -> 2.5
+6954: hp 1830 -> 1830, attack 4.0 -> 4.0
+6955: hp 1830 -> 1830, attack 4.0 -> 4.0
+6956: hp 4575 -> 4575, attack 2.5 -> 2.5
+6957: hp 4575 -> 4575, attack 2.5 -> 2.5
+6958: hp 5185 -> 5185, attack 2.5 -> 2.5
+6959: hp 2440 -> 2440, attack 3.0 -> 3.0
+6960: hp 4575 -> 4575, attack 2.5 -> 2.5
+6961: hp 3050 -> 3050, attack 2.5 -> 2.5
+6962: hp 4575 -> 4575, attack 2.5 -> 2.5
+6963: hp 1220 -> 1220, attack 4.0 -> 4.0
+6964: hp 3050 -> 3050, attack 2.5 -> 2.5
+6965: hp 18000 -> 18000, attack 2.5 -> 2.5
+6966: hp 1220 -> 1220, attack 4.0 -> 4.0
+6967: hp 4575 -> 4575, attack 2.5 -> 2.5
+6968: hp 3050 -> 3050, attack 2.5 -> 2.5
+6969: hp 4575 -> 4575, attack 2.5 -> 2.5
+6970: hp 4575 -> 4575, attack 3.0 -> 3.0
+6971: hp 5185 -> 5185, attack 3.0 -> 3.0
+6972: hp 5185 -> 5185, attack 3.0 -> 3.0
+6973: hp 4575 -> 4575, attack 3.0 -> 3.0
+6974: hp 5185 -> 5185, attack 3.0 -> 3.0
+6975: hp 1830 -> 1830, attack 3.0 -> 3.0
+6976: hp 1830 -> 1830, attack 3.0 -> 3.0
+6977: hp 1830 -> 1830, attack 3.0 -> 3.0
+6978: hp 4575 -> 4575, attack 3.0 -> 3.0
+6979: hp 1830 -> 1830, attack 4.0 -> 4.0
+6980: hp 1830 -> 1830, attack 3.0 -> 3.0
+6981: hp 4575 -> 4575, attack 3.0 -> 3.0
+6982: hp 1830 -> 1830, attack 4.0 -> 4.0
+6983: hp 1830 -> 1830, attack 4.0 -> 4.0
+6984: hp 1830 -> 1830, attack 4.0 -> 4.0
+6985: hp 1830 -> 1830, attack 4.0 -> 4.0
+6987: hp 3450 -> 3450, attack 2.5 -> 2.5
+6988: hp 1840 -> 1840, attack 2.5 -> 2.5
+6989: hp 3450 -> 3450, attack 2.5 -> 2.5
+6990: hp 2300 -> 2300, attack 2.5 -> 2.5
+6991: hp 3450 -> 3450, attack 2.5 -> 2.5
+6992: hp 2000 -> 2000, attack 1.2000000476837158 -> 1.2
+7024: hp 6000 -> 6000, attack 3.0 -> 3.0
+7025: hp 12000 -> 12000, attack 4.0 -> 4.0
+7026: hp 18000 -> 18000, attack 4.0 -> 4.0
+7027: hp 3450 -> 3450, attack 1.399999976158142 -> 1.4
+7028: hp 1840 -> 1840, attack 1.399999976158142 -> 1.4
+7029: hp 1840 -> 1840, attack 1.399999976158142 -> 1.4
+7030: hp 2300 -> 2300, attack 1.399999976158142 -> 1.4
+7031: hp 2300 -> 2300, attack 1.399999976158142 -> 1.4
+7032: hp 1840 -> 1840, attack 1.399999976158142 -> 1.4
+7033: hp 18000 -> 18000, attack 3.0 -> 3.0
+7034: hp 24000 -> 24000, attack 2.5 -> 2.5
+7035: hp 24000 -> 24000, attack 3.0 -> 3.0
+7036: hp 24000 -> 24000, attack 2.5 -> 2.5
+7037: hp 24000 -> 24000, attack 2.5 -> 2.5
+7038: hp 24000 -> 24000, attack 3.0 -> 3.0
+7039: hp 36000 -> 36000, attack 4.5 -> 4.5
+7040: hp 30000 -> 30000, attack 4.0 -> 4.0
+7041: hp 5600 -> 5600, attack 4.0 -> 4.0
+7042: hp 5600 -> 5600, attack 4.0 -> 4.0
+7043: hp 5600 -> 5600, attack 4.0 -> 4.0
+7044: hp 5600 -> 5600, attack 4.0 -> 4.0
+7045: hp 5600 -> 5600, attack 4.0 -> 4.0
+7046: hp 5600 -> 5600, attack 4.0 -> 4.0
+7047: hp 5600 -> 5600, attack 4.0 -> 4.0
+7048: hp 5600 -> 5600, attack 4.0 -> 4.0
+Intro fight 7049: hp 1360 -> 1
+Intro fight 7050: hp 1360 -> 1
+Intro fight 7051: hp 1360 -> 1
+Intro fight 7052: hp 1020 -> 1
+Intro fight 7053: hp 6000 -> 1
+Intro fight 7054: hp 6000 -> 1
+Intro fight 7055: hp 1700 -> 1
+Intro fight 7056: hp 1020 -> 1
+Intro fight 7057: hp 1020 -> 1
+Intro fight 7058: hp 1020 -> 1
+Intro fight 7059: hp 5500 -> 1
+Intro fight 7060: hp 12000 -> 1
+7081: hp 6000 -> 6000, attack 3.0 -> 3.0
+7082: hp 3450 -> 3450, attack 3.0 -> 3.0
+7083: hp 1840 -> 1840, attack 4.0 -> 4.0
+7084: hp 2300 -> 2300, attack 3.0 -> 3.0
+7085: hp 1840 -> 1840, attack 3.5 -> 3.5
+7086: hp 3910 -> 3910, attack 3.0 -> 3.0
+7093: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7094: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7095: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7096: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7097: hp 5000 -> 5000, attack 1.100000023841858 -> 1.1
+7098: hp 5000 -> 5000, attack 1.100000023841858 -> 1.1
+7099: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7100: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7101: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7102: hp 1000 -> 1000, attack 1.100000023841858 -> 1.1
+7103: hp 5000 -> 5000, attack 1.100000023841858 -> 1.1
+7104: hp 5000 -> 5000, attack 1.100000023841858 -> 1.1
+7117: hp 1840 -> 1840, attack 1.2000000476837158 -> 1.2
+7118: hp 7000 -> 7000, attack 1.2999999523162842 -> 1.3
+7119: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7120: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7121: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7122: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7123: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7124: hp 800 -> 800, attack 1.2000000476837158 -> 1.2
+7125: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7126: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7127: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7128: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7129: hp 7000 -> 7000, attack 1.2999999523162842 -> 1.3
+7130: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7131: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7132: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7133: hp 800 -> 800, attack 1.2000000476837158 -> 1.2
+7134: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7135: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7136: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7137: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7138: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7139: hp 1500 -> 1500, attack 1.2000000476837158 -> 1.2
+7140: hp 7000 -> 7000, attack 1.2999999523162842 -> 1.3
+7141: hp 7000 -> 7000, attack 1.2999999523162842 -> 1.3
+Intro fight 7162: hp 1020 -> 1
+Intro fight 7163: hp 1020 -> 1
+7208: hp 1600 -> 1600, attack 2.0 -> 2.0
+7209: hp 1600 -> 1600, attack 2.0 -> 2.0
+7210: hp 2400 -> 2400, attack 2.0 -> 2.0
+7211: hp 2400 -> 2400, attack 2.0 -> 2.0
+7212: hp 2400 -> 2400, attack 2.0 -> 2.0
+7213: hp 2700 -> 2700, attack 2.0 -> 2.0
+7214: hp 1600 -> 1600, attack 2.0 -> 2.0
+7215: hp 1600 -> 1600, attack 2.0 -> 2.0
+7216: hp 1600 -> 1600, attack 2.0 -> 2.0
+7218: hp 2800 -> 2800, attack 3.0 -> 3.0
+7219: hp 2800 -> 2800, attack 3.0 -> 3.0
+7220: hp 4200 -> 4200, attack 3.0 -> 3.0
+7221: hp 4200 -> 4200, attack 3.0 -> 3.0
+7222: hp 4200 -> 4200, attack 3.0 -> 3.0
+7223: hp 4700 -> 4700, attack 3.0 -> 3.0
+7224: hp 2800 -> 2800, attack 3.0 -> 3.0
+7225: hp 2800 -> 2800, attack 3.0 -> 3.0
+7226: hp 2800 -> 2800, attack 3.0 -> 3.0
+7242: hp 2400 -> 2400, attack 2.0 -> 2.0
+7243: hp 2400 -> 2400, attack 2.0 -> 2.0
+7244: hp 2400 -> 2400, attack 2.0 -> 2.0
+7245: hp 1500 -> 1500, attack 2.0 -> 2.0
+7246: hp 1500 -> 1500, attack 2.0 -> 2.0
+7247: hp 1500 -> 1500, attack 2.0 -> 2.0
+7248: hp 1500 -> 1500, attack 2.0 -> 2.0
+7249: hp 1500 -> 1500, attack 2.0 -> 2.0
+7250: hp 1500 -> 1500, attack 2.0 -> 2.0
+7251: hp 1500 -> 1500, attack 2.0 -> 2.0
+7252: hp 1500 -> 1500, attack 2.0 -> 2.0
+7253: hp 1000 -> 1000, attack 2.0 -> 2.0
+7254: hp 1000 -> 1000, attack 2.0 -> 2.0
+7256: hp 4200 -> 4200, attack 3.0 -> 3.0
+7257: hp 4200 -> 4200, attack 3.0 -> 3.0
+7258: hp 4200 -> 4200, attack 3.0 -> 3.0
+7259: hp 4700 -> 4700, attack 3.0 -> 3.0
+7260: hp 4700 -> 4700, attack 3.0 -> 3.0
+7261: hp 2800 -> 2800, attack 3.0 -> 3.0
+7262: hp 2800 -> 2800, attack 3.0 -> 3.0
+7263: hp 2800 -> 2800, attack 3.0 -> 3.0
+7264: hp 2800 -> 2800, attack 3.0 -> 3.0
+7265: hp 1700 -> 1700, attack 3.0 -> 3.0
+7266: hp 1700 -> 1700, attack 3.0 -> 3.0
+7267: hp 1700 -> 1700, attack 3.0 -> 3.0
+7268: hp 1700 -> 1700, attack 3.0 -> 3.0
+7280: hp 1800 -> 1800, attack 2.0 -> 2.0
+7281: hp 1800 -> 1800, attack 2.0 -> 2.0
+7282: hp 1800 -> 1800, attack 2.0 -> 2.0
+7283: hp 1800 -> 1800, attack 2.0 -> 2.0
+7284: hp 1800 -> 1800, attack 2.0 -> 2.0
+7285: hp 2700 -> 2700, attack 2.0 -> 2.0
+7286: hp 3000 -> 3000, attack 2.0 -> 2.0
+7287: hp 1800 -> 1800, attack 2.0 -> 2.0
+7288: hp 1800 -> 1800, attack 2.0 -> 2.0
+7290: hp 3000 -> 3000, attack 3.0 -> 3.0
+7291: hp 3000 -> 3000, attack 3.0 -> 3.0
+7292: hp 3000 -> 3000, attack 3.0 -> 3.0
+7293: hp 4500 -> 4500, attack 3.0 -> 3.0
+7294: hp 4500 -> 4500, attack 3.0 -> 3.0
+7295: hp 4500 -> 4500, attack 3.0 -> 3.0
+7296: hp 5100 -> 5100, attack 3.0 -> 3.0
+7297: hp 3000 -> 3000, attack 3.0 -> 3.0
+7299: hp 3000 -> 3000, attack 3.0 -> 3.0
+7300: hp 3000 -> 3000, attack 3.0 -> 3.0
+7319: hp 1600 -> 1600, attack 2.0 -> 2.0
+7320: hp 1600 -> 1600, attack 2.0 -> 2.0
+7321: hp 2400 -> 2400, attack 2.0 -> 2.0
+7322: hp 2400 -> 2400, attack 2.0 -> 2.0
+7323: hp 1600 -> 1600, attack 2.0 -> 2.0
+7324: hp 1600 -> 1600, attack 2.0 -> 2.0
+7325: hp 1600 -> 1600, attack 2.0 -> 2.0
+7326: hp 1600 -> 1600, attack 2.0 -> 2.0
+7327: hp 2700 -> 2700, attack 2.0 -> 2.0
+7328: hp 2700 -> 2700, attack 2.0 -> 2.0
+7330: hp 2800 -> 2800, attack 3.0 -> 3.0
+7331: hp 2800 -> 2800, attack 3.0 -> 3.0
+7332: hp 2800 -> 2800, attack 3.0 -> 3.0
+7333: hp 4200 -> 4200, attack 3.0 -> 3.0
+7334: hp 4200 -> 4200, attack 3.0 -> 3.0
+7335: hp 4200 -> 4200, attack 3.0 -> 3.0
+7336: hp 4200 -> 4200, attack 3.0 -> 3.0
+7337: hp 4700 -> 4700, attack 3.0 -> 3.0
+7338: hp 4700 -> 4700, attack 3.0 -> 3.0
+7339: hp 2800 -> 2800, attack 3.0 -> 3.0
+7340: hp 2800 -> 2800, attack 3.0 -> 3.0
+7341: hp 2800 -> 2800, attack 3.0 -> 3.0
+7342: hp 2800 -> 2800, attack 3.0 -> 3.0
+7394: hp 1800 -> 1800, attack 3.0 -> 3.0
+7395: hp 1800 -> 1800, attack 3.0 -> 3.0
+7429: hp 1700 -> 1700, attack 3.5 -> 3.5
+7430: hp 1700 -> 1700, attack 3.5 -> 3.5
+7431: hp 3400 -> 3400, attack 3.5 -> 3.5
+7432: hp 3400 -> 3400, attack 3.5 -> 3.5
+7433: hp 1700 -> 1700, attack 4.0 -> 4.0
+7434: hp 2550 -> 2550, attack 4.0 -> 4.0
+7435: hp 1700 -> 1700, attack 3.5 -> 3.5
+7439: hp 6375 -> 6375, attack 3.5 -> 3.5
+7440: hp 2550 -> 2550, attack 3.5 -> 3.5
+7441: hp 2550 -> 2550, attack 3.5 -> 3.5
+7442: hp 2550 -> 2550, attack 4.0 -> 4.0
+7443: hp 2550 -> 2550, attack 4.0 -> 4.0
+7444: hp 2550 -> 2550, attack 3.5 -> 3.5
+7445: hp 3400 -> 3400, attack 3.5 -> 3.5
+7446: hp 2820 -> 2820, attack 4.0 -> 4.0
+7447: hp 3760 -> 3760, attack 3.5 -> 3.5
+7448: hp 3760 -> 3760, attack 3.5 -> 3.5
+7449: hp 3760 -> 3760, attack 3.5 -> 3.5
+7450: hp 3760 -> 3760, attack 3.5 -> 3.5
+7451: hp 3760 -> 3760, attack 3.5 -> 3.5
+7452: hp 6000 -> 6000, attack 5.0 -> 5.0
+7453: hp 3760 -> 3760, attack 3.5 -> 3.5
+7454: hp 3760 -> 3760, attack 3.5 -> 3.5
+7455: hp 3760 -> 3760, attack 4.0 -> 4.0
+7456: hp 2820 -> 2820, attack 4.0 -> 4.0
+7457: hp 2820 -> 2820, attack 4.0 -> 4.0
+7458: hp 2820 -> 2820, attack 4.0 -> 4.0
+7459: hp 6000 -> 6000, attack 5.0 -> 5.0
+7460: hp 24000 -> 24000, attack 6.0 -> 6.0
+7461: hp 18000 -> 18000, attack 6.0 -> 6.0
+7462: hp 4700 -> 4700, attack 3.5 -> 3.5
+7463: hp 4700 -> 4700, attack 3.5 -> 3.5
+7464: hp 7990 -> 7990, attack 3.5 -> 3.5
+7465: hp 7990 -> 7990, attack 3.5 -> 3.5
+7466: hp 7990 -> 7990, attack 3.5 -> 3.5
+7467: hp 7990 -> 7990, attack 3.5 -> 3.5
+7468: hp 500000 -> 500000, attack 2.0 -> 2.0
+7469: hp 500000 -> 500000, attack 2.0 -> 2.0
+7470: hp 500000 -> 500000, attack 2.0 -> 2.0
+7490: hp 18000 -> 18000, attack 2.5 -> 2.5
+7491: hp 5780 -> 5780, attack 2.5 -> 2.5
+7492: hp 5100 -> 5100, attack 2.5 -> 2.5
+7493: hp 3400 -> 3400, attack 2.5 -> 2.5
+7494: hp 3400 -> 3400, attack 2.5 -> 2.5
+7547: hp 5000 -> 5000, attack 2.5 -> 2.5
+7548: hp 5000 -> 5000, attack 2.5 -> 2.5
+7549: hp 5000 -> 5000, attack 2.5 -> 2.5
+7551: hp 24000 -> 24000, attack 6.0 -> 6.0
+7552: hp 18000 -> 18000, attack 6.5 -> 6.5
+7553: hp 3040 -> 3040, attack 3.0 -> 3.0
+7554: hp 3040 -> 3040, attack 3.0 -> 3.0
+7555: hp 1520 -> 1520, attack 3.0 -> 3.0
+7556: hp 3040 -> 3040, attack 3.0 -> 3.0
+7557: hp 3040 -> 3040, attack 3.0 -> 3.0
+7558: hp 3800 -> 3800, attack 3.0 -> 3.0
+7559: hp 3800 -> 3800, attack 3.0 -> 3.0
+7560: hp 3800 -> 3800, attack 3.0 -> 3.0
+7561: hp 3800 -> 3800, attack 3.0 -> 3.0
+7562: hp 2280 -> 2280, attack 3.0 -> 3.0
+7563: hp 2280 -> 2280, attack 3.0 -> 3.0
+7564: hp 2280 -> 2280, attack 3.0 -> 3.0
+7565: hp 2280 -> 2280, attack 3.0 -> 3.0
+7566: hp 1520 -> 1520, attack 4.0 -> 4.0
+7567: hp 1520 -> 1520, attack 4.0 -> 4.0
+7568: hp 18000 -> 18000, attack 5.5 -> 5.5
+7569: hp 3800 -> 3800, attack 3.0 -> 3.0
+7570: hp 2280 -> 2280, attack 3.0 -> 3.0
+7571: hp 3040 -> 3040, attack 3.0 -> 3.0
+7572: hp 3040 -> 3040, attack 3.0 -> 3.0
+7573: hp 2280 -> 2280, attack 3.0 -> 3.0
+7574: hp 6460 -> 6460, attack 3.0 -> 3.0
+7575: hp 3800 -> 3800, attack 3.0 -> 3.0
+7576: hp 6460 -> 6460, attack 3.0 -> 3.0
+7577: hp 2280 -> 2280, attack 3.0 -> 3.0
+7578: hp 1520 -> 1520, attack 4.0 -> 4.0
+7579: hp 6460 -> 6460, attack 3.0 -> 3.0
+7580: hp 6460 -> 6460, attack 3.0 -> 3.0
+7581: hp 5700 -> 5700, attack 3.0 -> 3.0
+7582: hp 18000 -> 18000, attack 5.5 -> 5.5
+7583: hp 3040 -> 3040, attack 3.0 -> 3.0
+7584: hp 3040 -> 3040, attack 3.0 -> 3.0
+7585: hp 2280 -> 2280, attack 3.0 -> 3.0
+7586: hp 3040 -> 3040, attack 3.0 -> 3.0
+7587: hp 2280 -> 2280, attack 3.0 -> 3.0
+7588: hp 2280 -> 2280, attack 3.0 -> 3.0
+7589: hp 2280 -> 2280, attack 3.0 -> 3.0
+7590: hp 3800 -> 3800, attack 3.0 -> 3.0
+7591: hp 5700 -> 5700, attack 3.0 -> 3.0
+7592: hp 5700 -> 5700, attack 3.0 -> 3.0
+7593: hp 3800 -> 3800, attack 3.0 -> 3.0
+7594: hp 2280 -> 2280, attack 3.0 -> 3.0
+7595: hp 1520 -> 1520, attack 4.0 -> 4.0
+7596: hp 1520 -> 1520, attack 4.0 -> 4.0
+7597: hp 3800 -> 3800, attack 3.0 -> 3.0
+7598: hp 3800 -> 3800, attack 3.0 -> 3.0
+7631: hp 2550 -> 2550, attack 3.5 -> 3.5
+7632: hp 2550 -> 2550, attack 3.5 -> 3.5
+7633: hp 2550 -> 2550, attack 3.5 -> 3.5
+7634: hp 2550 -> 2550, attack 3.5 -> 3.5
+7635: hp 2550 -> 2550, attack 3.5 -> 3.5
+7636: hp 4250 -> 4250, attack 3.5 -> 3.5
+7637: hp 4250 -> 4250, attack 3.5 -> 3.5
+7638: hp 6375 -> 6375, attack 3.5 -> 3.5
+7639: hp 2550 -> 2550, attack 3.5 -> 3.5
+7640: hp 6375 -> 6375, attack 3.5 -> 3.5
+7641: hp 2550 -> 2550, attack 3.5 -> 3.5
+7642: hp 4250 -> 4250, attack 3.5 -> 3.5
+7643: hp 4250 -> 4250, attack 3.5 -> 3.5
+7644: hp 6375 -> 6375, attack 3.5 -> 3.5
+7645: hp 7225 -> 7225, attack 4.0 -> 4.0
+7646: hp 6375 -> 6375, attack 3.5 -> 3.5
+7647: hp 12750 -> 12750, attack 4.0 -> 4.0
+7648: hp 3800 -> 3800, attack 3.5 -> 3.5
+7649: hp 5700 -> 5700, attack 3.5 -> 3.5
+7650: hp 7225 -> 7225, attack 4.0 -> 4.0
+7651: hp 2550 -> 2550, attack 3.5 -> 3.5
+7652: hp 2550 -> 2550, attack 3.5 -> 3.5
+7653: hp 2550 -> 2550, attack 3.5 -> 3.5
+7654: hp 2550 -> 2550, attack 3.5 -> 3.5
+7658: hp 1700 -> 1700, attack 4.0 -> 4.0
+7659: hp 1700 -> 1700, attack 4.0 -> 4.0
+7660: hp 4250 -> 4250, attack 3.5 -> 3.5
+7661: hp 4250 -> 4250, attack 3.5 -> 3.5
+7662: hp 18000 -> 18000, attack 6.5 -> 6.5
+7663: hp 7225 -> 7225, attack 4.0 -> 4.0
+7664: hp 2550 -> 2550, attack 3.5 -> 3.5
+7665: hp 7225 -> 7225, attack 4.0 -> 4.0
+7666: hp 7225 -> 7225, attack 4.0 -> 4.0
+7667: hp 12750 -> 12750, attack 4.0 -> 4.0
+7668: hp 24000 -> 24000, attack 6.0 -> 6.0
+7671: hp 40000 -> 40000, attack 5.0 -> 5.0
+7673: hp 45000 -> 45000, attack 4.0 -> 4.0
+7675: hp 12000 -> 12000, attack 2.0 -> 2.0
+7676: hp 4400 -> 4400, attack 3.0 -> 3.0
+7677: hp 36000 -> 36000, attack 4.0 -> 4.0
+7678: hp 24000 -> 24000, attack 3.0 -> 3.0
+7679: hp 2300 -> 2300, attack 3.5 -> 3.5
+7680: hp 2300 -> 2300, attack 3.5 -> 3.5
+7681: hp 2300 -> 2300, attack 2.5 -> 2.5
+7682: hp 2300 -> 2300, attack 2.5 -> 2.5
+7683: hp 1840 -> 1840, attack 2.5 -> 2.5
+7684: hp 1840 -> 1840, attack 2.5 -> 2.5
+7685: hp 920 -> 920, attack 3.5 -> 3.5
+7686: hp 920 -> 920, attack 3.5 -> 3.5
+7687: hp 12000 -> 12000, attack 2.200000047683716 -> 2.2
+7688: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+7689: hp 3225 -> 3225, attack 1.600000023841858 -> 1.6
+7712: hp 3800 -> 3800, attack 3.0 -> 3.0
+7713: hp 5700 -> 5700, attack 3.0 -> 3.0
+7714: hp 5700 -> 5700, attack 3.0 -> 3.0
+7715: hp 3800 -> 3800, attack 3.0 -> 3.0
+7716: hp 2280 -> 2280, attack 3.0 -> 3.0
+7717: hp 2280 -> 2280, attack 3.0 -> 3.0
+7718: hp 2280 -> 2280, attack 3.0 -> 3.0
+7719: hp 2280 -> 2280, attack 3.0 -> 3.0
+7720: hp 2280 -> 2280, attack 3.0 -> 3.0
+7721: hp 3040 -> 3040, attack 3.0 -> 3.0
+7722: hp 3040 -> 3040, attack 3.0 -> 3.0
+7723: hp 3040 -> 3040, attack 3.0 -> 3.0
+Intro fight 7755: hp 1650 -> 1
+7756: hp 24000 -> 24000, attack 6.0 -> 6.0
+7757: hp 30000 -> 30000, attack 7.0 -> 7.0
+7759: hp 12000 -> 12000, attack 3.5 -> 3.5
+7760: hp 3400 -> 3400, attack 1.5 -> 1.5
+7761: hp 3000 -> 3000, attack 1.5 -> 1.5
+7762: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7763: hp 18000 -> 18000, attack 3.5 -> 3.5
+7764: hp 3000 -> 3000, attack 1.5 -> 1.5
+7765: hp 3400 -> 3400, attack 1.5 -> 1.5
+7766: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7767: hp 800 -> 800, attack 1.2999999523162842 -> 1.3
+7768: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7769: hp 12000 -> 12000, attack 4.0 -> 4.0
+7770: hp 12000 -> 12000, attack 3.5 -> 3.5
+7771: hp 1600 -> 1600, attack 2.0 -> 2.0
+7772: hp 2800 -> 2800, attack 3.0 -> 3.0
+7773: hp 1500 -> 1500, attack 2.0 -> 2.0
+7774: hp 2800 -> 2800, attack 3.0 -> 3.0
+7775: hp 1000 -> 1000, attack 2.0 -> 2.0
+7776: hp 1600 -> 1600, attack 2.0 -> 2.0
+7777: hp 4700 -> 4700, attack 3.0 -> 3.0
+7778: hp 20000 -> 20000, attack 2.0 -> 2.0
+7779: hp 15000 -> 15000, attack 2.0 -> 2.0
+7780: hp 9000 -> 9000, attack 3.0 -> 3.0
+7788: hp 3000 -> 3000, attack 1.5 -> 1.5
+7789: hp 1200 -> 1200, attack 1.2999999523162842 -> 1.3
+7790: hp 1200 -> 1200, attack 1.2999999523162842 -> 1.3
+7791: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7792: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7793: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7794: hp 3000 -> 3000, attack 1.5 -> 1.5
+7795: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7796: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7797: hp 3000 -> 3000, attack 1.5 -> 1.5
+7798: hp 800 -> 800, attack 1.2999999523162842 -> 1.3
+7799: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7800: hp 1200 -> 1200, attack 1.2999999523162842 -> 1.3
+7801: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7802: hp 1200 -> 1200, attack 1.2999999523162842 -> 1.3
+7803: hp 3000 -> 3000, attack 1.5 -> 1.5
+7804: hp 3000 -> 3000, attack 1.5 -> 1.5
+7805: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+7806: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7807: hp 1600 -> 1600, attack 1.2999999523162842 -> 1.3
+7808: hp 2300 -> 2300, attack 4.0 -> 4.0
+7809: hp 1840 -> 1840, attack 3.5 -> 3.5
+7810: hp 6000 -> 6000, attack 4.0 -> 4.0
+7811: hp 6000 -> 6000, attack 4.0 -> 4.0
+7812: hp 6000 -> 6000, attack 4.0 -> 4.0
+7813: hp 18000 -> 18000, attack 4.5 -> 4.5
+7814: hp 2300 -> 2300, attack 3.0 -> 3.0
+7815: hp 1840 -> 1840, attack 2.5 -> 2.5
+7816: hp 2300 -> 2300, attack 3.0 -> 3.0
+7817: hp 1840 -> 1840, attack 3.0 -> 3.0
+7818: hp 1840 -> 1840, attack 2.5 -> 2.5
+7819: hp 3450 -> 3450, attack 2.5 -> 2.5
+7820: hp 1840 -> 1840, attack 3.0 -> 3.0
+7821: hp 1840 -> 1840, attack 3.0 -> 3.0
+7822: hp 1840 -> 1840, attack 3.0 -> 3.0
+7823: hp 1840 -> 1840, attack 2.5 -> 2.5
+7824: hp 3450 -> 3450, attack 2.5 -> 2.5
+7825: hp 1840 -> 1840, attack 2.5 -> 2.5
+7826: hp 1840 -> 1840, attack 2.5 -> 2.5
+7827: hp 3450 -> 3450, attack 2.5 -> 2.5
+7828: hp 1840 -> 1840, attack 3.0 -> 3.0
+7829: hp 1840 -> 1840, attack 3.0 -> 3.0
+7830: hp 3450 -> 3450, attack 2.5 -> 2.5
+7831: hp 1840 -> 1840, attack 2.5 -> 2.5
+7832: hp 1840 -> 1840, attack 2.5 -> 2.5
+7833: hp 18000 -> 18000, attack 4.5 -> 4.5
+7834: hp 3910 -> 3910, attack 2.5 -> 2.5
+7835: hp 3910 -> 3910, attack 2.5 -> 2.5
+7836: hp 3450 -> 3450, attack 2.5 -> 2.5
+7837: hp 3450 -> 3450, attack 2.5 -> 2.5
+7838: hp 2300 -> 2300, attack 3.0 -> 3.0
+7839: hp 2300 -> 2300, attack 3.0 -> 3.0
+7840: hp 920 -> 920, attack 3.5 -> 3.5
+7841: hp 2300 -> 2300, attack 3.0 -> 3.0
+7842: hp 920 -> 920, attack 3.5 -> 3.5
+7845: hp 3400 -> 3400, attack 2.5 -> 2.5
+7846: hp 12000 -> 12000, attack 2.5 -> 2.5
+7847: hp 9000 -> 9000, attack 3.0 -> 3.0
+7848: hp 18000 -> 18000, attack 3.0 -> 3.0
+7849: hp 3400 -> 3400, attack 2.5 -> 2.5
+7850: hp 3400 -> 3400, attack 2.5 -> 2.5
+7851: hp 3400 -> 3400, attack 2.5 -> 2.5
+7852: hp 3400 -> 3400, attack 2.5 -> 2.5
+7853: hp 3400 -> 3400, attack 2.5 -> 2.5
+7855: hp 60000 -> 60000, attack 7.0 -> 7.0
+7856: hp 12000 -> 12000, attack 2.0 -> 2.0
+7857: hp 12000 -> 12000, attack 2.0 -> 2.0
+7858: hp 2600 -> 2600, attack 2.0 -> 2.0
+7859: hp 3400 -> 3400, attack 2.0 -> 2.0
+7860: hp 3400 -> 3400, attack 2.0 -> 2.0
+7861: hp 12000 -> 12000, attack 2.0 -> 2.0
+7862: hp 3400 -> 3400, attack 2.0 -> 2.0
+7863: hp 3400 -> 3400, attack 2.0 -> 2.0
+7864: hp 3400 -> 3400, attack 2.0 -> 2.0
+7865: hp 3400 -> 3400, attack 2.0 -> 2.0
+7866: hp 3400 -> 3400, attack 2.0 -> 2.0
+7867: hp 2600 -> 2600, attack 2.0 -> 2.0
+7868: hp 6000 -> 6000, attack 2.0 -> 2.0
+7869: hp 12000 -> 12000, attack 3.0 -> 3.0
+7870: hp 18000 -> 18000, attack 2.0 -> 2.0
+7871: hp 18000 -> 18000, attack 2.5 -> 2.5
+7872: hp 3400 -> 3400, attack 2.5 -> 2.5
+7873: hp 5100 -> 5100, attack 2.5 -> 2.5
+7874: hp 5100 -> 5100, attack 2.5 -> 2.5
+7875: hp 18000 -> 18000, attack 2.5 -> 2.5
+7876: hp 3400 -> 3400, attack 2.5 -> 2.5
+7877: hp 5100 -> 5100, attack 2.5 -> 2.5
+7878: hp 5100 -> 5100, attack 2.5 -> 2.5
+7879: hp 12000 -> 12000, attack 2.0 -> 2.0
+7880: hp 3000 -> 3000, attack 2.0 -> 2.0
+7881: hp 3000 -> 3000, attack 2.0 -> 2.0
+7882: hp 3000 -> 3000, attack 2.0 -> 2.0
+7883: hp 12000 -> 12000, attack 2.0 -> 2.0
+7884: hp 3000 -> 3000, attack 2.0 -> 2.0
+7885: hp 3000 -> 3000, attack 2.0 -> 2.0
+7886: hp 12000 -> 12000, attack 2.0 -> 2.0
+7887: hp 3000 -> 3000, attack 2.0 -> 2.0
+7888: hp 3000 -> 3000, attack 2.0 -> 2.0
+7889: hp 12000 -> 12000, attack 2.0 -> 2.0
+7890: hp 3000 -> 3000, attack 2.0 -> 2.0
+7891: hp 3000 -> 3000, attack 2.0 -> 2.0
+7892: hp 18000 -> 18000, attack 2.0 -> 2.0
+7893: hp 3000 -> 3000, attack 2.0 -> 2.0
+7894: hp 3000 -> 3000, attack 2.0 -> 2.0
+7895: hp 3000 -> 3000, attack 2.0 -> 2.0
+7896: hp 18000 -> 18000, attack 3.0 -> 3.0
+7897: hp 6750 -> 6750, attack 3.0 -> 3.0
+7898: hp 6750 -> 6750, attack 3.0 -> 3.0
+7899: hp 6750 -> 6750, attack 3.0 -> 3.0
+7900: hp 18000 -> 18000, attack 3.0 -> 3.0
+7901: hp 6750 -> 6750, attack 3.0 -> 3.0
+7902: hp 6750 -> 6750, attack 3.0 -> 3.0
+7903: hp 18000 -> 18000, attack 3.0 -> 3.0
+7904: hp 6750 -> 6750, attack 3.0 -> 3.0
+7905: hp 6750 -> 6750, attack 3.0 -> 3.0
+7906: hp 18000 -> 18000, attack 3.0 -> 3.0
+7907: hp 6750 -> 6750, attack 3.0 -> 3.0
+7908: hp 6750 -> 6750, attack 3.0 -> 3.0
+7909: hp 24000 -> 24000, attack 3.0 -> 3.0
+7910: hp 6750 -> 6750, attack 3.0 -> 3.0
+7911: hp 6750 -> 6750, attack 3.0 -> 3.0
+7912: hp 6750 -> 6750, attack 3.0 -> 3.0
+7913: hp 18000 -> 18000, attack 2.5 -> 2.5
+7914: hp 3600 -> 3600, attack 2.5 -> 2.5
+7915: hp 3600 -> 3600, attack 2.5 -> 2.5
+7916: hp 3600 -> 3600, attack 2.5 -> 2.5
+7917: hp 3600 -> 3600, attack 2.5 -> 2.5
+7918: hp 3600 -> 3600, attack 2.5 -> 2.5
+7919: hp 3600 -> 3600, attack 2.5 -> 2.5
+7920: hp 3600 -> 3600, attack 2.5 -> 2.5
+7921: hp 3600 -> 3600, attack 2.5 -> 2.5
+7922: hp 3600 -> 3600, attack 2.5 -> 2.5
+7923: hp 3600 -> 3600, attack 2.5 -> 2.5
+7924: hp 3600 -> 3600, attack 2.5 -> 2.5
+7925: hp 3600 -> 3600, attack 2.5 -> 2.5
+7926: hp 3600 -> 3600, attack 2.5 -> 2.5
+7927: hp 3600 -> 3600, attack 2.5 -> 2.5
+7928: hp 5400 -> 5400, attack 2.5 -> 2.5
+7941: hp 18000 -> 18000, attack 4.0 -> 4.0
+7942: hp 6000 -> 6000, attack 4.0 -> 4.0
+7943: hp 6000 -> 6000, attack 4.0 -> 4.0
+7944: hp 9000 -> 9000, attack 4.0 -> 4.0
+7945: hp 6000 -> 6000, attack 4.0 -> 4.0
+7946: hp 6000 -> 6000, attack 4.0 -> 4.0
+7947: hp 6000 -> 6000, attack 4.0 -> 4.0
+7948: hp 18000 -> 18000, attack 4.0 -> 4.0
+7949: hp 6000 -> 6000, attack 4.0 -> 4.0
+7950: hp 9000 -> 9000, attack 4.0 -> 4.0
+7951: hp 6000 -> 6000, attack 4.0 -> 4.0
+7952: hp 6000 -> 6000, attack 4.0 -> 4.0
+7953: hp 3600 -> 3600, attack 4.0 -> 4.0
+7954: hp 24000 -> 24000, attack 4.0 -> 4.0
+7955: hp 6000 -> 6000, attack 4.0 -> 4.0
+7956: hp 6000 -> 6000, attack 4.0 -> 4.0
+7957: hp 6000 -> 6000, attack 4.0 -> 4.0
+7958: hp 24000 -> 24000, attack 4.5 -> 4.5
+7959: hp 9000 -> 9000, attack 4.5 -> 4.5
+7960: hp 9000 -> 9000, attack 4.5 -> 4.5
+7961: hp 3600 -> 3600, attack 4.5 -> 4.5
+7962: hp 3600 -> 3600, attack 4.5 -> 4.5
+7963: hp 3600 -> 3600, attack 4.5 -> 4.5
+7964: hp 6000 -> 6000, attack 4.5 -> 4.5
+7965: hp 6000 -> 6000, attack 4.5 -> 4.5
+7966: hp 6000 -> 6000, attack 4.5 -> 4.5
+7967: hp 9000 -> 9000, attack 4.5 -> 4.5
+7968: hp 9000 -> 9000, attack 4.5 -> 4.5
+7969: hp 10200 -> 10200, attack 4.5 -> 4.5
+7970: hp 9000 -> 9000, attack 4.5 -> 4.5
+7971: hp 9000 -> 9000, attack 4.5 -> 4.5
+7972: hp 10200 -> 10200, attack 4.5 -> 4.5
+7973: hp 9000 -> 9000, attack 4.5 -> 4.5
+7974: hp 24000 -> 24000, attack 3.5 -> 3.5
+7975: hp 8670 -> 8670, attack 3.5 -> 3.5
+7976: hp 8670 -> 8670, attack 3.5 -> 3.5
+7977: hp 8670 -> 8670, attack 3.5 -> 3.5
+7978: hp 8670 -> 8670, attack 3.5 -> 3.5
+7979: hp 8670 -> 8670, attack 3.5 -> 3.5
+7980: hp 8670 -> 8670, attack 3.5 -> 3.5
+7981: hp 8670 -> 8670, attack 3.5 -> 3.5
+7982: hp 8670 -> 8670, attack 3.5 -> 3.5
+7983: hp 8670 -> 8670, attack 3.5 -> 3.5
+7984: hp 8670 -> 8670, attack 3.5 -> 3.5
+7985: hp 7650 -> 7650, attack 3.5 -> 3.5
+7986: hp 7650 -> 7650, attack 3.5 -> 3.5
+7987: hp 7650 -> 7650, attack 3.5 -> 3.5
+7988: hp 7650 -> 7650, attack 3.5 -> 3.5
+7989: hp 7650 -> 7650, attack 3.5 -> 3.5
+7990: hp 36000 -> 36000, attack 8.0 -> 8.0
+8002: hp 10000 -> 10000, attack 2.5 -> 2.5
+8003: hp 18000 -> 18000, attack 2.5 -> 2.5
+8004: hp 18000 -> 18000, attack 3.0 -> 3.0
+8005: hp 6375 -> 6375, attack 3.5 -> 3.5
+8006: hp 6375 -> 6375, attack 3.5 -> 3.5
+8007: hp 6375 -> 6375, attack 3.5 -> 3.5
+8008: hp 4250 -> 4250, attack 3.5 -> 3.5
+8009: hp 4250 -> 4250, attack 3.5 -> 3.5
+8010: hp 6375 -> 6375, attack 3.5 -> 3.5
+8011: hp 4250 -> 4250, attack 3.5 -> 3.5
+8012: hp 4250 -> 4250, attack 3.5 -> 3.5
+8013: hp 4250 -> 4250, attack 3.5 -> 3.5
+8014: hp 4250 -> 4250, attack 3.5 -> 3.5
+8015: hp 3400 -> 3400, attack 3.5 -> 3.5
+8016: hp 4250 -> 4250, attack 3.5 -> 3.5
+8017: hp 2550 -> 2550, attack 3.5 -> 3.5
+8018: hp 7225 -> 7225, attack 4.0 -> 4.0
+8019: hp 2550 -> 2550, attack 3.5 -> 3.5
+8020: hp 7225 -> 7225, attack 4.0 -> 4.0
+8021: hp 6375 -> 6375, attack 3.5 -> 3.5
+8022: hp 12750 -> 12750, attack 4.0 -> 4.0
+8023: hp 3400 -> 3400, attack 4.0 -> 4.0
+8024: hp 2550 -> 2550, attack 3.5 -> 3.5
+8025: hp 18000 -> 18000, attack 2.0 -> 2.0
+8026: hp 24000 -> 24000, attack 3.0 -> 3.0
+8027: hp 4400 -> 4400, attack 3.0 -> 3.0
+8028: hp 4400 -> 4400, attack 3.0 -> 3.0
+8029: hp 4400 -> 4400, attack 3.0 -> 3.0
+8030: hp 4400 -> 4400, attack 3.0 -> 3.0
+8031: hp 4400 -> 4400, attack 3.0 -> 3.0
+8032: hp 10000 -> 10000, attack 2.0 -> 2.0
+8033: hp 3400 -> 3400, attack 2.5 -> 2.5
+8034: hp 3400 -> 3400, attack 2.5 -> 2.5
+8035: hp 4400 -> 4400, attack 3.0 -> 3.0
+8036: hp 4400 -> 4400, attack 3.0 -> 3.0
+8037: hp 4400 -> 4400, attack 3.0 -> 3.0
+8038: hp 4400 -> 4400, attack 3.0 -> 3.0
+8039: hp 4400 -> 4400, attack 3.0 -> 3.0
+8040: hp 4400 -> 4400, attack 3.0 -> 3.0
+8041: hp 4400 -> 4400, attack 3.0 -> 3.0
+8042: hp 6600 -> 6600, attack 3.0 -> 3.0
+8043: hp 6600 -> 6600, attack 3.0 -> 3.0
+8044: hp 7500 -> 7500, attack 3.0 -> 3.0
+8045: hp 7500 -> 7500, attack 3.0 -> 3.0
+8046: hp 12000 -> 12000, attack 5.0 -> 5.0
+8047: hp 1830 -> 1830, attack 2.5 -> 2.5
+8048: hp 2440 -> 2440, attack 2.5 -> 2.5
+8049: hp 4575 -> 4575, attack 2.5 -> 2.5
+8050: hp 4575 -> 4575, attack 2.5 -> 2.5
+8051: hp 1830 -> 1830, attack 2.5 -> 2.5
+8052: hp 1830 -> 1830, attack 2.5 -> 2.5
+8053: hp 3050 -> 3050, attack 2.5 -> 2.5
+8054: hp 3050 -> 3050, attack 2.5 -> 2.5
+8055: hp 3050 -> 3050, attack 2.5 -> 2.5
+8056: hp 1220 -> 1220, attack 2.5 -> 2.5
+8057: hp 1220 -> 1220, attack 2.5 -> 2.5
+8058: hp 12000 -> 12000, attack 5.0 -> 5.0
+8059: hp 5185 -> 5185, attack 2.5 -> 2.5
+8060: hp 5185 -> 5185, attack 2.5 -> 2.5
+8061: hp 4575 -> 4575, attack 2.5 -> 2.5
+8062: hp 12000 -> 12000, attack 5.0 -> 5.0
+8063: hp 3050 -> 3050, attack 2.5 -> 2.5
+8064: hp 4575 -> 4575, attack 2.5 -> 2.5
+8065: hp 4575 -> 4575, attack 2.5 -> 2.5
+8066: hp 4575 -> 4575, attack 2.5 -> 2.5
+8067: hp 12000 -> 12000, attack 5.0 -> 5.0
+8068: hp 18000 -> 18000, attack 5.0 -> 5.0
+8069: hp 4575 -> 4575, attack 2.5 -> 2.5
+8070: hp 1830 -> 1830, attack 4.0 -> 4.0
+8071: hp 5185 -> 5185, attack 2.5 -> 2.5
+8072: hp 1830 -> 1830, attack 4.0 -> 4.0
+8073: hp 3050 -> 3050, attack 2.5 -> 2.5
+8074: hp 1830 -> 1830, attack 4.0 -> 4.0
+8075: hp 3050 -> 3050, attack 2.5 -> 2.5
+8076: hp 1830 -> 1830, attack 4.0 -> 4.0
+8077: hp 1830 -> 1830, attack 4.0 -> 4.0
+8078: hp 1830 -> 1830, attack 4.0 -> 4.0
+8079: hp 3050 -> 3050, attack 2.5 -> 2.5
+8080: hp 1830 -> 1830, attack 4.0 -> 4.0
+8081: hp 5185 -> 5185, attack 2.5 -> 2.5
+8082: hp 1830 -> 1830, attack 4.0 -> 4.0
+8083: hp 18000 -> 18000, attack 5.0 -> 5.0
+8084: hp 12000 -> 12000, attack 5.0 -> 5.0
+8085: hp 4575 -> 4575, attack 2.5 -> 2.5
+8086: hp 4575 -> 4575, attack 2.5 -> 2.5
+8087: hp 4575 -> 4575, attack 2.5 -> 2.5
+8088: hp 12000 -> 12000, attack 5.0 -> 5.0
+8089: hp 4575 -> 4575, attack 2.5 -> 2.5
+8090: hp 4575 -> 4575, attack 2.5 -> 2.5
+8091: hp 3050 -> 3050, attack 2.5 -> 2.5
+8092: hp 3050 -> 3050, attack 2.5 -> 2.5
+8093: hp 18000 -> 18000, attack 5.0 -> 5.0
+8094: hp 2440 -> 2440, attack 2.5 -> 2.5
+8095: hp 2440 -> 2440, attack 2.5 -> 2.5
+8096: hp 2440 -> 2440, attack 2.5 -> 2.5
+8097: hp 5185 -> 5185, attack 2.5 -> 2.5
+8098: hp 2440 -> 2440, attack 2.5 -> 2.5
+8099: hp 2440 -> 2440, attack 2.5 -> 2.5
+8100: hp 1830 -> 1830, attack 4.0 -> 4.0
+8101: hp 4575 -> 4575, attack 2.5 -> 2.5
+8102: hp 1830 -> 1830, attack 4.0 -> 4.0
+8103: hp 1830 -> 1830, attack 4.0 -> 4.0
+8104: hp 1830 -> 1830, attack 4.0 -> 4.0
+8105: hp 1830 -> 1830, attack 4.0 -> 4.0
+8106: hp 1830 -> 1830, attack 4.0 -> 4.0
+8107: hp 12000 -> 12000, attack 5.0 -> 5.0
+8108: hp 1830 -> 1830, attack 4.0 -> 4.0
+8109: hp 1830 -> 1830, attack 4.0 -> 4.0
+8110: hp 1830 -> 1830, attack 4.0 -> 4.0
+8111: hp 1830 -> 1830, attack 4.0 -> 4.0
+8112: hp 1830 -> 1830, attack 4.0 -> 4.0
+8113: hp 1830 -> 1830, attack 4.0 -> 4.0
+8114: hp 1830 -> 1830, attack 4.0 -> 4.0
+8115: hp 4575 -> 4575, attack 2.5 -> 2.5
+8116: hp 4575 -> 4575, attack 2.5 -> 2.5
+8117: hp 4575 -> 4575, attack 2.5 -> 2.5
+8118: hp 4575 -> 4575, attack 2.5 -> 2.5
+8119: hp 18000 -> 18000, attack 5.0 -> 5.0
+8120: hp 4575 -> 4575, attack 2.5 -> 2.5
+8121: hp 4575 -> 4575, attack 2.5 -> 2.5
+8122: hp 4575 -> 4575, attack 2.5 -> 2.5
+8123: hp 4575 -> 4575, attack 2.5 -> 2.5
+8124: hp 4575 -> 4575, attack 2.5 -> 2.5
+8125: hp 4575 -> 4575, attack 2.5 -> 2.5
+8126: hp 4575 -> 4575, attack 2.5 -> 2.5
+8127: hp 12000 -> 12000, attack 5.0 -> 5.0
+8128: hp 12000 -> 12000, attack 5.0 -> 5.0
+8129: hp 1000 -> 1000, attack 2.0 -> 2.0
+8130: hp 1700 -> 1700, attack 3.0 -> 3.0
+8142: hp 3400 -> 3400, attack 2.5 -> 2.5
+8143: hp 5800 -> 5800, attack 2.5 -> 2.5
+8144: hp 3400 -> 3400, attack 2.5 -> 2.5
+8145: hp 3400 -> 3400, attack 2.5 -> 2.5
+8146: hp 3400 -> 3400, attack 2.5 -> 2.5
+8147: hp 3400 -> 3400, attack 2.5 -> 2.5
+8148: hp 3000 -> 3000, attack 2.0 -> 2.0
+8149: hp 3000 -> 3000, attack 2.0 -> 2.0
+8150: hp 3000 -> 3000, attack 2.0 -> 2.0
+8151: hp 3000 -> 3000, attack 2.0 -> 2.0
+8152: hp 3000 -> 3000, attack 2.0 -> 2.0
+8153: hp 3000 -> 3000, attack 2.0 -> 2.0
+8154: hp 4500 -> 4500, attack 2.0 -> 2.0
+8155: hp 3000 -> 3000, attack 2.0 -> 2.0
+8156: hp 3000 -> 3000, attack 2.0 -> 2.0
+8157: hp 6750 -> 6750, attack 3.0 -> 3.0
+8158: hp 6750 -> 6750, attack 3.0 -> 3.0
+8159: hp 9000 -> 9000, attack 4.0 -> 4.0
+8160: hp 9000 -> 9000, attack 4.0 -> 4.0
+8161: hp 18000 -> 18000, attack 4.0 -> 4.0
+8162: hp 3600 -> 3600, attack 4.0 -> 4.0
+8163: hp 6000 -> 6000, attack 4.0 -> 4.0
+8164: hp 3600 -> 3600, attack 4.0 -> 4.0
+8165: hp 3600 -> 3600, attack 4.0 -> 4.0
+Intro fight 8166: hp 1020 -> 1
+Intro fight 8167: hp 1360 -> 1
+Intro fight 8168: hp 1360 -> 1
+Intro fight 8169: hp 1020 -> 1
+Intro fight 8170: hp 1360 -> 1
+Intro fight 8171: hp 1700 -> 1
+8177: hp 1600 -> 1600, attack 2.0 -> 2.0
+8178: hp 1600 -> 1600, attack 2.0 -> 2.0
+8179: hp 1600 -> 1600, attack 2.0 -> 2.0
+8196: hp 18000 -> 18000, attack 4.0 -> 4.0
+8197: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+8198: hp 2600 -> 2600, attack 2.0 -> 2.0
+8199: hp 2600 -> 2600, attack 2.0 -> 2.0
+8200: hp 2600 -> 2600, attack 2.0 -> 2.0
+8201: hp 3400 -> 3400, attack 2.5 -> 2.5
+8202: hp 3400 -> 3400, attack 2.5 -> 2.5
+8203: hp 12000 -> 12000, attack 2.5 -> 2.5
+8204: hp 3400 -> 3400, attack 2.5 -> 2.5
+8205: hp 18000 -> 18000, attack 2.5 -> 2.5
+8206: hp 3400 -> 3400, attack 2.5 -> 2.5
+8207: hp 3400 -> 3400, attack 2.5 -> 2.5
+8208: hp 18000 -> 18000, attack 3.0 -> 3.0
+8209: hp 4400 -> 4400, attack 3.0 -> 3.0
+8210: hp 4400 -> 4400, attack 3.0 -> 3.0
+8211: hp 4400 -> 4400, attack 3.0 -> 3.0
+8212: hp 4400 -> 4400, attack 3.0 -> 3.0
+8213: hp 2000 -> 2000, attack 1.2999999523162842 -> 1.3
+8214: hp 2600 -> 2600, attack 2.0 -> 2.0
+8215: hp 2600 -> 2600, attack 2.0 -> 2.0
+8216: hp 2600 -> 2600, attack 2.0 -> 2.0
+8217: hp 2600 -> 2600, attack 2.0 -> 2.0
+8218: hp 2600 -> 2600, attack 2.0 -> 2.0
+8219: hp 2600 -> 2600, attack 2.0 -> 2.0
+8220: hp 2600 -> 2600, attack 2.0 -> 2.0
+8221: hp 3400 -> 3400, attack 2.5 -> 2.5
+8222: hp 3400 -> 3400, attack 2.5 -> 2.5
+8223: hp 3400 -> 3400, attack 2.5 -> 2.5
+8224: hp 3400 -> 3400, attack 2.5 -> 2.5
+8225: hp 3400 -> 3400, attack 2.5 -> 2.5
+8226: hp 3400 -> 3400, attack 2.5 -> 2.5
+8227: hp 3400 -> 3400, attack 2.5 -> 2.5
+8228: hp 3400 -> 3400, attack 2.5 -> 2.5
+8229: hp 3400 -> 3400, attack 2.5 -> 2.5
+8230: hp 3400 -> 3400, attack 2.5 -> 2.5
+8231: hp 3400 -> 3400, attack 2.5 -> 2.5
+8232: hp 3400 -> 3400, attack 2.5 -> 2.5
+8233: hp 3400 -> 3400, attack 2.5 -> 2.5
+8234: hp 3400 -> 3400, attack 2.5 -> 2.5
+8235: hp 3400 -> 3400, attack 2.5 -> 2.5
+8236: hp 3400 -> 3400, attack 2.5 -> 2.5
+8237: hp 4400 -> 4400, attack 3.0 -> 3.0
+8238: hp 4400 -> 4400, attack 3.0 -> 3.0
+8239: hp 4400 -> 4400, attack 3.0 -> 3.0
+8240: hp 4400 -> 4400, attack 3.0 -> 3.0
+8241: hp 4400 -> 4400, attack 3.0 -> 3.0
+8242: hp 4400 -> 4400, attack 3.0 -> 3.0
+8243: hp 4400 -> 4400, attack 3.0 -> 3.0
+8244: hp 4400 -> 4400, attack 3.0 -> 3.0
+8245: hp 4400 -> 4400, attack 3.0 -> 3.0
+8246: hp 4400 -> 4400, attack 3.0 -> 3.0
+8257: hp 3400 -> 3400, attack 2.5 -> 2.5
+8261: hp 4000 -> 4000, attack 2.5 -> 2.5
+8262: hp 4000 -> 4000, attack 2.5 -> 2.5
+8263: hp 4000 -> 4000, attack 2.5 -> 2.5
+8264: hp 4000 -> 4000, attack 2.5 -> 2.5
+8273: hp 2700 -> 2700, attack 1.5 -> 1.5
+8274: hp 2700 -> 2700, attack 1.5 -> 1.5
+8275: hp 2700 -> 2700, attack 1.5 -> 1.5
+8276: hp 2700 -> 2700, attack 1.5 -> 1.5
+8294: hp 2700 -> 2700, attack 1.5 -> 1.5
+8295: hp 2700 -> 2700, attack 1.5 -> 1.5
+8296: hp 2700 -> 2700, attack 1.5 -> 1.5
+8297: hp 2700 -> 2700, attack 1.5 -> 1.5
+8298: hp 2700 -> 2700, attack 1.5 -> 1.5
+8299: hp 2700 -> 2700, attack 1.5 -> 1.5
+8300: hp 2700 -> 2700, attack 1.5 -> 1.5
+8301: hp 2700 -> 2700, attack 1.5 -> 1.5
+8302: hp 2700 -> 2700, attack 1.5 -> 1.5
+8303: hp 2700 -> 2700, attack 1.5 -> 1.5
+8304: hp 2700 -> 2700, attack 1.5 -> 1.5
+8305: hp 2700 -> 2700, attack 1.5 -> 1.5
+8306: hp 3400 -> 3400, attack 1.5 -> 1.5
+8307: hp 5100 -> 5100, attack 1.5 -> 1.5
+8308: hp 5100 -> 5100, attack 1.5 -> 1.5
+Intro fight 8321: hp 1020 -> 1
+Intro fight 8322: hp 1360 -> 1
+Intro fight 8323: hp 1700 -> 1
+Intro fight 8324: hp 1020 -> 1
+Intro fight 8325: hp 1360 -> 1
+Intro fight 8326: hp 1700 -> 1
+8327: hp 3450 -> 3450, attack 1.399999976158142 -> 1.4
+Akame Quest aston_quest0010: money 5000 -> 12976, points 250 -> 746
+Akame Quest aston_quest0020: money 5000 -> 21137, points 200 -> 264
+Akame Quest aston_quest0030: money 10000 -> 110774, points 300 -> 406
+Akame Quest aston_quest0040: money 0 -> 16877, points 350 -> 62
+Akame Quest aston_quest0050: money 5000 -> 324214, points 200 -> 105
+Akame Quest aston_quest0060: money 5000 -> 249915, points 250 -> 310
+Akame Quest aston_quest0070: money 0 -> 112312, points 400 -> 504
+Akame Quest aston_quest0080: money 15000 -> 329162, points 650 -> 159
+Akame Quest aston_quest0090: money 1000000 -> 33449, points 800 -> 141
+Akame Quest aston_quest0100: money 0 -> 123287, points 1500 -> 1130
+Akame Quest aston_quest0110: money 5000 -> 20571, points 500 -> 436
+Akame Quest aston_quest2010: money 50000 -> 41592, points 200 -> 64
+Akame Quest aston_quest2020: money 50000 -> 28214, points 200 -> 72
+Akame Quest aston_quest2030: money 45000 -> 60897, points 200 -> 807
+Akame Quest aston_quest2040: money 60000 -> 53875, points 250 -> 11
+Akame Quest aston_quest2050: money 0 -> 16938, points 600 -> 196
+Akame Quest aston_quest2060: money 0 -> 33889, points 600 -> 354
+Akame Quest aston_quest2070: money 0 -> 31774, points 1000 -> 119
+Akame Quest aston_quest2080: money 60000 -> 24029, points 250 -> 469
+Akame Quest aston_quest2090: money 70000 -> 141320, points 300 -> 48
+Akame Quest aston_quest2100: money 60000 -> 30063, points 300 -> 1140
+Akame Quest aston_quest2110: money 75000 -> 13585, points 300 -> 686
+Akame Quest aston_quest2120: money 150000 -> 103476, points 1500 -> 1054
+Akame Quest aston_quest2130: money 80000 -> 101129, points 300 -> 1856
+Akame Quest aston_quest2140: money 75000 -> 26387, points 300 -> 179
+Akame Quest aston_quest2150: money 100000 -> 328179, points 400 -> 253
+Akame Quest aston_quest2160: money 100000 -> 34495, points 400 -> 87
+Akame Quest aston_quest3010: money 25000 -> 36793, points 700 -> 416
+Akame Quest aston_quest3020: money 40000 -> 130458, points 700 -> 388
+Akame Quest aston_quest3030: money 0 -> 39205, points 600 -> 275
+Akame Quest aston_quest3040: money 0 -> 126816, points 700 -> 235
+Akame Quest aston_quest3050: money 0 -> 41992, points 800 -> 605
+Akame Quest aston_quest3060: money 40000 -> 15691, points 1000 -> 461
+Akame Quest aston_quest3070: money 40000 -> 25682, points 600 -> 44
+Akame Quest aston_quest4010: money 20000 -> 169217, points 400 -> 1000
+Akame Quest aston_quest4020: money 20000 -> 40807, points 400 -> 604
+Akame Quest aston_quest4030: money 0 -> 122684, points 0 -> 668
+Akame Quest aston_quest4040: money 0 -> 27945, points 0 -> 1252
+Akame Quest aston_quest4050: money 0 -> 39964, points 0 -> 53
+Akame Quest aston_quest4060: money 0 -> 75798, points 0 -> 75
+Akame Quest aston_quest4070: money 0 -> 259473, points 0 -> 402
+Akame Quest aston_quest4080: money 0 -> 62146, points 0 -> 74
+Akame Quest aston_quest4090: money 0 -> 12890, points 0 -> 946
+Akame Quest aston_quest4100: money 0 -> 41338, points 0 -> 221
+Akame Quest aston_quest4110: money 30000 -> 97861, points 550 -> 683
+Akame Quest aston_quest4120: money 40000 -> 24518, points 750 -> 529
+Akame Quest aston_quest4130: money 0 -> 447799, points 0 -> 1164
+Akame Quest aston_quest4140: money 0 -> 106615, points 0 -> 4
+Akame Quest aston_quest4150: money 0 -> 117186, points 0 -> 127
+Akame Quest aston_quest4160: money 0 -> 27995, points 0 -> 1620
+Akame Quest aston_quest4170: money 0 -> 97824, points 0 -> 1239
+Akame Quest aston_quest4180: money 0 -> 284276, points 0 -> 122
+Akame Quest aston_quest4190: money 0 -> 83939, points 0 -> 62
+Akame Quest aston_quest4200: money 0 -> 14135, points 0 -> 131
+Akame Quest aston_quest4210: money 20000 -> 17362, points 200 -> 481
+Akame Quest aston_quest4220: money 0 -> 46257, points 0 -> 181
+Akame Quest aston_quest4230: money 0 -> 12785, points 0 -> 365
+Akame Quest aston_quest4240: money 0 -> 31566, points 0 -> 1565
+Akame Quest aston_quest4250: money 0 -> 19408, points 0 -> 14
+Akame Quest aston_quest4260: money 0 -> 31364, points 0 -> 145
+Akame Quest aston_quest4270: money 0 -> 33701, points 0 -> 79
+Akame Quest aston_quest4280: money 0 -> 95473, points 0 -> 388
+Akame Quest aston_quest5010: money 25000 -> 276079, points 500 -> 19
+Akame Quest aston_quest5020: money 10000 -> 268828, points 500 -> 796
+Akame Quest aston_quest5030: money 20000 -> 42537, points 500 -> 130
+Akame Quest aston_quest5040: money 10000 -> 42649, points 500 -> 327
+Akame Quest aston_quest5050: money 0 -> 124603, points 600 -> 60
+Akame Quest aston_quest5060: money 25000 -> 114266, points 700 -> 327
+Akame Quest aston_quest5070: money 25000 -> 275612, points 700 -> 595
+Akame Quest aston_quest5080: money 35000 -> 166495, points 800 -> 133
+Akame Quest aston_quest6010: money 75000 -> 209924, points 2000 -> 102
+Akame Quest aston_quest6020: money 75000 -> 35688, points 600 -> 446
+Akame Quest aston_quest6030: money 75000 -> 165440, points 600 -> 150
+Akame Quest aston_quest6040: money 75000 -> 36506, points 600 -> 418
+Akame Quest aston_quest6050: money 75000 -> 30836, points 600 -> 335
+Akame Quest aston_quest6060: money 75000 -> 153306, points 600 -> 71
+Akame Quest aston_quest7010: money 0 -> 17054, points 400 -> 513
+Akame Quest aston_quest7020: money 0 -> 172269, points 450 -> 79
+Akame Quest aston_quest7030: money 0 -> 46891, points 450 -> 248
+Akame Quest aston_quest7040: money 0 -> 40473, points 400 -> 180
+Akame Quest aston_quest7050: money 0 -> 177805, points 600 -> 690
+Akame Quest aston_quest7060: money 0 -> 462547, points 500 -> 364
+Akame Quest aston_quest8020: money 0 -> 188377, points 0 -> 120
+Akame Quest aston_quest8030: money 0 -> 14640, points 0 -> 45
+Akame Quest aston_quest8040: money 0 -> 112225, points 0 -> 486
+Akame Quest aston_quest8050: money 0 -> 16848, points 0 -> 87
+Akame Quest aston_quest8060: money 0 -> 26933, points 0 -> 3
+Akame Quest aston_quest8070: money 0 -> 343648, points 0 -> 82
+Akame Quest aston_quest8080: money 0 -> 436555, points 0 -> 36
+Akame Quest aston_quest8090: money 0 -> 125657, points 0 -> 93
+Akame Quest aston_quest8100: money 0 -> 171896, points 0 -> 37
+Akame Quest aston_quest8110: money 0 -> 139341, points 0 -> 312
+Akame Quest aston_quest8120: money 0 -> 21410, points 0 -> 99
+Akame Quest aston_quest8130: money 0 -> 21002, points 0 -> 154
+Akame Quest aston_quest8140: money 0 -> 15361, points 0 -> 1731
+Akame Quest aston_quest8150: money 0 -> 333648, points 0 -> 45
+Akame Quest aston_quest8160: money 0 -> 41305, points 0 -> 16
+Akame Quest aston_quest8170: money 0 -> 36209, points 0 -> 103
+Akame Quest aston_quest5090: money 20000 -> 151072, points 700 -> 427
+Akame Quest aston_quest7070: money 0 -> 435221, points 600 -> 131
+Akame Quest aston_quest7080: money 0 -> 86418, points 600 -> 62
+Akame Quest aston_quest7090: money 0 -> 40214, points 500 -> 944
+Akame Quest aston_quest7100: money 0 -> 430761, points 0 -> 102
+Akame Quest aston_quest7110: money 0 -> 35395, points 800 -> 61
+Akame Quest aston_quest7120: money 0 -> 142742, points 700 -> 65
+Akame Quest aston_quest7130: money 0 -> 39706, points 650 -> 95
+Akame Quest aston_quest7140: money 0 -> 12292, points 600 -> 30
+Akame Quest aston_quest7150: money 0 -> 72932, points 600 -> 160
+Akame Quest aston_quest7160: money 0 -> 68333, points 700 -> 218
+Akame Quest aston_quest9010: money 15000 -> 17918, points 400 -> 20
+Akame Quest aston_quest9020: money 15000 -> 175127, points 400 -> 47
+Akame Quest aston_quest9030: money 15000 -> 42286, points 400 -> 643
+Akame Quest aston_quest9040: money 20000 -> 43276, points 600 -> 23
+Akame Quest aston_quest9050: money 20000 -> 180269, points 600 -> 1126
+Akame Quest aston_quest9060: money 30000 -> 45113, points 800 -> 681
+Akame Quest aston_quest4310: money 40000 -> 236241, points 750 -> 1372
+Akame Quest aston_quest4320: money 70000 -> 48750, points 850 -> 284
+Akame Quest aston_quest4410: money 55000 -> 29935, points 1000 -> 129
+Akame Quest aston_quest4420: money 55000 -> 18611, points 1000 -> 613
+Akame Quest aston_quest4430: money 55000 -> 216569, points 1000 -> 474
+Akame Quest aston_quest4440: money 20000 -> 62147, points 200 -> 110
+Akame Quest aston_quest4450: money 20000 -> 111096, points 200 -> 552
+Akame Quest aston_quest4510: money 0 -> 48834, points 400 -> 283
+Akame Quest aston_quest4520: money 0 -> 109606, points 400 -> 143
+Akame Quest aston_quest4530: money 0 -> 33037, points 400 -> 759
+Akame Quest aston_quest4540: money 0 -> 31194, points 400 -> 118
+Akame Quest aston_quest4550: money 0 -> 147538, points 400 -> 63
+Akame Quest aston_quest4560: money 0 -> 10410, points 600 -> 58
+Akame Quest aston_quest4570: money 0 -> 20320, points 600 -> 143
+Akame Quest aston_quest4580: money 0 -> 157629, points 600 -> 88
+Akame Quest aston_quest4590: money 0 -> 41352, points 600 -> 1140
+Akame Quest aston_quest4600: money 0 -> 31136, points 600 -> 650
+Akame Quest aston_quest4610: money 0 -> 67450, points 600 -> 431
+Akame Quest aston_quest4620: money 0 -> 169152, points 600 -> 1342
+Akame Quest aston_quest4630: money 0 -> 43067, points 800 -> 455
+Akame Quest aston_quest4640: money 0 -> 43904, points 800 -> 131
+Akame Quest aston_quest4650: money 0 -> 19722, points 800 -> 369
+Akame Quest aston_quest4660: money 0 -> 14091, points 800 -> 1246

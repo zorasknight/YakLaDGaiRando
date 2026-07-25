@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 from collections import Counter
-from .settings import settings
+from settings import settings
 import sys
 import math
 
@@ -29,7 +29,7 @@ INPUT_FOLDER = BASE_DIR / "GameData"
 OUTPUT_FOLDER = BASE_DIR / "GameData_Output"
 UPDATES_CSV = BASE_DIR / "updates.csv"
 
-ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
+ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "adjusted_item.bin.json"
 NPC_PATH = INPUT_FOLDER / "db.aston.en" / "character_npc_soldier_personal_data.bin.json"
 
 FIRST_ENCOUNTER_ROW = 6317

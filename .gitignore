@@ -4,6 +4,11 @@ change_log.txt
 .python-version
 error_warning_log.txt
 __pycache__/
+data_extract.py
+location_extract.py
+locations.json
+items.json
+new_source.csv
 
 # Python cache
 *.pyc
