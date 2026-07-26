@@ -9,7 +9,7 @@ ROOT = Path("GameData_Output")
 ASSETS = Path("Assets")
 
 # Output folder
-BIN_OUTPUT = Path(f"Gaiden_Rando_{datetime.now().strftime('%m%d%y')}")
+BIN_OUTPUT = Path(f"Gaiden_Rando")
 
 
 
@@ -62,6 +62,11 @@ def main():
     # Copy metadata 
     shutil.copy2(ASSETS / "mod-image.ico", BIN_OUTPUT / "mod-image.ico")
     shutil.copy2(ASSETS / "mod-meta.yaml", BIN_OUTPUT / "mod-meta.yaml")
+    shutil.copy2(ASSETS / "libcrypto-3-x64.dll", BIN_OUTPUT / "libcrypto-3-x64.dll")
+    shutil.copy2(ASSETS / "libssl-3-x64.dll", BIN_OUTPUT / "libssl-3-x64.dll")
+    shutil.copy2(ASSETS / "gaiden_hook_fresh.asi", BIN_OUTPUT / "gaiden_hook_fresh.asi")
+    shutil.copy2(ASSETS / "item_mapping.csv", BIN_OUTPUT / "item_mapping.csv")
+    
 
     zip_path = shutil.make_archive( base_name=str(BIN_OUTPUT), format="zip", root_dir=BIN_OUTPUT.parent, base_dir=BIN_OUTPUT.name, )
 

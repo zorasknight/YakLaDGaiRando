@@ -18,12 +18,23 @@ def get_base_dir():
 BASE_DIR = get_base_dir()
 
 INPUT_FOLDER = BASE_DIR / "GameData"
-PATCH_CSV = BASE_DIR / "patch.csv"
+PATCH_FOLDER = BASE_DIR / "AP_PATCH" 
+
+patch_files = list(PATCH_FOLDER.glob("*.csv"))
+
+if not patch_files:
+    raise FileNotFoundError(f"No patch CSV files found in {PATCH_FOLDER}")
+
+PATCH_CSV = max(
+    PATCH_FOLDER.glob("*.csv"),
+    key=lambda f: f.stat().st_mtime
+)
 
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
 OUTPUT_PATH = INPUT_FOLDER / "db.aston.en" / "adjusted_item.bin.json"
 
 UPDATE_CSV = BASE_DIR / "updates.csv"
+MAPPING_CSV = BASE_DIR/ "Assets" / "item_mapping.csv"
 
 
 # --------------------------------------------------
@@ -47,6 +58,7 @@ name_to_icon = {}
 name_to_explanation = {}
 
 for key, value in item_data.items():
+
     if not key.isdigit():
         continue
 
@@ -60,12 +72,15 @@ for key, value in item_data.items():
 
     if existing_name:
         name_to_icon[existing_name] = item.get("icon", 5944)
+
         name_to_explanation[existing_name] = item.get(
             "explanation",
             "Archipelago Generated Item"
         )
 
+
 print(f"Loaded {len(name_to_icon)} existing item icon mappings")
+
 
 # --------------------------------------------------
 # Find next available row id
@@ -88,6 +103,7 @@ print(f"Starting new rows at {next_row}")
 # --------------------------------------------------
 
 template = deepcopy(item_data["5848"])
+
 template_key = next(iter(template.keys()))
 template_row = template[template_key]
 
@@ -97,6 +113,8 @@ template_row = template[template_key]
 # --------------------------------------------------
 
 updated_rows = []
+mapping_rows = []
+
 
 for row in patch_rows:
 
@@ -106,7 +124,12 @@ for row in patch_rows:
         updated_rows.append(row)
         continue
 
+
     row_id = str(next_row)
+
+    # Preserve original item_id before replacing it
+    original_item_id = row.get("item_id", "")
+
 
     new_entry = deepcopy(template_row)
 
@@ -116,18 +139,51 @@ for row in patch_rows:
     new_entry["max_count_base"] = 99
     new_entry["reARMP_isValid"] = "1"
     new_entry["hide_on_pause_menu"] = 1
-    new_entry["explanation"] = name_to_explanation.get(item_name, "Archipelago Generated Item")
+
+    new_entry["explanation"] = name_to_explanation.get(
+        item_name,
+        "Archipelago Generated Item"
+    )
+
+
     item_data[row_id] = {
         item_name: new_entry
     }
 
+
+    # Update patch row
     row["item_id"] = row_id
     row["new_value"] = row_id
-    row["purchase_price"] = row.get("purchase_price") or 1
-    row["purchase_points"] = row.get("purchase_points") or 1
+
+    row["purchase_price"] = (
+        row.get("purchase_price")
+        or 1
+    )
+
+    row["purchase_points"] = (
+        row.get("purchase_points")
+        or 1
+    )
+
+
     updated_rows.append(row)
 
+
+    # Create mapping entry
+    mapping_rows.append(
+    {
+        "KEY": row_id,
+        "ITEM": original_item_id,
+        "LOCATION": row.get(
+            "location_id",
+            ""
+        )
+    }
+)
+
+
     next_row += 1
+
 
 
 # --------------------------------------------------
@@ -135,7 +191,11 @@ for row in patch_rows:
 # --------------------------------------------------
 
 item_data["ROW_COUNT"] = next_row
-item_data["TEXT_COUNT"] = int(item_data.get("TEXT_COUNT", 0)) + len(updated_rows)
+
+item_data["TEXT_COUNT"] = (
+    int(item_data.get("TEXT_COUNT", 0))
+    + len(updated_rows)
+)
 
 
 # --------------------------------------------------
@@ -143,7 +203,12 @@ item_data["TEXT_COUNT"] = int(item_data.get("TEXT_COUNT", 0)) + len(updated_rows
 # --------------------------------------------------
 
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-    json.dump(item_data, f, indent=2, ensure_ascii=False)
+    json.dump(
+        item_data,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
 
 print(f"Wrote {OUTPUT_PATH}")
 
@@ -166,13 +231,39 @@ with open(UPDATE_CSV, "w", newline="", encoding="utf-8") as f:
             "item_name",
             "purchase_price",
             "purchase_points",
+            "location_id",
         ],
     )
 
     writer.writeheader()
     writer.writerows(updated_rows)
 
+
 print(f"Wrote {UPDATE_CSV}")
 
+
+# --------------------------------------------------
+# Save item_mapping.csv
+# --------------------------------------------------
+
+with open(MAPPING_CSV, "w", newline="", encoding="utf-8") as f:
+
+    writer = csv.DictWriter(
+        f,
+        fieldnames=[
+            "KEY",
+            "ITEM",
+            "LOCATION",
+        ],
+    )
+
+    writer.writeheader()
+    writer.writerows(mapping_rows)
+
+
+print(f"Wrote {MAPPING_CSV}")
+
+
 print(f"\nCreated {len(updated_rows)} new items.")
+print(f"Created {len(mapping_rows)} mapping entries.")
 print("Done.")
