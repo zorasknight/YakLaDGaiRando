@@ -3,7 +3,7 @@ import json
 import sys
 from copy import deepcopy
 from pathlib import Path
-
+import zipfile
 
 # --------------------------------------------------
 # Paths
@@ -18,17 +18,19 @@ def get_base_dir():
 BASE_DIR = get_base_dir()
 
 INPUT_FOLDER = BASE_DIR / "GameData"
-PATCH_FOLDER = BASE_DIR / "AP_PATCH" 
+PATCH_FOLDER = BASE_DIR / "AP_PATCH"
 
-patch_files = list(PATCH_FOLDER.glob("*.csv"))
+patch_files = list(PATCH_FOLDER.glob("*.zip"))
 
 if not patch_files:
-    raise FileNotFoundError(f"No patch CSV files found in {PATCH_FOLDER}")
+    raise FileNotFoundError(f"No patch zip files found in {PATCH_FOLDER}")
 
-PATCH_CSV = max(
-    PATCH_FOLDER.glob("*.csv"),
+PATCH_ZIP = max(
+    PATCH_FOLDER.glob("*.zip"),
     key=lambda f: f.stat().st_mtime
 )
+
+PATCH_FILENAME = "patch.csv"
 
 ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
 OUTPUT_PATH = INPUT_FOLDER / "db.aston.en" / "adjusted_item.bin.json"
@@ -46,16 +48,58 @@ print("Loading item.bin.json...")
 with open(ITEM_PATH, encoding="utf-8") as f:
     item_data = json.load(f)
 
-with open(PATCH_CSV, newline="", encoding="utf-8") as f:
-    patch_rows = list(csv.DictReader(f))
+import zipfile
+
+print(f"Loading patch from {PATCH_ZIP.name}")
+
+with zipfile.ZipFile(PATCH_ZIP, "r") as z:
+
+    if PATCH_FILENAME not in z.namelist():
+        raise FileNotFoundError(
+            f"{PATCH_FILENAME} not found inside {PATCH_ZIP.name}. "
+            f"Found: {z.namelist()}"
+        )
+
+    with z.open(PATCH_FILENAME) as f:
+        patch_rows = list(
+            csv.DictReader(
+                line.decode("utf-8")
+                for line in f
+            )
+        )
 
 
 # --------------------------------------------------
-# Build existing item name -> icon lookup
+# Build existing item name -> icon/explanation lookup
 # --------------------------------------------------
 
 name_to_icon = {}
 name_to_explanation = {}
+
+
+# --------------------------------------------------
+# AP item quality fallback lookups
+# --------------------------------------------------
+
+def get_quality_icon(item_quality):
+    if item_quality == "useful":
+        return 12174
+
+    if item_quality in ("progression", "trap"):
+        return 12173
+
+    return 5926
+
+
+def get_quality_explanation(item_quality):
+    if item_quality == "useful":
+        return "From another world, this seems useful."
+
+    if item_quality in ("progression", "trap"):
+        return "From another world, this seems important!"
+
+    return "From another world, maybe someone wants this?"
+
 
 for key, value in item_data.items():
 
@@ -71,7 +115,10 @@ for key, value in item_data.items():
     existing_name = item.get("name")
 
     if existing_name:
-        name_to_icon[existing_name] = item.get("icon", 5944)
+        name_to_icon[existing_name] = item.get(
+            "icon",
+            5944
+        )
 
         name_to_explanation[existing_name] = item.get(
             "explanation",
@@ -80,7 +127,6 @@ for key, value in item_data.items():
 
 
 print(f"Loaded {len(name_to_icon)} existing item icon mappings")
-
 
 # --------------------------------------------------
 # Find next available row id
@@ -124,17 +170,48 @@ for row in patch_rows:
         updated_rows.append(row)
         continue
 
+    is_junk = row.get("junk_check", "").lower() == "true"
+
+    # --------------------------------------------------
+    # Junk checks reuse an existing item.
+    # Do NOT create a new item.bin entry.
+    # --------------------------------------------------
+
+    if is_junk:
+
+        row["new_value"] = row["item_id"]
+
+        row["purchase_price"] = (
+            row.get("purchase_price")
+            or 1
+        )
+
+        row["purchase_points"] = (
+            row.get("purchase_points")
+            or 1
+        )
+
+        updated_rows.append(row)
+        continue
+
+    # --------------------------------------------------
+    # Normal AP items create a brand new item entry
+    # --------------------------------------------------
 
     row_id = str(next_row)
 
     # Preserve original item_id before replacing it
     original_item_id = row.get("item_id", "")
 
-
     new_entry = deepcopy(template_row)
 
     new_entry["name"] = item_name
-    new_entry["icon"] = name_to_icon.get(item_name, 5944)
+
+    new_entry["icon"] = name_to_icon.get(
+        item_name,
+        get_quality_icon(row.get("item_quality", ""))
+    )
+
     new_entry["reARMP_rowIndex"] = (next_row - 2)
     new_entry["max_count_base"] = 99
     new_entry["reARMP_isValid"] = "1"
@@ -142,16 +219,14 @@ for row in patch_rows:
 
     new_entry["explanation"] = name_to_explanation.get(
         item_name,
-        "Archipelago Generated Item"
+        get_quality_explanation(row.get("item_quality", ""))
     )
-
 
     item_data[row_id] = {
         item_name: new_entry
     }
 
-
-    # Update patch row
+    # Update patch row to point at the newly-created item
     row["item_id"] = row_id
     row["new_value"] = row_id
 
@@ -165,27 +240,21 @@ for row in patch_rows:
         or 1
     )
 
-
     updated_rows.append(row)
 
-
-    # Create mapping entry
+    # Create mapping entry only for generated items
     mapping_rows.append(
-    {
-        "KEY": row_id,
-        "ITEM": original_item_id,
-        "LOCATION": row.get(
-            "location_id",
-            ""
-        )
-    }
-)
-
+        {
+            "KEY": row_id,
+            "ITEM": original_item_id,
+            "LOCATION": row.get(
+                "location_id",
+                ""
+            )
+        }
+    )
 
     next_row += 1
-
-
-
 # --------------------------------------------------
 # Update header values
 # --------------------------------------------------
@@ -233,8 +302,8 @@ with open(UPDATE_CSV, "w", newline="", encoding="utf-8") as f:
             "purchase_points",
             "location_id",
         ],
+        extrasaction="ignore",
     )
-
     writer.writeheader()
     writer.writerows(updated_rows)
 

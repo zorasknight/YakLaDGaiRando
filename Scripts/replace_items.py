@@ -690,7 +690,6 @@ def patch_item_bin_prices(updates_by_file):
 
             inner_key = next(iter(item_block.keys()))
             row = item_block[inner_key]
-            category = row.get("category")
 
             if "purchase_price" in row and new_price is not None:
                 old_value = row["purchase_price"]
@@ -701,33 +700,6 @@ def patch_item_bin_prices(updates_by_file):
                 log_change(msg)
 
                 changes += 1
-
-
-            if int(category) == 6:
-
-                # Stat rules (min, max per field)
-                stat_rules = {
-                    "add_ability_attack": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
-                    "add_ability_defense": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
-                    "add_ability_resist_gun": (RESIST_MIN, RESIST_MAX),
-                    "add_ability_resist_sword": (RESIST_MIN, RESIST_MAX),
-                    "add_ability_resist_bleed": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_stun": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_burn": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                }
-
-                for field, (mn, mx) in stat_rules.items():
-                    row[field] = random.randint(mn, mx)
-
-                special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
-                row["add_special0"] = special_id
-                row["explanation"] = SPECIAL0_EFFECTS[special_id]
-                row["max_count_base"] = 99
-
-                msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
-                print(msg)
-                log_change(msg)
 
             # point system update
             if new_points is not None:
@@ -747,6 +719,51 @@ def patch_item_bin_prices(updates_by_file):
                     print(msg)
                     log_error(msg)
 
+    # --------------------------------------------------
+    # Randomize generated equipment
+    # --------------------------------------------------
+
+    stat_rules = {
+        "add_ability_attack": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+        "add_ability_defense": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+        "add_ability_resist_gun": (RESIST_MIN, RESIST_MAX),
+        "add_ability_resist_sword": (RESIST_MIN, RESIST_MAX),
+        "add_ability_resist_bleed": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_stun": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_burn": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+    }
+
+    for item_id, item_block in data.items():
+
+        if not item_id.isdigit():
+            continue
+
+        # Only randomize generated AP items
+        if int(item_id) <= 4000:
+            continue
+
+        if not isinstance(item_block, dict):
+            continue
+
+        inner_key = next(iter(item_block.keys()))
+        row = item_block[inner_key]
+
+        if int(row.get("category", 0)) != 6:
+            continue
+
+        for field, (mn, mx) in stat_rules.items():
+            row[field] = random.randint(mn, mx)
+
+        special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
+        row["add_special0"] = special_id
+        row["explanation"] = SPECIAL0_EFFECTS[special_id]
+        row["max_count_base"] = 99
+
+        msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
+        print(msg)
+        log_change(msg)
+
     output_path = OUTPUT_FOLDER / "db.aston.en" / "item.bin.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -754,8 +771,6 @@ def patch_item_bin_prices(updates_by_file):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"[ITEM] Saved {changes} price changes")
-
-# Patch prices for skills in player_skill.bin
 
 def patch_player_skill_bin():
     path = INPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
