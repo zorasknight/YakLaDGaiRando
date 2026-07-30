@@ -4,7 +4,7 @@ from pathlib import Path
 import yaml # type: ignore
 import time
 import sys
-import Scripts.shuffle as shuffle
+import Scripts.archipelago_item_creation as archipelago_item_creation
 import Scripts.replace_items as replace_items
 import Scripts.convert as convert
 import threading
@@ -48,17 +48,6 @@ MINIGAME_REQUIRED = 14
 FIELD_SCHEMA = {
 
     # Ranges (INT)
-
-    "monetary": {
-        "type": "range",
-        "label": "Shop Money Range",
-        "hint": "What random range items shops will be priced at"
-    },
-    "point": {
-        "type": "range",
-        "label": "Shop Point Range",
-        "hint": "What random range items point cost can be"
-    },
     "skill_money": {
         "type": "range",
         "label": "Skill Money Cost",
@@ -105,11 +94,6 @@ FIELD_SCHEMA = {
 
     # Booleans
 
-    "remove_default_prices": {
-        "type": "bool",
-        "label": "Remove Default Prices",
-        "hint": "Ignores vanilla pricing and replaces all costs with randomized values"
-    },
     "randomize_enemy_stats": {
         "type": "bool",
         "label": "Randomize Enemy Stats",
@@ -119,90 +103,6 @@ FIELD_SCHEMA = {
         "type": "bool",
         "label": "Intro Speedup",
         "hint": "This sets all tutorial fights pre-sotenbori to 1 HP",
-    },
-    "include_shops": {
-        "type": "bool",
-        "label": "Include Shops",
-        "hint": "Includes all shops in item pool",
-        "required_items": 17,
-        "added_items": 114
-    },
-    "include_consumable_shops": {
-        "type": "bool",
-        "label": "Include Consumable Shops",
-        "hint": "Includes Poppo Marts and the Pharmacy",
-        "required_items": 0,
-        "added_items": 111
-    },
-    "include_weird_shops": {
-        "type": "bool",
-        "label": "Include Weird Shops",
-        "hint": "Includes one off stores like ichiban confections",
-        "required_items": 0,
-        "added_items": 21
-    },
-    "include_coin_lockers": {
-        "type": "bool",
-        "label": "Include Coin Lockers",
-        "hint": "Includes coin lockers in item pool",
-        "required_items": 9,
-        "added_items": 50
-    },
-    "include_pocket_circuit": {
-        "type": "bool",
-        "label": "Include Pocket Circuit",
-        "hint": "Includes the Pocket Circuit shop into the item pool",
-        "required_items": 95,
-        "added_items": 95
-    },
-    "include_rewards": {
-        "type": "bool",
-        "label": "Include PC Rival Rewards",
-        "hint": "Includes all Rival Rewards for Pocket Circuit",
-        "required_items": 14,
-        "added_items": 14
-    },
-    "include_minigames": {
-        "type": "bool",
-        "label": "Include Minigames",
-        "hint": "Includes all Minigame shops into the item pool",
-        "required_items": 14,
-        "added_items": 106
-    },
-    "include_pool": {
-        "type": "bool",
-        "label": "Include Pool",
-        "hint": "Includes Pool Point Shop",
-        "required_items": 1,
-        "added_items": 11
-    },
-    "include_golf": {
-        "type": "bool",
-        "label": "Include Golf",
-        "hint": "Includes Golf Point Shop",
-        "required_items": 2,
-        "added_items": 13
-    },
-    "include_casinos": {
-        "type": "bool",
-        "label": "Include Casinos",
-        "hint": "Includes both the Casino and Toba Point Shops",
-        "required_items": 8,
-        "added_items": 52
-    },
-    "include_shogi": {
-        "type": "bool",
-        "label": "Include Shogi",
-        "hint": "Includes Shogi Point Shop",
-        "required_items": 1,
-        "added_items": 22
-    },
-    "include_darts": {
-        "type": "bool",
-        "label": "Include Darts",
-        "hint": "Includes Dart Rival rewards",
-        "required_items": 2,
-        "added_items": 8
     },
 
     # Random Seed
@@ -269,7 +169,7 @@ def run_randomizer():
         log("Starting randomizer...")
 
         pipeline = [
-            (shuffle.main, 0),
+            (archipelago_item_creation.main, 0),
             (replace_items.main, 0),
             (convert.main, 0),
         ]
@@ -375,8 +275,6 @@ def safe_bool(v):
 # Rules
 
 FIELD_RULES = {
-    "monetary": {"min": 0, "max": 3_000_000},
-    "point": {"min": 0, "max": 8000},
     "skill_money": {"min": 0, "max": 3_000_000},
     "skill_akame": {"min": 0, "max": 8000},
     "attack_and_defense": {"min": -2000, "max": 2000},
@@ -453,8 +351,6 @@ def reset_category(cat):
 # Category
 
 def get_category(base):
-    if "monetary" in base or "point" in base:
-        return "Shops"
     if "skill" in base:
         return "Skills"
     if "defense" in base or "resist" in base:
@@ -749,7 +645,7 @@ with dpg.texture_registry():
 
     
 
-dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1280, height=720)
+dpg.create_viewport(title="Like a Dragon Gaiden Archipelago Settings Editor", width=1280, height=720)
 dpg.set_viewport_resizable(False)
 with dpg.window(tag="main"):
     dpg.add_text("Randomizer Settings Editor (Auto-Saves on Close)")
@@ -780,7 +676,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Categories")
             dpg.add_separator()
 
-            for c in ["Shops", "Skills", "Gear", "Encounters", "Quest Rewards"]:
+            for c in ["Skills", "Gear", "Encounters", "Quest Rewards"]:
                 dpg.add_button(label=c, callback=switch, user_data=c, width=200)
             
             dpg.add_separator()
@@ -855,7 +751,7 @@ dpg.set_global_font_scale(1.2)
 dpg.show_viewport()
 dpg.set_primary_window("main", True)
 
-render("Shops")
+render("Skills")
 update_check_display()
 
 dpg.start_dearpygui()
