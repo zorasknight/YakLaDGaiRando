@@ -1,6 +1,6 @@
 {
     "6271": {
-        "name": "Progressive HP Up",
+        "name": "Skill Book: Progressive HP Up",
         "levels": [
             6139,
             6140,
@@ -28,7 +28,7 @@
         ]
     },
     "6272": {
-        "name": "Progressive Damage Up",
+        "name": "Skill Book: Progressive Damage Up",
         "levels": [
             6147,
             6148,
@@ -51,7 +51,7 @@
         ]
     },
     "6273": {
-        "name": "Progressive Heat Gauge Up",
+        "name": "Skill Book: Progressive Heat Gauge Up",
         "levels": [
             6155,
             6156,
@@ -60,28 +60,28 @@
         ]
     },
     "6274": {
-        "name": "Progressive Extreme Heat Damage Up",
+        "name": "Skill Book: Progressive Extreme Heat Damage Up",
         "levels": [
             6159,
             6160
         ]
     },
     "6275": {
-        "name": "Progressive Drunk Heat Gauge Increase",
+        "name": "Skill Book: Progressive Drunk Heat Gauge Increase",
         "levels": [
             6170,
             6171
         ]
     },
     "6276": {
-        "name": "Progressive Drunk Attack Heat Gauge Increase",
+        "name": "Skill Book: Progressive Drunk Attack Heat Gauge Increase",
         "levels": [
             6172,
             6173
         ]
     },
     "6277": {
-        "name": "Progressive Equipment Up",
+        "name": "Skill Book: Progressive Equipment Up",
         "levels": [
             6174,
             6175,
@@ -89,7 +89,7 @@
         ]
     },
     "6278": {
-        "name": "Progressive Recovery From Food Up",
+        "name": "Skill Book: Progressive Recovery From Food Up",
         "levels": [
             6177,
             6222,
@@ -97,21 +97,21 @@
         ]
     },
     "6279": {
-        "name": "Progressive Heat Action Damage Up in ExH",
+        "name": "Skill Book: Progressive Heat Action Damage Up in ExH",
         "levels": [
             6224,
             6225
         ]
     },
     "6280": {
-        "name": "Progressive Evasion Up in ExH",
+        "name": "Skill Book: Progressive Evasion Up in ExH",
         "levels": [
             6230,
             6231
         ]
     },
     "6281": {
-        "name": "Progressive Extra Wire",
+        "name": "Skill Book: Progressive Extra Wire",
         "levels": [
             6237,
             6238,
@@ -120,7 +120,7 @@
         ]
     },
     "6282": {
-        "name": "Progressive Extra Bomb",
+        "name": "Skill Book: Progressive Extra Bomb",
         "levels": [
             6241,
             6242,
@@ -129,7 +129,7 @@
         ]
     },
     "6283": {
-        "name": "Progressive Extra Drone",
+        "name": "Skill Book: Progressive Extra Drone",
         "levels": [
             6245,
             6246,
@@ -138,7 +138,7 @@
         ]
     },
     "6284": {
-        "name": "Progressive Extra Shoe Boost",
+        "name": "Skill Book: Progressive Extra Shoe Boost",
         "levels": [
             6249,
             6250,
