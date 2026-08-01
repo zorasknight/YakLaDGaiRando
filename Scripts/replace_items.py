@@ -245,7 +245,7 @@ def update_encounters():
         if hp <= 1:
             continue
         
-        if attack <= 1:
+        if attack <= 0:
             continue
 
         group = int(row_key)
