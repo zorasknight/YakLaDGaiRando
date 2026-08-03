@@ -4,8 +4,6 @@ change_log.txt
 .python-version
 error_warning_log.txt
 __pycache__/
-locations.json
-items.json
 new_source.csv
 
 # Python cache
