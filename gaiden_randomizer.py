@@ -47,70 +47,8 @@ MINIGAME_REQUIRED = 14
 
 FIELD_SCHEMA = {
 
-    # Ranges (INT)
-    "skill_money": {
-        "type": "range",
-        "label": "Skill Money Cost",
-        "hint": "What random range skills can be priced at"
-    },
-    "skill_akame": {
-        "type": "range",
-        "label": "Skill Point Cost",
-        "hint": "What random range skills point cost can be"
-    },
-    "part_time_money": {
-        "type": "range",
-        "label": "Reward Money",
-        "hint": "What random monetary range rewards for Akame quests can give"
-    },
-    "part_time_akame": {
-        "type": "range",
-        "label": "Reward Points",
-        "hint": "What random point range rewards for Akame quests can give"
-    },
-    "attack_and_defense": {
-        "type": "range",
-        "label": "Attack and Defense Stats",
-        "hint": "The range an armor's primary stats can be randomized between"
-    },
-    "resist": {
-        "type": "range",
-        "label": "Resistance Stats",
-        "hint": "The range an armor's resistance stats can be randomized between"
-    },
+
     
-    # Float
-    
-    "enemy_attack_mult": {
-        "type": "float",
-        "label": "Enemy Attack Multiplier",
-        "hint": "Attack multiplier for all enemies"
-    },
-    "enemy_hp_mult": {
-        "type": "float",
-        "label": "Enemy Health Multiplier",
-        "hint": "Health multiplier for all enemies"
-    },
-
-    # Booleans
-
-    "randomize_enemy_stats": {
-        "type": "bool",
-        "label": "Randomize Enemy Stats",
-        "hint": "(THIS WILL MAKE THE GAME HARDER) Randomize enemy HP and Attack (ignores intro if intro skip is on).",
-    },
-    "intro_skip": {
-        "type": "bool",
-        "label": "Intro Speedup",
-        "hint": "This sets all tutorial fights pre-sotenbori to 1 HP",
-    },
-
-    # Random Seed
-    "seed": {
-        "type": "int",
-        "label": "Random Seed",
-        "hint": "Leave blank for a fully random generation. Set a value for consistent results."
-    },
 }
 
 MINIGAME_KEYS = [
@@ -256,7 +194,7 @@ LIVE["seed"] = None
 with open(DEFAULTS_FILE, "r", encoding="utf-8") as f:
     DEFAULTS = yaml.safe_load(f) or {}
 
-selected_category = "Shops"
+selected_category = "Archipelago Mode"
 
 
 def safe_int(v, fallback=0):
@@ -275,14 +213,7 @@ def safe_bool(v):
 # Rules
 
 FIELD_RULES = {
-    "skill_money": {"min": 0, "max": 3_000_000},
-    "skill_akame": {"min": 0, "max": 8000},
-    "attack_and_defense": {"min": -2000, "max": 2000},
-    "resist": {"min": 0, "max": 1000},
-    "enemy_hp_mult": {"min": 0.5, "max": 3.0},
-    "enemy_attack_mult": {"min": 0.5, "max": 3.0},
-    "part_time_money": {"min": 0, "max": 1000000},
-    "part_time_akame": {"min": 0, "max": 5000},
+
 }
 
 def get_rules(base):
@@ -351,14 +282,6 @@ def reset_category(cat):
 # Category
 
 def get_category(base):
-    if "skill" in base:
-        return "Skills"
-    if "defense" in base or "resist" in base:
-        return "Gear"
-    if "mult" in base:
-        return "Encounters"
-    if "part_time" in base:
-        return "Quest Rewards"
     return "Other"
 
 # Range + Boolean UI
@@ -659,11 +582,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Actions")
             dpg.add_separator()
 
-            dpg.add_button(
-                label="Reset Section",
-                width=200,
-                callback=lambda: reset_category(selected_category)
-            )
+
             dpg.add_button(
                 label="Run Randomizer",
                 width=200,
@@ -676,7 +595,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Categories")
             dpg.add_separator()
 
-            for c in ["Skills", "Gear", "Encounters", "Quest Rewards"]:
+            for c in ["Archipelago Mode"]:
                 dpg.add_button(label=c, callback=switch, user_data=c, width=200)
             
             dpg.add_separator()
@@ -711,27 +630,6 @@ with dpg.window(tag="main"):
             )
             dpg.add_separator()
 
-            dpg.add_text("Random Seed Value")
-
-            seed_input = dpg.add_input_text(
-                width=160,
-                default_value=""
-            )
-
-            def seed_changed(sender, app_data):
-                text = app_data.strip()
-
-                if text == "":
-                    LIVE["seed"] = None
-                else:
-                    try:
-                        LIVE["seed"] = int(text)
-                    except ValueError:
-                        LIVE["seed"] = None
-
-                autosave()
-
-            dpg.set_item_callback(seed_input, seed_changed)
 
             dpg.add_separator()
         # Main Panel
@@ -751,7 +649,7 @@ dpg.set_global_font_scale(1.2)
 dpg.show_viewport()
 dpg.set_primary_window("main", True)
 
-render("Skills")
+render("Archipelago Mode")
 update_check_display()
 
 dpg.start_dearpygui()
