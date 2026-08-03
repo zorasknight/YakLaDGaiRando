@@ -5,13 +5,14 @@ from pathlib import Path
 from collections import Counter
 import sys
 import math
+import yaml
+import zipfile
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from Scripts.settings import settings
 
 # Config
 
@@ -19,6 +20,50 @@ def get_base_dir():
     if getattr(sys, "frozen", False):
         return Path(sys.executable).parent  # EXE mode
     return Path(__file__).resolve().parent.parent  # script mode
+
+def get_patch_zip():
+
+    base_dir = get_base_dir()
+
+    patch_folder = base_dir / "AP_PATCH"
+
+    patch_files = list(
+        patch_folder.glob("*.zip")
+    )
+
+    if not patch_files:
+        raise FileNotFoundError(
+            f"No patch zip files found in {patch_folder}"
+        )
+
+    return max(
+        patch_files,
+        key=lambda f: f.stat().st_mtime
+    )
+
+def load_ap_settings():
+
+    patch_zip = get_patch_zip()
+
+    print(
+        f"[CONFIG] Loading settings from {patch_zip.name}"
+    )
+
+    PATCH_YAML = "options.yaml"
+
+    with zipfile.ZipFile(patch_zip, "r") as z:
+
+        if PATCH_YAML not in z.namelist():
+            raise FileNotFoundError(
+                f"{PATCH_YAML} not found in {patch_zip.name}"
+            )
+
+        with z.open(PATCH_YAML) as f:
+            return yaml.safe_load(
+                f.read().decode("utf-8")
+            )
+
+SETTINGS = {}
 
 def init_seed(seed=None):
     import random
@@ -71,32 +116,39 @@ SPECIAL0_EFFECTS = {
     85: "Spot keys on the ground with these on.",
 }
 
-SKILL_MONEY_MIN = settings.get("skill_money_min")
-SKILL_MONEY_MAX = settings.get("skill_money_max")
+SKILL_MONEY_MIN = 0
+SKILL_MONEY_MAX = 0
 
-SKILL_AKAME_MIN = settings.get("skill_akame_min")
-SKILL_AKAME_MAX = settings.get("skill_akame_max")
+SKILL_AKAME_MIN = 0
+SKILL_AKAME_MAX = 0
 
-PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
-PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
+PART_TIME_MONEY_MIN = 0
+PART_TIME_MONEY_MAX = 0
 
-PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
-PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
+PART_TIME_AKAME_MIN = 0
+PART_TIME_AKAME_MAX = 0
 
-ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
-ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
+ATTACK_AND_DEFENSE_MIN = 0
+ATTACK_AND_DEFENSE_MAX = 0
 
-RESIST_MIN = settings.get("resist_min")
-RESIST_MAX = settings.get("resist_max")
+RESIST_MIN = 0
+RESIST_MAX = 0
 
 STATUS_RESIST_MIN = 0
 STATUS_RESIST_MAX = 1
 
 def load_config():
+
+    global SETTINGS
+
     global SKILL_MONEY_MIN
     global SKILL_MONEY_MAX
     global SKILL_AKAME_MIN
     global SKILL_AKAME_MAX
+    global PART_TIME_MONEY_MIN
+    global PART_TIME_MONEY_MAX
+    global PART_TIME_AKAME_MIN
+    global PART_TIME_AKAME_MAX
     global ATTACK_AND_DEFENSE_MIN
     global ATTACK_AND_DEFENSE_MAX
     global RESIST_MIN
@@ -105,37 +157,40 @@ def load_config():
     global ENEMY_HP_MULT
     global ENEMY_ATTACK_MULT
     global RANDOMIZE_ENEMY_STATS
-    global PART_TIME_MONEY_MIN
-    global PART_TIME_MONEY_MAX
-    global PART_TIME_AKAME_MIN
-    global PART_TIME_AKAME_MAX
 
-    settings.reload()
 
-    ENEMY_HP_MULT = settings.get("enemy_hp_mult")
-    ENEMY_ATTACK_MULT = settings.get("enemy_attack_mult")
+    SETTINGS = load_ap_settings()
 
-    RANDOMIZE_ENEMY_STATS = settings.get("randomize_enemy_stats")
 
-    INTRO_SKIP = settings.get("intro_skip")
+    ENEMY_HP_MULT = SETTINGS["enemy_hp_mult"]
+    ENEMY_ATTACK_MULT = SETTINGS["enemy_attack_mult"]
 
-    SKILL_MONEY_MIN = settings.get("skill_money_min")
-    SKILL_MONEY_MAX = settings.get("skill_money_max")
+    RANDOMIZE_ENEMY_STATS = SETTINGS["randomize_enemy_stats"]
 
-    SKILL_AKAME_MIN = settings.get("skill_akame_min")
-    SKILL_AKAME_MAX = settings.get("skill_akame_max")
+    INTRO_SKIP = SETTINGS["intro_skip"]
 
-    PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
-    PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
 
-    PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
-    PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
+    SKILL_MONEY_MIN = SETTINGS["skill_money_min"]
+    SKILL_MONEY_MAX = SETTINGS["skill_money_max"]
 
-    ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
-    ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
+    # renamed from akame
+    SKILL_AKAME_MIN = SETTINGS["skill_akame_min"]
+    SKILL_AKAME_MAX = SETTINGS["skill_akame_max"]
 
-    RESIST_MIN = settings.get("resist_min")
-    RESIST_MAX = settings.get("resist_max")
+
+    PART_TIME_MONEY_MIN = SETTINGS["part_time_money_min"]
+    PART_TIME_MONEY_MAX = SETTINGS["part_time_money_max"]
+
+    # renamed from akame
+    PART_TIME_AKAME_MIN = SETTINGS["part_time_akame_min"]
+    PART_TIME_AKAME_MAX = SETTINGS["part_time_akame_max"]
+
+
+    ATTACK_AND_DEFENSE_MIN = SETTINGS["attack_and_defense_min"]
+    ATTACK_AND_DEFENSE_MAX = SETTINGS["attack_and_defense_max"]
+
+    RESIST_MIN = SETTINGS["resist_min"]
+    RESIST_MAX = SETTINGS["resist_max"]
 
 
 # Create log files
@@ -950,7 +1005,7 @@ def apply_updates(json_path, updates):
 def main():
     load_config()
 
-    seed = settings.get("seed")
+    seed = SETTINGS.get("seed")
     used_seed = init_seed(seed)
 
     print(f"[SEED] {used_seed}")

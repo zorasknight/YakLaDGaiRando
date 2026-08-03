@@ -19,7 +19,7 @@ resist_max: 300
 enemy_hp_mult: 1.0
 enemy_attack_mult: 1.0
 
-randomize_enemy_stats: FALSE
-intro_skip: TRUE
+randomize_enemy_stats: false
+intro_skip: true
 
 seed: null
