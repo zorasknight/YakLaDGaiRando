@@ -141,6 +141,7 @@ def load_config():
 
     global SETTINGS
 
+    global SHOP_KEYS
     global SKILL_MONEY_MIN
     global SKILL_MONEY_MAX
     global SKILL_AKAME_MIN
@@ -161,6 +162,7 @@ def load_config():
 
     SETTINGS = load_ap_settings()
 
+    SHOP_KEYS = SETTINGS["shop_keys"]
 
     ENEMY_HP_MULT = SETTINGS["enemy_hp_mult"]
     ENEMY_ATTACK_MULT = SETTINGS["enemy_attack_mult"]
@@ -331,6 +333,8 @@ def update_encounters():
 
         # Scaled Stats
         else:
+            ENEMY_HP_MULT = ENEMY_HP_MULT / 100.0
+            ENEMY_ATTACK_MULT = ENEMY_ATTACK_MULT / 100.0
             old_hp = row["hp"]
             row["hp"] = max(1, math.ceil(old_hp * ENEMY_HP_MULT))
             
@@ -423,6 +427,34 @@ def update_shop(data, updates):
 
 def update_shop_item_limits(data, updates):
 
+    shop_category_8_values = {
+        "aston_s_ebisuya": 4,
+        "aston_s_billiards_prize": 5,
+        "aston_s_wannpark": 6,
+        "aston_y_shichiya": 7,
+        "aston_y_lovemagic": 8,
+        "aston_y_shogi": 9,
+        "aston_s_shogi": 10,
+        "aston_s_golf": 11,
+        "aston_s_toba": 12,
+        "aston_y_toba": 13,
+        "aston_c_toba": 14,
+        "aston_c_casino": 15,
+        "aston_c_boutique_equip": 16,
+        "aston_c_boutique_vip": 17,
+        "aston_s_mizorogi_2": 18,
+        "aston_s_poppo_park": 19,
+        "aston_s_poppo_south": 20,
+        "aston_s_poppo_north": 21,
+        "aston_y_poppo": 22,
+        "aston_s_kukuru": 23,
+        "aston_s_tsuruha": 24,
+        "aston_s_hiratai": 25,
+        "aston_s_shigano": 26,
+        "aston_y_smilewagon": 27,
+        "aston_y_ichibann": 28,
+    }
+
     affected_tables = {
         u["table_name"]
         for u in updates
@@ -476,8 +508,16 @@ def update_shop_item_limits(data, updates):
 
                 item_id = row.get("1")
 
+
                 if item_id:
                     row["20"] = item_counts[item_id]
+
+                    if SHOP_KEYS:
+                        row["6"] = 1
+                        row["7"] = 12
+
+                        if table_name in shop_category_8_values:
+                            row["8"] = shop_category_8_values[table_name]
 # Rewards
 
 def update_reward(data, updates):
@@ -722,15 +762,15 @@ def patch_item_bin_prices(updates_by_file):
 
     shuffle_healing_items(data)
 
-    POINT_FIELDS = [
-        "buy_syogi_point",
-        "buy_casino_point",
-        "buy_toba_point",
-        "buy_akame_point",
-        "buy_billiard_point",
-        "buy_golf_point",
-        "buy_pokecir_point",
-    ]
+    POINT_FIELDS = {
+        "buy_syogi_point": 0.6,
+        "buy_casino_point": 0.8,
+        "buy_toba_point": 0.8,
+        "buy_akame_point": 2.0,
+        "buy_billiard_point": 0.25,
+        "buy_golf_point": 0.6,
+        "buy_pokecir_point": 1.0,
+    }
 
     for _, updates in updates_by_file.items():
 
@@ -769,9 +809,9 @@ def patch_item_bin_prices(updates_by_file):
                 try:
                     point_val = int(new_points)
 
-                    for field in POINT_FIELDS:
+                    for field, multiplier in POINT_FIELDS.items():
                         if field in row:
-                            row[field] = point_val
+                            row[field] = math.ceil(point_val * multiplier)
 
                     msg = f"[ITEM POINTS] id={item_id} -> {point_val}"
                     print(msg)

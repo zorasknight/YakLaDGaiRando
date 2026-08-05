@@ -620269,9 +620269,9 @@
     }
   },
   "6785": {
-    "timeline_booster": {
-      "name": "Up timline",
-      "explanation": "eat it",
+    "shop_unlock": {
+      "name": "Ebisuya Pawn Shop Unlock",
+      "explanation": "Use this from the menu to unlock a new store!",
       "category": 11,
       "purchase_price": 1,
       "selling_price": 0,
@@ -620282,7 +620282,7 @@
       "exp_charm": 0,
       "stomach": 0,
       "recover_hp": 0,
-      "icon": 10807,
+      "icon": 11187,
       "add_ability_hit_point": 0,
       "add_ability_attack": 0,
       "add_ability_defense": 0,

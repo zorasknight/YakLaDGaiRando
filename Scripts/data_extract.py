@@ -7,7 +7,7 @@ OUTPUT_JSON = "items.json"
 
 
 CATEGORY_TAG_MAP = {
-    "5": "important",
+    "5": "useful",
     "6": "useful",
     "4": "filler",
     "11": "filler",
@@ -107,9 +107,32 @@ def get_item_tags(row):
 
 
     # Remove duplicates while preserving order
+        # Remove duplicates while preserving order
     tags = list(
         dict.fromkeys(tags)
     )
+
+    # Promote certain items to IMPORTANT.
+    # IMPORTANT replaces USEFUL but leaves other tags intact.
+    important_tags = {
+        "IMPORTANT",
+        "QUEST",
+        "POCKET_CIRCUIT",
+        "SHOP_KEY",
+    }
+
+    if any(tag in important_tags for tag in tags):
+        tags = [
+            tag
+            for tag in tags
+            if tag not in {
+                "IMPORTANT",
+                "USEFUL",
+                "FILLER",
+            }
+        ]
+
+        tags.insert(0, "IMPORTANT")
 
     return tags
 

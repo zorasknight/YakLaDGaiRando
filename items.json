@@ -1,24 +1,4 @@
 {
-  "alex_kidd_in_miracle_world": {
-    "label": "Alex Kidd in Miracle World",
-    "item_id": "5536",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "2500"
-  },
-  "alien_syndrome": {
-    "label": "Alien Syndrome",
-    "item_id": "5545",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "0"
-  },
   "alpha_cool_striker": {
     "label": "Alpha Cool Striker",
     "item_id": "6005",
@@ -28,15 +8,6 @@
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
-  },
-  "aviator_sunglasses": {
-    "label": "Aviator Sunglasses",
-    "item_id": "6073",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
   },
   "baby_tooth": {
     "label": "Baby Tooth",
@@ -108,15 +79,6 @@
     "purchase_price": "1180",
     "purchase_points": "680"
   },
-  "ball_stud_earrings": {
-    "label": "Ball Stud Earrings",
-    "item_id": "6110",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
-  },
   "bangin_killer_bee": {
     "label": "Bangin' Killer Bee",
     "item_id": "6007",
@@ -127,51 +89,6 @@
     "purchase_price": "50000000",
     "purchase_points": "2980"
   },
-  "bare_feet": {
-    "label": "Bare Feet",
-    "item_id": "6107",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "300000",
-    "purchase_points": "100"
-  },
-  "baseball_cap": {
-    "label": "Baseball Cap",
-    "item_id": "6086",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "10000",
-    "purchase_points": "100"
-  },
-  "beanie": {
-    "label": "Beanie",
-    "item_id": "6089",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
-  },
-  "big_frame_sunglasses": {
-    "label": "Big Frame Sunglasses",
-    "item_id": "6074",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "black_medical_mask": {
-    "label": "Black Medical Mask",
-    "item_id": "6078",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
   "blue_bolt": {
     "label": "Blue Bolt",
     "item_id": "4757",
@@ -181,15 +98,6 @@
     ],
     "purchase_price": "980",
     "purchase_points": "0"
-  },
-  "bodysuit": {
-    "label": "Bodysuit",
-    "item_id": "6066",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000000",
-    "purchase_points": "100"
   },
   "boost_gears": {
     "label": "Boost Gears",
@@ -221,33 +129,6 @@
     "purchase_price": "9800",
     "purchase_points": "6980"
   },
-  "business_shoes": {
-    "label": "Business Shoes",
-    "item_id": "6099",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "80000",
-    "purchase_points": "100"
-  },
-  "carnation": {
-    "label": "Carnation",
-    "item_id": "6116",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
-  },
-  "casual_leather_shoes": {
-    "label": "Casual Leather Shoes",
-    "item_id": "6102",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
-  },
   "center_stripe": {
     "label": "Center Stripe",
     "item_id": "4750",
@@ -258,41 +139,45 @@
     "purchase_price": "980",
     "purchase_points": "0"
   },
-  "clown_makeup": {
-    "label": "Clown Makeup",
-    "item_id": "6121",
+  "colosseum_boutique_shop_unlock": {
+    "label": "Colosseum Boutique Shop Unlock",
+    "item_id": "6298",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
-  "color_contacts_gold": {
-    "label": "Color Contacts (Gold)",
-    "item_id": "6127",
+  "colosseum_boutique_vip_shop_unlock": {
+    "label": "Colosseum Boutique VIP Shop Unlock",
+    "item_id": "6299",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
-  "color_contacts_silver": {
-    "label": "Color Contacts (Silver)",
-    "item_id": "6128",
+  "colosseum_casino_point_shop_unlock": {
+    "label": "Colosseum Casino Point Shop Unlock",
+    "item_id": "6297",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
-  "construction_company_helmet": {
-    "label": "Construction Company Helmet",
-    "item_id": "6091",
+  "colosseum_gambling_hall_point_shop_unlock": {
+    "label": "Colosseum Gambling Hall Point Shop Unlock",
+    "item_id": "6296",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
   "cool_striker": {
     "label": "Cool Striker",
@@ -314,24 +199,6 @@
     "purchase_price": "0",
     "purchase_points": "0"
   },
-  "cuff_earrings": {
-    "label": "Cuff Earrings",
-    "item_id": "6108",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
-  },
-  "cyber_sunglasses": {
-    "label": "Cyber Sunglasses",
-    "item_id": "6072",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "3000"
-  },
   "dark_purple": {
     "label": "Dark Purple",
     "item_id": "4759",
@@ -352,15 +219,6 @@
     "purchase_price": "4980",
     "purchase_points": "5600"
   },
-  "devilish_makeup": {
-    "label": "Devilish Makeup",
-    "item_id": "6118",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "300000",
-    "purchase_points": "100"
-  },
   "drag_on": {
     "label": "DRAG-ON",
     "item_id": "4760",
@@ -380,25 +238,6 @@
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
-  },
-  "dragon_mask": {
-    "label": "Dragon Mask",
-    "item_id": "6077",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "5000"
-  },
-  "enduro_racer": {
-    "label": "Enduro Racer",
-    "item_id": "5539",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5500",
-    "purchase_points": "2500"
   },
   "essence_of_decals": {
     "label": "Essence Of Decals",
@@ -590,34 +429,6 @@
     "purchase_price": "1480",
     "purchase_points": "1480"
   },
-  "fantasy_zone_ii": {
-    "label": "Fantasy Zone II",
-    "item_id": "5544",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "0"
-  },
-  "fedora": {
-    "label": "Fedora",
-    "item_id": "6092",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
-  },
-  "fingerless_gloves": {
-    "label": "Fingerless Gloves",
-    "item_id": "6094",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
   "flat_wing": {
     "label": "Flat Wing",
     "item_id": "6046",
@@ -627,63 +438,6 @@
     ],
     "purchase_price": "9800",
     "purchase_points": "4980"
-  },
-  "flicky": {
-    "label": "Flicky",
-    "item_id": "5932",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "0"
-  },
-  "forks": {
-    "label": "Forks",
-    "item_id": "6036",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "2500"
-  },
-  "fukupi_chan_head": {
-    "label": "Fukupi-chan Head",
-    "item_id": "6085",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "300000",
-    "purchase_points": "100"
-  },
-  "galaxy_force": {
-    "label": "Galaxy Force",
-    "item_id": "5931",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5500",
-    "purchase_points": "0"
-  },
-  "gel_nails": {
-    "label": "Gel Nails",
-    "item_id": "6095",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "70000",
-    "purchase_points": "100"
-  },
-  "global_defense": {
-    "label": "Global Defense",
-    "item_id": "5546",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "2500"
   },
   "godspeed_gears": {
     "label": "Godspeed Gears",
@@ -725,15 +479,6 @@
     "purchase_price": "70000",
     "purchase_points": "50000"
   },
-  "gold_darts": {
-    "label": "Gold Darts",
-    "item_id": "5982",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "0"
-  },
   "golden_ball": {
     "label": "Golden Ball",
     "item_id": "6056",
@@ -773,15 +518,6 @@
     ],
     "purchase_price": "0",
     "purchase_points": "0"
-  },
-  "heavy_makeup": {
-    "label": "Heavy Makeup",
-    "item_id": "6126",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
   },
   "heavy_suspension": {
     "label": "Heavy Suspension",
@@ -833,69 +569,6 @@
     "purchase_price": "14800",
     "purchase_points": "50000"
   },
-  "hockey_mask": {
-    "label": "Hockey Mask",
-    "item_id": "6079",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "80000",
-    "purchase_points": "100"
-  },
-  "hoop_earrings": {
-    "label": "Hoop Earrings",
-    "item_id": "6109",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
-  },
-  "hyottoko_mask": {
-    "label": "Hyottoko Mask",
-    "item_id": "6081",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
-  },
-  "intelligent_sunglasses": {
-    "label": "Intelligent Sunglasses",
-    "item_id": "6069",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
-  "jewel_stud_earrings": {
-    "label": "Jewel Stud Earrings",
-    "item_id": "6111",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "70000",
-    "purchase_points": "100"
-  },
-  "jeweled_ring": {
-    "label": "Jeweled Ring",
-    "item_id": "6096",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
-  },
-  "kabuki_makeup": {
-    "label": "Kabuki Makeup",
-    "item_id": "6119",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "400000",
-    "purchase_points": "100"
-  },
   "killer_bee": {
     "label": "Killer Bee",
     "item_id": "4764",
@@ -906,51 +579,6 @@
     "purchase_price": "4980",
     "purchase_points": "4980"
   },
-  "kitty_makeup": {
-    "label": "Kitty Makeup",
-    "item_id": "6123",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
-  },
-  "leather_gloves": {
-    "label": "Leather Gloves",
-    "item_id": "6093",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
-  },
-  "leather_shoes": {
-    "label": "Leather Shoes",
-    "item_id": "6101",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
-  "legend_darts": {
-    "label": "Legend Darts",
-    "item_id": "5983",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "8000"
-  },
-  "light_makeup": {
-    "label": "Light Makeup",
-    "item_id": "6122",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "70000",
-    "purchase_points": "100"
-  },
   "light_suspension": {
     "label": "Light Suspension",
     "item_id": "4866",
@@ -960,15 +588,6 @@
     ],
     "purchase_price": "1980",
     "purchase_points": "680"
-  },
-  "long_sleeved_button_up": {
-    "label": "Long-Sleeved Button-up",
-    "item_id": "6063",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "50000",
-    "purchase_points": "100"
   },
   "low_profile_tires": {
     "label": "Low Profile Tires",
@@ -1030,68 +649,15 @@
     "purchase_price": "980",
     "purchase_points": "0"
   },
-  "monk_strap_loafers": {
-    "label": "Monk Strap Loafers",
-    "item_id": "6103",
+  "mizorogi_akame_house_shop_unlock": {
+    "label": "Mizorogi (Akame house) Shop Unlock",
+    "item_id": "6300",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "120000",
-    "purchase_points": "100"
-  },
-  "nametag": {
-    "label": "Nametag",
-    "item_id": "6115",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
-  "noh_mask": {
-    "label": "Noh Mask",
-    "item_id": "6080",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "old_scar_makeup": {
-    "label": "Old Scar Makeup",
-    "item_id": "6125",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
-  },
-  "ono_michio_head": {
-    "label": "Ono Michio Head",
-    "item_id": "6084",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000000",
-    "purchase_points": "100"
-  },
-  "pencils": {
-    "label": "Pencils",
-    "item_id": "6035",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
+    "purchase_price": "1000",
     "purchase_points": "0"
-  },
-  "pilot_badge": {
-    "label": "Pilot Badge",
-    "item_id": "6112",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "10000",
-    "purchase_points": "100"
   },
   "power_gears": {
     "label": "Power Gears",
@@ -1132,25 +698,6 @@
     ],
     "purchase_price": "1180",
     "purchase_points": "0"
-  },
-  "premier_darts": {
-    "label": "Premier Darts",
-    "item_id": "6017",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "2000"
-  },
-  "quartet": {
-    "label": "Quartet",
-    "item_id": "5538",
-    "tags": [
-      "IMPORTANT",
-      "CARTRIDGE"
-    ],
-    "purchase_price": "5000",
-    "purchase_points": "2500"
   },
   "rainbow_wing": {
     "label": "Rainbow Wing",
@@ -1202,15 +749,6 @@
     "purchase_price": "480",
     "purchase_points": "480"
   },
-  "rimless_sunglasses": {
-    "label": "Rimless Sunglasses",
-    "item_id": "6071",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "70000",
-    "purchase_points": "100"
-  },
   "rocket_frame": {
     "label": "Rocket Frame",
     "item_id": "4775",
@@ -1230,24 +768,6 @@
     ],
     "purchase_price": "980",
     "purchase_points": "480"
-  },
-  "roses": {
-    "label": "Roses",
-    "item_id": "6034",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "100"
-  },
-  "round_sunglasses": {
-    "label": "Round Sunglasses",
-    "item_id": "6068",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
   },
   "rubber_frame": {
     "label": "Rubber Frame",
@@ -1269,24 +789,6 @@
     "purchase_price": "980",
     "purchase_points": "480"
   },
-  "rugged_suit": {
-    "label": "Rugged Suit",
-    "item_id": "6059",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "10000",
-    "purchase_points": "100"
-  },
-  "shirtless_blazer": {
-    "label": "Shirtless Blazer",
-    "item_id": "6062",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
-  },
   "shoes": {
     "label": "Shoes",
     "item_id": "6049",
@@ -1296,15 +798,6 @@
     ],
     "purchase_price": "0",
     "purchase_points": "0"
-  },
-  "short_sleeved_button_up": {
-    "label": "Short-Sleeved Button-up",
-    "item_id": "6064",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
   },
   "side_stabilizer": {
     "label": "Side Stabilizer",
@@ -1356,265 +849,6 @@
     "purchase_price": "0",
     "purchase_points": "0"
   },
-  "silver_darts": {
-    "label": "Silver Darts",
-    "item_id": "6016",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "0"
-  },
-  "silver_ring": {
-    "label": "Silver Ring",
-    "item_id": "6097",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
-  },
-  "single_rose": {
-    "label": "Single Rose",
-    "item_id": "6117",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
-  },
-  "skill_book_daidoji_double_guard": {
-    "label": "Skill Book: Daidoji Double Guard",
-    "item_id": "6189",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_evasive_strike": {
-    "label": "Skill Book: Daidoji Evasive Strike",
-    "item_id": "6192",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_grapple_strike": {
-    "label": "Skill Book: Daidoji Grapple Strike",
-    "item_id": "6233",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_high_wire_strike": {
-    "label": "Skill Book: Daidoji High Wire Strike",
-    "item_id": "6254",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_knockdown_strike": {
-    "label": "Skill Book: Daidoji Knockdown Strike",
-    "item_id": "6191",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_trip_wire": {
-    "label": "Skill Book: Daidoji Trip Wire",
-    "item_id": "6235",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_daidoji_wire_spin": {
-    "label": "Skill Book: Daidoji Wire Spin",
-    "item_id": "6236",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_damage_up_1": {
-    "label": "Skill Book: Damage Up 1",
-    "item_id": "6147",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_damage_up_2": {
-    "label": "Skill Book: Damage Up 2",
-    "item_id": "6148",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_damage_up_3": {
-    "label": "Skill Book: Damage Up 3",
-    "item_id": "6149",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_damage_up_4": {
-    "label": "Skill Book: Damage Up 4",
-    "item_id": "6150",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_devastating_taunt": {
-    "label": "Skill Book: Devastating Taunt",
-    "item_id": "6167",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_drunk_heat_gauge_1": {
-    "label": "Skill Book: Drunk Heat Gauge 1",
-    "item_id": "6170",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_drunk_heat_gauge_2": {
-    "label": "Skill Book: Drunk Heat Gauge 2",
-    "item_id": "6171",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_drunken_dragon_1": {
-    "label": "Skill Book: Drunken Dragon 1",
-    "item_id": "6172",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_drunken_dragon_2": {
-    "label": "Skill Book: Drunken Dragon 2",
-    "item_id": "6173",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_damage_up_1": {
-    "label": "Skill Book: EX Damage Up 1",
-    "item_id": "6151",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_damage_up_2": {
-    "label": "Skill Book: EX Damage Up 2",
-    "item_id": "6152",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_damage_up_3": {
-    "label": "Skill Book: EX Damage Up 3",
-    "item_id": "6153",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_damage_up_4": {
-    "label": "Skill Book: EX Damage Up 4",
-    "item_id": "6154",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_health_up_1": {
-    "label": "Skill Book: EX Health Up 1",
-    "item_id": "6143",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_health_up_2": {
-    "label": "Skill Book: EX Health Up 2",
-    "item_id": "6144",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_health_up_3": {
-    "label": "Skill Book: EX Health Up 3",
-    "item_id": "6145",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ex_health_up_4": {
-    "label": "Skill Book: EX Health Up 4",
-    "item_id": "6146",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_extra_equipment_1": {
     "label": "Skill Book: Extra Equipment 1",
     "item_id": "6174",
@@ -1645,55 +879,6 @@
     "purchase_price": "1000",
     "purchase_points": "1000"
   },
-  "skill_book_extra_wire_1": {
-    "label": "Skill Book: Extra Wire 1",
-    "item_id": "6237",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extra_wire_2": {
-    "label": "Skill Book: Extra Wire 2",
-    "item_id": "6238",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extra_wire_3": {
-    "label": "Skill Book: Extra Wire 3",
-    "item_id": "6239",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extra_wire_4": {
-    "label": "Skill Book: Extra Wire 4",
-    "item_id": "6240",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extreme_heat_critical_damage": {
-    "label": "Skill Book: Extreme Heat Critical Damage",
-    "item_id": "6163",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_extreme_heat_damage_1": {
     "label": "Skill Book: Extreme Heat Damage 1",
     "item_id": "6159",
@@ -1710,125 +895,6 @@
     "tags": [
       "IMPORTANT",
       "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extreme_heat_mode_undying": {
-    "label": "Skill Book: Extreme Heat Mode Undying",
-    "item_id": "6165",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_extreme_heat_mode_unflinching": {
-    "label": "Skill Book: Extreme Heat Mode Unflinching",
-    "item_id": "6164",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_finishing_hold": {
-    "label": "Skill Book: Finishing Hold",
-    "item_id": "6179",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_flexing_resolute_counter": {
-    "label": "Skill Book: Flexing Resolute Counter",
-    "item_id": "6183",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_grip_breaker": {
-    "label": "Skill Book: Grip Breaker",
-    "item_id": "6226",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_attack_boost_1": {
-    "label": "Skill Book: HA: Attack Boost 1",
-    "item_id": "6224",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_attack_boost_2": {
-    "label": "Skill Book: HA: Attack Boost 2",
-    "item_id": "6225",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_daidoji_arm_theft": {
-    "label": "Skill Book: HA: Daidoji Arm Theft",
-    "item_id": "6193",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_daidoji_bear_trap": {
-    "label": "Skill Book: HA: Daidoji Bear Trap",
-    "item_id": "6195",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_daidoji_defense_break": {
-    "label": "Skill Book: HA: Daidoji Defense Break",
-    "item_id": "6194",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_daidoji_martial_mastery": {
-    "label": "Skill Book: HA: Daidoji Martial Mastery",
-    "item_id": "6196",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_essence_of_double_crush": {
-    "label": "Skill Book: HA: Essence of Double Crush",
-    "item_id": "6187",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_essence_of_face_stomp": {
-    "label": "Skill Book: HA: Essence of Face Stomp",
-    "item_id": "6161",
-    "tags": [
-      "IMPORTANT"
     ],
     "purchase_price": "1000",
     "purchase_points": "1000"
@@ -1851,78 +917,9 @@
     "purchase_price": "1000",
     "purchase_points": "1000"
   },
-  "skill_book_ha_evasion_up_1": {
-    "label": "Skill Book: HA: Evasion Up 1",
-    "item_id": "6230",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ha_evasion_up_2": {
-    "label": "Skill Book: HA: Evasion Up 2",
-    "item_id": "6231",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_ha_ultimate_essence": {
     "label": "Skill Book: HA: Ultimate Essence",
     "item_id": "6188",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_health_up_1": {
-    "label": "Skill Book: Health Up 1",
-    "item_id": "6139",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_health_up_2": {
-    "label": "Skill Book: Health Up 2",
-    "item_id": "6140",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_health_up_3": {
-    "label": "Skill Book: Health Up 3",
-    "item_id": "6141",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_health_up_4": {
-    "label": "Skill Book: Health Up 4",
-    "item_id": "6142",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_heat_gauge_auto_charge": {
-    "label": "Skill Book: Heat Gauge Auto Charge",
-    "item_id": "6168",
     "tags": [
       "IMPORTANT"
     ],
@@ -1969,464 +966,9 @@
     "purchase_price": "1000",
     "purchase_points": "1000"
   },
-  "skill_book_hornet_durability_boost": {
-    "label": "Skill Book: Hornet Durability Boost",
-    "item_id": "6257",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_insulting_taunt": {
-    "label": "Skill Book: Insulting Taunt",
-    "item_id": "6166",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_1": {
-    "label": "Skill Book: KIW Damage Up 1",
-    "item_id": "6212",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_10": {
-    "label": "Skill Book: KIW Damage Up 10",
-    "item_id": "6221",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_2": {
-    "label": "Skill Book: KIW Damage Up 2",
-    "item_id": "6213",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_3": {
-    "label": "Skill Book: KIW Damage Up 3",
-    "item_id": "6214",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_4": {
-    "label": "Skill Book: KIW Damage Up 4",
-    "item_id": "6215",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_5": {
-    "label": "Skill Book: KIW Damage Up 5",
-    "item_id": "6216",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_6": {
-    "label": "Skill Book: KIW Damage Up 6",
-    "item_id": "6217",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_7": {
-    "label": "Skill Book: KIW Damage Up 7",
-    "item_id": "6218",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_8": {
-    "label": "Skill Book: KIW Damage Up 8",
-    "item_id": "6219",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_damage_up_9": {
-    "label": "Skill Book: KIW Damage Up 9",
-    "item_id": "6220",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_1": {
-    "label": "Skill Book: KIW Health Up 1",
-    "item_id": "6197",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_10": {
-    "label": "Skill Book: KIW Health Up 10",
-    "item_id": "6206",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_11": {
-    "label": "Skill Book: KIW Health Up 11",
-    "item_id": "6207",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_12": {
-    "label": "Skill Book: KIW Health Up 12",
-    "item_id": "6208",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_13": {
-    "label": "Skill Book: KIW Health Up 13",
-    "item_id": "6209",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_14": {
-    "label": "Skill Book: KIW Health Up 14",
-    "item_id": "6210",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_15": {
-    "label": "Skill Book: KIW Health Up 15",
-    "item_id": "6211",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_2": {
-    "label": "Skill Book: KIW Health Up 2",
-    "item_id": "6198",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_3": {
-    "label": "Skill Book: KIW Health Up 3",
-    "item_id": "6199",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_4": {
-    "label": "Skill Book: KIW Health Up 4",
-    "item_id": "6200",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_5": {
-    "label": "Skill Book: KIW Health Up 5",
-    "item_id": "6201",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_6": {
-    "label": "Skill Book: KIW Health Up 6",
-    "item_id": "6202",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_7": {
-    "label": "Skill Book: KIW Health Up 7",
-    "item_id": "6203",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_8": {
-    "label": "Skill Book: KIW Health Up 8",
-    "item_id": "6204",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_kiw_health_up_9": {
-    "label": "Skill Book: KIW Health Up 9",
-    "item_id": "6205",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_knock_back": {
-    "label": "Skill Book: Knock Back",
-    "item_id": "6227",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_longer_shoe_boost_1": {
-    "label": "Skill Book: Longer Shoe Boost 1",
-    "item_id": "6249",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_longer_shoe_boost_2": {
-    "label": "Skill Book: Longer Shoe Boost 2",
-    "item_id": "6250",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_longer_shoe_boost_3": {
-    "label": "Skill Book: Longer Shoe Boost 3",
-    "item_id": "6251",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_longer_shoe_boost_4": {
-    "label": "Skill Book: Longer Shoe Boost 4",
-    "item_id": "6252",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_more_drones_1": {
-    "label": "Skill Book: More Drones 1",
-    "item_id": "6245",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_more_drones_2": {
-    "label": "Skill Book: More Drones 2",
-    "item_id": "6246",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_more_drones_3": {
-    "label": "Skill Book: More Drones 3",
-    "item_id": "6247",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_more_drones_4": {
-    "label": "Skill Book: More Drones 4",
-    "item_id": "6248",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_no_reservations": {
-    "label": "Skill Book: No Reservations",
-    "item_id": "6253",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_power_spool": {
-    "label": "Skill Book: Power Spool",
-    "item_id": "6256",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_damage_up": {
-    "label": "Skill Book: Progressive Damage Up",
-    "item_id": "6272",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_drunk_attack_heat_gauge_increase": {
-    "label": "Skill Book: Progressive Drunk Attack Heat Gauge Increase",
-    "item_id": "6276",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_drunk_heat_gauge_increase": {
-    "label": "Skill Book: Progressive Drunk Heat Gauge Increase",
-    "item_id": "6275",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_progressive_equipment_up": {
     "label": "Skill Book: Progressive Equipment Up",
     "item_id": "6277",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_evasion_up_in_exh": {
-    "label": "Skill Book: Progressive Evasion Up in ExH",
-    "item_id": "6280",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_extra_bomb": {
-    "label": "Skill Book: Progressive Extra Bomb",
-    "item_id": "6282",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_extra_drone": {
-    "label": "Skill Book: Progressive Extra Drone",
-    "item_id": "6283",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_extra_shoe_boost": {
-    "label": "Skill Book: Progressive Extra Shoe Boost",
-    "item_id": "6284",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_extra_wire": {
-    "label": "Skill Book: Progressive Extra Wire",
-    "item_id": "6281",
     "tags": [
       "IMPORTANT",
       "PROGRESSIVE_SKILLS"
@@ -2444,16 +986,6 @@
     "purchase_price": "1000",
     "purchase_points": "1000"
   },
-  "skill_book_progressive_heat_action_damage_up_in_exh": {
-    "label": "Skill Book: Progressive Heat Action Damage Up in ExH",
-    "item_id": "6279",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_progressive_heat_gauge_up": {
     "label": "Skill Book: Progressive Heat Gauge Up",
     "item_id": "6273",
@@ -2464,207 +996,9 @@
     "purchase_price": "1000",
     "purchase_points": "1000"
   },
-  "skill_book_progressive_hp_up": {
-    "label": "Skill Book: Progressive HP Up",
-    "item_id": "6271",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_progressive_recovery_from_food_up": {
-    "label": "Skill Book: Progressive Recovery From Food Up",
-    "item_id": "6278",
-    "tags": [
-      "IMPORTANT",
-      "PROGRESSIVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_quickstep_strike": {
-    "label": "Skill Book: Quickstep Strike",
-    "item_id": "6182",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_rakushasa_strikes": {
-    "label": "Skill Book: Rakushasa Strikes",
-    "item_id": "6190",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_recovery_from_food_1": {
-    "label": "Skill Book: Recovery From Food 1",
-    "item_id": "6177",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_recovery_from_food_2": {
-    "label": "Skill Book: Recovery From Food 2",
-    "item_id": "6222",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_recovery_from_food_3": {
-    "label": "Skill Book: Recovery From Food 3",
-    "item_id": "6223",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_rolling_escape": {
-    "label": "Skill Book: Rolling Escape",
-    "item_id": "6180",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_smoky_heat_gauge": {
-    "label": "Skill Book: Smoky Heat Gauge",
-    "item_id": "6169",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_sticky_threads": {
-    "label": "Skill Book: Sticky Threads",
-    "item_id": "6255",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_tangled_ultimate_counter": {
-    "label": "Skill Book: Tangled Ultimate Counter",
-    "item_id": "6234",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_the_countdown": {
-    "label": "Skill Book: The Countdown",
-    "item_id": "6181",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_throw_more_bombs_1": {
-    "label": "Skill Book: Throw More Bombs 1",
-    "item_id": "6241",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_throw_more_bombs_2": {
-    "label": "Skill Book: Throw More Bombs 2",
-    "item_id": "6242",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_throw_more_bombs_3": {
-    "label": "Skill Book: Throw More Bombs 3",
-    "item_id": "6243",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_throw_more_bombs_4": {
-    "label": "Skill Book: Throw More Bombs 4",
-    "item_id": "6244",
-    "tags": [
-      "IMPORTANT",
-      "REMOVE_SKILLS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
   "skill_book_tiger_drop": {
     "label": "Skill Book: Tiger Drop",
     "item_id": "6184",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_triple_finisher": {
-    "label": "Skill Book: Triple Finisher",
-    "item_id": "6178",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_triple_quickstep": {
-    "label": "Skill Book: Triple Quickstep",
-    "item_id": "6229",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_twisting_ultimate_counter": {
-    "label": "Skill Book: Twisting Ultimate Counter",
-    "item_id": "6228",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_ultimate_counter_damage_up": {
-    "label": "Skill Book: Ultimate Counter Damage Up",
-    "item_id": "6162",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "1000"
-  },
-  "skill_book_wrathful_kick": {
-    "label": "Skill Book: Wrathful Kick",
-    "item_id": "6232",
     "tags": [
       "IMPORTANT"
     ],
@@ -2711,42 +1045,6 @@
     "purchase_price": "880",
     "purchase_points": "380"
   },
-  "slippers": {
-    "label": "Slippers",
-    "item_id": "6105",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "snake_eyepatch": {
-    "label": "Snake Eyepatch",
-    "item_id": "6075",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1000000",
-    "purchase_points": "100"
-  },
-  "snakeskin_shoes": {
-    "label": "Snakeskin Shoes",
-    "item_id": "6100",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
-  },
-  "sneakers": {
-    "label": "Sneakers",
-    "item_id": "6104",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
-    "purchase_points": "100"
-  },
   "soccer_ball": {
     "label": "Soccer Ball",
     "item_id": "6015",
@@ -2776,6 +1074,136 @@
     ],
     "purchase_price": "880",
     "purchase_points": "380"
+  },
+  "sotenbori_billiard_point_shop_unloc": {
+    "label": "Sotenbori Billiard Point Shop Unloc",
+    "item_id": "6287",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_ebisuya_pawn_shop_unlock": {
+    "label": "Sotenbori Ebisuya Pawn Shop Unlock",
+    "item_id": "6286",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_gambling_hall_point_shop_unlock": {
+    "label": "Sotenbori Gambling Hall Point Shop Unlock",
+    "item_id": "6294",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_golf_point_shop_unlock": {
+    "label": "Sotenbori Golf Point Shop Unlock",
+    "item_id": "6293",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_hiratai_shop_unlock": {
+    "label": "Sotenbori Hiratai Shop Unlock",
+    "item_id": "6307",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_kukuru_shop_unlock": {
+    "label": "Sotenbori Kukuru Shop Unlock",
+    "item_id": "6305",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_north_poppo_shop_unlock": {
+    "label": "Sotenbori North Poppo Shop Unlock",
+    "item_id": "6303",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_park_poppo_shop_unlock": {
+    "label": "Sotenbori Park Poppo Shop Unlock",
+    "item_id": "6301",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_shigano_shop_unlock": {
+    "label": "Sotenbori Shigano Shop Unlock",
+    "item_id": "6308",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_shogi_point_shop_unlock": {
+    "label": "Sotenbori Shogi Point Shop Unlock",
+    "item_id": "6292",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_south_poppo_shop_unlock": {
+    "label": "Sotenbori South Poppo Shop Unlock",
+    "item_id": "6302",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_tsuruha_shop_unlock": {
+    "label": "Sotenbori Tsuruha Shop Unlock",
+    "item_id": "6306",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_wannpark_shop_unlock": {
+    "label": "Sotenbori Wannpark Shop Unlock",
+    "item_id": "6288",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
   "speed_frame": {
     "label": "Speed Frame",
@@ -2836,51 +1264,6 @@
     ],
     "purchase_price": "880",
     "purchase_points": "380"
-  },
-  "sport_coat": {
-    "label": "Sport Coat",
-    "item_id": "6061",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "300000",
-    "purchase_points": "100"
-  },
-  "standard_darts": {
-    "label": "Standard Darts",
-    "item_id": "5979",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "3000",
-    "purchase_points": "0"
-  },
-  "straw_hat": {
-    "label": "Straw Hat",
-    "item_id": "6087",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "straw_sandals": {
-    "label": "Straw Sandals",
-    "item_id": "6106",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "5000"
-  },
-  "sunshine": {
-    "label": "Sunshine",
-    "item_id": "4758",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "980",
-    "purchase_points": "0"
   },
   "super_balanced_frame": {
     "label": "Super Balanced Frame",
@@ -3071,69 +1454,6 @@
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
-  },
-  "t_shirt": {
-    "label": "T-Shirt",
-    "item_id": "6065",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
-  },
-  "tam": {
-    "label": "Tam",
-    "item_id": "6088",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "30000",
-    "purchase_points": "100"
-  },
-  "taxi_driver_cap": {
-    "label": "Taxi Driver Cap",
-    "item_id": "6090",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "3000"
-  },
-  "the_basics_of_shogi": {
-    "label": "The Basics of Shogi",
-    "item_id": "5451",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "1200",
-    "purchase_points": "0"
-  },
-  "three_piece_suit": {
-    "label": "Three-Piece Suit",
-    "item_id": "6060",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "thunder_darts": {
-    "label": "Thunder Darts",
-    "item_id": "6038",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "0"
-  },
-  "toy_crows": {
-    "label": "Toy Crows",
-    "item_id": "6037",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "2700"
   },
   "ultra_balanced_frame": {
     "label": "Ultra Balanced Frame",
@@ -3345,15 +1665,6 @@
     "purchase_price": "0",
     "purchase_points": "0"
   },
-  "visual_kei_makeup": {
-    "label": "Visual-kei Makeup",
-    "item_id": "6120",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
   "wedding_ring": {
     "label": "Wedding Ring",
     "item_id": "6052",
@@ -3364,49 +1675,157 @@
     "purchase_price": "0",
     "purchase_points": "0"
   },
-  "weird_stranger_makeup": {
-    "label": "Weird Stranger Makeup",
-    "item_id": "6124",
+  "yokohama_gambling_hall_point_shop_unlock": {
+    "label": "Yokohama Gambling Hall Point Shop Unlock",
+    "item_id": "6295",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
     ],
-    "purchase_price": "0",
-    "purchase_points": "5000"
+    "purchase_price": "1000",
+    "purchase_points": "0"
   },
-  "wellington_sunglasses": {
-    "label": "Wellington Sunglasses",
-    "item_id": "6070",
+  "yokohama_ichiban_confections_shop_unlock": {
+    "label": "Yokohama Ichiban Confections Shop Unlock",
+    "item_id": "6310",
     "tags": [
-      "IMPORTANT"
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "yokohama_lovemagic_shop_unlock": {
+    "label": "Yokohama Lovemagic Shop Unlock",
+    "item_id": "6290",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "yokohama_poppo_shop_unlock": {
+    "label": "Yokohama Poppo Shop Unlock",
+    "item_id": "6304",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "yokohama_shogi_point_shop_unlock": {
+    "label": "Yokohama Shogi Point Shop Unlock",
+    "item_id": "6291",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "yokohama_sichiya_pawn_shop_unlock": {
+    "label": "Yokohama Sichiya Pawn Shop Unlock",
+    "item_id": "6289",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "yokohama_smilewagon_shop_unlock": {
+    "label": "Yokohama Smilewagon Shop Unlock",
+    "item_id": "6309",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "alex_kidd_in_miracle_world": {
+    "label": "Alex Kidd in Miracle World",
+    "item_id": "5536",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
+    "purchase_points": "2500"
+  },
+  "alien_syndrome": {
+    "label": "Alien Syndrome",
+    "item_id": "5545",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
+    "purchase_points": "0"
+  },
+  "aviator_sunglasses": {
+    "label": "Aviator Sunglasses",
+    "item_id": "6073",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "ball_stud_earrings": {
+    "label": "Ball Stud Earrings",
+    "item_id": "6110",
+    "tags": [
+      "USEFUL"
     ],
     "purchase_price": "50000",
     "purchase_points": "100"
   },
-  "wind_darts": {
-    "label": "Wind Darts",
-    "item_id": "6039",
+  "bare_feet": {
+    "label": "Bare Feet",
+    "item_id": "6107",
     "tags": [
-      "IMPORTANT"
+      "USEFUL"
     ],
-    "purchase_price": "1980000",
-    "purchase_points": "0"
-  },
-  "yakuza_dress_up_badge_hex": {
-    "label": "Yakuza Dress Up Badge (Hex)",
-    "item_id": "6114",
-    "tags": [
-      "IMPORTANT"
-    ],
-    "purchase_price": "150000",
+    "purchase_price": "300000",
     "purchase_points": "100"
   },
-  "yakuza_dress_up_badge_round": {
-    "label": "Yakuza Dress Up Badge (Round)",
-    "item_id": "6113",
+  "baseball_cap": {
+    "label": "Baseball Cap",
+    "item_id": "6086",
     "tags": [
-      "IMPORTANT"
+      "USEFUL"
     ],
-    "purchase_price": "150000",
+    "purchase_price": "10000",
+    "purchase_points": "100"
+  },
+  "beanie": {
+    "label": "Beanie",
+    "item_id": "6089",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
+  },
+  "big_frame_sunglasses": {
+    "label": "Big Frame Sunglasses",
+    "item_id": "6074",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "black_medical_mask": {
+    "label": "Black Medical Mask",
+    "item_id": "6078",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
     "purchase_points": "100"
   },
   "blesswood_armor": {
@@ -3472,6 +1891,24 @@
     "purchase_price": "40000",
     "purchase_points": "0"
   },
+  "bodysuit": {
+    "label": "Bodysuit",
+    "item_id": "6066",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000000",
+    "purchase_points": "100"
+  },
+  "business_shoes": {
+    "label": "Business Shoes",
+    "item_id": "6099",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "80000",
+    "purchase_points": "100"
+  },
   "byakko_bracelet": {
     "label": "Byakko Bracelet",
     "item_id": "5962",
@@ -3489,6 +1926,24 @@
     ],
     "purchase_price": "1000",
     "purchase_points": "80"
+  },
+  "carnation": {
+    "label": "Carnation",
+    "item_id": "6116",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
+  },
+  "casual_leather_shoes": {
+    "label": "Casual Leather Shoes",
+    "item_id": "6102",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
   },
   "chainmail": {
     "label": "Chainmail",
@@ -3508,6 +1963,42 @@
     "purchase_price": "1000",
     "purchase_points": "150"
   },
+  "clown_makeup": {
+    "label": "Clown Makeup",
+    "item_id": "6121",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
+  "color_contacts_gold": {
+    "label": "Color Contacts (Gold)",
+    "item_id": "6127",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
+  },
+  "color_contacts_silver": {
+    "label": "Color Contacts (Silver)",
+    "item_id": "6128",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "construction_company_helmet": {
+    "label": "Construction Company Helmet",
+    "item_id": "6091",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
   "contact_lenses": {
     "label": "Contact Lenses",
     "item_id": "5965",
@@ -3516,6 +2007,33 @@
     ],
     "purchase_price": "14000",
     "purchase_points": "0"
+  },
+  "cuff_earrings": {
+    "label": "Cuff Earrings",
+    "item_id": "6108",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "cyber_sunglasses": {
+    "label": "Cyber Sunglasses",
+    "item_id": "6072",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "3000"
+  },
+  "devilish_makeup": {
+    "label": "Devilish Makeup",
+    "item_id": "6118",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "300000",
+    "purchase_points": "100"
   },
   "dragon_god_amulet": {
     "label": "Dragon God Amulet",
@@ -3526,6 +2044,15 @@
     "purchase_price": "14626000",
     "purchase_points": "60000"
   },
+  "dragon_mask": {
+    "label": "Dragon Mask",
+    "item_id": "6077",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "5000"
+  },
   "dragon_s_binding": {
     "label": "Dragon's Binding",
     "item_id": "5953",
@@ -3535,6 +2062,16 @@
     "purchase_price": "1984000",
     "purchase_points": "16000"
   },
+  "enduro_racer": {
+    "label": "Enduro Racer",
+    "item_id": "5539",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5500",
+    "purchase_points": "2500"
+  },
   "eye_of_the_dragon": {
     "label": "Eye of the Dragon",
     "item_id": "5973",
@@ -3542,6 +2079,16 @@
       "USEFUL"
     ],
     "purchase_price": "1138000",
+    "purchase_points": "0"
+  },
+  "fantasy_zone_ii": {
+    "label": "Fantasy Zone II",
+    "item_id": "5544",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
     "purchase_points": "0"
   },
   "fearless_binding": {
@@ -3553,6 +2100,15 @@
     "purchase_price": "485000",
     "purchase_points": "0"
   },
+  "fedora": {
+    "label": "Fedora",
+    "item_id": "6092",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
   "fighter_s_binding": {
     "label": "Fighter's Binding",
     "item_id": "5951",
@@ -3562,6 +2118,62 @@
     "purchase_price": "68000",
     "purchase_points": "0"
   },
+  "fingerless_gloves": {
+    "label": "Fingerless Gloves",
+    "item_id": "6094",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "flicky": {
+    "label": "Flicky",
+    "item_id": "5932",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
+    "purchase_points": "0"
+  },
+  "forks": {
+    "label": "Forks",
+    "item_id": "6036",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "2500"
+  },
+  "fukupi_chan_head": {
+    "label": "Fukupi-chan Head",
+    "item_id": "6085",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "300000",
+    "purchase_points": "100"
+  },
+  "galaxy_force": {
+    "label": "Galaxy Force",
+    "item_id": "5931",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5500",
+    "purchase_points": "0"
+  },
+  "gel_nails": {
+    "label": "Gel Nails",
+    "item_id": "6095",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "70000",
+    "purchase_points": "100"
+  },
   "genbu_bracelet": {
     "label": "Genbu Bracelet",
     "item_id": "5961",
@@ -3570,6 +2182,25 @@
     ],
     "purchase_price": "81000",
     "purchase_points": "1000"
+  },
+  "global_defense": {
+    "label": "Global Defense",
+    "item_id": "5546",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
+    "purchase_points": "2500"
+  },
+  "gold_darts": {
+    "label": "Gold Darts",
+    "item_id": "5982",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "0"
   },
   "great_fortune_gold_undies": {
     "label": "Great Fortune Gold Undies",
@@ -3616,6 +2247,42 @@
     "purchase_price": "1000",
     "purchase_points": "0"
   },
+  "heavy_makeup": {
+    "label": "Heavy Makeup",
+    "item_id": "6126",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "hockey_mask": {
+    "label": "Hockey Mask",
+    "item_id": "6079",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "80000",
+    "purchase_points": "100"
+  },
+  "hoop_earrings": {
+    "label": "Hoop Earrings",
+    "item_id": "6109",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "hyottoko_mask": {
+    "label": "Hyottoko Mask",
+    "item_id": "6081",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
   "indra_s_amulet": {
     "label": "Indra's Amulet",
     "item_id": "5968",
@@ -3634,6 +2301,15 @@
     "purchase_price": "33000",
     "purchase_points": "500"
   },
+  "intelligent_sunglasses": {
+    "label": "Intelligent Sunglasses",
+    "item_id": "6069",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
   "iron_breastplate": {
     "label": "Iron Breastplate",
     "item_id": "5938",
@@ -3642,6 +2318,87 @@
     ],
     "purchase_price": "431000",
     "purchase_points": "0"
+  },
+  "jewel_stud_earrings": {
+    "label": "Jewel Stud Earrings",
+    "item_id": "6111",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "70000",
+    "purchase_points": "100"
+  },
+  "jeweled_ring": {
+    "label": "Jeweled Ring",
+    "item_id": "6096",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "kabuki_makeup": {
+    "label": "Kabuki Makeup",
+    "item_id": "6119",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "400000",
+    "purchase_points": "100"
+  },
+  "kitty_makeup": {
+    "label": "Kitty Makeup",
+    "item_id": "6123",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
+  "leather_gloves": {
+    "label": "Leather Gloves",
+    "item_id": "6093",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
+  },
+  "leather_shoes": {
+    "label": "Leather Shoes",
+    "item_id": "6101",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "legend_darts": {
+    "label": "Legend Darts",
+    "item_id": "5983",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "8000"
+  },
+  "light_makeup": {
+    "label": "Light Makeup",
+    "item_id": "6122",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "70000",
+    "purchase_points": "100"
+  },
+  "long_sleeved_button_up": {
+    "label": "Long-Sleeved Button-up",
+    "item_id": "6063",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
   },
   "military_armor": {
     "label": "Military Armor",
@@ -3670,6 +2427,51 @@
     "purchase_price": "1320",
     "purchase_points": "0"
   },
+  "monk_strap_loafers": {
+    "label": "Monk Strap Loafers",
+    "item_id": "6103",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "120000",
+    "purchase_points": "100"
+  },
+  "nametag": {
+    "label": "Nametag",
+    "item_id": "6115",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "noh_mask": {
+    "label": "Noh Mask",
+    "item_id": "6080",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "old_scar_makeup": {
+    "label": "Old Scar Makeup",
+    "item_id": "6125",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "ono_michio_head": {
+    "label": "Ono Michio Head",
+    "item_id": "6084",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000000",
+    "purchase_points": "100"
+  },
   "payback_ring": {
     "label": "Payback Ring",
     "item_id": "5963",
@@ -3678,6 +2480,33 @@
     ],
     "purchase_price": "22000",
     "purchase_points": "0"
+  },
+  "pencils": {
+    "label": "Pencils",
+    "item_id": "6035",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "0"
+  },
+  "pilot_badge": {
+    "label": "Pilot Badge",
+    "item_id": "6112",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "10000",
+    "purchase_points": "100"
+  },
+  "premier_darts": {
+    "label": "Premier Darts",
+    "item_id": "6017",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "2000"
   },
   "pure_white_briefs": {
     "label": "Pure White Briefs",
@@ -3688,6 +2517,16 @@
     "purchase_price": "1000",
     "purchase_points": "0"
   },
+  "quartet": {
+    "label": "Quartet",
+    "item_id": "5538",
+    "tags": [
+      "USEFUL",
+      "CARTRIDGE"
+    ],
+    "purchase_price": "5000",
+    "purchase_points": "2500"
+  },
   "red_gem_bracelet": {
     "label": "Red Gem Bracelet",
     "item_id": "5955",
@@ -3696,6 +2535,42 @@
     ],
     "purchase_price": "11000",
     "purchase_points": "0"
+  },
+  "rimless_sunglasses": {
+    "label": "Rimless Sunglasses",
+    "item_id": "6071",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "70000",
+    "purchase_points": "100"
+  },
+  "roses": {
+    "label": "Roses",
+    "item_id": "6034",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "100"
+  },
+  "round_sunglasses": {
+    "label": "Round Sunglasses",
+    "item_id": "6068",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "rugged_suit": {
+    "label": "Rugged Suit",
+    "item_id": "6059",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "10000",
+    "purchase_points": "100"
   },
   "rusted_chainmail": {
     "label": "Rusted Chainmail",
@@ -3733,6 +2608,1264 @@
     "purchase_price": "2000",
     "purchase_points": "0"
   },
+  "shirtless_blazer": {
+    "label": "Shirtless Blazer",
+    "item_id": "6062",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
+  "short_sleeved_button_up": {
+    "label": "Short-Sleeved Button-up",
+    "item_id": "6064",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "silver_darts": {
+    "label": "Silver Darts",
+    "item_id": "6016",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "0"
+  },
+  "silver_ring": {
+    "label": "Silver Ring",
+    "item_id": "6097",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "single_rose": {
+    "label": "Single Rose",
+    "item_id": "6117",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "skill_book_daidoji_double_guard": {
+    "label": "Skill Book: Daidoji Double Guard",
+    "item_id": "6189",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_evasive_strike": {
+    "label": "Skill Book: Daidoji Evasive Strike",
+    "item_id": "6192",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_grapple_strike": {
+    "label": "Skill Book: Daidoji Grapple Strike",
+    "item_id": "6233",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_high_wire_strike": {
+    "label": "Skill Book: Daidoji High Wire Strike",
+    "item_id": "6254",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_knockdown_strike": {
+    "label": "Skill Book: Daidoji Knockdown Strike",
+    "item_id": "6191",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_trip_wire": {
+    "label": "Skill Book: Daidoji Trip Wire",
+    "item_id": "6235",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_daidoji_wire_spin": {
+    "label": "Skill Book: Daidoji Wire Spin",
+    "item_id": "6236",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_damage_up_1": {
+    "label": "Skill Book: Damage Up 1",
+    "item_id": "6147",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_damage_up_2": {
+    "label": "Skill Book: Damage Up 2",
+    "item_id": "6148",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_damage_up_3": {
+    "label": "Skill Book: Damage Up 3",
+    "item_id": "6149",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_damage_up_4": {
+    "label": "Skill Book: Damage Up 4",
+    "item_id": "6150",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_devastating_taunt": {
+    "label": "Skill Book: Devastating Taunt",
+    "item_id": "6167",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_drunk_heat_gauge_1": {
+    "label": "Skill Book: Drunk Heat Gauge 1",
+    "item_id": "6170",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_drunk_heat_gauge_2": {
+    "label": "Skill Book: Drunk Heat Gauge 2",
+    "item_id": "6171",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_drunken_dragon_1": {
+    "label": "Skill Book: Drunken Dragon 1",
+    "item_id": "6172",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_drunken_dragon_2": {
+    "label": "Skill Book: Drunken Dragon 2",
+    "item_id": "6173",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_damage_up_1": {
+    "label": "Skill Book: EX Damage Up 1",
+    "item_id": "6151",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_damage_up_2": {
+    "label": "Skill Book: EX Damage Up 2",
+    "item_id": "6152",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_damage_up_3": {
+    "label": "Skill Book: EX Damage Up 3",
+    "item_id": "6153",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_damage_up_4": {
+    "label": "Skill Book: EX Damage Up 4",
+    "item_id": "6154",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_health_up_1": {
+    "label": "Skill Book: EX Health Up 1",
+    "item_id": "6143",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_health_up_2": {
+    "label": "Skill Book: EX Health Up 2",
+    "item_id": "6144",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_health_up_3": {
+    "label": "Skill Book: EX Health Up 3",
+    "item_id": "6145",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ex_health_up_4": {
+    "label": "Skill Book: EX Health Up 4",
+    "item_id": "6146",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extra_wire_1": {
+    "label": "Skill Book: Extra Wire 1",
+    "item_id": "6237",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extra_wire_2": {
+    "label": "Skill Book: Extra Wire 2",
+    "item_id": "6238",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extra_wire_3": {
+    "label": "Skill Book: Extra Wire 3",
+    "item_id": "6239",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extra_wire_4": {
+    "label": "Skill Book: Extra Wire 4",
+    "item_id": "6240",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extreme_heat_critical_damage": {
+    "label": "Skill Book: Extreme Heat Critical Damage",
+    "item_id": "6163",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extreme_heat_mode_undying": {
+    "label": "Skill Book: Extreme Heat Mode Undying",
+    "item_id": "6165",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_extreme_heat_mode_unflinching": {
+    "label": "Skill Book: Extreme Heat Mode Unflinching",
+    "item_id": "6164",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_finishing_hold": {
+    "label": "Skill Book: Finishing Hold",
+    "item_id": "6179",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_flexing_resolute_counter": {
+    "label": "Skill Book: Flexing Resolute Counter",
+    "item_id": "6183",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_grip_breaker": {
+    "label": "Skill Book: Grip Breaker",
+    "item_id": "6226",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_attack_boost_1": {
+    "label": "Skill Book: HA: Attack Boost 1",
+    "item_id": "6224",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_attack_boost_2": {
+    "label": "Skill Book: HA: Attack Boost 2",
+    "item_id": "6225",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_daidoji_arm_theft": {
+    "label": "Skill Book: HA: Daidoji Arm Theft",
+    "item_id": "6193",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_daidoji_bear_trap": {
+    "label": "Skill Book: HA: Daidoji Bear Trap",
+    "item_id": "6195",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_daidoji_defense_break": {
+    "label": "Skill Book: HA: Daidoji Defense Break",
+    "item_id": "6194",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_daidoji_martial_mastery": {
+    "label": "Skill Book: HA: Daidoji Martial Mastery",
+    "item_id": "6196",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_essence_of_double_crush": {
+    "label": "Skill Book: HA: Essence of Double Crush",
+    "item_id": "6187",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_essence_of_face_stomp": {
+    "label": "Skill Book: HA: Essence of Face Stomp",
+    "item_id": "6161",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_evasion_up_1": {
+    "label": "Skill Book: HA: Evasion Up 1",
+    "item_id": "6230",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ha_evasion_up_2": {
+    "label": "Skill Book: HA: Evasion Up 2",
+    "item_id": "6231",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_health_up_1": {
+    "label": "Skill Book: Health Up 1",
+    "item_id": "6139",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_health_up_2": {
+    "label": "Skill Book: Health Up 2",
+    "item_id": "6140",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_health_up_3": {
+    "label": "Skill Book: Health Up 3",
+    "item_id": "6141",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_health_up_4": {
+    "label": "Skill Book: Health Up 4",
+    "item_id": "6142",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_heat_gauge_auto_charge": {
+    "label": "Skill Book: Heat Gauge Auto Charge",
+    "item_id": "6168",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_hornet_durability_boost": {
+    "label": "Skill Book: Hornet Durability Boost",
+    "item_id": "6257",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_insulting_taunt": {
+    "label": "Skill Book: Insulting Taunt",
+    "item_id": "6166",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_1": {
+    "label": "Skill Book: KIW Damage Up 1",
+    "item_id": "6212",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_10": {
+    "label": "Skill Book: KIW Damage Up 10",
+    "item_id": "6221",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_2": {
+    "label": "Skill Book: KIW Damage Up 2",
+    "item_id": "6213",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_3": {
+    "label": "Skill Book: KIW Damage Up 3",
+    "item_id": "6214",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_4": {
+    "label": "Skill Book: KIW Damage Up 4",
+    "item_id": "6215",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_5": {
+    "label": "Skill Book: KIW Damage Up 5",
+    "item_id": "6216",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_6": {
+    "label": "Skill Book: KIW Damage Up 6",
+    "item_id": "6217",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_7": {
+    "label": "Skill Book: KIW Damage Up 7",
+    "item_id": "6218",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_8": {
+    "label": "Skill Book: KIW Damage Up 8",
+    "item_id": "6219",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_damage_up_9": {
+    "label": "Skill Book: KIW Damage Up 9",
+    "item_id": "6220",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_1": {
+    "label": "Skill Book: KIW Health Up 1",
+    "item_id": "6197",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_10": {
+    "label": "Skill Book: KIW Health Up 10",
+    "item_id": "6206",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_11": {
+    "label": "Skill Book: KIW Health Up 11",
+    "item_id": "6207",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_12": {
+    "label": "Skill Book: KIW Health Up 12",
+    "item_id": "6208",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_13": {
+    "label": "Skill Book: KIW Health Up 13",
+    "item_id": "6209",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_14": {
+    "label": "Skill Book: KIW Health Up 14",
+    "item_id": "6210",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_15": {
+    "label": "Skill Book: KIW Health Up 15",
+    "item_id": "6211",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_2": {
+    "label": "Skill Book: KIW Health Up 2",
+    "item_id": "6198",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_3": {
+    "label": "Skill Book: KIW Health Up 3",
+    "item_id": "6199",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_4": {
+    "label": "Skill Book: KIW Health Up 4",
+    "item_id": "6200",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_5": {
+    "label": "Skill Book: KIW Health Up 5",
+    "item_id": "6201",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_6": {
+    "label": "Skill Book: KIW Health Up 6",
+    "item_id": "6202",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_7": {
+    "label": "Skill Book: KIW Health Up 7",
+    "item_id": "6203",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_8": {
+    "label": "Skill Book: KIW Health Up 8",
+    "item_id": "6204",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_kiw_health_up_9": {
+    "label": "Skill Book: KIW Health Up 9",
+    "item_id": "6205",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_knock_back": {
+    "label": "Skill Book: Knock Back",
+    "item_id": "6227",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_longer_shoe_boost_1": {
+    "label": "Skill Book: Longer Shoe Boost 1",
+    "item_id": "6249",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_longer_shoe_boost_2": {
+    "label": "Skill Book: Longer Shoe Boost 2",
+    "item_id": "6250",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_longer_shoe_boost_3": {
+    "label": "Skill Book: Longer Shoe Boost 3",
+    "item_id": "6251",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_longer_shoe_boost_4": {
+    "label": "Skill Book: Longer Shoe Boost 4",
+    "item_id": "6252",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_more_drones_1": {
+    "label": "Skill Book: More Drones 1",
+    "item_id": "6245",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_more_drones_2": {
+    "label": "Skill Book: More Drones 2",
+    "item_id": "6246",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_more_drones_3": {
+    "label": "Skill Book: More Drones 3",
+    "item_id": "6247",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_more_drones_4": {
+    "label": "Skill Book: More Drones 4",
+    "item_id": "6248",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_no_reservations": {
+    "label": "Skill Book: No Reservations",
+    "item_id": "6253",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_power_spool": {
+    "label": "Skill Book: Power Spool",
+    "item_id": "6256",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_damage_up": {
+    "label": "Skill Book: Progressive Damage Up",
+    "item_id": "6272",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_drunk_attack_heat_gauge_increase": {
+    "label": "Skill Book: Progressive Drunk Attack Heat Gauge Increase",
+    "item_id": "6276",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_drunk_heat_gauge_increase": {
+    "label": "Skill Book: Progressive Drunk Heat Gauge Increase",
+    "item_id": "6275",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_evasion_up_in_exh": {
+    "label": "Skill Book: Progressive Evasion Up in ExH",
+    "item_id": "6280",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_extra_bomb": {
+    "label": "Skill Book: Progressive Extra Bomb",
+    "item_id": "6282",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_extra_drone": {
+    "label": "Skill Book: Progressive Extra Drone",
+    "item_id": "6283",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_extra_shoe_boost": {
+    "label": "Skill Book: Progressive Extra Shoe Boost",
+    "item_id": "6284",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_extra_wire": {
+    "label": "Skill Book: Progressive Extra Wire",
+    "item_id": "6281",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_heat_action_damage_up_in_exh": {
+    "label": "Skill Book: Progressive Heat Action Damage Up in ExH",
+    "item_id": "6279",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_hp_up": {
+    "label": "Skill Book: Progressive HP Up",
+    "item_id": "6271",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_progressive_recovery_from_food_up": {
+    "label": "Skill Book: Progressive Recovery From Food Up",
+    "item_id": "6278",
+    "tags": [
+      "USEFUL",
+      "PROGRESSIVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_quickstep_strike": {
+    "label": "Skill Book: Quickstep Strike",
+    "item_id": "6182",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_rakushasa_strikes": {
+    "label": "Skill Book: Rakushasa Strikes",
+    "item_id": "6190",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_recovery_from_food_1": {
+    "label": "Skill Book: Recovery From Food 1",
+    "item_id": "6177",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_recovery_from_food_2": {
+    "label": "Skill Book: Recovery From Food 2",
+    "item_id": "6222",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_recovery_from_food_3": {
+    "label": "Skill Book: Recovery From Food 3",
+    "item_id": "6223",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_rolling_escape": {
+    "label": "Skill Book: Rolling Escape",
+    "item_id": "6180",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_smoky_heat_gauge": {
+    "label": "Skill Book: Smoky Heat Gauge",
+    "item_id": "6169",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_sticky_threads": {
+    "label": "Skill Book: Sticky Threads",
+    "item_id": "6255",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_tangled_ultimate_counter": {
+    "label": "Skill Book: Tangled Ultimate Counter",
+    "item_id": "6234",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_the_countdown": {
+    "label": "Skill Book: The Countdown",
+    "item_id": "6181",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_throw_more_bombs_1": {
+    "label": "Skill Book: Throw More Bombs 1",
+    "item_id": "6241",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_throw_more_bombs_2": {
+    "label": "Skill Book: Throw More Bombs 2",
+    "item_id": "6242",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_throw_more_bombs_3": {
+    "label": "Skill Book: Throw More Bombs 3",
+    "item_id": "6243",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_throw_more_bombs_4": {
+    "label": "Skill Book: Throw More Bombs 4",
+    "item_id": "6244",
+    "tags": [
+      "USEFUL",
+      "REMOVE_SKILLS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_triple_finisher": {
+    "label": "Skill Book: Triple Finisher",
+    "item_id": "6178",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_triple_quickstep": {
+    "label": "Skill Book: Triple Quickstep",
+    "item_id": "6229",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_twisting_ultimate_counter": {
+    "label": "Skill Book: Twisting Ultimate Counter",
+    "item_id": "6228",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_ultimate_counter_damage_up": {
+    "label": "Skill Book: Ultimate Counter Damage Up",
+    "item_id": "6162",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "skill_book_wrathful_kick": {
+    "label": "Skill Book: Wrathful Kick",
+    "item_id": "6232",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "1000"
+  },
+  "slippers": {
+    "label": "Slippers",
+    "item_id": "6105",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "snake_eyepatch": {
+    "label": "Snake Eyepatch",
+    "item_id": "6075",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1000000",
+    "purchase_points": "100"
+  },
+  "snakeskin_shoes": {
+    "label": "Snakeskin Shoes",
+    "item_id": "6100",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
+  "sneakers": {
+    "label": "Sneakers",
+    "item_id": "6104",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "sport_coat": {
+    "label": "Sport Coat",
+    "item_id": "6061",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "300000",
+    "purchase_points": "100"
+  },
+  "standard_darts": {
+    "label": "Standard Darts",
+    "item_id": "5979",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "3000",
+    "purchase_points": "0"
+  },
+  "straw_hat": {
+    "label": "Straw Hat",
+    "item_id": "6087",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "straw_sandals": {
+    "label": "Straw Sandals",
+    "item_id": "6106",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "5000"
+  },
+  "sunshine": {
+    "label": "Sunshine",
+    "item_id": "4758",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "980",
+    "purchase_points": "0"
+  },
   "suzaku_bracelet": {
     "label": "Suzaku Bracelet",
     "item_id": "5959",
@@ -3742,6 +3875,96 @@
     "purchase_price": "81000",
     "purchase_points": "1800"
   },
+  "t_shirt": {
+    "label": "T-Shirt",
+    "item_id": "6065",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
+  },
+  "tam": {
+    "label": "Tam",
+    "item_id": "6088",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
+  },
+  "taxi_driver_cap": {
+    "label": "Taxi Driver Cap",
+    "item_id": "6090",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "3000"
+  },
+  "the_basics_of_shogi": {
+    "label": "The Basics of Shogi",
+    "item_id": "5451",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1200",
+    "purchase_points": "0"
+  },
+  "three_piece_suit": {
+    "label": "Three-Piece Suit",
+    "item_id": "6060",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "thunder_darts": {
+    "label": "Thunder Darts",
+    "item_id": "6038",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "0"
+  },
+  "toy_crows": {
+    "label": "Toy Crows",
+    "item_id": "6037",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "2700"
+  },
+  "visual_kei_makeup": {
+    "label": "Visual-kei Makeup",
+    "item_id": "6120",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "weird_stranger_makeup": {
+    "label": "Weird Stranger Makeup",
+    "item_id": "6124",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "5000"
+  },
+  "wellington_sunglasses": {
+    "label": "Wellington Sunglasses",
+    "item_id": "6070",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "50000",
+    "purchase_points": "100"
+  },
   "white_gem_bracelet": {
     "label": "White Gem Bracelet",
     "item_id": "5958",
@@ -3750,6 +3973,33 @@
     ],
     "purchase_price": "11000",
     "purchase_points": "0"
+  },
+  "wind_darts": {
+    "label": "Wind Darts",
+    "item_id": "6039",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "1980000",
+    "purchase_points": "0"
+  },
+  "yakuza_dress_up_badge_hex": {
+    "label": "Yakuza Dress Up Badge (Hex)",
+    "item_id": "6114",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
+  },
+  "yakuza_dress_up_badge_round": {
+    "label": "Yakuza Dress Up Badge (Round)",
+    "item_id": "6113",
+    "tags": [
+      "USEFUL"
+    ],
+    "purchase_price": "150000",
+    "purchase_points": "100"
   },
   "azuki_bar_box": {
     "label": "Azuki Bar BOX",
