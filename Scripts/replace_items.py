@@ -333,13 +333,14 @@ def update_encounters():
 
         # Scaled Stats
         else:
-            ENEMY_HP_MULT = ENEMY_HP_MULT / 100.0
-            ENEMY_ATTACK_MULT = ENEMY_ATTACK_MULT / 100.0
+            hp_multiplier = ENEMY_HP_MULT / 100.0
+            attack_multiplier = ENEMY_ATTACK_MULT / 100.0
+
             old_hp = row["hp"]
-            row["hp"] = max(1, math.ceil(old_hp * ENEMY_HP_MULT))
-            
+            row["hp"] = max(1, math.ceil(old_hp * hp_multiplier))
+
             old_attack = row["power_ratio"]
-            row["power_ratio"] = max(1.0, round(old_attack * ENEMY_ATTACK_MULT, 2))
+            row["power_ratio"] = max(1.0, round(old_attack * attack_multiplier, 2))
 
             print(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
             log_change(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
@@ -443,10 +444,10 @@ def update_shop_item_limits(data, updates):
         "aston_c_boutique_equip": 16,
         "aston_c_boutique_vip": 17,
         "aston_s_mizorogi_2": 18,
-        "aston_s_poppo_park": 19,
-        "aston_s_poppo_south": 20,
-        "aston_s_poppo_north": 21,
-        "aston_y_poppo": 22,
+        "aston_s_poppo_ashi": 19,
+        "aston_s_poppo_sh": 20,
+        "aston_s_poppo_so": 21,
+        "aston_y_poppo02": 22,
         "aston_s_kukuru": 23,
         "aston_s_tsuruha": 24,
         "aston_s_hiratai": 25,
@@ -512,12 +513,10 @@ def update_shop_item_limits(data, updates):
                 if item_id:
                     row["20"] = item_counts[item_id]
 
-                    if SHOP_KEYS:
+                    if SHOP_KEYS and table_name in shop_category_8_values:
                         row["6"] = 1
                         row["7"] = 12
-
-                        if table_name in shop_category_8_values:
-                            row["8"] = shop_category_8_values[table_name]
+                        row["8"] = shop_category_8_values[table_name]
 # Rewards
 
 def update_reward(data, updates):
