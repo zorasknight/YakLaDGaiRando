@@ -162,7 +162,7 @@
     "region": "SOTENBORI_1"
   },
   "aston_s_pokecir_parts_0": {
-    "label": "Pocket Circuit Part Shop 1",
+    "label": "Pocket Circuit Part Shop Rookie Race 1",
     "location": "aston_s_pokecir_parts",
     "id": "19",
     "slot": "0",
@@ -171,7 +171,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_1": {
-    "label": "Pocket Circuit Part Shop 2",
+    "label": "Pocket Circuit Part Shop Official Race 1",
     "location": "aston_s_pokecir_parts",
     "id": "20",
     "slot": "1",
@@ -180,7 +180,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_2": {
-    "label": "Pocket Circuit Part Shop 3",
+    "label": "Pocket Circuit Part Shop Veteran Race 1",
     "location": "aston_s_pokecir_parts",
     "id": "21",
     "slot": "2",
@@ -189,7 +189,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_3": {
-    "label": "Pocket Circuit Part Shop 4",
+    "label": "Pocket Circuit Part Shop Rival Ran 1",
     "location": "aston_s_pokecir_parts",
     "id": "22",
     "slot": "3",
@@ -198,7 +198,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_4": {
-    "label": "Pocket Circuit Part Shop 5",
+    "label": "Pocket Circuit Part Shop Starting Shop 1",
     "location": "aston_s_pokecir_parts",
     "id": "23",
     "slot": "4",
@@ -207,7 +207,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_5": {
-    "label": "Pocket Circuit Part Shop 6",
+    "label": "Pocket Circuit Part Shop Starting Shop 2",
     "location": "aston_s_pokecir_parts",
     "id": "24",
     "slot": "5",
@@ -216,7 +216,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_6": {
-    "label": "Pocket Circuit Part Shop 7",
+    "label": "Pocket Circuit Part Shop Official Race 2",
     "location": "aston_s_pokecir_parts",
     "id": "25",
     "slot": "6",
@@ -225,7 +225,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_7": {
-    "label": "Pocket Circuit Part Shop 8",
+    "label": "Pocket Circuit Part Shop Veteran Race 2",
     "location": "aston_s_pokecir_parts",
     "id": "26",
     "slot": "7",
@@ -234,7 +234,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_8": {
-    "label": "Pocket Circuit Part Shop 9",
+    "label": "Pocket Circuit Part Shop Rookie Race 2",
     "location": "aston_s_pokecir_parts",
     "id": "27",
     "slot": "8",
@@ -243,7 +243,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_9": {
-    "label": "Pocket Circuit Part Shop 10",
+    "label": "Pocket Circuit Part Shop Official Race 3",
     "location": "aston_s_pokecir_parts",
     "id": "28",
     "slot": "9",
@@ -252,7 +252,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_10": {
-    "label": "Pocket Circuit Part Shop 11",
+    "label": "Pocket Circuit Part Shop Veteran Race 3",
     "location": "aston_s_pokecir_parts",
     "id": "29",
     "slot": "10",
@@ -261,7 +261,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_11": {
-    "label": "Pocket Circuit Part Shop 12",
+    "label": "Pocket Circuit Part Shop Rookie Race 3",
     "location": "aston_s_pokecir_parts",
     "id": "30",
     "slot": "11",
@@ -270,7 +270,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_12": {
-    "label": "Pocket Circuit Part Shop 13",
+    "label": "Pocket Circuit Part Shop Invitational Cup 1",
     "location": "aston_s_pokecir_parts",
     "id": "31",
     "slot": "12",
@@ -279,7 +279,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_13": {
-    "label": "Pocket Circuit Part Shop 14",
+    "label": "Pocket Circuit Part Shop Official Race 4",
     "location": "aston_s_pokecir_parts",
     "id": "32",
     "slot": "13",
@@ -288,7 +288,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_14": {
-    "label": "Pocket Circuit Part Shop 15",
+    "label": "Pocket Circuit Part Shop Rival Ran 2",
     "location": "aston_s_pokecir_parts",
     "id": "33",
     "slot": "14",
@@ -297,7 +297,7 @@
     "region": "POCKET_CIRCUIT_4"
   },
   "aston_s_pokecir_parts_15": {
-    "label": "Pocket Circuit Part Shop 16",
+    "label": "Pocket Circuit Part Shop Rival Ran 3",
     "location": "aston_s_pokecir_parts",
     "id": "34",
     "slot": "15",
@@ -306,7 +306,7 @@
     "region": "POCKET_CIRCUIT_4"
   },
   "aston_s_pokecir_parts_16": {
-    "label": "Pocket Circuit Part Shop 17",
+    "label": "Pocket Circuit Part Shop Invitational Cup 2",
     "location": "aston_s_pokecir_parts",
     "id": "35",
     "slot": "16",
@@ -315,7 +315,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_17": {
-    "label": "Pocket Circuit Part Shop 18",
+    "label": "Pocket Circuit Part Shop Invitational Cup 3",
     "location": "aston_s_pokecir_parts",
     "id": "36",
     "slot": "17",
@@ -324,7 +324,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_18": {
-    "label": "Pocket Circuit Part Shop 19",
+    "label": "Pocket Circuit Part Shop Official Race 5",
     "location": "aston_s_pokecir_parts",
     "id": "37",
     "slot": "18",
@@ -333,7 +333,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_19": {
-    "label": "Pocket Circuit Part Shop 20",
+    "label": "Pocket Circuit Part Shop Official Race 6",
     "location": "aston_s_pokecir_parts",
     "id": "38",
     "slot": "19",
@@ -342,7 +342,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_20": {
-    "label": "Pocket Circuit Part Shop 21",
+    "label": "Pocket Circuit Part Shop Official Race 7",
     "location": "aston_s_pokecir_parts",
     "id": "39",
     "slot": "20",
@@ -351,7 +351,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_21": {
-    "label": "Pocket Circuit Part Shop 22",
+    "label": "Pocket Circuit Part Shop Official Race 8",
     "location": "aston_s_pokecir_parts",
     "id": "40",
     "slot": "21",
@@ -360,7 +360,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_22": {
-    "label": "Pocket Circuit Part Shop 23",
+    "label": "Pocket Circuit Part Shop Official Race 9",
     "location": "aston_s_pokecir_parts",
     "id": "41",
     "slot": "22",
@@ -369,7 +369,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_23": {
-    "label": "Pocket Circuit Part Shop 24",
+    "label": "Pocket Circuit Part Shop Official Race 10",
     "location": "aston_s_pokecir_parts",
     "id": "42",
     "slot": "23",
@@ -378,7 +378,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_24": {
-    "label": "Pocket Circuit Part Shop 25",
+    "label": "Pocket Circuit Part Shop Official Race 11",
     "location": "aston_s_pokecir_parts",
     "id": "43",
     "slot": "24",
@@ -387,7 +387,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_25": {
-    "label": "Pocket Circuit Part Shop 26",
+    "label": "Pocket Circuit Part Shop Official Race 12",
     "location": "aston_s_pokecir_parts",
     "id": "44",
     "slot": "25",
@@ -396,7 +396,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_26": {
-    "label": "Pocket Circuit Part Shop 27",
+    "label": "Pocket Circuit Part Shop Official Race 13",
     "location": "aston_s_pokecir_parts",
     "id": "45",
     "slot": "26",
@@ -405,7 +405,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_27": {
-    "label": "Pocket Circuit Part Shop 28",
+    "label": "Pocket Circuit Part Shop Official Race 14",
     "location": "aston_s_pokecir_parts",
     "id": "46",
     "slot": "27",
@@ -414,7 +414,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_28": {
-    "label": "Pocket Circuit Part Shop 29",
+    "label": "Pocket Circuit Part Shop Official Race 15",
     "location": "aston_s_pokecir_parts",
     "id": "47",
     "slot": "28",
@@ -423,7 +423,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_29": {
-    "label": "Pocket Circuit Part Shop 30",
+    "label": "Pocket Circuit Part Shop Official Race 16",
     "location": "aston_s_pokecir_parts",
     "id": "48",
     "slot": "29",
@@ -432,7 +432,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_30": {
-    "label": "Pocket Circuit Part Shop 31",
+    "label": "Pocket Circuit Part Shop Official Race 17",
     "location": "aston_s_pokecir_parts",
     "id": "49",
     "slot": "30",
@@ -441,7 +441,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_31": {
-    "label": "Pocket Circuit Part Shop 32",
+    "label": "Pocket Circuit Part Shop Official Race 18",
     "location": "aston_s_pokecir_parts",
     "id": "50",
     "slot": "31",
@@ -450,7 +450,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_32": {
-    "label": "Pocket Circuit Part Shop 33",
+    "label": "Pocket Circuit Part Shop Official Race 19",
     "location": "aston_s_pokecir_parts",
     "id": "51",
     "slot": "32",
@@ -459,7 +459,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_33": {
-    "label": "Pocket Circuit Part Shop 34",
+    "label": "Pocket Circuit Part Shop Official Race 20",
     "location": "aston_s_pokecir_parts",
     "id": "52",
     "slot": "33",
@@ -468,7 +468,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_34": {
-    "label": "Pocket Circuit Part Shop 35",
+    "label": "Pocket Circuit Part Shop Official Race 21",
     "location": "aston_s_pokecir_parts",
     "id": "53",
     "slot": "34",
@@ -477,7 +477,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_35": {
-    "label": "Pocket Circuit Part Shop 36",
+    "label": "Pocket Circuit Part Shop Official Race 22",
     "location": "aston_s_pokecir_parts",
     "id": "54",
     "slot": "35",
@@ -486,7 +486,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_36": {
-    "label": "Pocket Circuit Part Shop 37",
+    "label": "Pocket Circuit Part Shop Official Race 23",
     "location": "aston_s_pokecir_parts",
     "id": "55",
     "slot": "36",
@@ -495,7 +495,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_37": {
-    "label": "Pocket Circuit Part Shop 38",
+    "label": "Pocket Circuit Part Shop Official Race 24",
     "location": "aston_s_pokecir_parts",
     "id": "56",
     "slot": "37",
@@ -504,7 +504,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_38": {
-    "label": "Pocket Circuit Part Shop 39",
+    "label": "Pocket Circuit Part Shop Official Race 25",
     "location": "aston_s_pokecir_parts",
     "id": "57",
     "slot": "38",
@@ -513,7 +513,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_39": {
-    "label": "Pocket Circuit Part Shop 40",
+    "label": "Pocket Circuit Part Shop Veteran Race 4",
     "location": "aston_s_pokecir_parts",
     "id": "58",
     "slot": "39",
@@ -522,7 +522,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_40": {
-    "label": "Pocket Circuit Part Shop 41",
+    "label": "Pocket Circuit Part Shop Veteran Race 5",
     "location": "aston_s_pokecir_parts",
     "id": "59",
     "slot": "40",
@@ -531,7 +531,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_41": {
-    "label": "Pocket Circuit Part Shop 42",
+    "label": "Pocket Circuit Part Shop Veteran Race 6",
     "location": "aston_s_pokecir_parts",
     "id": "60",
     "slot": "41",
@@ -540,7 +540,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_42": {
-    "label": "Pocket Circuit Part Shop 43",
+    "label": "Pocket Circuit Part Shop Rookie Race 4",
     "location": "aston_s_pokecir_parts",
     "id": "61",
     "slot": "42",
@@ -549,7 +549,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_43": {
-    "label": "Pocket Circuit Part Shop 44",
+    "label": "Pocket Circuit Part Shop Veteran Race 7",
     "location": "aston_s_pokecir_parts",
     "id": "62",
     "slot": "43",
@@ -558,7 +558,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_44": {
-    "label": "Pocket Circuit Part Shop 45",
+    "label": "Pocket Circuit Part Shop Veteran Race 8",
     "location": "aston_s_pokecir_parts",
     "id": "63",
     "slot": "44",
@@ -567,7 +567,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_45": {
-    "label": "Pocket Circuit Part Shop 46",
+    "label": "Pocket Circuit Part Shop Veteran Race 9",
     "location": "aston_s_pokecir_parts",
     "id": "64",
     "slot": "45",
@@ -576,7 +576,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_46": {
-    "label": "Pocket Circuit Part Shop 47",
+    "label": "Pocket Circuit Part Shop Veteran Race 10",
     "location": "aston_s_pokecir_parts",
     "id": "65",
     "slot": "46",
@@ -585,7 +585,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_47": {
-    "label": "Pocket Circuit Part Shop 48",
+    "label": "Pocket Circuit Part Shop Veteran Race 11",
     "location": "aston_s_pokecir_parts",
     "id": "66",
     "slot": "47",
@@ -594,7 +594,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_48": {
-    "label": "Pocket Circuit Part Shop 49",
+    "label": "Pocket Circuit Part Shop Veteran Race 12",
     "location": "aston_s_pokecir_parts",
     "id": "67",
     "slot": "48",
@@ -603,7 +603,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_49": {
-    "label": "Pocket Circuit Part Shop 50",
+    "label": "Pocket Circuit Part Shop Veteran Race 13",
     "location": "aston_s_pokecir_parts",
     "id": "68",
     "slot": "49",
@@ -612,7 +612,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_50": {
-    "label": "Pocket Circuit Part Shop 51",
+    "label": "Pocket Circuit Part Shop Veteran Race 14",
     "location": "aston_s_pokecir_parts",
     "id": "69",
     "slot": "50",
@@ -621,7 +621,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_51": {
-    "label": "Pocket Circuit Part Shop 52",
+    "label": "Pocket Circuit Part Shop Veteran Race 15",
     "location": "aston_s_pokecir_parts",
     "id": "70",
     "slot": "51",
@@ -630,7 +630,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_52": {
-    "label": "Pocket Circuit Part Shop 53",
+    "label": "Pocket Circuit Part Shop Veteran Race 16",
     "location": "aston_s_pokecir_parts",
     "id": "71",
     "slot": "52",
@@ -639,7 +639,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_53": {
-    "label": "Pocket Circuit Part Shop 54",
+    "label": "Pocket Circuit Part Shop Veteran Race 17",
     "location": "aston_s_pokecir_parts",
     "id": "72",
     "slot": "53",
@@ -648,7 +648,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_54": {
-    "label": "Pocket Circuit Part Shop 55",
+    "label": "Pocket Circuit Part Shop Veteran Race 18",
     "location": "aston_s_pokecir_parts",
     "id": "73",
     "slot": "54",
@@ -657,7 +657,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_55": {
-    "label": "Pocket Circuit Part Shop 56",
+    "label": "Pocket Circuit Part Shop Rookie Race 5",
     "location": "aston_s_pokecir_parts",
     "id": "74",
     "slot": "55",
@@ -666,7 +666,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_56": {
-    "label": "Pocket Circuit Part Shop 57",
+    "label": "Pocket Circuit Part Shop Rookie Race 6",
     "location": "aston_s_pokecir_parts",
     "id": "75",
     "slot": "56",
@@ -675,7 +675,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_57": {
-    "label": "Pocket Circuit Part Shop 58",
+    "label": "Pocket Circuit Part Shop Rookie Race 7",
     "location": "aston_s_pokecir_parts",
     "id": "76",
     "slot": "57",
@@ -684,7 +684,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_58": {
-    "label": "Pocket Circuit Part Shop 59",
+    "label": "Pocket Circuit Part Shop Rookie Race 8",
     "location": "aston_s_pokecir_parts",
     "id": "77",
     "slot": "58",
@@ -693,7 +693,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_59": {
-    "label": "Pocket Circuit Part Shop 60",
+    "label": "Pocket Circuit Part Shop Rookie Race 9",
     "location": "aston_s_pokecir_parts",
     "id": "78",
     "slot": "59",
@@ -702,7 +702,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_60": {
-    "label": "Pocket Circuit Part Shop 61",
+    "label": "Pocket Circuit Part Shop Rookie Race 10",
     "location": "aston_s_pokecir_parts",
     "id": "79",
     "slot": "60",
@@ -711,7 +711,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_61": {
-    "label": "Pocket Circuit Part Shop 62",
+    "label": "Pocket Circuit Part Shop Rookie Race 11",
     "location": "aston_s_pokecir_parts",
     "id": "80",
     "slot": "61",
@@ -720,7 +720,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_62": {
-    "label": "Pocket Circuit Part Shop 63",
+    "label": "Pocket Circuit Part Shop Rookie Race 12",
     "location": "aston_s_pokecir_parts",
     "id": "81",
     "slot": "62",
@@ -729,7 +729,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_63": {
-    "label": "Pocket Circuit Part Shop 64",
+    "label": "Pocket Circuit Part Shop Rookie Race 13",
     "location": "aston_s_pokecir_parts",
     "id": "82",
     "slot": "63",
@@ -738,7 +738,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_64": {
-    "label": "Pocket Circuit Part Shop 65",
+    "label": "Pocket Circuit Part Shop Rookie Race 14",
     "location": "aston_s_pokecir_parts",
     "id": "83",
     "slot": "64",
@@ -747,7 +747,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_65": {
-    "label": "Pocket Circuit Part Shop 66",
+    "label": "Pocket Circuit Part Shop Rookie Race 15",
     "location": "aston_s_pokecir_parts",
     "id": "84",
     "slot": "65",
@@ -756,7 +756,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_66": {
-    "label": "Pocket Circuit Part Shop 67",
+    "label": "Pocket Circuit Part Shop Rookie Race 16",
     "location": "aston_s_pokecir_parts",
     "id": "85",
     "slot": "66",
@@ -765,7 +765,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_67": {
-    "label": "Pocket Circuit Part Shop 68",
+    "label": "Pocket Circuit Part Shop Rookie Race 17",
     "location": "aston_s_pokecir_parts",
     "id": "86",
     "slot": "67",
@@ -774,7 +774,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_68": {
-    "label": "Pocket Circuit Part Shop 69",
+    "label": "Pocket Circuit Part Shop Rookie Race 18",
     "location": "aston_s_pokecir_parts",
     "id": "87",
     "slot": "68",
@@ -783,7 +783,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_69": {
-    "label": "Pocket Circuit Part Shop 70",
+    "label": "Pocket Circuit Part Shop Rookie Race 19",
     "location": "aston_s_pokecir_parts",
     "id": "88",
     "slot": "69",
@@ -792,7 +792,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_70": {
-    "label": "Pocket Circuit Part Shop 71",
+    "label": "Pocket Circuit Part Shop Rookie Race 20",
     "location": "aston_s_pokecir_parts",
     "id": "89",
     "slot": "70",
@@ -801,7 +801,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_71": {
-    "label": "Pocket Circuit Part Shop 72",
+    "label": "Pocket Circuit Part Shop Introductory Race 1",
     "location": "aston_s_pokecir_parts",
     "id": "90",
     "slot": "71",
@@ -810,7 +810,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_72": {
-    "label": "Pocket Circuit Part Shop 73",
+    "label": "Pocket Circuit Part Shop Introductory Race 2",
     "location": "aston_s_pokecir_parts",
     "id": "91",
     "slot": "72",
@@ -819,7 +819,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_73": {
-    "label": "Pocket Circuit Part Shop 74",
+    "label": "Pocket Circuit Part Shop Introductory Race 3",
     "location": "aston_s_pokecir_parts",
     "id": "92",
     "slot": "73",
@@ -828,7 +828,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_74": {
-    "label": "Pocket Circuit Part Shop 75",
+    "label": "Pocket Circuit Part Shop Introductory Race 4",
     "location": "aston_s_pokecir_parts",
     "id": "93",
     "slot": "74",
@@ -837,7 +837,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_75": {
-    "label": "Pocket Circuit Part Shop 76",
+    "label": "Pocket Circuit Part Shop Introductory Race 5",
     "location": "aston_s_pokecir_parts",
     "id": "94",
     "slot": "75",
@@ -846,7 +846,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_76": {
-    "label": "Pocket Circuit Part Shop 77",
+    "label": "Pocket Circuit Part Shop Introductory Race 6",
     "location": "aston_s_pokecir_parts",
     "id": "95",
     "slot": "76",
@@ -855,7 +855,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_77": {
-    "label": "Pocket Circuit Part Shop 78",
+    "label": "Pocket Circuit Part Shop Introductory Race 7",
     "location": "aston_s_pokecir_parts",
     "id": "96",
     "slot": "77",
@@ -864,7 +864,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_78": {
-    "label": "Pocket Circuit Part Shop 79",
+    "label": "Pocket Circuit Part Shop Introductory Race 8",
     "location": "aston_s_pokecir_parts",
     "id": "97",
     "slot": "78",
@@ -873,7 +873,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_79": {
-    "label": "Pocket Circuit Part Shop 80",
+    "label": "Pocket Circuit Part Shop Introductory Race 9",
     "location": "aston_s_pokecir_parts",
     "id": "98",
     "slot": "79",
@@ -882,7 +882,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_80": {
-    "label": "Pocket Circuit Part Shop 81",
+    "label": "Pocket Circuit Part Shop Introductory Race 10",
     "location": "aston_s_pokecir_parts",
     "id": "99",
     "slot": "80",
@@ -891,7 +891,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_81": {
-    "label": "Pocket Circuit Part Shop 82",
+    "label": "Pocket Circuit Part Shop Introductory Race 11",
     "location": "aston_s_pokecir_parts",
     "id": "100",
     "slot": "81",
@@ -900,7 +900,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_82": {
-    "label": "Pocket Circuit Part Shop 83",
+    "label": "Pocket Circuit Part Shop Introductory Race 12",
     "location": "aston_s_pokecir_parts",
     "id": "101",
     "slot": "82",
@@ -909,7 +909,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_83": {
-    "label": "Pocket Circuit Part Shop 84",
+    "label": "Pocket Circuit Part Shop Introductory Race 13",
     "location": "aston_s_pokecir_parts",
     "id": "102",
     "slot": "83",
@@ -918,7 +918,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_84": {
-    "label": "Pocket Circuit Part Shop 85",
+    "label": "Pocket Circuit Part Shop Starting Shop 3",
     "location": "aston_s_pokecir_parts",
     "id": "103",
     "slot": "84",
@@ -927,7 +927,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_85": {
-    "label": "Pocket Circuit Part Shop 86",
+    "label": "Pocket Circuit Part Shop Starting Shop 4",
     "location": "aston_s_pokecir_parts",
     "id": "104",
     "slot": "85",
@@ -936,7 +936,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_86": {
-    "label": "Pocket Circuit Part Shop 87",
+    "label": "Pocket Circuit Part Shop Starting Shop 5",
     "location": "aston_s_pokecir_parts",
     "id": "105",
     "slot": "86",
@@ -945,7 +945,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_87": {
-    "label": "Pocket Circuit Part Shop 88",
+    "label": "Pocket Circuit Part Shop Starting Shop 6",
     "location": "aston_s_pokecir_parts",
     "id": "106",
     "slot": "87",
@@ -954,7 +954,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_88": {
-    "label": "Pocket Circuit Part Shop 89",
+    "label": "Pocket Circuit Part Shop Starting Shop 7",
     "location": "aston_s_pokecir_parts",
     "id": "107",
     "slot": "88",
@@ -963,7 +963,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_89": {
-    "label": "Pocket Circuit Part Shop 90",
+    "label": "Pocket Circuit Part Shop Starting Shop 8",
     "location": "aston_s_pokecir_parts",
     "id": "108",
     "slot": "89",
@@ -972,7 +972,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_90": {
-    "label": "Pocket Circuit Part Shop 91",
+    "label": "Pocket Circuit Part Shop Starting Shop 9",
     "location": "aston_s_pokecir_parts",
     "id": "109",
     "slot": "90",
@@ -981,7 +981,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_91": {
-    "label": "Pocket Circuit Part Shop 92",
+    "label": "Pocket Circuit Part Shop Starting Shop 10",
     "location": "aston_s_pokecir_parts",
     "id": "110",
     "slot": "91",
@@ -990,7 +990,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_92": {
-    "label": "Pocket Circuit Part Shop 93",
+    "label": "Pocket Circuit Part Shop Starting Shop 11",
     "location": "aston_s_pokecir_parts",
     "id": "111",
     "slot": "92",
@@ -999,7 +999,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_93": {
-    "label": "Pocket Circuit Part Shop 94",
+    "label": "Pocket Circuit Part Shop Starting Shop 12",
     "location": "aston_s_pokecir_parts",
     "id": "112",
     "slot": "93",
@@ -1008,7 +1008,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_94": {
-    "label": "Pocket Circuit Part Shop 95",
+    "label": "Pocket Circuit Part Shop Starting Shop 13",
     "location": "aston_s_pokecir_parts",
     "id": "113",
     "slot": "94",
@@ -3435,7 +3435,7 @@
     "slot": "122",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y009": {
     "label": "Yokohama Wire 9",
@@ -3462,7 +3462,7 @@
     "slot": "125",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y012": {
     "label": "Yokohama Wire 12",
@@ -3480,7 +3480,7 @@
     "slot": "127",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y014": {
     "label": "Yokohama Wire 14",
@@ -3570,7 +3570,7 @@
     "slot": "137",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y024": {
     "label": "Yokohama Wire 24",
@@ -3642,7 +3642,7 @@
     "slot": "145",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y032": {
     "label": "Yokohama Wire 32",
@@ -3651,7 +3651,7 @@
     "slot": "146",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y033": {
     "label": "Yokohama Wire 33",
@@ -3660,7 +3660,7 @@
     "slot": "147",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y034": {
     "label": "Yokohama Wire 34",
@@ -3669,7 +3669,7 @@
     "slot": "148",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y035": {
     "label": "Yokohama Wire 35",
@@ -3678,7 +3678,7 @@
     "slot": "149",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y036": {
     "label": "Yokohama Wire 36",
@@ -3705,7 +3705,7 @@
     "slot": "152",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y039": {
     "label": "Yokohama Wire 39",
@@ -3714,7 +3714,7 @@
     "slot": "153",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure_y040": {
     "label": "Yokohama Wire 40",
@@ -3723,7 +3723,7 @@
     "slot": "154",
     "source": "item_get_by_wire.bin.json",
     "tags": "Yokohama, Wire",
-    "region": "JUNK"
+    "region": "YOKOHAMA"
   },
   "treasure001": {
     "label": "Sotenbori Wire 1",
@@ -3849,7 +3849,7 @@
     "slot": "18",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure015": {
     "label": "Sotenbori Wire 15",
@@ -3993,7 +3993,7 @@
     "slot": "34",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure031": {
     "label": "Sotenbori Wire 31",
@@ -4011,7 +4011,7 @@
     "slot": "36",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure033": {
     "label": "Sotenbori Wire 33",
@@ -4029,7 +4029,7 @@
     "slot": "38",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure035": {
     "label": "Sotenbori Wire 35",
@@ -4056,7 +4056,7 @@
     "slot": "41",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure038": {
     "label": "Sotenbori Wire 38",
@@ -4092,7 +4092,7 @@
     "slot": "45",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure042": {
     "label": "Sotenbori Wire 42",
@@ -4101,7 +4101,7 @@
     "slot": "46",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure043": {
     "label": "Sotenbori Wire 43",
@@ -4119,7 +4119,7 @@
     "slot": "48",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure045": {
     "label": "Sotenbori Wire 45",
@@ -4128,7 +4128,7 @@
     "slot": "49",
     "source": "item_get_by_wire.bin.json",
     "tags": "Sotenbori_1, Wire",
-    "region": "JUNK"
+    "region": "SOTENBORI_1"
   },
   "treasure046": {
     "label": "Sotenbori Wire 46",
@@ -4200,7 +4200,7 @@
     "slot": "67",
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_1, Wire",
-    "region": "JUNK"
+    "region": "COLOSSEUM_1"
   },
   "treasure_c004": {
     "label": "Colosseum Wire 4",
@@ -4272,7 +4272,7 @@
     "slot": "75",
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_2, Wire",
-    "region": "JUNK"
+    "region": "COLOSSEUM_2"
   },
   "treasure_c012": {
     "label": "Colosseum Wire 12",
@@ -4380,7 +4380,7 @@
     "slot": "87",
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_1, Wire",
-    "region": "JUNK"
+    "region": "COLOSSEUM_1"
   },
   "treasure_c024": {
     "label": "Colosseum Wire 24",
@@ -4389,7 +4389,7 @@
     "slot": "88",
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_1, Wire",
-    "region": "JUNK"
+    "region": "COLOSSEUM_1"
   },
   "treasure_c025": {
     "label": "Colosseum Wire 25",
@@ -4443,7 +4443,7 @@
     "slot": "94",
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_1, Wire",
-    "region": "JUNK"
+    "region": "COLOSSEUM_1"
   },
   "aston_quest1010": {
     "label": "Sotenbori Wire Soccer Ball",
@@ -6012,7 +6012,7 @@
     "region": "JUNK"
   },
   "pokecir_reward_0": {
-    "label": "Pocket Circuit Reward 1",
+    "label": "Pocket Circuit Rival Owner Reward",
     "location": "pokecir",
     "id": "669",
     "slot": "4",
@@ -6021,7 +6021,7 @@
     "region": "POCKET_CIRCUIT_4"
   },
   "pokecir_reward_1": {
-    "label": "Pocket Circuit Reward 2",
+    "label": "Pocket Circuit Tutorial Gift 1",
     "location": "pokecir",
     "id": "670",
     "slot": "8",
@@ -6030,7 +6030,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_2": {
-    "label": "Pocket Circuit Reward 3",
+    "label": "Pocket Circuit Rival Ran Reward",
     "location": "pokecir",
     "id": "671",
     "slot": "13",
@@ -6039,7 +6039,7 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "pokecir_reward_3": {
-    "label": "Pocket Circuit Reward 4",
+    "label": "Pocket Circuit Tutorial Gift 2",
     "location": "pokecir",
     "id": "672",
     "slot": "15",
@@ -6048,7 +6048,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_4": {
-    "label": "Pocket Circuit Reward 5",
+    "label": "Pocket Circuit Tutorial Gift 3",
     "location": "pokecir",
     "id": "673",
     "slot": "40",
@@ -6057,7 +6057,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_5": {
-    "label": "Pocket Circuit Reward 6",
+    "label": "Pocket Circuit Rival Rival Momozo Reward",
     "location": "pokecir",
     "id": "674",
     "slot": "58",
@@ -6066,7 +6066,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "pokecir_reward_6": {
-    "label": "Pocket Circuit Reward 7",
+    "label": "Pocket Circuit Tutorial Gift 4",
     "location": "pokecir",
     "id": "675",
     "slot": "64",
@@ -6075,7 +6075,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_7": {
-    "label": "Pocket Circuit Reward 8",
+    "label": "Pocket Circuit Tutorial Gift 5",
     "location": "pokecir",
     "id": "676",
     "slot": "89",
@@ -6084,7 +6084,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_8": {
-    "label": "Pocket Circuit Reward 9",
+    "label": "Pocket Circuit Tutorial Gift 6",
     "location": "pokecir",
     "id": "677",
     "slot": "94",
@@ -6093,7 +6093,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_9": {
-    "label": "Pocket Circuit Reward 10",
+    "label": "Pocket Circuit Tutorial Gift 7",
     "location": "pokecir",
     "id": "678",
     "slot": "111",
@@ -6102,16 +6102,16 @@
     "region": "POCKET_CIRCUIT_2"
   },
   "pokecir_reward_10": {
-    "label": "Pocket Circuit Reward 11",
+    "label": "Pocket Circuit Veteran Gift",
     "location": "pokecir",
     "id": "679",
     "slot": "120",
     "source": "reward_table.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "pokecir_reward_11": {
-    "label": "Pocket Circuit Reward 12",
+    "label": "Pocket Circuit Tutorial Gift 8",
     "location": "pokecir",
     "id": "680",
     "slot": "124",
@@ -6120,7 +6120,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_12": {
-    "label": "Pocket Circuit Reward 13",
+    "label": "Pocket Circuit Rival Keiko Reward",
     "location": "pokecir",
     "id": "681",
     "slot": "125",
@@ -6129,7 +6129,7 @@
     "region": "POCKET_CIRCUIT_3"
   },
   "pokecir_reward_13": {
-    "label": "Pocket Circuit Reward 14",
+    "label": "Pocket Circuit Rival Hammer Head Reward",
     "location": "pokecir",
     "id": "682",
     "slot": "130",
@@ -7578,34 +7578,34 @@
     "region": "JUNK"
   },
   "darts_rewards_0": {
-    "label": "Dart Rival Reward 1",
+    "label": "Dart Stijl Rival Akame Reward",
     "location": "darts",
     "id": "843",
     "slot": "1",
     "source": "reward_table.bin.json",
-    "tags": "Sotenbori_2, Minigames, Darts",
-    "region": "SOTENBORI_2"
+    "tags": "Sotenbori_3, Minigames, Darts",
+    "region": "SOTENBORI_3"
   },
   "darts_rewards_1": {
-    "label": "Dart Rival Reward 2",
+    "label": "Dart Stijl Rival Hanawa Reward",
     "location": "darts",
     "id": "844",
     "slot": "2",
     "source": "reward_table.bin.json",
-    "tags": "Sotenbori_2, Minigames, Darts",
-    "region": "SOTENBORI_2"
+    "tags": "Sotenbori_3, Minigames, Darts",
+    "region": "SOTENBORI_3"
   },
   "darts_rewards_2": {
-    "label": "Dart Rival Reward 3",
+    "label": "Dart Stijl Rival Ran Reward",
     "location": "darts",
     "id": "845",
     "slot": "3",
     "source": "reward_table.bin.json",
-    "tags": "Pocket Circuit_4, Minigames, Darts",
-    "region": "POCKET_CIRCUIT_4"
+    "tags": "Pocket Circuit_1, Minigames, Darts",
+    "region": "POCKET_CIRCUIT_1"
   },
   "darts_rewards_3": {
-    "label": "Dart Rival Reward 4",
+    "label": "Dart Stijl Rival Yada Reward",
     "location": "darts",
     "id": "846",
     "slot": "4",
@@ -7614,7 +7614,7 @@
     "region": "SOTENBORI_2"
   },
   "darts_rewards_4": {
-    "label": "Dart Rival Reward 5",
+    "label": "Dart Colosseum Rival Hammer Head Reward",
     "location": "darts",
     "id": "847",
     "slot": "5",
@@ -7623,25 +7623,25 @@
     "region": "COLOSSEUM_2"
   },
   "darts_rewards_5": {
-    "label": "Dart Rival Reward 6",
+    "label": "Dart Colosseum Rival MB Reward",
     "location": "darts",
     "id": "848",
     "slot": "6",
     "source": "reward_table.bin.json",
-    "tags": "Sotenbori_3, Minigames, Darts",
-    "region": "SOTENBORI_3"
+    "tags": "Colosseum_2, Minigames, Darts",
+    "region": "COLOSSEUM_2"
   },
   "darts_rewards_6": {
-    "label": "Dart Rival Reward 7",
+    "label": "Dart Colosseum Rival Kanon Reward",
     "location": "darts",
     "id": "849",
     "slot": "7",
     "source": "reward_table.bin.json",
-    "tags": "Colosseum_3, Minigames, Darts",
-    "region": "COLOSSEUM_3"
+    "tags": "Colosseum_2, Minigames, Darts",
+    "region": "COLOSSEUM_2"
   },
   "darts_rewards_7": {
-    "label": "Dart Rival Reward 8",
+    "label": "Dart Colosseum Rival Yurina Reward",
     "location": "darts",
     "id": "850",
     "slot": "8",
@@ -8951,8 +8951,8 @@
     "id": "995",
     "slot": "2",
     "source": "shop.bin.json",
-    "tags": "Colosseum_3, Shops",
-    "region": "COLOSSEUM_3"
+    "tags": "Colosseum_2, Shops",
+    "region": "COLOSSEUM_2"
   },
   "aston_c_loungeshop_3": {
     "label": "Colosseum Lounge Shop 4",
@@ -8969,8 +8969,8 @@
     "id": "997",
     "slot": "4",
     "source": "shop.bin.json",
-    "tags": "Colosseum_2, Shops",
-    "region": "COLOSSEUM_2"
+    "tags": "Colosseum_3, Shops",
+    "region": "COLOSSEUM_3"
   },
   "aston_c_loungeshop_5": {
     "label": "Colosseum Lounge Shop 6",
@@ -8978,8 +8978,8 @@
     "id": "998",
     "slot": "5",
     "source": "shop.bin.json",
-    "tags": "Colosseum_2, Shops",
-    "region": "COLOSSEUM_2"
+    "tags": "Colosseum_3, Shops",
+    "region": "COLOSSEUM_3"
   },
   "aston_c_loungeshop_6": {
     "label": "Colosseum Lounge Shop 7",

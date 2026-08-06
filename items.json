@@ -1075,8 +1075,8 @@
     "purchase_price": "880",
     "purchase_points": "380"
   },
-  "sotenbori_billiard_point_shop_unloc": {
-    "label": "Sotenbori Billiard Point Shop Unloc",
+  "sotenbori_billiard_point_shop_unlock": {
+    "label": "Sotenbori Billiard Point Shop Unlock",
     "item_id": "6287",
     "tags": [
       "IMPORTANT",
