@@ -158,6 +158,14 @@ def load_config():
     global ENEMY_HP_MULT
     global ENEMY_ATTACK_MULT
     global RANDOMIZE_ENEMY_STATS
+    global POOL_MODIFIER
+    global GOLF_MODIFIER
+    global SHOGI_MODIFIER
+    global CASINO_MODIFIER
+    global AKAME_SHOP_MODIFIER
+    global POCKET_CIRCUIT_MODIFIER
+    global MAX_GOLDEN_BALL_COUNT
+    global REQUIRED_GOLDEN_BALL_COUNT
 
 
     SETTINGS = load_ap_settings()
@@ -193,6 +201,16 @@ def load_config():
 
     RESIST_MIN = SETTINGS["resist_min"]
     RESIST_MAX = SETTINGS["resist_max"]
+
+    POOL_MODIFIER = SETTINGS["pool_modifier"]
+    GOLF_MODIFIER = SETTINGS["golf_modifier"]
+    SHOGI_MODIFIER = SETTINGS["shogi_modifier"]
+    CASINO_MODIFIER = SETTINGS["casino_modifier"]
+    AKAME_SHOP_MODIFIER = SETTINGS["akame_shop_modifier"]
+    POCKET_CIRCUIT_MODIFIER = SETTINGS["pocket_circuit_modifier"]
+
+    MAX_GOLDEN_BALL_COUNT = SETTINGS["max_golden_ball_count"]
+    REQUIRED_GOLDEN_BALL_COUNT = SETTINGS["required_golden_ball_count"]
 
 
 # Create log files
@@ -762,13 +780,13 @@ def patch_item_bin_prices(updates_by_file):
     shuffle_healing_items(data)
 
     POINT_FIELDS = {
-        "buy_syogi_point": 0.6,
-        "buy_casino_point": 0.8,
-        "buy_toba_point": 0.8,
-        "buy_akame_point": 2.0,
-        "buy_billiard_point": 0.25,
-        "buy_golf_point": 0.6,
-        "buy_pokecir_point": 1.0,
+        "buy_syogi_point": SHOGI_MODIFIER,
+        "buy_casino_point": CASINO_MODIFIER,
+        "buy_toba_point": CASINO_MODIFIER,
+        "buy_akame_point": AKAME_SHOP_MODIFIER,
+        "buy_billiard_point": POOL_MODIFIER,
+        "buy_golf_point": GOLF_MODIFIER,
+        "buy_pokecir_point": POCKET_CIRCUIT_MODIFIER,
     }
 
     for _, updates in updates_by_file.items():
