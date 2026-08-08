@@ -22,11 +22,11 @@
     "shogi_modifier": 50,
     "pocket_circuit_modifier": 150,
     "akame_shop_modifier": 200,
-    "max_golden_ball_count": 15,
-    "required_golden_ball_count": 10,
-    "progressive_grapple_items": 1,
-    "important_grapple_items_yokohama": 10,
+    "max_golden_ball_count": 10,
+    "required_golden_ball_count": 7,
+    "progressive_grapple_items": 0,
+    "important_grapple_items_yokohama": 20,
     "important_grapple_items_sotenbori": 30,
     "important_grapple_items_colosseum": 10,
-    "seed": "62851489364547372647"
+    "seed": "37281146636123499452"
 }
