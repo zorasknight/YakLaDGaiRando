@@ -69,6 +69,7 @@ def main():
     shutil.copy2(ASSETS / "progressive_items.json", BIN_OUTPUT / "progressive_items.json")
     shutil.copy2(ASSETS / "items.json", BIN_OUTPUT / "items.json")
     shutil.copy2(ASSETS / "locations.json", BIN_OUTPUT / "locations.json")
+    shutil.copy2(ASSETS / "options.json", BIN_OUTPUT / "options.json")
     
 
     zip_path = shutil.make_archive( base_name=str(BIN_OUTPUT), format="zip", root_dir=BIN_OUTPUT.parent, base_dir=BIN_OUTPUT.name, )

@@ -166,6 +166,7 @@ def load_config():
     global POCKET_CIRCUIT_MODIFIER
     global MAX_GOLDEN_BALL_COUNT
     global REQUIRED_GOLDEN_BALL_COUNT
+    global PROGRESSIVE_GRAPPLE_ITEMS
 
 
     SETTINGS = load_ap_settings()
@@ -211,7 +212,7 @@ def load_config():
 
     MAX_GOLDEN_BALL_COUNT = SETTINGS["max_golden_ball_count"]
     REQUIRED_GOLDEN_BALL_COUNT = SETTINGS["required_golden_ball_count"]
-
+    PROGRESSIVE_GRAPPLE_ITEMS = SETTINGS["progressive_grapple_items"]
 
 # Create log files
 
@@ -226,6 +227,17 @@ def log_change(msg: str):
 def log_error(msg: str):
     with open(ERROR_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
+
+def write_options_file():
+    assets_folder = BASE_DIR / "Assets"
+    assets_folder.mkdir(parents=True, exist_ok=True)
+
+    options_path = assets_folder / "options.json"
+
+    with open(options_path, "w", encoding="utf-8") as f:
+        json.dump(SETTINGS, f, indent=4)
+
+    print(f"[CONFIG] Wrote options to {options_path}")
 
 
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
@@ -657,6 +669,56 @@ def update_wire(data, updates):
 
     changes = 0
 
+    if PROGRESSIVE_GRAPPLE_ITEMS:
+
+        GRAPPLE_RANGES = [
+            # (start rowIndex, end rowIndex, progressive item ID, region)
+            (5, 54, 6312, "Sotenbori"),
+            (65, 114, 6313, "Colosseum"),
+            (115, 164, 6311, "Yokohama"),
+        ]
+
+        for row_container in data.values():
+
+            if not isinstance(row_container, dict):
+                continue
+
+            for inner_row in row_container.values():
+
+                if not isinstance(inner_row, dict):
+                    continue
+
+                row_index = inner_row.get("reARMP_rowIndex")
+
+                if row_index is None:
+                    continue
+
+                for start, end, item_id, region in GRAPPLE_RANGES:
+
+                    if start <= row_index <= end:
+
+                        old_value = inner_row.get("get_item_id")
+
+                        if old_value == item_id:
+                            break
+
+                        inner_row["get_item_id"] = item_id
+
+                        changes += 1
+
+                        msg = (
+                            f"[WIRE PROGRESSIVE] "
+                            f"{region} rowIndex={row_index} "
+                            f"{old_value} -> {item_id}"
+                        )
+
+                        print(msg)
+                        log_change(msg)
+
+                        break
+
+        return changes
+
     for u in updates:
 
         if u["column_id"] != "replacement_item_id":
@@ -1061,6 +1123,8 @@ def apply_updates(json_path, updates):
 
 def main():
     load_config()
+
+    write_options_file()
 
     seed = SETTINGS.get("seed")
     used_seed = init_seed(seed)
