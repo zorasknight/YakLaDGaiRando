@@ -669,55 +669,9 @@ def update_wire(data, updates):
 
     changes = 0
 
-    if PROGRESSIVE_GRAPPLE_ITEMS:
-
-        GRAPPLE_RANGES = [
-            # (start rowIndex, end rowIndex, progressive item ID, region)
-            (5, 54, 6312, "Sotenbori"),
-            (65, 114, 6313, "Colosseum"),
-            (115, 164, 6311, "Yokohama"),
-        ]
-
-        for row_container in data.values():
-
-            if not isinstance(row_container, dict):
-                continue
-
-            for inner_row in row_container.values():
-
-                if not isinstance(inner_row, dict):
-                    continue
-
-                row_index = inner_row.get("reARMP_rowIndex")
-
-                if row_index is None:
-                    continue
-
-                for start, end, item_id, region in GRAPPLE_RANGES:
-
-                    if start <= row_index <= end:
-
-                        old_value = inner_row.get("get_item_id")
-
-                        if old_value == item_id:
-                            break
-
-                        inner_row["get_item_id"] = item_id
-
-                        changes += 1
-
-                        msg = (
-                            f"[WIRE PROGRESSIVE] "
-                            f"{region} rowIndex={row_index} "
-                            f"{old_value} -> {item_id}"
-                        )
-
-                        print(msg)
-                        log_change(msg)
-
-                        break
-
-        return changes
+    # =====================================================
+    # Normal wire updates
+    # =====================================================
 
     for u in updates:
 
@@ -737,7 +691,8 @@ def update_wire(data, updates):
 
         inner_row = None
 
-        for k, v in row_container.items():
+        for v in row_container.values():
+
             if isinstance(v, dict) and "get_item_id" in v:
                 inner_row = v
                 break
@@ -746,13 +701,85 @@ def update_wire(data, updates):
             continue
 
         old_value = inner_row["get_item_id"]
+
+        if old_value == new_value:
+            continue
+
         inner_row["get_item_id"] = new_value
 
         changes += 1
 
-        msg = f"[WIRE] row={row_id} {old_value} -> {new_value}"
+        msg = (
+            f"[WIRE] row={row_id} "
+            f"{old_value} -> {new_value}"
+        )
+
         print(msg)
         log_change(msg)
+
+
+    # =====================================================
+    # Progressive Grapple replacements
+    # =====================================================
+
+    if PROGRESSIVE_GRAPPLE_ITEMS:
+
+        GRAPPLE_RANGES = [
+            # (start row ID, end row ID, progressive item ID, region)
+            (5, 54, 6312, "Sotenbori"),
+            (65, 114, 6313, "Colosseum"),
+            (115, 164, 6311, "Yokohama"),
+        ]
+
+        for row_id, row_container in data.items():
+
+            if not isinstance(row_container, dict):
+                continue
+
+            try:
+                row_id_int = int(row_id)
+            except (ValueError, TypeError):
+                continue
+
+            progressive_item = None
+            region = None
+
+            for start, end, item_id, range_region in GRAPPLE_RANGES:
+
+                if start <= row_id_int <= end:
+                    progressive_item = item_id
+                    region = range_region
+                    break
+
+            if progressive_item is None:
+                continue
+
+            for inner_row in row_container.values():
+
+                if not isinstance(inner_row, dict):
+                    continue
+
+                if "get_item_id" not in inner_row:
+                    continue
+
+                old_value = inner_row["get_item_id"]
+
+                if old_value == progressive_item:
+                    continue
+
+                inner_row["get_item_id"] = progressive_item
+
+                changes += 1
+
+                msg = (
+                    f"[WIRE PROGRESSIVE] "
+                    f"{region} row={row_id_int} "
+                    f"{old_value} -> {progressive_item}"
+                )
+
+                print(msg)
+                log_change(msg)
+
 
     return changes
 
