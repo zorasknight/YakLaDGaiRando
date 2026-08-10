@@ -10204,5 +10204,545 @@
     "source": "items.bin.json",
     "tags": "Shop_Key",
     "region": "JUNK"
+  },
+  "prog_yoko_grapple_item_1": {
+    "label": "Yokohama Progressive Wire 1",
+    "location": "treasure_y001",
+    "id": "1135",
+    "slot": "115",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_2": {
+    "label": "Yokohama Progressive Wire 2",
+    "location": "treasure_y002",
+    "id": "1136",
+    "slot": "116",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_3": {
+    "label": "Yokohama Progressive Wire 3",
+    "location": "treasure_y003",
+    "id": "1137",
+    "slot": "117",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_4": {
+    "label": "Yokohama Progressive Wire 4",
+    "location": "treasure_y004",
+    "id": "1138",
+    "slot": "118",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_5": {
+    "label": "Yokohama Progressive Wire 5",
+    "location": "treasure_y005",
+    "id": "1139",
+    "slot": "119",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_6": {
+    "label": "Yokohama Progressive Wire 6",
+    "location": "treasure_y006",
+    "id": "1140",
+    "slot": "120",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_7": {
+    "label": "Yokohama Progressive Wire 7",
+    "location": "treasure_y007",
+    "id": "1141",
+    "slot": "121",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_8": {
+    "label": "Yokohama Progressive Wire 8",
+    "location": "treasure_y008",
+    "id": "1142",
+    "slot": "122",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_9": {
+    "label": "Yokohama Progressive Wire 9",
+    "location": "treasure_y009",
+    "id": "1143",
+    "slot": "123",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_10": {
+    "label": "Yokohama Progressive Wire 10",
+    "location": "treasure_y010",
+    "id": "1144",
+    "slot": "124",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_11": {
+    "label": "Yokohama Progressive Wire 11",
+    "location": "treasure_y011",
+    "id": "1145",
+    "slot": "125",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_12": {
+    "label": "Yokohama Progressive Wire 12",
+    "location": "treasure_y012",
+    "id": "1146",
+    "slot": "126",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_13": {
+    "label": "Yokohama Progressive Wire 13",
+    "location": "treasure_y013",
+    "id": "1147",
+    "slot": "127",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_14": {
+    "label": "Yokohama Progressive Wire 14",
+    "location": "treasure_y014",
+    "id": "1148",
+    "slot": "128",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_15": {
+    "label": "Yokohama Progressive Wire 15",
+    "location": "treasure_y015",
+    "id": "1149",
+    "slot": "129",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_16": {
+    "label": "Yokohama Progressive Wire 16",
+    "location": "treasure_y016",
+    "id": "1150",
+    "slot": "130",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_17": {
+    "label": "Yokohama Progressive Wire 17",
+    "location": "treasure_y017",
+    "id": "1151",
+    "slot": "131",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_18": {
+    "label": "Yokohama Progressive Wire 18",
+    "location": "treasure_y018",
+    "id": "1152",
+    "slot": "132",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_19": {
+    "label": "Yokohama Progressive Wire 19",
+    "location": "treasure_y019",
+    "id": "1153",
+    "slot": "133",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_yoko_grapple_item_20": {
+    "label": "Yokohama Progressive Wire 20",
+    "location": "treasure_y020",
+    "id": "1154",
+    "slot": "134",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Yokohama, Progressive Wire",
+    "region": "YOKOHAMA"
+  },
+  "prog_sote_grapple_item_1": {
+    "label": "Sotenbori Progressive Wire 1",
+    "location": "treasure_001",
+    "id": "1155",
+    "slot": "115",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_2": {
+    "label": "Sotenbori Progressive Wire 2",
+    "location": "treasure_002",
+    "id": "1156",
+    "slot": "116",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_3": {
+    "label": "Sotenbori Progressive Wire 3",
+    "location": "treasure_003",
+    "id": "1157",
+    "slot": "117",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_4": {
+    "label": "Sotenbori Progressive Wire 4",
+    "location": "treasure_004",
+    "id": "1158",
+    "slot": "118",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_5": {
+    "label": "Sotenbori Progressive Wire 5",
+    "location": "treasure_005",
+    "id": "1159",
+    "slot": "119",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_6": {
+    "label": "Sotenbori Progressive Wire 6",
+    "location": "treasure_006",
+    "id": "1160",
+    "slot": "120",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_7": {
+    "label": "Sotenbori Progressive Wire 7",
+    "location": "treasure_007",
+    "id": "1161",
+    "slot": "121",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_8": {
+    "label": "Sotenbori Progressive Wire 8",
+    "location": "treasure_008",
+    "id": "1162",
+    "slot": "122",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_9": {
+    "label": "Sotenbori Progressive Wire 9",
+    "location": "treasure_009",
+    "id": "1163",
+    "slot": "123",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_10": {
+    "label": "Sotenbori Progressive Wire 10",
+    "location": "treasure_010",
+    "id": "1164",
+    "slot": "124",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_11": {
+    "label": "Sotenbori Progressive Wire 11",
+    "location": "treasure_011",
+    "id": "1165",
+    "slot": "125",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_12": {
+    "label": "Sotenbori Progressive Wire 12",
+    "location": "treasure_012",
+    "id": "1166",
+    "slot": "126",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_13": {
+    "label": "Sotenbori Progressive Wire 13",
+    "location": "treasure_013",
+    "id": "1167",
+    "slot": "127",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_14": {
+    "label": "Sotenbori Progressive Wire 14",
+    "location": "treasure_014",
+    "id": "1168",
+    "slot": "128",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_15": {
+    "label": "Sotenbori Progressive Wire 15",
+    "location": "treasure_015",
+    "id": "1169",
+    "slot": "129",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_16": {
+    "label": "Sotenbori Progressive Wire 16",
+    "location": "treasure_016",
+    "id": "1170",
+    "slot": "130",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_17": {
+    "label": "Sotenbori Progressive Wire 17",
+    "location": "treasure_017",
+    "id": "1171",
+    "slot": "131",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_18": {
+    "label": "Sotenbori Progressive Wire 18",
+    "location": "treasure_018",
+    "id": "1172",
+    "slot": "132",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_19": {
+    "label": "Sotenbori Progressive Wire 19",
+    "location": "treasure_019",
+    "id": "1173",
+    "slot": "133",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_20": {
+    "label": "Sotenbori Progressive Wire 20",
+    "location": "treasure_020",
+    "id": "1174",
+    "slot": "134",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_21": {
+    "label": "Sotenbori Progressive Wire 21",
+    "location": "treasure_021",
+    "id": "1175",
+    "slot": "135",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_22": {
+    "label": "Sotenbori Progressive Wire 22",
+    "location": "treasure_022",
+    "id": "1176",
+    "slot": "136",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_23": {
+    "label": "Sotenbori Progressive Wire 23",
+    "location": "treasure_023",
+    "id": "1177",
+    "slot": "137",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_24": {
+    "label": "Sotenbori Progressive Wire 24",
+    "location": "treasure_024",
+    "id": "1178",
+    "slot": "138",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_25": {
+    "label": "Sotenbori Progressive Wire 25",
+    "location": "treasure_025",
+    "id": "1179",
+    "slot": "139",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_26": {
+    "label": "Sotenbori Progressive Wire 26",
+    "location": "treasure_026",
+    "id": "1180",
+    "slot": "140",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_27": {
+    "label": "Sotenbori Progressive Wire 27",
+    "location": "treasure_027",
+    "id": "1181",
+    "slot": "141",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_28": {
+    "label": "Sotenbori Progressive Wire 28",
+    "location": "treasure_028",
+    "id": "1182",
+    "slot": "142",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_29": {
+    "label": "Sotenbori Progressive Wire 29",
+    "location": "treasure_029",
+    "id": "1183",
+    "slot": "143",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_sote_grapple_item_30": {
+    "label": "Sotenbori Progressive Wire 30",
+    "location": "treasure_030",
+    "id": "1184",
+    "slot": "144",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Sotenbori_1, Progressive Wire",
+    "region": "SOTENBORI_1"
+  },
+  "prog_colo_grapple_item_1": {
+    "label": "Colosseum Progressive Wire 1",
+    "location": "treasure_c001",
+    "id": "1185",
+    "slot": "115",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_2": {
+    "label": "Colosseum Progressive Wire 2",
+    "location": "treasure_c002",
+    "id": "1186",
+    "slot": "116",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_3": {
+    "label": "Colosseum Progressive Wire 3",
+    "location": "treasure_c003",
+    "id": "1187",
+    "slot": "117",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_4": {
+    "label": "Colosseum Progressive Wire 4",
+    "location": "treasure_c004",
+    "id": "1188",
+    "slot": "118",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_5": {
+    "label": "Colosseum Progressive Wire 5",
+    "location": "treasure_c005",
+    "id": "1189",
+    "slot": "119",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_6": {
+    "label": "Colosseum Progressive Wire 6",
+    "location": "treasure_c006",
+    "id": "1190",
+    "slot": "120",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_7": {
+    "label": "Colosseum Progressive Wire 7",
+    "location": "treasure_c007",
+    "id": "1191",
+    "slot": "121",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_8": {
+    "label": "Colosseum Progressive Wire 8",
+    "location": "treasure_c008",
+    "id": "1192",
+    "slot": "122",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_9": {
+    "label": "Colosseum Progressive Wire 9",
+    "location": "treasure_c009",
+    "id": "1193",
+    "slot": "123",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
+  },
+  "prog_colo_grapple_item_10": {
+    "label": "Colosseum Progressive Wire 10",
+    "location": "treasure_c010",
+    "id": "1194",
+    "slot": "124",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Colosseum_1, Progressive Wire",
+    "region": "COLOSSEUM_1"
   }
 }

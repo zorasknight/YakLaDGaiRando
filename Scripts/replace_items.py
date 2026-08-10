@@ -166,6 +166,7 @@ def load_config():
     global POCKET_CIRCUIT_MODIFIER
     global MAX_GOLDEN_BALL_COUNT
     global REQUIRED_GOLDEN_BALL_COUNT
+    global PROGRESSIVE_GRAPPLE_ITEMS
 
 
     SETTINGS = load_ap_settings()
@@ -211,7 +212,7 @@ def load_config():
 
     MAX_GOLDEN_BALL_COUNT = SETTINGS["max_golden_ball_count"]
     REQUIRED_GOLDEN_BALL_COUNT = SETTINGS["required_golden_ball_count"]
-
+    PROGRESSIVE_GRAPPLE_ITEMS = SETTINGS["progressive_grapple_items"]
 
 # Create log files
 
@@ -226,6 +227,17 @@ def log_change(msg: str):
 def log_error(msg: str):
     with open(ERROR_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
+
+def write_options_file():
+    assets_folder = BASE_DIR / "Assets"
+    assets_folder.mkdir(parents=True, exist_ok=True)
+
+    options_path = assets_folder / "options.json"
+
+    with open(options_path, "w", encoding="utf-8") as f:
+        json.dump(SETTINGS, f, indent=4)
+
+    print(f"[CONFIG] Wrote options to {options_path}")
 
 
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
@@ -351,13 +363,14 @@ def update_encounters():
 
         # Scaled Stats
         else:
-            ENEMY_HP_MULT = ENEMY_HP_MULT / 100.0
-            ENEMY_ATTACK_MULT = ENEMY_ATTACK_MULT / 100.0
+            hp_multiplier = ENEMY_HP_MULT / 100.0
+            attack_multiplier = ENEMY_ATTACK_MULT / 100.0
+
             old_hp = row["hp"]
-            row["hp"] = max(1, math.ceil(old_hp * ENEMY_HP_MULT))
-            
+            row["hp"] = max(1, math.ceil(old_hp * hp_multiplier))
+
             old_attack = row["power_ratio"]
-            row["power_ratio"] = max(1.0, round(old_attack * ENEMY_ATTACK_MULT, 2))
+            row["power_ratio"] = max(1.0, round(old_attack * attack_multiplier, 2))
 
             print(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
             log_change(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
@@ -461,10 +474,10 @@ def update_shop_item_limits(data, updates):
         "aston_c_boutique_equip": 16,
         "aston_c_boutique_vip": 17,
         "aston_s_mizorogi_2": 18,
-        "aston_s_poppo_park": 19,
-        "aston_s_poppo_south": 20,
-        "aston_s_poppo_north": 21,
-        "aston_y_poppo": 22,
+        "aston_s_poppo_ashi": 19,
+        "aston_s_poppo_sh": 20,
+        "aston_s_poppo_so": 21,
+        "aston_y_poppo02": 22,
         "aston_s_kukuru": 23,
         "aston_s_tsuruha": 24,
         "aston_s_hiratai": 25,
@@ -530,12 +543,10 @@ def update_shop_item_limits(data, updates):
                 if item_id:
                     row["20"] = item_counts[item_id]
 
-                    if SHOP_KEYS:
+                    if SHOP_KEYS and table_name in shop_category_8_values:
                         row["6"] = 1
                         row["7"] = 12
-
-                        if table_name in shop_category_8_values:
-                            row["8"] = shop_category_8_values[table_name]
+                        row["8"] = shop_category_8_values[table_name]
 # Rewards
 
 def update_reward(data, updates):
@@ -658,6 +669,10 @@ def update_wire(data, updates):
 
     changes = 0
 
+    # =====================================================
+    # Normal wire updates
+    # =====================================================
+
     for u in updates:
 
         if u["column_id"] != "replacement_item_id":
@@ -676,7 +691,8 @@ def update_wire(data, updates):
 
         inner_row = None
 
-        for k, v in row_container.items():
+        for v in row_container.values():
+
             if isinstance(v, dict) and "get_item_id" in v:
                 inner_row = v
                 break
@@ -685,13 +701,85 @@ def update_wire(data, updates):
             continue
 
         old_value = inner_row["get_item_id"]
+
+        if old_value == new_value:
+            continue
+
         inner_row["get_item_id"] = new_value
 
         changes += 1
 
-        msg = f"[WIRE] row={row_id} {old_value} -> {new_value}"
+        msg = (
+            f"[WIRE] row={row_id} "
+            f"{old_value} -> {new_value}"
+        )
+
         print(msg)
         log_change(msg)
+
+
+    # =====================================================
+    # Progressive Grapple replacements
+    # =====================================================
+
+    if PROGRESSIVE_GRAPPLE_ITEMS:
+
+        GRAPPLE_RANGES = [
+            # (start row ID, end row ID, progressive item ID, region)
+            (5, 54, 6312, "Sotenbori"),
+            (65, 114, 6313, "Colosseum"),
+            (115, 164, 6311, "Yokohama"),
+        ]
+
+        for row_id, row_container in data.items():
+
+            if not isinstance(row_container, dict):
+                continue
+
+            try:
+                row_id_int = int(row_id)
+            except (ValueError, TypeError):
+                continue
+
+            progressive_item = None
+            region = None
+
+            for start, end, item_id, range_region in GRAPPLE_RANGES:
+
+                if start <= row_id_int <= end:
+                    progressive_item = item_id
+                    region = range_region
+                    break
+
+            if progressive_item is None:
+                continue
+
+            for inner_row in row_container.values():
+
+                if not isinstance(inner_row, dict):
+                    continue
+
+                if "get_item_id" not in inner_row:
+                    continue
+
+                old_value = inner_row["get_item_id"]
+
+                if old_value == progressive_item:
+                    continue
+
+                inner_row["get_item_id"] = progressive_item
+
+                changes += 1
+
+                msg = (
+                    f"[WIRE PROGRESSIVE] "
+                    f"{region} row={row_id_int} "
+                    f"{old_value} -> {progressive_item}"
+                )
+
+                print(msg)
+                log_change(msg)
+
 
     return changes
 
@@ -1062,6 +1150,8 @@ def apply_updates(json_path, updates):
 
 def main():
     load_config()
+
+    write_options_file()
 
     seed = SETTINGS.get("seed")
     used_seed = init_seed(seed)
