@@ -4181,8 +4181,8 @@
     "id": "465",
     "slot": "65",
     "source": "item_get_by_wire.bin.json",
-    "tags": "Colosseum_1, Wire",
-    "region": "COLOSSEUM_1"
+    "tags": "Colosseum_4, Wire",
+    "region": "COLOSSEUM_4"
   },
   "treasure_c002": {
     "label": "[Co] Wire 2 On top of northern speakers Center Colosseum",
@@ -4343,8 +4343,8 @@
     "id": "483",
     "slot": "83",
     "source": "item_get_by_wire.bin.json",
-    "tags": "Colosseum_1, Wire",
-    "region": "COLOSSEUM_1"
+    "tags": "Colosseum_3, Wire",
+    "region": "COLOSSEUM_3"
   },
   "treasure_c020": {
     "label": "[Co] Wire 20",
