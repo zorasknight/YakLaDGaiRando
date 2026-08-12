@@ -917,7 +917,7 @@ def patch_item_bin_prices(updates_by_file):
 
                     for field, multiplier in POINT_FIELDS.items():
                         if field in row:
-                            row[field] = math.ceil(point_val * multiplier)
+                            row[field] = math.ceil(point_val * (multiplier / 100.0))
 
                     msg = f"[ITEM POINTS] id={item_id} -> {point_val}"
                     print(msg)
