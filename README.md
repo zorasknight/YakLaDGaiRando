@@ -3,13 +3,21 @@
 </p>
 
 <div align="center">
-     <h1> Like a Dragon Gaiden: <br> The Man Who Erased His Name Randomizer </h1>
+     <h1> Like a Dragon Gaiden: <br> The Man Who Erased His Name Randomizer (AP) </h1>
 </div>
-First implementation of an Item Randomizer for Like A Dragon Gaiden, capable of locally generating a randomized game for you to complete. Currently supports shops, lockers, gear stats and abilities, skills, wire items, rewards and more!
+
+Archipelago (multiworld) item randomization for Yakuza/Like a Dragon: Gaiden 
+
+If you run into any issues, please reach out to me through either the AP after dark thread, or a DM on discord. 
 
 ## Required Tools
 
 Windows for the exe requirement of the tool, but python scripts are OS agnostic, if you are interested in setting something like that up, there are more details at the bottom of this ReadMe. 
+
+This version of the tool uses the Archipelago client to create your YAML(settings) and generate your game, please set that up before continuing here.
+
+Archipelago setup guide:
+https://archipelago.gg/tutorial/Archipelago/setup_en
 
 You will need a copy of "Like a Dragon Gaiden: The Man Who Erased His Name".
 I have tested this on the Steam version of the game, and that's the only supported version, your mileage may vary with other legal sources!
@@ -23,6 +31,46 @@ Alternatively Github:
 https://github.com/SRMM-Studio/ShinRyuModManager/releases
 
 Please follow that link and complete the install first before attempting to run the randomizer!
+
+## Installing the custom Yakuza Gaiden world
+
+You can install the packaged yakuza_gaiden.ap world file through the Archipelago application's included "Install APWorld" client. You can also simply place the 
+yakuza_gaiden.ap file into the custom_worlds folder at the root of your Archipelago installation.
+
+This client is required to use the "Options Creator" client within Archipelago to make your own custom YAML(options file).
+
+## Making your own options file (YAML)
+
+Using the "Options Creator" within Archipelago allows you to create a combination of settings to fit how you personally want your randomized experience to be. This is sepperate from everyone elses randomized settings within your multiworld, and is required even if you intend to play in a solo world.
+
+you can find this game under Yakuza Gaiden, likely quite far down the list, and have fun setting up all forms of different options. I recomend the default for a first playthrough.
+
+## How to connect to the multiworld
+
+Once you have installed the Shin Ryu Mod Manager and followed those instructions below to launch your game, you will notice a sepperate console window will open alongside Gaiden. This console will help you keep track of sent items, found locations, as well as issue commands.
+
+When the game is first started it should connect all hooks and tell you "Awaiting item interaction to find inventory..." this means that everything has successfully began. From here you need to connect to the multiworld server, and then set your specific player port (including password only if one is set).
+
+To connect to a world you can copy paste the /connect text found on the multiworld room. You can copy that whole block into the console window. a sample of that looks like this:
+
+/connect archipelago.gg:62189
+
+from there you will be asked for your port, if you have not setup a password then you can ommit the password field, here's a sample:
+
+slot Yakuza SuperRadPassword
+
+If everything looks good after that, then you are connected! you will not recieve or send out items until you have interacted with an item in-game. This is to locate the player inventory, so don't be alarmed if you aren't receiving items right away.
+
+When you want to stop for the night, save your game and exit normally. On the next boot, make sure to use SRMM and load your existing save. The console should try and auto connect you if it can, but if not it will give you an error to let you connect manually again (in the situation where the port may have changed for example).
+
+The console constantly attempts to sync your progress with the AP server, using your current save and the expected items from the server as it's baseline. What that means, is even if, after a death or game crash, you see items in the overworld again, collecting them a second time will do nothing, but nothing will be lost either as the items will be re-added as soon as you interact with your inventory in some way (eating an item, collecting an item, selling an item, etc.)
+
+## Universal Tracker
+
+I highly recomend using the Universal Tracker with this game, this is a sepperate AP world that can be installed alongside your other custom worlds that opens a custom text client with a list of all checks in logic based on your current player and world data. This couples with the name of each location to help make it easier to find checks as a first time player of this randomizer. For a full list of instructions to set this up please reference this link here.
+
+Github link:
+https://github.com/FarisTheAncient/Archipelago/releases?q=Tracker
 
 ## Installing the Shin Ryu Mod Manager
 
@@ -52,11 +100,19 @@ Once you're ready click the "Run Randomizer" button. Everything auto saves prett
 
 You should get an output file, zipped, with a name like: "Gaiden_Rando_061026", this is your mod file, you can drag and drop this into your "Shinryu Mod Manager" window like any other mod.
 
-Start the game from the mod manager, make a new save at your desired difficulty and enjoy!
+Start the game from the mod manager to begin the game going forward.
 
 ### *NOTE: ALWAYS START THE GAME THROUGH THE MOD MANAGER, DO NOT START THE GAME THROUGH STEAM TO PLAY THE RANDOMIZER
 
 ## FAQ/Tips
+
+### I was sent a Shop Key but the shop is still empty?
+
+Shop Keys are currently a consumable item that can be found within your inventory. They may be mixed in with your current items so make sure to scroll through! they won't be with key items, but rather with your other consumables. After using a key you will be booted out of your inventory and the relevant shop should have their items available for sale.
+
+### The shop still doesn't have it's items available?
+
+Make sure it's the correct shop! there are multiple Poppo marts for example within the various cities, same goes for shogi or gambling halls.
 
 ### Why isn't the Run Randomizer button working?
 
