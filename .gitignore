@@ -14,7 +14,7 @@ gaiden_randomizer.spec
 # Virtual environments
 venv/
 .env/
-
+new_source.csv
 # Build / output
 build/
 dist/
