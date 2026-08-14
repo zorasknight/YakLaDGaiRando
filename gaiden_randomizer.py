@@ -4,7 +4,7 @@ from pathlib import Path
 import yaml # type: ignore
 import time
 import sys
-import Scripts.shuffle as shuffle
+import Scripts.archipelago_item_creation as archipelago_item_creation
 import Scripts.replace_items as replace_items
 import Scripts.convert as convert
 import threading
@@ -47,170 +47,8 @@ MINIGAME_REQUIRED = 14
 
 FIELD_SCHEMA = {
 
-    # Ranges (INT)
 
-    "monetary": {
-        "type": "range",
-        "label": "Shop Money Range",
-        "hint": "What random range items shops will be priced at"
-    },
-    "point": {
-        "type": "range",
-        "label": "Shop Point Range",
-        "hint": "What random range items point cost can be"
-    },
-    "skill_money": {
-        "type": "range",
-        "label": "Skill Money Cost",
-        "hint": "What random range skills can be priced at"
-    },
-    "skill_akame": {
-        "type": "range",
-        "label": "Skill Point Cost",
-        "hint": "What random range skills point cost can be"
-    },
-    "part_time_money": {
-        "type": "range",
-        "label": "Reward Money",
-        "hint": "What random monetary range rewards for Akame quests can give"
-    },
-    "part_time_akame": {
-        "type": "range",
-        "label": "Reward Points",
-        "hint": "What random point range rewards for Akame quests can give"
-    },
-    "attack_and_defense": {
-        "type": "range",
-        "label": "Attack and Defense Stats",
-        "hint": "The range an armor's primary stats can be randomized between"
-    },
-    "resist": {
-        "type": "range",
-        "label": "Resistance Stats",
-        "hint": "The range an armor's resistance stats can be randomized between"
-    },
     
-    # Float
-    
-    "enemy_attack_mult": {
-        "type": "float",
-        "label": "Enemy Attack Multiplier",
-        "hint": "Attack multiplier for all enemies"
-    },
-    "enemy_hp_mult": {
-        "type": "float",
-        "label": "Enemy Health Multiplier",
-        "hint": "Health multiplier for all enemies"
-    },
-
-    # Booleans
-
-    "remove_default_prices": {
-        "type": "bool",
-        "label": "Remove Default Prices",
-        "hint": "Ignores vanilla pricing and replaces all costs with randomized values"
-    },
-    "randomize_enemy_stats": {
-        "type": "bool",
-        "label": "Randomize Enemy Stats",
-        "hint": "(THIS WILL MAKE THE GAME HARDER) Randomize enemy HP and Attack (ignores intro if intro skip is on).",
-    },
-    "intro_skip": {
-        "type": "bool",
-        "label": "Intro Speedup",
-        "hint": "This sets all tutorial fights pre-sotenbori to 1 HP",
-    },
-    "include_shops": {
-        "type": "bool",
-        "label": "Include Shops",
-        "hint": "Includes all shops in item pool",
-        "required_items": 17,
-        "added_items": 114
-    },
-    "include_consumable_shops": {
-        "type": "bool",
-        "label": "Include Consumable Shops",
-        "hint": "Includes Poppo Marts and the Pharmacy",
-        "required_items": 0,
-        "added_items": 111
-    },
-    "include_weird_shops": {
-        "type": "bool",
-        "label": "Include Weird Shops",
-        "hint": "Includes one off stores like ichiban confections",
-        "required_items": 0,
-        "added_items": 21
-    },
-    "include_coin_lockers": {
-        "type": "bool",
-        "label": "Include Coin Lockers",
-        "hint": "Includes coin lockers in item pool",
-        "required_items": 9,
-        "added_items": 50
-    },
-    "include_pocket_circuit": {
-        "type": "bool",
-        "label": "Include Pocket Circuit",
-        "hint": "Includes the Pocket Circuit shop into the item pool",
-        "required_items": 95,
-        "added_items": 95
-    },
-    "include_rewards": {
-        "type": "bool",
-        "label": "Include PC Rival Rewards",
-        "hint": "Includes all Rival Rewards for Pocket Circuit",
-        "required_items": 14,
-        "added_items": 14
-    },
-    "include_minigames": {
-        "type": "bool",
-        "label": "Include Minigames",
-        "hint": "Includes all Minigame shops into the item pool",
-        "required_items": 14,
-        "added_items": 106
-    },
-    "include_pool": {
-        "type": "bool",
-        "label": "Include Pool",
-        "hint": "Includes Pool Point Shop",
-        "required_items": 1,
-        "added_items": 11
-    },
-    "include_golf": {
-        "type": "bool",
-        "label": "Include Golf",
-        "hint": "Includes Golf Point Shop",
-        "required_items": 2,
-        "added_items": 13
-    },
-    "include_casinos": {
-        "type": "bool",
-        "label": "Include Casinos",
-        "hint": "Includes both the Casino and Toba Point Shops",
-        "required_items": 8,
-        "added_items": 52
-    },
-    "include_shogi": {
-        "type": "bool",
-        "label": "Include Shogi",
-        "hint": "Includes Shogi Point Shop",
-        "required_items": 1,
-        "added_items": 22
-    },
-    "include_darts": {
-        "type": "bool",
-        "label": "Include Darts",
-        "hint": "Includes Dart Rival rewards",
-        "required_items": 2,
-        "added_items": 8
-    },
-
-    # Random Seed
-    "seed": {
-        "type": "int",
-        "label": "Random Seed",
-        "hint": "Leave blank for a fully random generation. Set a value for consistent results."
-    },
 }
 
 MINIGAME_KEYS = [
@@ -269,7 +107,7 @@ def run_randomizer():
         log("Starting randomizer...")
 
         pipeline = [
-            (shuffle.main, 0),
+            (archipelago_item_creation.main, 0),
             (replace_items.main, 0),
             (convert.main, 0),
         ]
@@ -356,7 +194,7 @@ LIVE["seed"] = None
 with open(DEFAULTS_FILE, "r", encoding="utf-8") as f:
     DEFAULTS = yaml.safe_load(f) or {}
 
-selected_category = "Shops"
+selected_category = "Archipelago Mode"
 
 
 def safe_int(v, fallback=0):
@@ -375,16 +213,7 @@ def safe_bool(v):
 # Rules
 
 FIELD_RULES = {
-    "monetary": {"min": 0, "max": 3_000_000},
-    "point": {"min": 0, "max": 8000},
-    "skill_money": {"min": 0, "max": 3_000_000},
-    "skill_akame": {"min": 0, "max": 8000},
-    "attack_and_defense": {"min": -2000, "max": 2000},
-    "resist": {"min": 0, "max": 1000},
-    "enemy_hp_mult": {"min": 0.5, "max": 3.0},
-    "enemy_attack_mult": {"min": 0.5, "max": 3.0},
-    "part_time_money": {"min": 0, "max": 1000000},
-    "part_time_akame": {"min": 0, "max": 5000},
+
 }
 
 def get_rules(base):
@@ -453,16 +282,6 @@ def reset_category(cat):
 # Category
 
 def get_category(base):
-    if "monetary" in base or "point" in base:
-        return "Shops"
-    if "skill" in base:
-        return "Skills"
-    if "defense" in base or "resist" in base:
-        return "Gear"
-    if "mult" in base:
-        return "Encounters"
-    if "part_time" in base:
-        return "Quest Rewards"
     return "Other"
 
 # Range + Boolean UI
@@ -749,7 +568,7 @@ with dpg.texture_registry():
 
     
 
-dpg.create_viewport(title="Like a Dragon Gaiden Randomizer Settings Editor", width=1280, height=720)
+dpg.create_viewport(title="Like a Dragon Gaiden Archipelago Settings Editor", width=1280, height=720)
 dpg.set_viewport_resizable(False)
 with dpg.window(tag="main"):
     dpg.add_text("Randomizer Settings Editor (Auto-Saves on Close)")
@@ -763,11 +582,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Actions")
             dpg.add_separator()
 
-            dpg.add_button(
-                label="Reset Section",
-                width=200,
-                callback=lambda: reset_category(selected_category)
-            )
+
             dpg.add_button(
                 label="Run Randomizer",
                 width=200,
@@ -780,7 +595,7 @@ with dpg.window(tag="main"):
             dpg.add_text("Categories")
             dpg.add_separator()
 
-            for c in ["Shops", "Skills", "Gear", "Encounters", "Quest Rewards"]:
+            for c in ["Archipelago Mode"]:
                 dpg.add_button(label=c, callback=switch, user_data=c, width=200)
             
             dpg.add_separator()
@@ -815,27 +630,6 @@ with dpg.window(tag="main"):
             )
             dpg.add_separator()
 
-            dpg.add_text("Random Seed Value")
-
-            seed_input = dpg.add_input_text(
-                width=160,
-                default_value=""
-            )
-
-            def seed_changed(sender, app_data):
-                text = app_data.strip()
-
-                if text == "":
-                    LIVE["seed"] = None
-                else:
-                    try:
-                        LIVE["seed"] = int(text)
-                    except ValueError:
-                        LIVE["seed"] = None
-
-                autosave()
-
-            dpg.set_item_callback(seed_input, seed_changed)
 
             dpg.add_separator()
         # Main Panel
@@ -855,7 +649,7 @@ dpg.set_global_font_scale(1.2)
 dpg.show_viewport()
 dpg.set_primary_window("main", True)
 
-render("Shops")
+render("Archipelago Mode")
 update_check_display()
 
 dpg.start_dearpygui()

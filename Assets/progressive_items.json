@@ -1,0 +1,224 @@
+{
+    "6271": {
+        "name": "Skill Book: Progressive HP Up",
+        "levels": [
+            6139,
+            6140,
+            6141,
+            6142,
+            6143,
+            6144,
+            6145,
+            6146,
+            6197,
+            6198,
+            6199,
+            6200,
+            6201,
+            6202,
+            6203,
+            6204,
+            6205,
+            6206,
+            6207,
+            6208,
+            6209,
+            6210,
+            6211
+        ]
+    },
+    "6272": {
+        "name": "Skill Book: Progressive Damage Up",
+        "levels": [
+            6147,
+            6148,
+            6149,
+            6150,
+            6151,
+            6152,
+            6153,
+            6154,
+            6212,
+            6213,
+            6214,
+            6215,
+            6216,
+            6217,
+            6218,
+            6219,
+            6220,
+            6221
+        ]
+    },
+    "6273": {
+        "name": "Skill Book: Progressive Heat Gauge Up",
+        "levels": [
+            6155,
+            6156,
+            6157,
+            6158
+        ]
+    },
+    "6274": {
+        "name": "Skill Book: Progressive Extreme Heat Damage Up",
+        "levels": [
+            6159,
+            6160
+        ]
+    },
+    "6275": {
+        "name": "Skill Book: Progressive Drunk Heat Gauge Increase",
+        "levels": [
+            6170,
+            6171
+        ]
+    },
+    "6276": {
+        "name": "Skill Book: Progressive Drunk Attack Heat Gauge Increase",
+        "levels": [
+            6172,
+            6173
+        ]
+    },
+    "6277": {
+        "name": "Skill Book: Progressive Equipment Up",
+        "levels": [
+            6174,
+            6175,
+            6176
+        ]
+    },
+    "6278": {
+        "name": "Skill Book: Progressive Recovery From Food Up",
+        "levels": [
+            6177,
+            6222,
+            6223
+        ]
+    },
+    "6279": {
+        "name": "Skill Book: Progressive Heat Action Damage Up in ExH",
+        "levels": [
+            6224,
+            6225
+        ]
+    },
+    "6280": {
+        "name": "Skill Book: Progressive Evasion Up in ExH",
+        "levels": [
+            6230,
+            6231
+        ]
+    },
+    "6281": {
+        "name": "Skill Book: Progressive Extra Wire",
+        "levels": [
+            6237,
+            6238,
+            6239,
+            6240
+        ]
+    },
+    "6282": {
+        "name": "Skill Book: Progressive Extra Bomb",
+        "levels": [
+            6241,
+            6242,
+            6243,
+            6244
+        ]
+    },
+    "6283": {
+        "name": "Skill Book: Progressive Extra Drone",
+        "levels": [
+            6245,
+            6246,
+            6247,
+            6248
+        ]
+    },
+    "6284": {
+        "name": "Skill Book: Progressive Extra Shoe Boost",
+        "levels": [
+            6249,
+            6250,
+            6251,
+            6252
+        ]
+    },
+    "6311": {
+        "name": "Yokohama Progressive Wire",
+        "checks": [
+            1135,
+            1136,
+            1137,
+            1138,
+            1139,
+            1140,
+            1141,
+            1142,
+            1143,
+            1144,
+            1145,
+            1146,
+            1147,
+            1148,
+            1149,
+            1150,
+            1151,
+            1152,
+            1153,
+            1154
+        ]
+    },
+    "6312": {
+        "name": "Sotenbori Progressive Wire",
+        "checks": [
+            1155,
+            1156,
+            1157,
+            1158,
+            1159,
+            1160,
+            1161,
+            1162,
+            1163,
+            1164,
+            1165,
+            1166,
+            1167,
+            1168,
+            1169,
+            1170,
+            1171,
+            1172,
+            1173,
+            1174,
+            1175,
+            1176,
+            1177,
+            1178,
+            1179,
+            1180,
+            1181,
+            1182,
+            1183,
+            1184
+        ]
+    },
+    "6313": {
+        "name": "Colosseum Progressive Wire",
+        "checks": [
+            1185,
+            1186,
+            1187,
+            1188,
+            1189,
+            1190,
+            1191,
+            1192,
+            1193,
+            1194
+        ]
+    }
+}

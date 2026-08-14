@@ -3,9 +3,16 @@ import json
 import random
 from pathlib import Path
 from collections import Counter
-from .settings import settings
 import sys
 import math
+import yaml
+import zipfile
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
 
 # Config
 
@@ -13,6 +20,50 @@ def get_base_dir():
     if getattr(sys, "frozen", False):
         return Path(sys.executable).parent  # EXE mode
     return Path(__file__).resolve().parent.parent  # script mode
+
+def get_patch_zip():
+
+    base_dir = get_base_dir()
+
+    patch_folder = base_dir / "AP_PATCH"
+
+    patch_files = list(
+        patch_folder.glob("*.zip")
+    )
+
+    if not patch_files:
+        raise FileNotFoundError(
+            f"No patch zip files found in {patch_folder}"
+        )
+
+    return max(
+        patch_files,
+        key=lambda f: f.stat().st_mtime
+    )
+
+def load_ap_settings():
+
+    patch_zip = get_patch_zip()
+
+    print(
+        f"[CONFIG] Loading settings from {patch_zip.name}"
+    )
+
+    PATCH_YAML = "options.yaml"
+
+    with zipfile.ZipFile(patch_zip, "r") as z:
+
+        if PATCH_YAML not in z.namelist():
+            raise FileNotFoundError(
+                f"{PATCH_YAML} not found in {patch_zip.name}"
+            )
+
+        with z.open(PATCH_YAML) as f:
+            return yaml.safe_load(
+                f.read().decode("utf-8")
+            )
+
+SETTINGS = {}
 
 def init_seed(seed=None):
     import random
@@ -29,7 +80,7 @@ INPUT_FOLDER = BASE_DIR / "GameData"
 OUTPUT_FOLDER = BASE_DIR / "GameData_Output"
 UPDATES_CSV = BASE_DIR / "updates.csv"
 
-ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "item.bin.json"
+ITEM_PATH = INPUT_FOLDER / "db.aston.en" / "adjusted_item.bin.json"
 NPC_PATH = INPUT_FOLDER / "db.aston.en" / "character_npc_soldier_personal_data.bin.json"
 
 FIRST_ENCOUNTER_ROW = 6317
@@ -65,32 +116,40 @@ SPECIAL0_EFFECTS = {
     85: "Spot keys on the ground with these on.",
 }
 
-SKILL_MONEY_MIN = settings.get("skill_money_min")
-SKILL_MONEY_MAX = settings.get("skill_money_max")
+SKILL_MONEY_MIN = 0
+SKILL_MONEY_MAX = 0
 
-SKILL_AKAME_MIN = settings.get("skill_akame_min")
-SKILL_AKAME_MAX = settings.get("skill_akame_max")
+SKILL_AKAME_MIN = 0
+SKILL_AKAME_MAX = 0
 
-PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
-PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
+PART_TIME_MONEY_MIN = 0
+PART_TIME_MONEY_MAX = 0
 
-PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
-PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
+PART_TIME_AKAME_MIN = 0
+PART_TIME_AKAME_MAX = 0
 
-ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
-ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
+ATTACK_AND_DEFENSE_MIN = 0
+ATTACK_AND_DEFENSE_MAX = 0
 
-RESIST_MIN = settings.get("resist_min")
-RESIST_MAX = settings.get("resist_max")
+RESIST_MIN = 0
+RESIST_MAX = 0
 
 STATUS_RESIST_MIN = 0
 STATUS_RESIST_MAX = 1
 
 def load_config():
+
+    global SETTINGS
+
+    global SHOP_KEYS
     global SKILL_MONEY_MIN
     global SKILL_MONEY_MAX
     global SKILL_AKAME_MIN
     global SKILL_AKAME_MAX
+    global PART_TIME_MONEY_MIN
+    global PART_TIME_MONEY_MAX
+    global PART_TIME_AKAME_MIN
+    global PART_TIME_AKAME_MAX
     global ATTACK_AND_DEFENSE_MIN
     global ATTACK_AND_DEFENSE_MAX
     global RESIST_MIN
@@ -99,38 +158,61 @@ def load_config():
     global ENEMY_HP_MULT
     global ENEMY_ATTACK_MULT
     global RANDOMIZE_ENEMY_STATS
-    global PART_TIME_MONEY_MIN
-    global PART_TIME_MONEY_MAX
-    global PART_TIME_AKAME_MIN
-    global PART_TIME_AKAME_MAX
+    global POOL_MODIFIER
+    global GOLF_MODIFIER
+    global SHOGI_MODIFIER
+    global CASINO_MODIFIER
+    global AKAME_SHOP_MODIFIER
+    global POCKET_CIRCUIT_MODIFIER
+    global MAX_GOLDEN_BALL_COUNT
+    global REQUIRED_GOLDEN_BALL_COUNT
+    global PROGRESSIVE_GRAPPLE_ITEMS
 
-    settings.reload()
 
-    ENEMY_HP_MULT = settings.get("enemy_hp_mult")
-    ENEMY_ATTACK_MULT = settings.get("enemy_attack_mult")
+    SETTINGS = load_ap_settings()
 
-    RANDOMIZE_ENEMY_STATS = settings.get("randomize_enemy_stats")
+    SHOP_KEYS = SETTINGS["shop_keys"]
 
-    INTRO_SKIP = settings.get("intro_skip")
+    ENEMY_HP_MULT = SETTINGS["enemy_hp_mult"]
+    ENEMY_ATTACK_MULT = SETTINGS["enemy_attack_mult"]
 
-    SKILL_MONEY_MIN = settings.get("skill_money_min")
-    SKILL_MONEY_MAX = settings.get("skill_money_max")
+    RANDOMIZE_ENEMY_STATS = SETTINGS["randomize_enemy_stats"]
 
-    SKILL_AKAME_MIN = settings.get("skill_akame_min")
-    SKILL_AKAME_MAX = settings.get("skill_akame_max")
+    INTRO_SKIP = SETTINGS["intro_skip"]
 
-    PART_TIME_MONEY_MIN = settings.get("part_time_money_min")
-    PART_TIME_MONEY_MAX = settings.get("part_time_money_max")
 
-    PART_TIME_AKAME_MIN = settings.get("part_time_akame_min")
-    PART_TIME_AKAME_MAX = settings.get("part_time_akame_max")
+    SKILL_MONEY_MIN = SETTINGS["skill_money_min"]
+    SKILL_MONEY_MAX = SETTINGS["skill_money_max"]
 
-    ATTACK_AND_DEFENSE_MIN = settings.get("attack_and_defense_min")
-    ATTACK_AND_DEFENSE_MAX = settings.get("attack_and_defense_max")
+    # renamed from akame
+    SKILL_AKAME_MIN = SETTINGS["skill_akame_min"]
+    SKILL_AKAME_MAX = SETTINGS["skill_akame_max"]
 
-    RESIST_MIN = settings.get("resist_min")
-    RESIST_MAX = settings.get("resist_max")
 
+    PART_TIME_MONEY_MIN = SETTINGS["part_time_money_min"]
+    PART_TIME_MONEY_MAX = SETTINGS["part_time_money_max"]
+
+    # renamed from akame
+    PART_TIME_AKAME_MIN = SETTINGS["part_time_akame_min"]
+    PART_TIME_AKAME_MAX = SETTINGS["part_time_akame_max"]
+
+
+    ATTACK_AND_DEFENSE_MIN = SETTINGS["attack_and_defense_min"]
+    ATTACK_AND_DEFENSE_MAX = SETTINGS["attack_and_defense_max"]
+
+    RESIST_MIN = SETTINGS["resist_min"]
+    RESIST_MAX = SETTINGS["resist_max"]
+
+    POOL_MODIFIER = SETTINGS["pool_modifier"]
+    GOLF_MODIFIER = SETTINGS["golf_modifier"]
+    SHOGI_MODIFIER = SETTINGS["shogi_modifier"]
+    CASINO_MODIFIER = SETTINGS["casino_modifier"]
+    AKAME_SHOP_MODIFIER = SETTINGS["akame_shop_modifier"]
+    POCKET_CIRCUIT_MODIFIER = SETTINGS["pocket_circuit_modifier"]
+
+    MAX_GOLDEN_BALL_COUNT = SETTINGS["max_golden_ball_count"]
+    REQUIRED_GOLDEN_BALL_COUNT = SETTINGS["required_golden_ball_count"]
+    PROGRESSIVE_GRAPPLE_ITEMS = SETTINGS["progressive_grapple_items"]
 
 # Create log files
 
@@ -145,6 +227,17 @@ def log_change(msg: str):
 def log_error(msg: str):
     with open(ERROR_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
+
+def write_options_file():
+    assets_folder = BASE_DIR / "Assets"
+    assets_folder.mkdir(parents=True, exist_ok=True)
+
+    options_path = assets_folder / "options.json"
+
+    with open(options_path, "w", encoding="utf-8") as f:
+        json.dump(SETTINGS, f, indent=4)
+
+    print(f"[CONFIG] Wrote options to {options_path}")
 
 
 CHANGE_LOG_PATH.write_text("", encoding="utf-8")
@@ -239,7 +332,7 @@ def update_encounters():
         if hp <= 1:
             continue
         
-        if attack <= 1:
+        if attack <= 0:
             continue
 
         group = int(row_key)
@@ -270,11 +363,14 @@ def update_encounters():
 
         # Scaled Stats
         else:
+            hp_multiplier = ENEMY_HP_MULT / 100.0
+            attack_multiplier = ENEMY_ATTACK_MULT / 100.0
+
             old_hp = row["hp"]
-            row["hp"] = max(1, math.ceil(old_hp * ENEMY_HP_MULT))
-            
+            row["hp"] = max(1, math.ceil(old_hp * hp_multiplier))
+
             old_attack = row["power_ratio"]
-            row["power_ratio"] = max(1.0, round(old_attack * ENEMY_ATTACK_MULT, 2))
+            row["power_ratio"] = max(1.0, round(old_attack * attack_multiplier, 2))
 
             print(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
             log_change(f"{group}: hp {old_hp} -> {row['hp']}, attack {old_attack} -> {row['power_ratio']}")
@@ -362,6 +458,34 @@ def update_shop(data, updates):
 
 def update_shop_item_limits(data, updates):
 
+    shop_category_8_values = {
+        "aston_s_ebisuya": 4,
+        "aston_s_billiards_prize": 5,
+        "aston_s_wannpark": 6,
+        "aston_y_shichiya": 7,
+        "aston_y_lovemagic": 8,
+        "aston_y_shogi": 9,
+        "aston_s_shogi": 10,
+        "aston_s_golf": 11,
+        "aston_s_toba": 12,
+        "aston_y_toba": 13,
+        "aston_c_toba": 14,
+        "aston_c_casino": 15,
+        "aston_c_boutique_equip": 16,
+        "aston_c_boutique_vip": 17,
+        "aston_s_mizorogi_2": 18,
+        "aston_s_poppo_ashi": 19,
+        "aston_s_poppo_sh": 20,
+        "aston_s_poppo_so": 21,
+        "aston_y_poppo02": 22,
+        "aston_s_kukuru": 23,
+        "aston_s_tsuruha": 24,
+        "aston_s_hiratai": 25,
+        "aston_s_shigano": 26,
+        "aston_y_smilewagon": 27,
+        "aston_y_ichibann": 28,
+    }
+
     affected_tables = {
         u["table_name"]
         for u in updates
@@ -415,8 +539,14 @@ def update_shop_item_limits(data, updates):
 
                 item_id = row.get("1")
 
+
                 if item_id:
                     row["20"] = item_counts[item_id]
+
+                    if SHOP_KEYS and table_name in shop_category_8_values:
+                        row["6"] = 1
+                        row["7"] = 12
+                        row["8"] = shop_category_8_values[table_name]
 # Rewards
 
 def update_reward(data, updates):
@@ -539,6 +669,10 @@ def update_wire(data, updates):
 
     changes = 0
 
+    # =====================================================
+    # Normal wire updates
+    # =====================================================
+
     for u in updates:
 
         if u["column_id"] != "replacement_item_id":
@@ -557,7 +691,8 @@ def update_wire(data, updates):
 
         inner_row = None
 
-        for k, v in row_container.items():
+        for v in row_container.values():
+
             if isinstance(v, dict) and "get_item_id" in v:
                 inner_row = v
                 break
@@ -566,13 +701,85 @@ def update_wire(data, updates):
             continue
 
         old_value = inner_row["get_item_id"]
+
+        if old_value == new_value:
+            continue
+
         inner_row["get_item_id"] = new_value
 
         changes += 1
 
-        msg = f"[WIRE] row={row_id} {old_value} -> {new_value}"
+        msg = (
+            f"[WIRE] row={row_id} "
+            f"{old_value} -> {new_value}"
+        )
+
         print(msg)
         log_change(msg)
+
+
+    # =====================================================
+    # Progressive Grapple replacements
+    # =====================================================
+
+    if PROGRESSIVE_GRAPPLE_ITEMS:
+
+        GRAPPLE_RANGES = [
+            # (start row ID, end row ID, progressive item ID, region)
+            (5, 54, 6312, "Sotenbori"),
+            (65, 114, 6313, "Colosseum"),
+            (115, 164, 6311, "Yokohama"),
+        ]
+
+        for row_id, row_container in data.items():
+
+            if not isinstance(row_container, dict):
+                continue
+
+            try:
+                row_id_int = int(row_id)
+            except (ValueError, TypeError):
+                continue
+
+            progressive_item = None
+            region = None
+
+            for start, end, item_id, range_region in GRAPPLE_RANGES:
+
+                if start <= row_id_int <= end:
+                    progressive_item = item_id
+                    region = range_region
+                    break
+
+            if progressive_item is None:
+                continue
+
+            for inner_row in row_container.values():
+
+                if not isinstance(inner_row, dict):
+                    continue
+
+                if "get_item_id" not in inner_row:
+                    continue
+
+                old_value = inner_row["get_item_id"]
+
+                if old_value == progressive_item:
+                    continue
+
+                inner_row["get_item_id"] = progressive_item
+
+                changes += 1
+
+                msg = (
+                    f"[WIRE PROGRESSIVE] "
+                    f"{region} row={row_id_int} "
+                    f"{old_value} -> {progressive_item}"
+                )
+
+                print(msg)
+                log_change(msg)
+
 
     return changes
 
@@ -585,7 +792,9 @@ def shuffle_healing_items(data):
         "5326", "5327", "5995", "5996", "6131",
         "6129", "6130", "5991", "5994",
         "6258", "6259", "6260", "6261",
-        "6262", "6263", "6264", "6265"
+        "6262", "6263", "6264", "6265", 
+        "6516", "6517", "6518", "6519", "6520", "6521",
+        "6509", "6510", "6511", "6512", "6513",
     ]
 
     stored_indexes = []
@@ -659,15 +868,15 @@ def patch_item_bin_prices(updates_by_file):
 
     shuffle_healing_items(data)
 
-    POINT_FIELDS = [
-        "buy_syogi_point",
-        "buy_casino_point",
-        "buy_toba_point",
-        "buy_akame_point",
-        "buy_billiard_point",
-        "buy_golf_point",
-        "buy_pokecir_point",
-    ]
+    POINT_FIELDS = {
+        "buy_syogi_point": SHOGI_MODIFIER,
+        "buy_casino_point": CASINO_MODIFIER,
+        "buy_toba_point": CASINO_MODIFIER,
+        "buy_akame_point": AKAME_SHOP_MODIFIER,
+        "buy_billiard_point": POOL_MODIFIER,
+        "buy_golf_point": GOLF_MODIFIER,
+        "buy_pokecir_point": POCKET_CIRCUIT_MODIFIER,
+    }
 
     for _, updates in updates_by_file.items():
 
@@ -690,7 +899,6 @@ def patch_item_bin_prices(updates_by_file):
 
             inner_key = next(iter(item_block.keys()))
             row = item_block[inner_key]
-            category = row.get("category")
 
             if "purchase_price" in row and new_price is not None:
                 old_value = row["purchase_price"]
@@ -702,41 +910,14 @@ def patch_item_bin_prices(updates_by_file):
 
                 changes += 1
 
-
-            if int(category) == 6:
-
-                # Stat rules (min, max per field)
-                stat_rules = {
-                    "add_ability_attack": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
-                    "add_ability_defense": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
-                    "add_ability_resist_gun": (RESIST_MIN, RESIST_MAX),
-                    "add_ability_resist_sword": (RESIST_MIN, RESIST_MAX),
-                    "add_ability_resist_bleed": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_stun": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_burn": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                    "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
-                }
-
-                for field, (mn, mx) in stat_rules.items():
-                    row[field] = random.randint(mn, mx)
-
-                special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
-                row["add_special0"] = special_id
-                row["explanation"] = SPECIAL0_EFFECTS[special_id]
-                row["max_count_base"] = 99
-
-                msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
-                print(msg)
-                log_change(msg)
-
             # point system update
             if new_points is not None:
                 try:
                     point_val = int(new_points)
 
-                    for field in POINT_FIELDS:
+                    for field, multiplier in POINT_FIELDS.items():
                         if field in row:
-                            row[field] = point_val
+                            row[field] = math.ceil(point_val * (multiplier / 100.0))
 
                     msg = f"[ITEM POINTS] id={item_id} -> {point_val}"
                     print(msg)
@@ -747,6 +928,51 @@ def patch_item_bin_prices(updates_by_file):
                     print(msg)
                     log_error(msg)
 
+    # --------------------------------------------------
+    # Randomize generated equipment
+    # --------------------------------------------------
+
+    stat_rules = {
+        "add_ability_attack": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+        "add_ability_defense": (ATTACK_AND_DEFENSE_MIN, ATTACK_AND_DEFENSE_MAX),
+        "add_ability_resist_gun": (RESIST_MIN, RESIST_MAX),
+        "add_ability_resist_sword": (RESIST_MIN, RESIST_MAX),
+        "add_ability_resist_bleed": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_stun": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_burn": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+        "add_ability_resist_electric": (STATUS_RESIST_MIN, STATUS_RESIST_MAX),
+    }
+
+    for item_id, item_block in data.items():
+
+        if not item_id.isdigit():
+            continue
+
+        # Only randomize generated AP items
+        if int(item_id) <= 4000:
+            continue
+
+        if not isinstance(item_block, dict):
+            continue
+
+        inner_key = next(iter(item_block.keys()))
+        row = item_block[inner_key]
+
+        if int(row.get("category", 0)) != 6:
+            continue
+
+        for field, (mn, mx) in stat_rules.items():
+            row[field] = random.randint(mn, mx)
+
+        special_id = random.choice(list(SPECIAL0_EFFECTS.keys()))
+        row["add_special0"] = special_id
+        row["explanation"] = SPECIAL0_EFFECTS[special_id]
+        row["max_count_base"] = 99
+
+        msg = f"[ITEM EQUIPMENT] id={item_id} updated equipment stats"
+        print(msg)
+        log_change(msg)
+
     output_path = OUTPUT_FOLDER / "db.aston.en" / "item.bin.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -754,8 +980,6 @@ def patch_item_bin_prices(updates_by_file):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"[ITEM] Saved {changes} price changes")
-
-# Patch prices for skills in player_skill.bin
 
 def patch_player_skill_bin():
     path = INPUT_FOLDER / "db.aston.en" / "player_skill.bin.json"
@@ -927,7 +1151,9 @@ def apply_updates(json_path, updates):
 def main():
     load_config()
 
-    seed = settings.get("seed")
+    write_options_file()
+
+    seed = SETTINGS.get("seed")
     used_seed = init_seed(seed)
 
     print(f"[SEED] {used_seed}")

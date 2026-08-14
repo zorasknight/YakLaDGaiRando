@@ -1,7 +1,3 @@
-monetary_min: 100
-monetary_max: 1000000
-point_min: 10
-point_max: 4000
 skill_money_min: 1000
 skill_money_max: 1000000
 skill_akame_min: 0
@@ -18,17 +14,4 @@ enemy_hp_mult: 1.0
 enemy_attack_mult: 1.0
 randomize_enemy_stats: false
 intro_skip: true
-remove_default_prices: true
-include_coin_lockers: true
-include_shops: true
-include_rewards: true
-include_pocket_circuit: true
-include_minigames: true
-include_pool: true
-include_golf: true
-include_casinos: true
-include_shogi: true
-include_darts: true
-include_weird_shops: true
-include_consumable_shops: false
 seed: null

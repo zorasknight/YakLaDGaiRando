@@ -52,7 +52,7 @@
   },
   "2": {
     "lv02": {
-      "level_exp": 1000,
+      "level_exp": 30000,
       "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -61,7 +61,7 @@
   },
   "3": {
     "lv03": {
-      "level_exp": 40000,
+      "level_exp": 60000,
       "reward_money": 1000000,
       "event_text": 9,
       "reARMP_isValid": "1",
@@ -70,8 +70,8 @@
   },
   "4": {
     "lv04": {
-      "level_exp": 42000,
-      "reward_money": 20000,
+      "level_exp": 80000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 4
@@ -79,8 +79,8 @@
   },
   "5": {
     "lv05": {
-      "level_exp": 44000,
-      "reward_money": 100000,
+      "level_exp": 90000,
+      "reward_money": 500000,
       "event_text": 11,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 5
@@ -88,8 +88,8 @@
   },
   "6": {
     "lv06": {
-      "level_exp": 47000,
-      "reward_money": 100000,
+      "level_exp": 100000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 6
@@ -97,8 +97,8 @@
   },
   "7": {
     "lv07": {
-      "level_exp": 51500,
-      "reward_money": 100000,
+      "level_exp": 120000,
+      "reward_money": 500000,
       "event_text": 11,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 7
@@ -106,8 +106,8 @@
   },
   "8": {
     "lv08": {
-      "level_exp": 57500,
-      "reward_money": 100000,
+      "level_exp": 130000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 8
@@ -115,8 +115,8 @@
   },
   "9": {
     "lv09": {
-      "level_exp": 65000,
-      "reward_money": 100000,
+      "level_exp": 150000,
+      "reward_money": 500000,
       "event_text": 11,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 9
@@ -124,8 +124,8 @@
   },
   "10": {
     "lv10": {
-      "level_exp": 120000,
-      "reward_money": 3000000,
+      "level_exp": 180000,
+      "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 10
@@ -133,8 +133,8 @@
   },
   "11": {
     "lv11": {
-      "level_exp": 124000,
-      "reward_money": 300000,
+      "level_exp": 185000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 11
@@ -142,8 +142,8 @@
   },
   "12": {
     "lv12": {
-      "level_exp": 125000,
-      "reward_money": 300000,
+      "level_exp": 188000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 12
@@ -151,8 +151,8 @@
   },
   "13": {
     "lv13": {
-      "level_exp": 126500,
-      "reward_money": 300000,
+      "level_exp": 189000,
+      "reward_money": 500000,
       "event_text": 3,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 13
@@ -160,8 +160,8 @@
   },
   "14": {
     "lv14": {
-      "level_exp": 127500,
-      "reward_money": 300000,
+      "level_exp": 190000,
+      "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 14
@@ -169,8 +169,8 @@
   },
   "15": {
     "lv15": {
-      "level_exp": 128500,
-      "reward_money": 500000,
+      "level_exp": 195000,
+      "reward_money": 100000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 15
@@ -178,7 +178,7 @@
   },
   "16": {
     "lv16": {
-      "level_exp": 129600,
+      "level_exp": 200000,
       "reward_money": 500000,
       "event_text": 4,
       "reARMP_isValid": "1",
@@ -187,7 +187,7 @@
   },
   "17": {
     "lv17": {
-      "level_exp": 130000,
+      "level_exp": 205000,
       "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -196,7 +196,7 @@
   },
   "18": {
     "lv18": {
-      "level_exp": 131000,
+      "level_exp": 210000,
       "reward_money": 500000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -205,7 +205,7 @@
   },
   "19": {
     "lv19": {
-      "level_exp": 135000,
+      "level_exp": 215000,
       "reward_money": 500000,
       "event_text": 5,
       "reARMP_isValid": "1",
@@ -214,8 +214,8 @@
   },
   "20": {
     "lv20": {
-      "level_exp": 140000,
-      "reward_money": 5000000,
+      "level_exp": 220000,
+      "reward_money": 3000000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 20
@@ -223,7 +223,7 @@
   },
   "21": {
     "lv21": {
-      "level_exp": 155000,
+      "level_exp": 225000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -232,7 +232,7 @@
   },
   "22": {
     "lv22": {
-      "level_exp": 172000,
+      "level_exp": 230000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -241,7 +241,7 @@
   },
   "23": {
     "lv23": {
-      "level_exp": 191000,
+      "level_exp": 235000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -250,7 +250,7 @@
   },
   "24": {
     "lv24": {
-      "level_exp": 212000,
+      "level_exp": 240000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -259,8 +259,8 @@
   },
   "25": {
     "lv25": {
-      "level_exp": 235000,
-      "reward_money": 1000000,
+      "level_exp": 250000,
+      "reward_money": 2000000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 25
@@ -277,7 +277,7 @@
   },
   "27": {
     "lv27": {
-      "level_exp": 290000,
+      "level_exp": 270000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -286,7 +286,7 @@
   },
   "28": {
     "lv28": {
-      "level_exp": 325000,
+      "level_exp": 280000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -295,7 +295,7 @@
   },
   "29": {
     "lv29": {
-      "level_exp": 365000,
+      "level_exp": 290000,
       "reward_money": 1000000,
       "event_text": 0,
       "reARMP_isValid": "1",
@@ -304,8 +304,8 @@
   },
   "30": {
     "lv30": {
-      "level_exp": 465000,
-      "reward_money": 1000000,
+      "level_exp": 300000,
+      "reward_money": 5000000,
       "event_text": 0,
       "reARMP_isValid": "1",
       "reARMP_rowIndex": 30
