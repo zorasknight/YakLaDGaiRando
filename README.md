@@ -45,6 +45,14 @@ Using the "Options Creator" within Archipelago allows you to create a combinatio
 
 you can find this game under Yakuza Gaiden, likely quite far down the list, and have fun setting up all forms of different options. I recomend the default for a first playthrough.
 
+## Patching your game
+
+After a multiworld room has been created you will see a "Download Patch File..." option on your slot, this will download a file containing all of your settings and information for this seed. This will be unique to every run you do, so make sure to clean out your folders between each run!
+
+You then need to place the resulting zip file into the "AP_PATCH" folder within your YakuzaGaidenAP folder. This lets the executable (Gaiden Randomizer.exe) know what items need to be placed where etc. Once opening Gaiden Randomizer.exe you will see a button that says "Run Randomizer" you can just press that and watch as the built-in console log scrolls by, or look in the standalone console to see all of what is happening behind the scenes!
+
+When that is finished you will have a new Gaiden_Rando.zip mod file that can be installed using the Shin Ryu Mod Manager. Please remember to delete other seeds before starting the randomizer!
+
 ## How to connect to the multiworld
 
 Once you have installed the Shin Ryu Mod Manager and followed those instructions below to launch your game, you will notice a sepperate console window will open alongside Gaiden. This console will help you keep track of sent items, found locations, as well as issue commands.
@@ -90,15 +98,27 @@ Remember to always launch the game through the mod manager and not through Steam
 
 ## Instructions:
 
-Unzip the LaDGaidenRandomizer folder to wherever you want the randomizer to live (Anywhere is fine, I have it on my desktop).
+Unzip the YakuzaGaidenAP folder to wherever you want the randomizer to live (Anywhere is fine, I have it on my desktop).
+
+Install the yakuza_gaiden.ap AP world into your existing Archipelago client.
+
+Generate a new options yaml using the "Options Generator" (Remember to restart archipelago after adding the AP world!)
+
+Place that yaml into the players folder of whoever is generating the game (also make sure to send them the AP world file too if it isn't you!)
+
+Use that yaml to create a new multiworld output using "Generate".
+
+That output can be hosted on the Archipelago website
+
+Find your slot name, and download your patch file
+
+Put the patch file into the existing AP_Patch folder within wherever your YakuzaGaidenAP folder resides.
 
 Run the "Gaiden Randomizer.exe" from within that folder
 
-A GUI should launch that allows you to make any changes to the game settings per your likes! I recomend leaving stores or minigames on, though you can check the value below the console window to know how far off you are!
+A GUI should launch that provides one options "Run Randomizer". after pressing that you will see it scroll through the usual tasks. After a bit you can scroll down and see if it says completed, once it says that, your good to go!
 
-Once you're ready click the "Run Randomizer" button. Everything auto saves pretty instantly on category change or closing of the app.
-
-You should get an output file, zipped, with a name like: "Gaiden_Rando_061026", this is your mod file, you can drag and drop this into your "Shinryu Mod Manager" window like any other mod.
+You should get an output file, zipped, with a name like: "Gaiden_Rando", this is your mod file, you can install this in your copy of "Shinryu Mod Manager" like any other mod. I recomend going into your mod folder and deleting existing copies for now to ensure stability!
 
 Start the game from the mod manager to begin the game going forward.
 
