@@ -66,6 +66,7 @@ def main():
     shutil.copy2(ASSETS / "libssl-3-x64.dll", BIN_OUTPUT / "libssl-3-x64.dll")
     shutil.copy2(ASSETS / "gaiden_hook_fresh.asi", BIN_OUTPUT / "gaiden_hook_fresh.asi")
     shutil.copy2(ASSETS / "item_mapping.csv", BIN_OUTPUT / "item_mapping.csv")
+    shutil.copy2(ASSETS / "event_list.csv", BIN_OUTPUT / "event_list.csv")
     shutil.copy2(ASSETS / "progressive_items.json", BIN_OUTPUT / "progressive_items.json")
     shutil.copy2(ASSETS / "items.json", BIN_OUTPUT / "items.json")
     shutil.copy2(ASSETS / "locations.json", BIN_OUTPUT / "locations.json")

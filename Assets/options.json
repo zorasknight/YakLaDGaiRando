@@ -1,5 +1,5 @@
 {
-    "randomize_enemy_stats": 0,
+    "randomize_enemy_stats": 1,
     "intro_skip": 1,
     "shop_keys": 1,
     "skill_money_min": 1000,
@@ -28,5 +28,5 @@
     "important_grapple_items_yokohama": 20,
     "important_grapple_items_sotenbori": 30,
     "important_grapple_items_colosseum": 10,
-    "seed": "37281146636123499452"
+    "seed": "46535859393788602437"
 }

@@ -67,7 +67,7 @@ def get_item_tags(row):
     readable_name = row["Human Readable Name"].lower()
 
     # Trap override
-    if readable_name.startswith("trap"):
+    if row["Item Tag"].startswith("Trap"):
         tags.append("TRAP")
 
     else:

@@ -1,0 +1,127 @@
+Location_Name,Type,Category,Mission,State,Location_ID
+Beat Hanya Mask,Story Fight,5,1,37,683
+Daidoji clear,Dungeon Clear,5,1,48,684
+Mizorogi Drone,Story Fight,8,9,9,685
+Ryuji Goda?,Story Fight,5,2,36,686
+Final boss Hotel,Dungeon Clear,5,2,47,687
+Daidoji jump,Story Fight,5,2,55,688
+Nishitani 1,Dungeon Clear,5,3,21,689
+patriarch drones,Story Fight,8,10,7,690
+Nishitani,Dungeon Clear,5,4,44,691
+Beat Game,Goal,5,10,31,692
+Beating pocket circuit owner,Goal,8,31,3,693
+Film Assistant Needed,Substory,8,29,10,694
+Emergency Request,Substory,8,22,17,695
+Investigation Request,Substory,8,23,8,696
+Vanquish the Red Peacocks,Substory,8,40,21,697
+A Simple Heavy-Lifting Job,Substory,8,34,15,698
+Ghost of Sotenbori,Substory,8,28,18,699
+Seeking Advice,Substory,8,33,11,700
+Recruit Homeless Yamanaka,Substory,8,37,19,701
+The Strongest Convenence Store Clerk,Substory,8,36,11,702
+Liberate the Hammer Man,Substory,8,38,16,703
+Final Showdown Red Peacocks,Substory,8,46,8,704
+The Golden Samurai,Substory,8,42,5,705
+Final Akame Boss,Story Fight,8,19,16,706
+Save the Pro Wrestler,Substory,8,36,10,707
+The Cat-Lovin' Rapper,Substory,8,37,20,708
+The Struggling Host,Substory,8,38,17,709
+Vanquish the White Knights,Substory,8,41,21,710
+Gotta Catch 'em Balls!,Substory,8,50,7,711
+The Golden Scourge,Substory,8,43,5,712
+End the Destruction,Substory,8,20,21,713
+Final Showdown the White Knights,Substory,8,47,12,714
+Golden Gauntlet Throwdown,Substory,8,44,6,715
+Vanquish the Black Swallowtails,Substory,8,48,21,716
+Final Showdown the Black Swallowtails,Substory,8,49,11,717
+A Dental Dilemma,Akame Quest,14,19,5,718
+My Best Ball,Akame Quest,14,2,6,719
+Kickin' the Habit,Akame Quest,14,18,5,720
+A Priceless Autograph,Akame Quest,14,22,5,721
+You Saw Nothing,Akame Quest,14,23,6,722
+Catch That Crawdad,Akame Quest,14,85,5,723
+The Waterlogged Ring,Akame Quest,14,21,5,724
+Not Just a Hat,Akame Quest,14,20,5,725
+The Dad Hunter,Akame Combat,14,40,5,726
+I Want a Convenience Store Bento!,Akame Fetch,14,49,4,727
+Today's a Boozin Day,Akame Fetch,14,47,4,728
+Somethin' for the Pain,Akame Fetch,14,48,4,729
+"Tissue, Wipes, Anything!",Akame Fetch,14,13,4,730
+Those Damn Smartphones!,Akame Combat,14,3,5,731
+When Will I Taste Okonomiyaki!?,Akame Fetch,14,1,5,732
+Takoyaki on the Brain,Akame Fetch,14,11,4,733
+Have Mercy Give Food!,Akame Fetch,14,46,4,734
+"Sing Me ""Sayonara, Silent Night""",Akame Trial,14,83,5,735
+"Let's Hear ""Shin Ichizu Samurai""!",Akame Trial,14,84,5,736
+Protectors of My Ego,Akame Combat,14,41,5,737
+Hungry Hungry Bento,Akame Fetch,14,10,4,738
+In Need of Absorption,Akame Fetch,14,12,4,739
+A Friendly Game of Darts,Akame Trial,14,77,5,740
+Desperate for Staminan Light,Akame Fetch,14,9,4,741
+An Egg-cellent Idea,Akame Fetch,14,54,4,742
+The Luxury Yakiniku Bento Dream,Akame Fetch,14,56,4,743
+If Only I Had an Energy Drink...,Akame Fetch,14,50,4,744
+Hunting the Homeless,Akame Combat,14,42,5,745
+Desperate for Takoyaki,Akame Fetch,14,52,4,746
+A Certain Taiyaki Brand,Akame Fetch,14,51,4,747
+Hungry For Sushi,Akame Fetch,14,57,4,748
+Osaka's Famous Clown,Akame Photo,14,25,6,749
+Order of Oden,Akame Fetch,14,60,4,750
+Challenge to the Informant #1,Akame Trial,14,67,3,751
+Real-Deal Okonomiyaki,Akame Fetch,14,53,4,752
+Crush the Collector,Akame Combat,14,44,5,753
+Never Forget Four Shine,Akame Photo,14,6,5,754
+Find the Flying Takoyaki!,Akame Photo,14,28,6,755
+Calm My Nerves and Find My Car!,Akame Photo,14,27,6,756
+In Need of a UFO Catcher,Akame Fetch,14,5,5,757
+Can Anyone Conquer the UFO Catcher!?,Akame Fetch,14,74,4,758
+"Kitty Kat, Come Home",Akame Fetch,14,14,4,759
+"I need... uh, help!",Akame Combat,14,45,5,760
+Until Next Time!,Akame Combat,14,43,5,761
+Challenge the Informant #2,Akame Trial,14,68,3,762
+Taking the Blame,Akame Combat,14,8,5,763
+Complete a 1-Shot Challenge on Easy!,Akame Trial,14,75,5,764
+Pinin' For Pine Candy,Akame Fetch,14,61,4,765
+That Tantalizing Tauriner!,Akame Fetch,14,59,4,766
+Up For an Azuki Bar,Akame Fetch,14,58,4,767
+Challenge to the Informant #3,Akame Trial,14,69,3,768
+I'll Die Before I Let You In!,Akame Combat,14,36,5,769
+A Quest for Ono Michio,Akame Fetch,14,15,4,770
+"Show Me Kids Playing ""Pocket Circuit""",Akame Photo,14,30,6,771
+Turning the Tables,Akame Combat,14,33,5,772
+Find the Terrifying Beings!,Akame Photo,14,29,6,773
+Four Golf Bingos!,Akame Trial,14,78,5,774
+The Trendy Thug,Akame Combat,14,32,5,775
+"Turn That Frown Upside Down, Clown",Akame Outfit,14,63,4,776
+Where is My Son?,Akame Trial,14,4,5,777
+Challenge to the Informant #4,Akame Trial,14,70,3,778
+A Negative Exposure,Akame Combat,14,34,5,779
+Turn Out Your Pockets,Akame Combat,14,37,5,780
+The Hidden One's Challenge,Akame Trial,14,87,5,781
+A Yakuza Never Forgets,Akame Combat,14,35,5,782
+Photograph the Boat Guy,Akame Photo,14,31,6,783
+Complete a 1-Shot Challenge on Normal!,Akame Trial,14,76,5,784
+Chicken Chase,Akame Trial,14,86,5,785
+Challenge to the Informant #5,Akame Trial,14,71,3,786
+How 'Bout Them Kappas,Akame Trial,14,90,5,787
+The Hidden One's Revenge,Akame Trial,14,88,5,788
+Find the Cute Cafe!,Akame Photo,14,73,6,789
+The Hidden One's Last Stand,Akame Trial,14,89,5,790
+Please Model for Me!,Akame Outfit,14,7,5,791
+The Outfit from My Memories,Akame Outfit,14,62,4,792
+A Taste of Kabuki,Akame Outfit,14,64,4,793
+A Stubborn Customer,Akame Combat,14,38,5,794
+Time's a Luxury,Akame Fetch,14,16,4,795
+In Search of Star-Crossed Earings,Akame Fetch,14,17,4,796
+Challenge to the Informant #6,Akame Trial,14,72,3,797
+Chase Off the Nuisances,Akame Combat,14,39,5,798
+"Score a 90 on ""Baka Mitai""!",Akame Trial,14,81,5,799
+"Score a 90 on ""Hands""!",Akame Trial,14,82,5,800
+"Score a 90 on ""Like a Butterfly""!",Akame Trial,14,83,5,801
+Solve the Mysterious Note,Akame Trial,14,92,4,802
+Itching for Ichiban Senbei,Akame Fetch,14,93,4,803
+Eight Golf Bingos!,Akame Trial,14,79,5,804
+My Friend Needs to Understand,Akame Outfit,14,66,4,805
+Bring a Smile to My Soulless Face,Akame Outfit,14,65,4,806
+Please Photograph Fukupi-chan,Akame Photo,14,26,6,807
+Fukupi-chan Or Bust,Akame Trial,14,91,5,808

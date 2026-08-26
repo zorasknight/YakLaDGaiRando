@@ -575350,8 +575350,8 @@
     }
   },
   "6302": {
-    "shop_unlock_sote_south_poppo": {
-      "name": "Sotenbori South Poppo Shop Unlock",
+    "shop_unlock_sote_west_poppo": {
+      "name": "Sotenbori West Poppo Shop Unlock",
       "explanation": "Use this from the menu to unlock a new store!",
       "category": 11,
       "purchase_price": 1,
