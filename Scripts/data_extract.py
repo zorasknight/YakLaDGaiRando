@@ -70,6 +70,7 @@ def get_item_tags(row):
     if row["Item Tag"].startswith("Trap"):
         tags.append("TRAP")
 
+
     else:
         category_tag = CATEGORY_TAG_MAP.get(
             row["Category"]
@@ -119,6 +120,7 @@ def get_item_tags(row):
         "QUEST",
         "POCKET_CIRCUIT",
         "SHOP_KEY",
+        "MINIGAME_SHOP_KEY",
     }
 
     if any(tag in important_tags for tag in tags):

@@ -167,11 +167,22 @@ def load_config():
     global MAX_GOLDEN_BALL_COUNT
     global REQUIRED_GOLDEN_BALL_COUNT
     global PROGRESSIVE_GRAPPLE_ITEMS
+    global GOLDEN_BALL_WINCON
+    global DEFEAT_SHISHIDO_WINCON
+    global DEFEAT_POCKET_CIRCUIT_OWNER_WINCON
+    global SUBSTORY
+    global AKAME_TASKS
+    global AKAME_COMBAT
+    global AKAME_FETCH
+    global AKAME_PHOTO
+    global AKAME_TRIAL
+    global AKAME_OUTFIT
 
 
     SETTINGS = load_ap_settings()
 
-    SHOP_KEYS = SETTINGS["shop_keys"]
+    SHOP_KEYS = SETTINGS["shop_key"]
+    SHOP_KEYS = SETTINGS["minigame_shop_key"]
 
     ENEMY_HP_MULT = SETTINGS["enemy_hp_mult"]
     ENEMY_ATTACK_MULT = SETTINGS["enemy_attack_mult"]
@@ -209,6 +220,17 @@ def load_config():
     CASINO_MODIFIER = SETTINGS["casino_modifier"]
     AKAME_SHOP_MODIFIER = SETTINGS["akame_shop_modifier"]
     POCKET_CIRCUIT_MODIFIER = SETTINGS["pocket_circuit_modifier"]
+
+    GOLDEN_BALL_WINCON = SETTINGS["golden_ball_wincon"]
+    DEFEAT_SHISHIDO_WINCON = SETTINGS["defeat_shishido_wincon"]
+    DEFEAT_POCKET_CIRCUIT_OWNER_WINCON = SETTINGS["defeat_pocket_circuit_owner_wincon"]
+    SUBSTORY = SETTINGS["substory"]
+    AKAME_TASKS = SETTINGS["akame_tasks"]
+    AKAME_COMBAT = SETTINGS["akame_combat"]
+    AKAME_FETCH = SETTINGS["akame_fetch"]
+    AKAME_PHOTO = SETTINGS["akame_photo"]
+    AKAME_TRIAL = SETTINGS["akame_trial"]
+    AKAME_OUTFIT = SETTINGS["akame_outfit"]
 
     MAX_GOLDEN_BALL_COUNT = SETTINGS["max_golden_ball_count"]
     REQUIRED_GOLDEN_BALL_COUNT = SETTINGS["required_golden_ball_count"]

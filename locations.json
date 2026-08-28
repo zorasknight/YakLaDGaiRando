@@ -6219,7 +6219,7 @@
     "region": "SOTENBORI_4"
   },
   "event_location_10": {
-    "label": "[Goal] Defeat Shishino",
+    "label": "dummy1",
     "location": "event",
     "id": "692",
     "slot": "9",
@@ -6228,7 +6228,7 @@
     "region": "SOTENBORI_4"
   },
   "event_location_11": {
-    "label": "[Goal] Defeat Pocket Circuit Owner Rival Race",
+    "label": "dummy2",
     "location": "event",
     "id": "693",
     "slot": "10",
@@ -6539,7 +6539,7 @@
     "id": "727",
     "slot": "44",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_46": {
@@ -6548,7 +6548,7 @@
     "id": "728",
     "slot": "45",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_47": {
@@ -6557,7 +6557,7 @@
     "id": "729",
     "slot": "46",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_48": {
@@ -6566,7 +6566,7 @@
     "id": "730",
     "slot": "47",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_49": {
@@ -6575,7 +6575,7 @@
     "id": "731",
     "slot": "48",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_1",
+    "tags": "Akame Task, Akame Combat, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_50": {
@@ -6584,7 +6584,7 @@
     "id": "732",
     "slot": "49",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_51": {
@@ -6593,7 +6593,7 @@
     "id": "733",
     "slot": "50",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_52": {
@@ -6602,7 +6602,7 @@
     "id": "734",
     "slot": "51",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_53": {
@@ -6611,7 +6611,7 @@
     "id": "735",
     "slot": "52",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_1",
+    "tags": "Akame Task, Akame Trial, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_54": {
@@ -6620,7 +6620,7 @@
     "id": "736",
     "slot": "53",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_1",
+    "tags": "Akame Task, Akame Trial, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_55": {
@@ -6629,7 +6629,7 @@
     "id": "737",
     "slot": "54",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_1",
+    "tags": "Akame Task, Akame Combat, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_56": {
@@ -6638,7 +6638,7 @@
     "id": "738",
     "slot": "55",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_57": {
@@ -6647,7 +6647,7 @@
     "id": "739",
     "slot": "56",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_58": {
@@ -6656,7 +6656,7 @@
     "id": "740",
     "slot": "57",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_1",
+    "tags": "Akame Task, Akame Trial, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_59": {
@@ -6665,7 +6665,7 @@
     "id": "741",
     "slot": "58",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_1",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_60": {
@@ -6674,7 +6674,7 @@
     "id": "742",
     "slot": "59",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_61": {
@@ -6683,7 +6683,7 @@
     "id": "743",
     "slot": "60",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_62": {
@@ -6692,7 +6692,7 @@
     "id": "744",
     "slot": "61",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_63": {
@@ -6701,7 +6701,7 @@
     "id": "745",
     "slot": "62",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_2",
+    "tags": "Akame Task, Akame Combat, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_64": {
@@ -6710,7 +6710,7 @@
     "id": "746",
     "slot": "63",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_65": {
@@ -6719,7 +6719,7 @@
     "id": "747",
     "slot": "64",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_66": {
@@ -6728,7 +6728,7 @@
     "id": "748",
     "slot": "65",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_67": {
@@ -6737,7 +6737,7 @@
     "id": "749",
     "slot": "66",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_2",
+    "tags": "Akame Task, Akame Photo, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_68": {
@@ -6746,7 +6746,7 @@
     "id": "750",
     "slot": "67",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_69": {
@@ -6755,7 +6755,7 @@
     "id": "751",
     "slot": "68",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_2",
+    "tags": "Akame Task, Akame Trial, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_70": {
@@ -6764,7 +6764,7 @@
     "id": "752",
     "slot": "69",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_71": {
@@ -6773,7 +6773,7 @@
     "id": "753",
     "slot": "70",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_2",
+    "tags": "Akame Task, Akame Combat, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_72": {
@@ -6782,7 +6782,7 @@
     "id": "754",
     "slot": "71",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_2",
+    "tags": "Akame Task, Akame Photo, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_73": {
@@ -6791,7 +6791,7 @@
     "id": "755",
     "slot": "72",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_2",
+    "tags": "Akame Task, Akame Photo, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_74": {
@@ -6800,7 +6800,7 @@
     "id": "756",
     "slot": "73",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_2",
+    "tags": "Akame Task, Akame Photo, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_75": {
@@ -6809,7 +6809,7 @@
     "id": "757",
     "slot": "74",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_76": {
@@ -6818,7 +6818,7 @@
     "id": "758",
     "slot": "75",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_77": {
@@ -6827,7 +6827,7 @@
     "id": "759",
     "slot": "76",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_78": {
@@ -6836,7 +6836,7 @@
     "id": "760",
     "slot": "77",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_2",
+    "tags": "Akame Task, Akame Combat, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_79": {
@@ -6845,7 +6845,7 @@
     "id": "761",
     "slot": "78",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_2",
+    "tags": "Akame Task, Akame Combat, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_80": {
@@ -6854,7 +6854,7 @@
     "id": "762",
     "slot": "79",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_2",
+    "tags": "Akame Task, Akame Trial, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_81": {
@@ -6863,7 +6863,7 @@
     "id": "763",
     "slot": "80",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_2",
+    "tags": "Akame Task, Akame Combat, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_82": {
@@ -6872,7 +6872,7 @@
     "id": "764",
     "slot": "81",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_2",
+    "tags": "Akame Task, Akame Trial, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_83": {
@@ -6881,7 +6881,7 @@
     "id": "765",
     "slot": "82",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_84": {
@@ -6890,7 +6890,7 @@
     "id": "766",
     "slot": "83",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_85": {
@@ -6899,7 +6899,7 @@
     "id": "767",
     "slot": "84",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_2",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_86": {
@@ -6908,7 +6908,7 @@
     "id": "768",
     "slot": "85",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_2",
+    "tags": "Akame Task, Akame Trial, Sotenbori_2",
     "region": "SOTENBORI_2"
   },
   "event_location_87": {
@@ -6917,7 +6917,7 @@
     "id": "769",
     "slot": "86",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_88": {
@@ -6926,7 +6926,7 @@
     "id": "770",
     "slot": "87",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_3",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_89": {
@@ -6935,7 +6935,7 @@
     "id": "771",
     "slot": "88",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_3",
+    "tags": "Akame Task, Akame Photo, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_90": {
@@ -6944,7 +6944,7 @@
     "id": "772",
     "slot": "89",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_91": {
@@ -6953,7 +6953,7 @@
     "id": "773",
     "slot": "90",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_3",
+    "tags": "Akame Task, Akame Photo, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_92": {
@@ -6962,7 +6962,7 @@
     "id": "774",
     "slot": "91",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_93": {
@@ -6971,7 +6971,7 @@
     "id": "775",
     "slot": "92",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_94": {
@@ -6980,7 +6980,7 @@
     "id": "776",
     "slot": "93",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_3",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_95": {
@@ -6989,7 +6989,7 @@
     "id": "777",
     "slot": "94",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_96": {
@@ -6998,7 +6998,7 @@
     "id": "778",
     "slot": "95",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_97": {
@@ -7007,7 +7007,7 @@
     "id": "779",
     "slot": "96",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_98": {
@@ -7016,7 +7016,7 @@
     "id": "780",
     "slot": "97",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_99": {
@@ -7025,7 +7025,7 @@
     "id": "781",
     "slot": "98",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_100": {
@@ -7034,7 +7034,7 @@
     "id": "782",
     "slot": "99",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_3",
+    "tags": "Akame Task, Akame Combat, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_101": {
@@ -7043,7 +7043,7 @@
     "id": "783",
     "slot": "100",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_3, Junk",
+    "tags": "Akame Task, Akame Photo, Sotenbori_3, Junk",
     "region": "SOTENBORI_3"
   },
   "event_location_102": {
@@ -7052,7 +7052,7 @@
     "id": "784",
     "slot": "101",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_103": {
@@ -7061,7 +7061,7 @@
     "id": "785",
     "slot": "102",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_104": {
@@ -7070,7 +7070,7 @@
     "id": "786",
     "slot": "103",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_105": {
@@ -7079,7 +7079,7 @@
     "id": "787",
     "slot": "104",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_106": {
@@ -7088,7 +7088,7 @@
     "id": "788",
     "slot": "105",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_107": {
@@ -7097,7 +7097,7 @@
     "id": "789",
     "slot": "106",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_3",
+    "tags": "Akame Task, Akame Photo, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_108": {
@@ -7106,7 +7106,7 @@
     "id": "790",
     "slot": "107",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_109": {
@@ -7115,7 +7115,7 @@
     "id": "791",
     "slot": "108",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_3",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_110": {
@@ -7124,7 +7124,7 @@
     "id": "792",
     "slot": "109",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_3",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_111": {
@@ -7133,7 +7133,7 @@
     "id": "793",
     "slot": "110",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_3",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_3",
     "region": "SOTENBORI_3"
   },
   "event_location_112": {
@@ -7142,7 +7142,7 @@
     "id": "794",
     "slot": "111",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_4",
+    "tags": "Akame Task, Akame Combat, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_113": {
@@ -7151,7 +7151,7 @@
     "id": "795",
     "slot": "112",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_4",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_114": {
@@ -7160,7 +7160,7 @@
     "id": "796",
     "slot": "113",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_4",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_115": {
@@ -7169,7 +7169,7 @@
     "id": "797",
     "slot": "114",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_116": {
@@ -7178,7 +7178,7 @@
     "id": "798",
     "slot": "115",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_4",
+    "tags": "Akame Task, Akame Combat, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_117": {
@@ -7187,7 +7187,7 @@
     "id": "799",
     "slot": "116",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_118": {
@@ -7196,7 +7196,7 @@
     "id": "800",
     "slot": "117",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_119": {
@@ -7205,7 +7205,7 @@
     "id": "801",
     "slot": "118",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_120": {
@@ -7214,7 +7214,7 @@
     "id": "802",
     "slot": "119",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_121": {
@@ -7223,7 +7223,7 @@
     "id": "803",
     "slot": "120",
     "source": "events",
-    "tags": "Akame Fetch, Sotenbori_4",
+    "tags": "Akame Task, Akame Fetch, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_122": {
@@ -7232,7 +7232,7 @@
     "id": "804",
     "slot": "121",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_123": {
@@ -7241,7 +7241,7 @@
     "id": "805",
     "slot": "122",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_4",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_124": {
@@ -7250,7 +7250,7 @@
     "id": "806",
     "slot": "123",
     "source": "events",
-    "tags": "Akame Outfit, Sotenbori_4",
+    "tags": "Akame Task, Akame Outfit, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_125": {
@@ -7259,7 +7259,7 @@
     "id": "807",
     "slot": "124",
     "source": "events",
-    "tags": "Akame Photo, Sotenbori_4",
+    "tags": "Akame Task, Akame Photo, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
   "event_location_126": {
@@ -7268,10 +7268,10 @@
     "id": "808",
     "slot": "125",
     "source": "events",
-    "tags": "Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4",
     "region": "SOTENBORI_4"
   },
-  "outfit_location_0": {
+  "Kitty Kat (Tiger)": {
     "label": "Outfit 1",
     "location": "outfit_location",
     "id": "809",

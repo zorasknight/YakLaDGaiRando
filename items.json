@@ -99,6 +99,16 @@
     "purchase_price": "980",
     "purchase_points": "0"
   },
+  "bodysuit": {
+    "label": "Bodysuit",
+    "item_id": "6066",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "1000000",
+    "purchase_points": "100"
+  },
   "boost_gears": {
     "label": "Boost Gears",
     "item_id": "4850",
@@ -139,12 +149,23 @@
     "purchase_price": "980",
     "purchase_points": "0"
   },
+  "clown_makeup": {
+    "label": "Clown Makeup",
+    "item_id": "6121",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
   "colosseum_boutique_shop_unlock": {
     "label": "Colosseum Boutique Shop Unlock",
     "item_id": "6298",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -154,7 +175,8 @@
     "item_id": "6299",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -164,7 +186,9 @@
     "item_id": "6297",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "CASINO"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -174,7 +198,9 @@
     "item_id": "6296",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "CASINO"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -569,6 +595,16 @@
     "purchase_price": "14800",
     "purchase_points": "50000"
   },
+  "kabuki_makeup": {
+    "label": "Kabuki Makeup",
+    "item_id": "6119",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "400000",
+    "purchase_points": "100"
+  },
   "killer_bee": {
     "label": "Killer Bee",
     "item_id": "4764",
@@ -578,6 +614,16 @@
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
+  },
+  "leather_shoes": {
+    "label": "Leather Shoes",
+    "item_id": "6101",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "30000",
+    "purchase_points": "100"
   },
   "light_suspension": {
     "label": "Light Suspension",
@@ -654,7 +700,8 @@
     "item_id": "6300",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -789,6 +836,16 @@
     "purchase_price": "980",
     "purchase_points": "480"
   },
+  "shirtless_blazer": {
+    "label": "Shirtless Blazer",
+    "item_id": "6062",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "500000",
+    "purchase_points": "100"
+  },
   "shoes": {
     "label": "Shoes",
     "item_id": "6049",
@@ -848,6 +905,16 @@
     ],
     "purchase_price": "0",
     "purchase_points": "0"
+  },
+  "single_rose": {
+    "label": "Single Rose",
+    "item_id": "6117",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
   },
   "skill_book_extra_equipment_1": {
     "label": "Skill Book: Extra Equipment 1",
@@ -1045,6 +1112,16 @@
     "purchase_price": "880",
     "purchase_points": "380"
   },
+  "snake_eyepatch": {
+    "label": "Snake Eyepatch",
+    "item_id": "6075",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "1000000",
+    "purchase_points": "100"
+  },
   "soccer_ball": {
     "label": "Soccer Ball",
     "item_id": "6015",
@@ -1080,7 +1157,9 @@
     "item_id": "6287",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "POOL"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1090,7 +1169,8 @@
     "item_id": "6286",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1100,7 +1180,9 @@
     "item_id": "6294",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "CASINO"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1110,7 +1192,9 @@
     "item_id": "6293",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "GOLF"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1120,7 +1204,8 @@
     "item_id": "6307",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "WEIRD_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1130,7 +1215,8 @@
     "item_id": "6305",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "WEIRD_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1140,7 +1226,8 @@
     "item_id": "6303",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1150,7 +1237,8 @@
     "item_id": "6301",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1160,7 +1248,8 @@
     "item_id": "6308",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "WEIRD_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1170,7 +1259,9 @@
     "item_id": "6292",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "SHOGI"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1180,7 +1271,8 @@
     "item_id": "6302",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1190,7 +1282,8 @@
     "item_id": "6306",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1200,7 +1293,8 @@
     "item_id": "6288",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1264,6 +1358,26 @@
     ],
     "purchase_price": "880",
     "purchase_points": "380"
+  },
+  "straw_hat": {
+    "label": "Straw Hat",
+    "item_id": "6087",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "200000",
+    "purchase_points": "100"
+  },
+  "straw_sandals": {
+    "label": "Straw Sandals",
+    "item_id": "6106",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "5000"
   },
   "super_balanced_frame": {
     "label": "Super Balanced Frame",
@@ -1454,6 +1568,16 @@
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
+  },
+  "t_shirt": {
+    "label": "T-Shirt",
+    "item_id": "6065",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "100000",
+    "purchase_points": "100"
   },
   "ultra_balanced_frame": {
     "label": "Ultra Balanced Frame",
@@ -1675,12 +1799,24 @@
     "purchase_price": "0",
     "purchase_points": "0"
   },
+  "weird_stranger_makeup": {
+    "label": "Weird Stranger Makeup",
+    "item_id": "6124",
+    "tags": [
+      "IMPORTANT",
+      "QUEST"
+    ],
+    "purchase_price": "0",
+    "purchase_points": "5000"
+  },
   "yokohama_gambling_hall_point_shop_unlock": {
     "label": "Yokohama Gambling Hall Point Shop Unlock",
     "item_id": "6295",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "CASINO"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1690,7 +1826,8 @@
     "item_id": "6310",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "WEIRD_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1700,7 +1837,8 @@
     "item_id": "6290",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1710,7 +1848,8 @@
     "item_id": "6304",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1720,7 +1859,9 @@
     "item_id": "6291",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "MINIGAME_SHOP_KEY",
+      "MINIGAMES",
+      "SHOGI"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1730,7 +1871,8 @@
     "item_id": "6289",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1740,7 +1882,8 @@
     "item_id": "6309",
     "tags": [
       "IMPORTANT",
-      "SHOP_KEY"
+      "SHOP_KEY",
+      "WEIRD_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"
@@ -1891,15 +2034,6 @@
     "purchase_price": "40000",
     "purchase_points": "0"
   },
-  "bodysuit": {
-    "label": "Bodysuit",
-    "item_id": "6066",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "1000000",
-    "purchase_points": "100"
-  },
   "business_shoes": {
     "label": "Business Shoes",
     "item_id": "6099",
@@ -1962,15 +2096,6 @@
     ],
     "purchase_price": "1000",
     "purchase_points": "150"
-  },
-  "clown_makeup": {
-    "label": "Clown Makeup",
-    "item_id": "6121",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
   },
   "color_contacts_gold": {
     "label": "Color Contacts (Gold)",
@@ -2337,15 +2462,6 @@
     "purchase_price": "100000",
     "purchase_points": "100"
   },
-  "kabuki_makeup": {
-    "label": "Kabuki Makeup",
-    "item_id": "6119",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "400000",
-    "purchase_points": "100"
-  },
   "kitty_makeup": {
     "label": "Kitty Makeup",
     "item_id": "6123",
@@ -2362,15 +2478,6 @@
       "USEFUL"
     ],
     "purchase_price": "50000",
-    "purchase_points": "100"
-  },
-  "leather_shoes": {
-    "label": "Leather Shoes",
-    "item_id": "6101",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "30000",
     "purchase_points": "100"
   },
   "legend_darts": {
@@ -2608,15 +2715,6 @@
     "purchase_price": "2000",
     "purchase_points": "0"
   },
-  "shirtless_blazer": {
-    "label": "Shirtless Blazer",
-    "item_id": "6062",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "500000",
-    "purchase_points": "100"
-  },
   "short_sleeved_button_up": {
     "label": "Short-Sleeved Button-up",
     "item_id": "6064",
@@ -2642,15 +2740,6 @@
       "USEFUL"
     ],
     "purchase_price": "150000",
-    "purchase_points": "100"
-  },
-  "single_rose": {
-    "label": "Single Rose",
-    "item_id": "6117",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "100000",
     "purchase_points": "100"
   },
   "skill_book_daidoji_double_guard": {
@@ -3794,15 +3883,6 @@
     "purchase_price": "200000",
     "purchase_points": "100"
   },
-  "snake_eyepatch": {
-    "label": "Snake Eyepatch",
-    "item_id": "6075",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "1000000",
-    "purchase_points": "100"
-  },
   "snakeskin_shoes": {
     "label": "Snakeskin Shoes",
     "item_id": "6100",
@@ -3839,24 +3919,6 @@
     "purchase_price": "3000",
     "purchase_points": "0"
   },
-  "straw_hat": {
-    "label": "Straw Hat",
-    "item_id": "6087",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "200000",
-    "purchase_points": "100"
-  },
-  "straw_sandals": {
-    "label": "Straw Sandals",
-    "item_id": "6106",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "5000"
-  },
   "sunshine": {
     "label": "Sunshine",
     "item_id": "4758",
@@ -3874,15 +3936,6 @@
     ],
     "purchase_price": "81000",
     "purchase_points": "1800"
-  },
-  "t_shirt": {
-    "label": "T-Shirt",
-    "item_id": "6065",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "100000",
-    "purchase_points": "100"
   },
   "tam": {
     "label": "Tam",
@@ -3946,15 +3999,6 @@
     ],
     "purchase_price": "200000",
     "purchase_points": "100"
-  },
-  "weird_stranger_makeup": {
-    "label": "Weird Stranger Makeup",
-    "item_id": "6124",
-    "tags": [
-      "USEFUL"
-    ],
-    "purchase_price": "0",
-    "purchase_points": "5000"
   },
   "wellington_sunglasses": {
     "label": "Wellington Sunglasses",
@@ -4298,6 +4342,15 @@
     "purchase_price": "150",
     "purchase_points": "10"
   },
+  "kitty_kat_tiger": {
+    "label": "Kitty Kat (Tiger)",
+    "item_id": "5391",
+    "tags": [
+      "FILLER"
+    ],
+    "purchase_price": "500",
+    "purchase_points": "1"
+  },
   "lucky_hanafuda_card": {
     "label": "Lucky Hanafuda Card",
     "item_id": "5447",
@@ -4441,6 +4494,15 @@
     ],
     "purchase_price": "900",
     "purchase_points": "0"
+  },
+  "ono_michio_pixel_figure": {
+    "label": "Ono Michio Pixel Figure",
+    "item_id": "5405",
+    "tags": [
+      "FILLER"
+    ],
+    "purchase_price": "500",
+    "purchase_points": "1"
   },
   "oragamachi_natto": {
     "label": "Oragamachi Natto",
