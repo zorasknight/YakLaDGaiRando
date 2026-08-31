@@ -124,6 +124,28 @@ Start the game from the mod manager to begin the game going forward.
 
 ### *NOTE: ALWAYS START THE GAME THROUGH THE MOD MANAGER, DO NOT START THE GAME THROUGH STEAM TO PLAY THE RANDOMIZER
 
+## Linux options
+
+Although I can't offer 100% full linux support, a number of players have succeded in playing by utilizing these tips:
+
+### When using SRMM with a linux OS on Steam:
+
+"Linux and Steam Deck users may need to adjust launch options for mods to work correctly, as Wine and Proton do not always load version.dll automatically. Some games may load it on their own, but it is recommended to explicitly set it using the overrides below."
+set this within your Steam Launch Options:
+
+WINEDLLOVERRIDES="version=n,b" %command%
+
+https://github.com/SRMM-Studio/ShinRyuModManager/wiki/Launch-Options
+
+### Confirmed working tools:
+This is not a complete list of all possibilities just ones I have heard work:
+
+Run the randomizer itself using Lutris, And Bazzite's included Proton for running the game, and then make sure to have the Linux version of SRMM.
+
+## Languages other than English
+
+This mod should work on copies of the game purchased in other countries, however, you will need to set the in-game text language to English due to how the item DBs are modified per langugage.
+
 ## FAQ/Tips
 
 ### I was sent a Shop Key but the shop is still empty?
