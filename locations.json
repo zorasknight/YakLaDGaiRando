@@ -6638,7 +6638,7 @@
     "id": "738",
     "slot": "57",
     "source": "events",
-    "tags": "Akame Task, Akame Trial, Sotenbori_1",
+    "tags": "Akame Task, Akame Trial, Sotenbori_1, Minigames, Darts",
     "region": "SOTENBORI_1"
   },
   "event_location_59": {
@@ -6854,7 +6854,7 @@
     "id": "762",
     "slot": "81",
     "source": "events",
-    "tags": "Akame Task, Akame Trial, Sotenbori_2",
+    "tags": "Akame Task, Akame Trial, Sotenbori_2, Minigames, Pool",
     "region": "SOTENBORI_2"
   },
   "event_location_83": {
@@ -6917,7 +6917,7 @@
     "id": "769",
     "slot": "88",
     "source": "events",
-    "tags": "Akame Task, Akame Photo, Sotenbori_3",
+    "tags": "Akame Task, Akame Photo, Sotenbori_3, Pocket Circuit",
     "region": "SOTENBORI_3"
   },
   "event_location_90": {
@@ -6944,7 +6944,7 @@
     "id": "772",
     "slot": "91",
     "source": "events",
-    "tags": "Akame Task, Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3, Minigames, Golf",
     "region": "SOTENBORI_3"
   },
   "event_location_93": {
@@ -7034,7 +7034,7 @@
     "id": "782",
     "slot": "101",
     "source": "events",
-    "tags": "Akame Task, Akame Trial, Sotenbori_3",
+    "tags": "Akame Task, Akame Trial, Sotenbori_3, Minigames, Pool",
     "region": "SOTENBORI_3"
   },
   "event_location_103": {
@@ -7214,7 +7214,7 @@
     "id": "802",
     "slot": "121",
     "source": "events",
-    "tags": "Akame Task, Akame Trial, Sotenbori_4",
+    "tags": "Akame Task, Akame Trial, Sotenbori_4, Minigames, Golf",
     "region": "SOTENBORI_4"
   },
   "event_location_123": {

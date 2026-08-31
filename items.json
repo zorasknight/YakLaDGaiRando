@@ -2322,7 +2322,8 @@
     "label": "Gold Darts",
     "item_id": "5982",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "0"
@@ -2484,7 +2485,8 @@
     "label": "Legend Darts",
     "item_id": "5983",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "8000"
@@ -2610,7 +2612,8 @@
     "label": "Premier Darts",
     "item_id": "6017",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "2000"
@@ -2728,7 +2731,8 @@
     "label": "Silver Darts",
     "item_id": "6016",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "100000",
     "purchase_points": "0"
@@ -3914,7 +3918,8 @@
     "label": "Standard Darts",
     "item_id": "5979",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "3000",
     "purchase_points": "0"
@@ -3977,7 +3982,8 @@
     "label": "Thunder Darts",
     "item_id": "6038",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "0"
@@ -4022,7 +4028,8 @@
     "label": "Wind Darts",
     "item_id": "6039",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "1980000",
     "purchase_points": "0"
