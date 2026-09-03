@@ -10341,8 +10341,8 @@
     "region": "JUNK"
   },
   "shop_key_17": {
-    "label": "Sotenbori South Poppo Shop Unlock",
-    "location": "aston_s_poppo_south",
+    "label": "Sotenbori West Poppo Shop Unlock",
+    "location": "aston_s_poppo_west",
     "id": "1150",
     "slot": "20",
     "source": "items.bin.json",

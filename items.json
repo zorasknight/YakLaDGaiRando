@@ -1346,17 +1346,6 @@
     "purchase_price": "1000",
     "purchase_points": "0"
   },
-  "sotenbori_south_poppo_shop_unlock": {
-    "label": "Sotenbori South Poppo Shop Unlock",
-    "item_id": "6302",
-    "tags": [
-      "IMPORTANT",
-      "SHOP_KEY",
-      "CONSUMABLE_SHOPS"
-    ],
-    "purchase_price": "1000",
-    "purchase_points": "0"
-  },
   "sotenbori_tsuruha_shop_unlock": {
     "label": "Sotenbori Tsuruha Shop Unlock",
     "item_id": "6306",
@@ -1375,6 +1364,17 @@
       "IMPORTANT",
       "SHOP_KEY",
       "SHOPS"
+    ],
+    "purchase_price": "1000",
+    "purchase_points": "0"
+  },
+  "sotenbori_west_poppo_shop_unlock": {
+    "label": "Sotenbori West Poppo Shop Unlock",
+    "item_id": "6302",
+    "tags": [
+      "IMPORTANT",
+      "SHOP_KEY",
+      "CONSUMABLE_SHOPS"
     ],
     "purchase_price": "1000",
     "purchase_points": "0"

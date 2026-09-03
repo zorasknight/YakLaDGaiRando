@@ -514,6 +514,14 @@ def update_shop_item_limits(data, updates):
         if u["column_id"] == "replacement_item_id"
     }
 
+    randomized_rows = {}
+
+    for u in updates:
+        if u["column_id"] != "replacement_item_id":
+            continue
+
+        randomized_rows.setdefault(u["table_name"], set()).add(str(u["row_id"]))
+
     for root_value in data.values():
 
         if not isinstance(root_value, dict):
@@ -532,9 +540,7 @@ def update_shop_item_limits(data, updates):
             if not isinstance(table, dict):
                 continue
 
-            item_counts = Counter()
-
-            for row_container in table.values():
+            for row_id, row_container in table.items():
 
                 if not isinstance(row_container, dict):
                     continue
@@ -544,31 +550,13 @@ def update_shop_item_limits(data, updates):
                 if not isinstance(row, dict):
                     continue
 
-                item_id = row.get("1")
+                if str(row_id) in randomized_rows.get(table_name, set()):
+                    row["20"] = 1
 
-                if item_id:
-                    item_counts[item_id] += 1
-
-            for row_container in table.values():
-
-                if not isinstance(row_container, dict):
-                    continue
-
-                row = row_container.get("")
-
-                if not isinstance(row, dict):
-                    continue
-
-                item_id = row.get("1")
-
-
-                if item_id:
-                    row["20"] = item_counts[item_id]
-
-                    if SHOP_KEYS and table_name in shop_category_8_values:
-                        row["6"] = 1
-                        row["7"] = 12
-                        row["8"] = shop_category_8_values[table_name]
+                if SHOP_KEYS and table_name in shop_category_8_values:
+                    row["6"] = 1
+                    row["7"] = 12
+                    row["8"] = shop_category_8_values[table_name]
 # Rewards
 
 def update_reward(data, updates):
