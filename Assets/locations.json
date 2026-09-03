@@ -6030,7 +6030,7 @@
     "region": "POCKET_CIRCUIT_1"
   },
   "pokecir_reward_2": {
-    "label": "[PC] Rival Ran Reward",
+    "label": "[PC] Rival Akame Reward",
     "location": "pokecir",
     "id": "671",
     "slot": "13",
@@ -11203,5 +11203,455 @@
     "source": "item_get_by_wire.bin.json",
     "tags": "Colosseum_1, Progressive Wire",
     "region": "COLOSSEUM_1"
+  },
+  "aston_s_pokecir_car_drag-on_frame": {
+    "label": "[PC] Car DRAG-ON Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1246",
+    "slot": "1",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_tires": {
+    "label": "[PC] Car DRAG-ON Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1247",
+    "slot": "2",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_motor": {
+    "label": "[PC] Car DRAG-ON Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1248",
+    "slot": "3",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_gears": {
+    "label": "[PC] Car DRAG-ON Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1249",
+    "slot": "4",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_misc": {
+    "label": "[PC] Car DRAG-ON Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1250",
+    "slot": "5",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_tiger_frame": {
+    "label": "[PC] Car Golem Tiger Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1251",
+    "slot": "6",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_tiger_tires": {
+    "label": "[PC] Car Golem Tiger Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1252",
+    "slot": "7",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_tiger_motor": {
+    "label": "[PC] Car Golem Tiger Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1253",
+    "slot": "8",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_tiger_gears": {
+    "label": "[PC] Car Golem Tiger Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1254",
+    "slot": "9",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_tiger_misc": {
+    "label": "[PC] Car Golem Tiger Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1255",
+    "slot": "10",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_cool_striker_frame": {
+    "label": "[PC] Car Cool Striker Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1256",
+    "slot": "11",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_cool_striker_tires": {
+    "label": "[PC] Car Cool Striker Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1257",
+    "slot": "12",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_cool_striker_motor": {
+    "label": "[PC] Car Cool Striker Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1258",
+    "slot": "13",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_cool_striker_gears": {
+    "label": "[PC] Car Cool Striker Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1259",
+    "slot": "14",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_cool_striker_misc": {
+    "label": "[PC] Car Cool Striker Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1260",
+    "slot": "15",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_devil_killer_frame": {
+    "label": "[PC] Car Devil Killer Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1261",
+    "slot": "16",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_devil_killer_tires": {
+    "label": "[PC] Car Devil Killer Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1262",
+    "slot": "17",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_devil_killer_motor": {
+    "label": "[PC] Car Devil Killer Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1263",
+    "slot": "18",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_devil_killer_gears": {
+    "label": "[PC] Car Devil Killer Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1264",
+    "slot": "19",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_devil_killer_misc": {
+    "label": "[PC] Car Devil Killer Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1265",
+    "slot": "20",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_killer_bee_frame": {
+    "label": "[PC] Car Killer Bee Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1266",
+    "slot": "21",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_killer_bee_tires": {
+    "label": "[PC] Car Killer Bee Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1267",
+    "slot": "22",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_killer_bee_motor": {
+    "label": "[PC] Car Killer Bee Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1268",
+    "slot": "23",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_killer_bee_gears": {
+    "label": "[PC] Car Killer Bee Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1269",
+    "slot": "24",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_killer_bee_misc": {
+    "label": "[PC] Car Killer Bee Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1270",
+    "slot": "25",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_ultra_frame": {
+    "label": "[PC] Car DRAG-ON Ultra Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1271",
+    "slot": "26",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_ultra_tires": {
+    "label": "[PC] Car DRAG-ON Ultra Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1272",
+    "slot": "27",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_ultra_motor": {
+    "label": "[PC] Car DRAG-ON Ultra Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1273",
+    "slot": "28",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_ultra_gears": {
+    "label": "[PC] Car DRAG-ON Ultra Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1274",
+    "slot": "29",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_drag-on_ultra_misc": {
+    "label": "[PC] Car DRAG-ON Ultra Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1275",
+    "slot": "30",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_jaguar_frame": {
+    "label": "[PC] Car Golem Jaguar Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1276",
+    "slot": "31",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_jaguar_tires": {
+    "label": "[PC] Car Golem Jaguar Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1277",
+    "slot": "32",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_jaguar_motor": {
+    "label": "[PC] Car Golem Jaguar Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1278",
+    "slot": "33",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_jaguar_gears": {
+    "label": "[PC] Car Golem Jaguar Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1279",
+    "slot": "34",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_golem_jaguar_misc": {
+    "label": "[PC] Car Golem Jaguar Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1280",
+    "slot": "35",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_alpha_cool_striker_frame": {
+    "label": "[PC] Car Alpha Cool Striker Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1281",
+    "slot": "36",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_alpha_cool_striker_tires": {
+    "label": "[PC] Car Alpha Cool Striker Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1282",
+    "slot": "37",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_alpha_cool_striker_motor": {
+    "label": "[PC] Car Alpha Cool Striker Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1283",
+    "slot": "38",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_alpha_cool_striker_gears": {
+    "label": "[PC] Car Alpha Cool Striker Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1284",
+    "slot": "39",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_alpha_cool_striker_misc": {
+    "label": "[PC] Car Alpha Cool Striker Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1285",
+    "slot": "40",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_super_devil_killer_frame": {
+    "label": "[PC] Car Super Devil Killer Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1286",
+    "slot": "41",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_super_devil_killer_tires": {
+    "label": "[PC] Car Super Devil Killer Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1287",
+    "slot": "42",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_super_devil_killer_motor": {
+    "label": "[PC] Car Super Devil Killer Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1288",
+    "slot": "43",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_super_devil_killer_gears": {
+    "label": "[PC] Car Super Devil Killer Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1289",
+    "slot": "44",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_super_devil_killer_misc": {
+    "label": "[PC] Car Super Devil Killer Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1290",
+    "slot": "45",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_bangin_killer_bee_frame": {
+    "label": "[PC] Car Bangin' Killer Bee Frame",
+    "location": "aston_s_pokecir_parts",
+    "id": "1291",
+    "slot": "46",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Frame",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_bangin_killer_bee_tires": {
+    "label": "[PC] Car Bangin' Killer Bee Tires",
+    "location": "aston_s_pokecir_parts",
+    "id": "1292",
+    "slot": "47",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Tires",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_bangin_killer_bee_motor": {
+    "label": "[PC] Car Bangin' Killer Bee Motor",
+    "location": "aston_s_pokecir_parts",
+    "id": "1293",
+    "slot": "48",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Motor",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_bangin_killer_bee_gears": {
+    "label": "[PC] Car Bangin' Killer Bee Gears",
+    "location": "aston_s_pokecir_parts",
+    "id": "1294",
+    "slot": "49",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Gears",
+    "region": "POCKET_CIRCUIT_1"
+  },
+  "aston_s_pokecir_car_bangin_killer_bee_misc": {
+    "label": "[PC] Car Bangin' Killer Bee Misc",
+    "location": "aston_s_pokecir_parts",
+    "id": "1295",
+    "slot": "50",
+    "source": "item_get_by_wire.bin.json",
+    "tags": "Pocket Circuit_1, Car Part, Car Misc",
+    "region": "POCKET_CIRCUIT_1"
   }
 }

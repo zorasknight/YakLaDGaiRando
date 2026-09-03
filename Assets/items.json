@@ -4,7 +4,8 @@
     "item_id": "6005",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
@@ -24,7 +25,8 @@
     "item_id": "4765",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "580",
     "purchase_points": "0"
@@ -34,7 +36,8 @@
     "item_id": "4766",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -44,7 +47,8 @@
     "item_id": "4840",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "580",
     "purchase_points": "150"
@@ -54,7 +58,8 @@
     "item_id": "4841",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -64,7 +69,8 @@
     "item_id": "4801",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "680",
     "purchase_points": "150"
@@ -74,7 +80,8 @@
     "item_id": "4802",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "1180",
     "purchase_points": "680"
@@ -84,7 +91,8 @@
     "item_id": "6007",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "2980"
@@ -94,7 +102,8 @@
     "item_id": "4757",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -114,7 +123,8 @@
     "item_id": "4850",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -124,7 +134,8 @@
     "item_id": "4851",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "6980",
     "purchase_points": "6980"
@@ -134,7 +145,8 @@
     "item_id": "6047",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "9800",
     "purchase_points": "6980"
@@ -144,7 +156,8 @@
     "item_id": "4750",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -210,7 +223,8 @@
     "item_id": "4762",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "40000"
@@ -230,7 +244,8 @@
     "item_id": "4759",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "350"
@@ -240,7 +255,8 @@
     "item_id": "4763",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "4980",
     "purchase_points": "5600"
@@ -250,7 +266,8 @@
     "item_id": "4760",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "4980",
     "purchase_points": "120000"
@@ -260,7 +277,8 @@
     "item_id": "6003",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
@@ -270,7 +288,8 @@
     "item_id": "6041",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -280,7 +299,8 @@
     "item_id": "4767",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "1980",
     "purchase_points": "2560"
@@ -290,7 +310,8 @@
     "item_id": "4842",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -300,7 +321,8 @@
     "item_id": "4803",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -310,7 +332,8 @@
     "item_id": "4852",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "9800",
     "purchase_points": "9800"
@@ -320,7 +343,8 @@
     "item_id": "4857",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "11800",
     "purchase_points": "11800"
@@ -330,7 +354,8 @@
     "item_id": "4827",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "1480",
     "purchase_points": "1480"
@@ -340,7 +365,8 @@
     "item_id": "4772",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -350,7 +376,8 @@
     "item_id": "4837",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -360,7 +387,8 @@
     "item_id": "4793",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "2480",
     "purchase_points": "3980"
@@ -370,7 +398,8 @@
     "item_id": "4847",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -380,7 +409,8 @@
     "item_id": "4777",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -390,7 +420,8 @@
     "item_id": "4782",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -400,7 +431,8 @@
     "item_id": "4812",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "1480",
     "purchase_points": "1480"
@@ -410,7 +442,8 @@
     "item_id": "4832",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "1480",
     "purchase_points": "1480"
@@ -420,7 +453,8 @@
     "item_id": "4817",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "1480",
     "purchase_points": "1480"
@@ -430,7 +464,8 @@
     "item_id": "4787",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "1980",
     "purchase_points": "1500"
@@ -440,7 +475,8 @@
     "item_id": "4798",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -450,7 +486,8 @@
     "item_id": "4822",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "1480",
     "purchase_points": "1480"
@@ -460,7 +497,8 @@
     "item_id": "6046",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "9800",
     "purchase_points": "4980"
@@ -470,7 +508,8 @@
     "item_id": "4855",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "7980",
     "purchase_points": "7980"
@@ -480,7 +519,8 @@
     "item_id": "4856",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "9800",
     "purchase_points": "9800"
@@ -490,7 +530,8 @@
     "item_id": "4808",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "50000",
     "purchase_points": "3980"
@@ -500,7 +541,8 @@
     "item_id": "4809",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "70000",
     "purchase_points": "50000"
@@ -520,7 +562,8 @@
     "item_id": "6004",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
@@ -530,7 +573,8 @@
     "item_id": "4761",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "4980"
@@ -550,7 +594,8 @@
     "item_id": "4868",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "14980",
     "purchase_points": "6980"
@@ -560,7 +605,8 @@
     "item_id": "4860",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "580",
     "purchase_points": "150"
@@ -570,7 +616,8 @@
     "item_id": "4861",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "580",
     "purchase_points": "150"
@@ -580,7 +627,8 @@
     "item_id": "4806",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "9800",
     "purchase_points": "3980"
@@ -590,7 +638,8 @@
     "item_id": "4807",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "14800",
     "purchase_points": "50000"
@@ -610,7 +659,8 @@
     "item_id": "4764",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -630,7 +680,8 @@
     "item_id": "4866",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "1980",
     "purchase_points": "680"
@@ -640,7 +691,8 @@
     "item_id": "4825",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "480",
     "purchase_points": "150"
@@ -650,7 +702,8 @@
     "item_id": "4826",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "880",
     "purchase_points": "380"
@@ -660,7 +713,8 @@
     "item_id": "4867",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -670,7 +724,8 @@
     "item_id": "4770",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "580",
     "purchase_points": "0"
@@ -680,7 +735,8 @@
     "item_id": "4771",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -690,7 +746,8 @@
     "item_id": "6040",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -711,7 +768,8 @@
     "item_id": "4835",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "580",
     "purchase_points": "150"
@@ -721,7 +779,8 @@
     "item_id": "4836",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -731,7 +790,8 @@
     "item_id": "4791",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "680",
     "purchase_points": "0"
@@ -741,7 +801,8 @@
     "item_id": "4792",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "1180",
     "purchase_points": "0"
@@ -751,7 +812,8 @@
     "item_id": "6048",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "9800",
     "purchase_points": "19800"
@@ -761,7 +823,8 @@
     "item_id": "4756",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -771,7 +834,8 @@
     "item_id": "4862",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "580",
     "purchase_points": "0"
@@ -781,7 +845,8 @@
     "item_id": "4845",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "580",
     "purchase_points": "0"
@@ -791,7 +856,8 @@
     "item_id": "4846",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "480",
     "purchase_points": "480"
@@ -801,7 +867,8 @@
     "item_id": "4775",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "580",
     "purchase_points": "250"
@@ -811,7 +878,8 @@
     "item_id": "4776",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -821,7 +889,8 @@
     "item_id": "4780",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "580",
     "purchase_points": "250"
@@ -831,7 +900,8 @@
     "item_id": "4781",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -861,7 +931,8 @@
     "item_id": "4863",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "1980",
     "purchase_points": "1980"
@@ -871,7 +942,8 @@
     "item_id": "4864",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "4980",
     "purchase_points": "2980"
@@ -881,7 +953,8 @@
     "item_id": "4865",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MISC"
     ],
     "purchase_price": "7980",
     "purchase_points": "4980"
@@ -891,7 +964,8 @@
     "item_id": "4751",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "DECAL"
     ],
     "purchase_price": "980",
     "purchase_points": "0"
@@ -1077,7 +1151,8 @@
     "item_id": "4810",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "480",
     "purchase_points": "0"
@@ -1087,7 +1162,8 @@
     "item_id": "4811",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "880",
     "purchase_points": "500"
@@ -1097,7 +1173,8 @@
     "item_id": "4830",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "480",
     "purchase_points": "150"
@@ -1107,7 +1184,8 @@
     "item_id": "4831",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "880",
     "purchase_points": "380"
@@ -1137,7 +1215,8 @@
     "item_id": "4815",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "480",
     "purchase_points": "150"
@@ -1147,7 +1226,8 @@
     "item_id": "4816",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "880",
     "purchase_points": "380"
@@ -1304,7 +1384,8 @@
     "item_id": "4785",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "580",
     "purchase_points": "250"
@@ -1314,7 +1395,8 @@
     "item_id": "4786",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "980",
     "purchase_points": "480"
@@ -1324,7 +1406,8 @@
     "item_id": "4796",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "680",
     "purchase_points": "150"
@@ -1334,7 +1417,8 @@
     "item_id": "4797",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "1180",
     "purchase_points": "680"
@@ -1344,7 +1428,8 @@
     "item_id": "4820",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "480",
     "purchase_points": "150"
@@ -1354,7 +1439,8 @@
     "item_id": "4821",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "880",
     "purchase_points": "380"
@@ -1384,7 +1470,8 @@
     "item_id": "4768",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "0",
     "purchase_points": "0"
@@ -1394,7 +1481,8 @@
     "item_id": "4843",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1404,7 +1492,8 @@
     "item_id": "4804",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1414,7 +1503,8 @@
     "item_id": "4853",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "14800",
     "purchase_points": "14800"
@@ -1424,7 +1514,8 @@
     "item_id": "6006",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "BODY"
     ],
     "purchase_price": "50000000",
     "purchase_points": "1980"
@@ -1434,7 +1525,8 @@
     "item_id": "4858",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "14800",
     "purchase_points": "14800"
@@ -1444,7 +1536,8 @@
     "item_id": "4828",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -1454,7 +1547,8 @@
     "item_id": "4773",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAMES"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1464,7 +1558,8 @@
     "item_id": "4838",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1474,7 +1569,8 @@
     "item_id": "4794",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "3980",
     "purchase_points": "4980"
@@ -1484,7 +1580,8 @@
     "item_id": "4848",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1494,7 +1591,8 @@
     "item_id": "4778",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAMES"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1504,7 +1602,8 @@
     "item_id": "4783",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAMES"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1514,7 +1613,8 @@
     "item_id": "4813",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -1524,7 +1624,8 @@
     "item_id": "4833",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -1534,7 +1635,8 @@
     "item_id": "4818",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -1544,7 +1646,8 @@
     "item_id": "4788",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAMES"
     ],
     "purchase_price": "2980",
     "purchase_points": "2980"
@@ -1554,7 +1657,8 @@
     "item_id": "4799",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1564,7 +1668,8 @@
     "item_id": "4823",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "2480",
     "purchase_points": "2480"
@@ -1584,7 +1689,8 @@
     "item_id": "4769",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1594,7 +1700,8 @@
     "item_id": "4844",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1604,7 +1711,8 @@
     "item_id": "4805",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1614,7 +1722,8 @@
     "item_id": "4854",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "19800",
     "purchase_points": "19800"
@@ -1624,7 +1733,8 @@
     "item_id": "4859",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "19800",
     "purchase_points": "19800"
@@ -1634,7 +1744,8 @@
     "item_id": "4755",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "120000",
     "purchase_points": "120000"
@@ -1644,7 +1755,8 @@
     "item_id": "4754",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "120000",
     "purchase_points": "120000"
@@ -1654,7 +1766,8 @@
     "item_id": "4829",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1664,7 +1777,8 @@
     "item_id": "4774",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1674,7 +1788,8 @@
     "item_id": "4839",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1684,7 +1799,8 @@
     "item_id": "4795",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1694,7 +1810,8 @@
     "item_id": "4849",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "GEARS"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1704,7 +1821,8 @@
     "item_id": "4779",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1714,7 +1832,8 @@
     "item_id": "4784",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1724,7 +1843,8 @@
     "item_id": "4814",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1734,7 +1854,8 @@
     "item_id": "4834",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1744,7 +1865,8 @@
     "item_id": "4819",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1754,7 +1876,8 @@
     "item_id": "4789",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "FRAME"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
@@ -1764,7 +1887,8 @@
     "item_id": "4800",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "MOTOR"
     ],
     "purchase_price": "4980",
     "purchase_points": "4980"
@@ -1774,7 +1898,8 @@
     "item_id": "4824",
     "tags": [
       "IMPORTANT",
-      "POCKET_CIRCUIT"
+      "POCKET_CIRCUIT",
+      "TIRES"
     ],
     "purchase_price": "3980",
     "purchase_points": "3980"
