@@ -4,7 +4,7 @@
     "item_cost_max": 1000000,
     "item_cost_point_min": 100,
     "item_cost_point_max": 5000,
-    "required_golden_ball_count": 7,
+    "required_golden_ball_count": 2,
     "max_golden_ball_count": 10,
     "skill_money_min": 1000,
     "skill_money_max": 1000000,
@@ -40,9 +40,9 @@
     "akame_photo": 1,
     "akame_trial": 1,
     "akame_outfit": 1,
-    "progressive_grapple_items": 1,
-    "important_grapple_items_yokohama": 29,
-    "important_grapple_items_sotenbori": 39,
-    "important_grapple_items_colosseum": 19,
-    "seed": 27171665430889886255
+    "progressive_grapple_items": 0,
+    "important_grapple_items_yokohama": 20,
+    "important_grapple_items_sotenbori": 30,
+    "important_grapple_items_colosseum": 10,
+    "seed": 7467162895158813359
 }
