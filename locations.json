@@ -167,8 +167,8 @@
     "id": "19",
     "slot": "0",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_1": {
     "label": "[PC] Shop Official Race 1",
@@ -176,8 +176,8 @@
     "id": "20",
     "slot": "1",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_2": {
     "label": "[PC] Shop Veteran Race 1",
@@ -221,8 +221,8 @@
     "id": "25",
     "slot": "6",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_7": {
     "label": "[PC] Shop Veteran Race 2",
@@ -239,8 +239,8 @@
     "id": "27",
     "slot": "8",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_9": {
     "label": "[PC] Shop Official Race 3",
@@ -248,8 +248,8 @@
     "id": "28",
     "slot": "9",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_10": {
     "label": "[PC] Shop Veteran Race 3",
@@ -266,8 +266,8 @@
     "id": "30",
     "slot": "11",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_12": {
     "label": "[PC] Shop Invitational Cup 1",
@@ -284,8 +284,8 @@
     "id": "32",
     "slot": "13",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_14": {
     "label": "[PC] Shop Rival Ran 2",
@@ -293,8 +293,8 @@
     "id": "33",
     "slot": "14",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_4",
-    "region": "POCKET_CIRCUIT_4"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_15": {
     "label": "[PC] Shop Rival Ran 3",
@@ -302,8 +302,8 @@
     "id": "34",
     "slot": "15",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_4",
-    "region": "POCKET_CIRCUIT_4"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_16": {
     "label": "[PC] Shop Invitational Cup 2",
@@ -329,8 +329,8 @@
     "id": "37",
     "slot": "18",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_19": {
     "label": "[PC] Shop Official Race 6",
@@ -338,8 +338,8 @@
     "id": "38",
     "slot": "19",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_20": {
     "label": "[PC] Shop Official Race 7",
@@ -347,8 +347,8 @@
     "id": "39",
     "slot": "20",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_21": {
     "label": "[PC] Shop Official Race 8",
@@ -356,8 +356,8 @@
     "id": "40",
     "slot": "21",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_22": {
     "label": "[PC] Shop Official Race 9",
@@ -365,8 +365,8 @@
     "id": "41",
     "slot": "22",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_23": {
     "label": "[PC] Shop Official Race 10",
@@ -374,8 +374,8 @@
     "id": "42",
     "slot": "23",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_24": {
     "label": "[PC] Shop Official Race 11",
@@ -383,8 +383,8 @@
     "id": "43",
     "slot": "24",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_25": {
     "label": "[PC] Shop Official Race 12",
@@ -392,8 +392,8 @@
     "id": "44",
     "slot": "25",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_26": {
     "label": "[PC] Shop Official Race 13",
@@ -401,8 +401,8 @@
     "id": "45",
     "slot": "26",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_27": {
     "label": "[PC] Shop Official Race 14",
@@ -410,8 +410,8 @@
     "id": "46",
     "slot": "27",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_28": {
     "label": "[PC] Shop Official Race 15",
@@ -419,8 +419,8 @@
     "id": "47",
     "slot": "28",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_29": {
     "label": "[PC] Shop Official Race 16",
@@ -428,8 +428,8 @@
     "id": "48",
     "slot": "29",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_30": {
     "label": "[PC] Shop Official Race 17",
@@ -437,8 +437,8 @@
     "id": "49",
     "slot": "30",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_31": {
     "label": "[PC] Shop Official Race 18",
@@ -446,8 +446,8 @@
     "id": "50",
     "slot": "31",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_32": {
     "label": "[PC] Shop Official Race 19",
@@ -455,8 +455,8 @@
     "id": "51",
     "slot": "32",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_33": {
     "label": "[PC] Shop Official Race 20",
@@ -464,8 +464,8 @@
     "id": "52",
     "slot": "33",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_34": {
     "label": "[PC] Shop Official Race 21",
@@ -473,8 +473,8 @@
     "id": "53",
     "slot": "34",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_35": {
     "label": "[PC] Shop Official Race 22",
@@ -482,8 +482,8 @@
     "id": "54",
     "slot": "35",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_36": {
     "label": "[PC] Shop Official Race 23",
@@ -491,8 +491,8 @@
     "id": "55",
     "slot": "36",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_37": {
     "label": "[PC] Shop Official Race 24",
@@ -500,8 +500,8 @@
     "id": "56",
     "slot": "37",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_38": {
     "label": "[PC] Shop Official Race 25",
@@ -509,8 +509,8 @@
     "id": "57",
     "slot": "38",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_3",
+    "region": "POCKET_CIRCUIT_3"
   },
   "aston_s_pokecir_parts_39": {
     "label": "[PC] Shop Veteran Race 4",
@@ -545,8 +545,8 @@
     "id": "61",
     "slot": "42",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_43": {
     "label": "[PC] Shop Veteran Race 7",
@@ -662,8 +662,8 @@
     "id": "74",
     "slot": "55",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_56": {
     "label": "[PC] Shop Rookie Race 6",
@@ -671,8 +671,8 @@
     "id": "75",
     "slot": "56",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_57": {
     "label": "[PC] Shop Rookie Race 7",
@@ -680,8 +680,8 @@
     "id": "76",
     "slot": "57",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_58": {
     "label": "[PC] Shop Rookie Race 8",
@@ -689,8 +689,8 @@
     "id": "77",
     "slot": "58",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_59": {
     "label": "[PC] Shop Rookie Race 9",
@@ -698,8 +698,8 @@
     "id": "78",
     "slot": "59",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_60": {
     "label": "[PC] Shop Rookie Race 10",
@@ -707,8 +707,8 @@
     "id": "79",
     "slot": "60",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_61": {
     "label": "[PC] Shop Rookie Race 11",
@@ -716,8 +716,8 @@
     "id": "80",
     "slot": "61",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_62": {
     "label": "[PC] Shop Rookie Race 12",
@@ -725,8 +725,8 @@
     "id": "81",
     "slot": "62",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_63": {
     "label": "[PC] Shop Rookie Race 13",
@@ -734,8 +734,8 @@
     "id": "82",
     "slot": "63",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_64": {
     "label": "[PC] Shop Rookie Race 14",
@@ -743,8 +743,8 @@
     "id": "83",
     "slot": "64",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_65": {
     "label": "[PC] Shop Rookie Race 15",
@@ -752,8 +752,8 @@
     "id": "84",
     "slot": "65",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_66": {
     "label": "[PC] Shop Rookie Race 16",
@@ -761,8 +761,8 @@
     "id": "85",
     "slot": "66",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_67": {
     "label": "[PC] Shop Rookie Race 17",
@@ -770,8 +770,8 @@
     "id": "86",
     "slot": "67",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_68": {
     "label": "[PC] Shop Rookie Race 18",
@@ -779,8 +779,8 @@
     "id": "87",
     "slot": "68",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_69": {
     "label": "[PC] Shop Rookie Race 19",
@@ -788,8 +788,8 @@
     "id": "88",
     "slot": "69",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_70": {
     "label": "[PC] Shop Rookie Race 20",
@@ -797,8 +797,8 @@
     "id": "89",
     "slot": "70",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_1",
-    "region": "POCKET_CIRCUIT_1"
+    "tags": "Pocket Circuit_2",
+    "region": "POCKET_CIRCUIT_2"
   },
   "aston_s_pokecir_parts_71": {
     "label": "[PC] Shop Introductory Race 1",
@@ -806,8 +806,8 @@
     "id": "90",
     "slot": "71",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_72": {
     "label": "[PC] Shop Introductory Race 2",
@@ -815,8 +815,8 @@
     "id": "91",
     "slot": "72",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_73": {
     "label": "[PC] Shop Introductory Race 3",
@@ -824,8 +824,8 @@
     "id": "92",
     "slot": "73",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_74": {
     "label": "[PC] Shop Introductory Race 4",
@@ -833,8 +833,8 @@
     "id": "93",
     "slot": "74",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_75": {
     "label": "[PC] Shop Introductory Race 5",
@@ -842,8 +842,8 @@
     "id": "94",
     "slot": "75",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_76": {
     "label": "[PC] Shop Introductory Race 6",
@@ -851,8 +851,8 @@
     "id": "95",
     "slot": "76",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_77": {
     "label": "[PC] Shop Introductory Race 7",
@@ -860,8 +860,8 @@
     "id": "96",
     "slot": "77",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_78": {
     "label": "[PC] Shop Introductory Race 8",
@@ -869,8 +869,8 @@
     "id": "97",
     "slot": "78",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_79": {
     "label": "[PC] Shop Introductory Race 9",
@@ -878,8 +878,8 @@
     "id": "98",
     "slot": "79",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_80": {
     "label": "[PC] Shop Introductory Race 10",
@@ -887,8 +887,8 @@
     "id": "99",
     "slot": "80",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_81": {
     "label": "[PC] Shop Introductory Race 11",
@@ -896,8 +896,8 @@
     "id": "100",
     "slot": "81",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_82": {
     "label": "[PC] Shop Introductory Race 12",
@@ -905,8 +905,8 @@
     "id": "101",
     "slot": "82",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_83": {
     "label": "[PC] Shop Introductory Race 13",
@@ -914,8 +914,8 @@
     "id": "102",
     "slot": "83",
     "source": "shop.bin.json",
-    "tags": "Pocket Circuit_2",
-    "region": "POCKET_CIRCUIT_2"
+    "tags": "Pocket Circuit_1",
+    "region": "POCKET_CIRCUIT_1"
   },
   "aston_s_pokecir_parts_84": {
     "label": "[PC] Shop Starting Shop 3",
@@ -1197,7 +1197,7 @@
     "region": "MISC"
   },
   "aston_coinlocker_20": {
-    "label": "[So] CoinlockerA3 Northwest of Kukuru ",
+    "label": "[So] CoinlockerA3 Northwest of Kukuru",
     "location": "aston_coinlocker",
     "id": "134",
     "slot": "21",
@@ -3366,7 +3366,7 @@
     "region": "JUNK"
   },
   "treasure_y001": {
-    "label": "[Yo] Wire 1  South of Ichiban Confections within stairway",
+    "label": "[Yo] Wire 1 South of Ichiban Confections within stairway",
     "location": "treasure_y001",
     "id": "375",
     "slot": "115",
@@ -6291,7 +6291,7 @@
     "region": "COLOSSEUM_2"
   },
   "event_location_20": {
-    "label": "[Sub] The Strongest Convenence Store Clerk",
+    "label": "[Sub] The Strongest Convenience Store Clerk",
     "location": "event",
     "id": "700",
     "slot": "19",
@@ -6512,7 +6512,7 @@
     "id": "724",
     "slot": "43",
     "source": "events",
-    "tags": "Akame Combat, Sotenbori_1",
+    "tags": "Akame Task, Akame Combat, Sotenbori_1",
     "region": "SOTENBORI_1"
   },
   "event_location_45": {

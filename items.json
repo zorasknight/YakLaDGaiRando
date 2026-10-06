@@ -2391,7 +2391,8 @@
     "label": "Forks",
     "item_id": "6036",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "2500"
@@ -2719,7 +2720,8 @@
     "label": "Pencils",
     "item_id": "6035",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "0"
@@ -2784,7 +2786,8 @@
     "label": "Roses",
     "item_id": "6034",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "100"
@@ -4117,7 +4120,8 @@
     "label": "Toy Crows",
     "item_id": "6037",
     "tags": [
-      "USEFUL"
+      "USEFUL",
+      "DARTS"
     ],
     "purchase_price": "0",
     "purchase_points": "2700"

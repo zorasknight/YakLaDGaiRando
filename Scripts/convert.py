@@ -3,8 +3,9 @@ import subprocess
 import time
 from datetime import datetime
 import shutil
+import sys
 
-REARMP = Path("reARMP.exe")
+REARMP = Path("reARMP.py")
 ROOT = Path("GameData_Output")
 ASSETS = Path("Assets")
 
@@ -21,7 +22,7 @@ def main():
         print(f"Processing: {json_file}")
 
         subprocess.run(
-            [str(REARMP.resolve()), str(json_file.resolve())],
+            [sys.executable, str(REARMP.resolve()), str(json_file.resolve())],
             cwd=ROOT,
             check=True
         )

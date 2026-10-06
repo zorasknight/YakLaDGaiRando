@@ -12,7 +12,7 @@ If you run into any issues, please reach out to me through either the AP after d
 
 ## Required Tools
 
-Windows for the exe requirement of the tool, but python scripts are OS agnostic, if you are interested in setting something like that up, there are more details at the bottom of this ReadMe. 
+This tool should be completely OS agnostic, though the mod relies on DLL injection to function which is a very windows thing to do. Your results may vary on non Windows OS, but success has been seen by community members, so please read below if you are on linux or another OS.
 
 This version of the tool uses the Archipelago client to create your YAML(settings) and generate your game, please set that up before continuing here.
 
@@ -37,7 +37,7 @@ Please follow that link and complete the install first before attempting to run 
 You can install the packaged yakuza_gaiden.ap world file through the Archipelago application's included "Install APWorld" client. You can also simply place the 
 yakuza_gaiden.ap file into the custom_worlds folder at the root of your Archipelago installation.
 
-This client is required to use the "Options Creator" client within Archipelago to make your own custom YAML(options file).
+This client is required to use the "Options Creator" client within Archipelago to make your own custom YAML(options file). This will also be the tool used for Randomizing the game as the randomizer is now included into the Archipelago text client.
 
 ## Making your own options file (YAML)
 
@@ -47,15 +47,21 @@ you can find this game under Yakuza Gaiden, likely quite far down the list, and 
 
 ## Patching your game
 
-After a multiworld room has been created you will see a "Download Patch File..." option on your slot, this will download a file containing all of your settings and information for this seed. This will be unique to every run you do, so make sure to clean out your folders between each run!
+The Gaiden Randomizer has now been merged into the Gaiden Client, to setup the randomizer first install the yakuza_gaiden.apworld and navigate to the "Randomizer" tab within it. There's a "Select Folder Location" button that you can use to choose a folder to install the Randomizer files to. After that, you can press the "Create or Update the Randomizer Folder" button to install the required randomizer files into that folder. When a new update drops, you can just replace the apworld in your custom worlds folder, and re-run the "Create or Update the Randomizer Folder" button to clear those folders and remake them with the newest files.
 
-You then need to place the resulting zip file into the "AP_PATCH" folder within your YakuzaGaidenAP folder. This lets the executable (Gaiden Randomizer.exe) know what items need to be placed where etc. Once opening Gaiden Randomizer.exe you will see a button that says "Run Randomizer" you can just press that and watch as the built-in console log scrolls by, or look in the standalone console to see all of what is happening behind the scenes!
+After a multiworld room has been created you will see a "Download Patch File..." option on your slot, this will download a file containing all of your settings and information for this seed. This will be unique to every run you do, so make sure to delete the old mods in your mod folder between each run!
 
-When that is finished you will have a new Gaiden_Rando.zip mod file that can be installed using the Shin Ryu Mod Manager. Please remember to delete other seeds before starting the randomizer!
+You then need to place the resulting zip file into the "AP_PATCH" folder that was created when you made the randomizer folder from the previous steps. Once opening the Yakuza Gaiden AP World you will see a button that says "Run Randomizer" within the "Randomizer" tab pressing that will use the most recent file in the AP_PATCH folder to generate from. You will know everything is finished when you see the text "Enjoy the rando!".
+
+When that is finished you will have a new Gaiden_Rando.zip file contained within that selected folder that can be installed using the Shin Ryu Mod Manager. Please remember to delete other seeds before starting the randomizer!
+
+### WARNING: There is no guarentee that other mods will work with this rando! If you're having any issues, make sure other mods are deleted from your mods folder, not just deactivated!
 
 ## How to connect to the multiworld
 
-Once you have installed the Shin Ryu Mod Manager and followed those instructions below to launch your game, you will notice a sepperate console window will open alongside Gaiden. This console will help you keep track of sent items, found locations, as well as issue commands.
+Once you have installed the Shin Ryu Mod Manager and followed those instructions below to launch your game, you will notice a sepperate console window will open alongside Gaiden. This console will help you keep track of sent items, found locations, as well as issue commands. Alternatively, if you have the text client open and connected while booting the game through SRMM, the console will auto connect using those credentials. You can do all commands through either the text client or the console from there!
+
+If you want to use just the game console and not use the text client the instructions to do so are below:
 
 When the game is first started it should connect all hooks and tell you "Awaiting item interaction to find inventory..." this means that everything has successfully began. From here you need to connect to the multiworld server, and then set your specific player port (including password only if one is set).
 
@@ -75,7 +81,11 @@ The console constantly attempts to sync your progress with the AP server, using 
 
 ## Universal Tracker
 
+This AP World has full Universal Tracker support, including a map tracker built in to the client!
+
 I highly recomend using the Universal Tracker with this game, this is a sepperate AP world that can be installed alongside your other custom worlds that opens a custom text client with a list of all checks in logic based on your current player and world data. This couples with the name of each location to help make it easier to find checks as a first time player of this randomizer. For a full list of instructions to set this up please reference this link here.
+
+This AP World has YAML-less support for the Universal Tracker, which means once you connect with the text client to a slot, you should have access to the map and tracker pages automatically.
 
 Github link:
 https://github.com/FarisTheAncient/Archipelago/releases?q=Tracker
@@ -98,9 +108,7 @@ Remember to always launch the game through the mod manager and not through Steam
 
 ## Instructions:
 
-Unzip the YakuzaGaidenAP folder to wherever you want the randomizer to live (Anywhere is fine, I have it on my desktop).
-
-Install the yakuza_gaiden.ap AP world into your existing Archipelago client.
+Install the yakuza_gaiden.apworld into your custom worlds folder for your Archipelago client.
 
 Generate a new options yaml using the "Options Generator" (Remember to restart archipelago after adding the AP world!)
 
@@ -112,15 +120,19 @@ That output can be hosted on the Archipelago website
 
 Find your slot name, and download your patch file
 
-Put the patch file into the existing AP_Patch folder within wherever your YakuzaGaidenAP folder resides.
+Using the yakuza_gaiden.apworld select a folder to install your randomizer files into
 
-Run the "Gaiden Randomizer.exe" from within that folder
+Then generate a randomizer folder using the "Create or Update the Randomizer Folder" button
 
-A GUI should launch that provides one options "Run Randomizer". after pressing that you will see it scroll through the usual tasks. After a bit you can scroll down and see if it says completed, once it says that, your good to go!
+Put the patch file into the existing AP_Patch folder within wherever you selected the randomizer folder to reside in.
+
+Press the "Run Randomizer" button to generate a new gaiden_rando.zip, you will know its ready when the text changes to "Enjoy the rando!". 
 
 You should get an output file, zipped, with a name like: "Gaiden_Rando", this is your mod file, you can install this in your copy of "Shinryu Mod Manager" like any other mod. I recomend going into your mod folder and deleting existing copies for now to ensure stability!
 
 Start the game from the mod manager to begin the game going forward.
+
+If you keep the text client open and connected while starting gaiden it will automatically connect your game for you on startup. If it doesn't auto connect, you can manually connect through the console using instructions above.
 
 ### *NOTE: ALWAYS START THE GAME THROUGH THE MOD MANAGER, DO NOT START THE GAME THROUGH STEAM TO PLAY THE RANDOMIZER
 
@@ -198,64 +210,55 @@ Most prices and costs are randomly assigned and generated on making a new seed.
 
 ### Current Items in the pool for randomization:
 
-18 items from the Sotenbori Ebisu Pawn shop  
-94 Pocket Circuit Parts from the Pocket Circuit part exchange  
-50 items from the Sotenbori Coin Lockers  
-26 items from the Akame Network point shop  
-11 items from the Billiards point shop  
-12 items from the Sotenbori Clothing Store  
-8 items from the Yokohama Shichiya Pawn shop  
-11 items from the Yokohama Love Magic shop  
-11 Items from the Yokohama outdoor Shogi point shop  
-11 Items from the Sotenbori outdoor Shogi point shop  
-13 items from the Golf point shop  
-8 items from Darts Rivals  
-11 items from the Yokohama Gambler Hall point shop  
-10 items from the Sotenbori Gambler Hall point shop  
-16 items from the Coliseum Gambler Hall point shop  
-15 items from the Coliseum Casino point shop  
-38 items from the Coliseum Boutique  
-5 items from Mizorogi  
-40 wire grab items in Yokohama  
-50 wire grab items in Sotenbori  
-30 wire grab items in the Coliseum  
-30 wire grab items in the Coliseum Dungeon  
-12 quest items  
-119 Skill Books  
-14 Pocket Circuit Parts from Pocket Circuit Rivals  
-32 Trap Items  
+Sotenbori Ebisu Pawn shop  
+Pocket Circuit Parts from the Pocket Circuit part exchange  
+Sotenbori Coin Lockers  
+Akame Network point shop  
+Billiards point shop  
+Sotenbori Clothing Store  
+Sotenbori Shigano
+Sotenbori Hiratai
+Sotenbori Tsuruna (pharmacy)
+Sotenbori Kukuru
+Yokohama Shichiya Pawn shop  
+Yokohama Love Magic shop  
+Yokohama outdoor Shogi point shop  
+Yokohama Smile Wagon
+Yokohama Ichiban Senbei
+All Poppo marts in Yokohama and Sotenbori
+Sotenbori outdoor Shogi point shop  
+Golf point shop  
+Darts Rivals  
+Yokohama Gambling Hall point shop  
+Sotenbori Gambling Hall point shop  
+Colosseum Gambling Hall point shop  
+Colosseum Casino point shop
+Colosseum Boutique
+Colosseum VIP-Boutique
+Mizorogi shop within Akame's house  
+Akame Tasks
+Substories
+wire grab items in Yokohama  
+wire grab items in Sotenbori  
+wire grab items in the Coliseum  
+quest items and story fights  
+Skill Books  
+Pocket Circuit Parts from Pocket Circuit Rivals  
+Trap Items
 and many many more...  
 
-### Planned locations:
-Coin Locker Keys
+### Planned locations (NOT YET IN GAME):
+Coin Locker Keys (the actual coin lockers currently work!)
 Completion List
-Substories
-Akane Tasks
-Coliseum
-restricting part time jobs based on item acquisition ie: battle pass, photo pass, item gift pass, rival fight 1-16 etc.
+Colosseum Fights
+restricting Akame Tasks based on item acquisition ie: battle pass, photo pass, item gift pass, rival fight 1-16 etc.
+Dungeon Keys
+Core agent abilities toggled off until found
 
 ### Goals:
-Collecting 7 golden balls and finishing the substory for Shen
-Beating X Pocket Circuit Rivals
-Completing X Substories
-Reach X Akane Rank
-
-### Win Conditions:
-Defeat Shin Amon in the final substory
-Defeat Robot Amon in the Coliseum
-Defeat the Final Golden Samurai for Akame
-Defeat the Courstar owner in pocket circuit
-Finish the Finale Act
-
-Logic is used to avoid hiding items behind themself, for example the A1 key cannot be stored within the A1 locker, This game is light on logic at the moment, but if we can get proper hooks we would like to randomize progression for substory unlocks.
-
-Currently this is built as a local only proof of concept as until we have a way to hook into the game, linking this to an archipelago will be impossible.
-
-### Potential options if you are not on Windows
-
-Using the program triggers this order of operations when creating a rando seed: the gaiden_randomizer.py builds the settings for your user.yaml, then you would run shuffle.py to create an update.csv, after that replace_items.py will adjust your GameDataOutput folder with modified files, convert.py is the next step and is the real kicker, you need to run each file in your GameDataOutput with the bundled reARMP.exe and rename them to remove the extra .bin.json that get appended. from there you need to package and zip the file to make a randoseed viable with the shin ryu mod manager.
-
-YOUR RESULTS WILL VARY, but please let me know if it works for you!
+Collecting X golden balls out of Y
+Defeating Shishido
+Defeating the Pocket Circuit Owner rival race
 
 ## Credits
-Nick Kiley for the Randomizer Logo, Ret for allowing me to bundle the reARMP tool with my randomizer, and Jhrino for helping with hooks and potential scripting access. And a big thanks to the Archipelago Yakuza community for the support!
+Nick Kiley for the Randomizer Logo, Tack7800 for cleaning up the various maps for the tracker, Ret for allowing me to bundle the reARMP tool with my randomizer, Faris for the amazing Universal Tracker, and Jhrino for helping with Pattern scanning and potential scripting access. And a big thanks to the Archipelago Yakuza community for the support!
