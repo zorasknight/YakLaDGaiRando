@@ -10,6 +10,9 @@ Archipelago (multiworld) item randomization for Yakuza/Like a Dragon: Gaiden
 
 If you run into any issues, please reach out to me through either the AP after dark thread, or a DM on discord. 
 
+AP World Github: https://github.com/zorasknight/Archipelago
+Gaiden DLL Client:  https://github.com/zorasknight/gaiden_hook_fresh
+
 ## Required Tools
 
 This tool should be completely OS agnostic, though the mod relies on DLL injection to function which is a very windows thing to do. Your results may vary on non Windows OS, but success has been seen by community members, so please read below if you are on linux or another OS.
